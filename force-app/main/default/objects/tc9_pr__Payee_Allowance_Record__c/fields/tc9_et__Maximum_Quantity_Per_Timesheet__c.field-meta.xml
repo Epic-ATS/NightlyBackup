@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Maximum_Quantity_Per_Timesheet__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines the maximum quantity per Timesheet the User can define the allowance is to be paid. If left blank, no maximum will apply</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Defines the maximum quantity per Timesheet the User can define the allowance is to be paid. If left blank, no maximum will apply</inlineHelpText>
+    <label>Maximum Quantity Per Timesheet</label>
+    <precision>6</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Credit_Invoiceable_Fees</fullName>
+        <default>false</default>
+        <label>Credit_Invoiceable_Fees</label>
+    </customValue>
+    <customValue>
+        <fullName>Credit_Payroll_Items</fullName>
+        <default>false</default>
+        <label>Credit_Payroll_Items</label>
+    </customValue>
+    <customValue>
+        <fullName>Invoiceable_Fees</fullName>
+        <default>false</default>
+        <label>Invoiceable_Fees</label>
+    </customValue>
+    <customValue>
+        <fullName>Payroll_Items</fullName>
+        <default>false</default>
+        <label>Payroll_Items</label>
+    </customValue>
+    <masterLabel>Invoice Record Type Picklists</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

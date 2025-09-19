@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Margin_1_Rate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines the Rate that will be used in calculating the Margin 1 Amount</description>
+    <inlineHelpText>Defines the Rate that will be used in calculating the Margin 1 Amount</inlineHelpText>
+    <label>Margin 1 Rate</label>
+    <precision>10</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

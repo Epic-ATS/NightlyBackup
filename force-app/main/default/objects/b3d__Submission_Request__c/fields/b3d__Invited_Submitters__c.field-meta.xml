@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3d__Invited_Submitters__c</fullName>
+    <deprecated>false</deprecated>
+    <inlineHelpText>Count of the number of submitters that have been invited</inlineHelpText>
+    <label>Invited Submitters</label>
+    <summaryFilterItems>
+        <field>b3d__Submitter__c.b3d__Status__c</field>
+        <operation>equals</operation>
+        <value>Sent</value>
+    </summaryFilterItems>
+    <summaryForeignKey>b3d__Submitter__c.b3d__Submission_Request__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

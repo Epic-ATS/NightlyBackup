@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Other_Non_Superannable_Component_Desc__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Allows for a description of the package components that make up the amount defined in the Other Non-Superable Salary Package Components field</description>
+    <inlineHelpText>Allows for a description of the package components that make up the amount defined in the Other Non-Superable Salary Package Components field</inlineHelpText>
+    <label>Other Non-Superannable Component Desc</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

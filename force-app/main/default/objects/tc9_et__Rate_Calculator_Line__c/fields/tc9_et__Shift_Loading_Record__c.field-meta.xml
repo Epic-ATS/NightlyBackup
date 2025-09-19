@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Shift_Loading_Record__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Defines the Shift Loading Record that applies to the Rate Calculator Line</description>
+    <inlineHelpText>Defines the Shift Loading Record that applies to the Rate Calculator Line</inlineHelpText>
+    <label>Shift Loading Record(DO NOT USE)</label>
+    <referenceTo>tc9_et__Pay_Rate_Loading__c</referenceTo>
+    <relationshipLabel>Rate Calculator Lines with Shift Loading Record</relationshipLabel>
+    <relationshipName>Rate_Calculator_Lines1</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

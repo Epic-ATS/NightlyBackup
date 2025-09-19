@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Display_Break2__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Defines if a second set of &apos;Break&apos; fields are active for use on Timesheets via the Timesheet Manager, Employee Portal and Approver Pages. When FALSE, there will only be one set of Break fields available on Timesheets.</description>
+    <inlineHelpText>Defines if a second set of &apos;Break&apos; fields are active for use on Timesheets via the Timesheet Manager, Employee Portal and Approver Pages. When FALSE, there will only be one set of Break fields available on Timesheets.</inlineHelpText>
+    <label>Display Break 2</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

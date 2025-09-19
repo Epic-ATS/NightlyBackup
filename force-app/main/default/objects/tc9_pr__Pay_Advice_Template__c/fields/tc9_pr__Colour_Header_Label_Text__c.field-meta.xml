@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Colour_Header_Label_Text__c</fullName>
+    <defaultValue>&apos;#000000&apos;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Hex colour code to be used for the text colour of field labels in the document header - default value is #000000</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Hex colour code to be used for the text colour of field labels in the document header - default value is #000000</inlineHelpText>
+    <label>Colour -  Header Label Text</label>
+    <length>20</length>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

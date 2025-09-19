@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Calculation_Method_Description__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Records a description of the Calculation Method to assist Users in selecting the correct Calculation Method when creating Rate Calculators.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Records a description of the Calculation Method to assist Users in selecting the correct Calculation Method when creating Rate Calculators.</inlineHelpText>
+    <label>Calculation Method Description</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

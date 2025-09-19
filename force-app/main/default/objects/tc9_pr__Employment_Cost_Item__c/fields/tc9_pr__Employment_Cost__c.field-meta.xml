@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Employment_Cost__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The Employment Cost associated with the Employment Cost Item</description>
+    <inlineHelpText>The Employment Cost associated with the Employment Cost Item</inlineHelpText>
+    <label>Employment Cost</label>
+    <lookupFilter>
+        <active>false</active>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>tc9_pr__Employment_Cost__c</referenceTo>
+    <relationshipLabel>Employment Cost Items</relationshipLabel>
+    <relationshipName>Employment_Cost_Items</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

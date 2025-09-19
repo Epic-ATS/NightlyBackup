@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Pay_Advice_Sort_Order__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Define the order in which pay codes will be displayed on Pay Advice PDFs</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Define the order in which pay codes will be displayed on Pay Advice PDFs</inlineHelpText>
+    <label>Pay Advice Sort Order</label>
+    <precision>12</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

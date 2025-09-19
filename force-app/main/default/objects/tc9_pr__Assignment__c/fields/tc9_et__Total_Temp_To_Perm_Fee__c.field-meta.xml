@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Total_Temp_To_Perm_Fee__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The calculated Total Temp To Perm Fee that applies to the Assignment</description>
+    <externalId>false</externalId>
+    <formula>Case(
+Text(tc9_et__Temp_To_Perm_Fee_Based_On__c),
+&quot;Flat Fee&quot;,
+tc9_et__Temp_To_Perm_Flat_Fee_Amount__c,
+&quot;Percentage of Total Perm Fee&quot;,
+tc9_et__Total_Perm_Fee__c * (tc9_et__Temp_To_Perm_Invoice_Rate__c/100),
+0
+)</formula>
+    <inlineHelpText>The calculated Total Temp To Perm Fee that applies to the Assignment</inlineHelpText>
+    <label>Total Temp To Perm Fee</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

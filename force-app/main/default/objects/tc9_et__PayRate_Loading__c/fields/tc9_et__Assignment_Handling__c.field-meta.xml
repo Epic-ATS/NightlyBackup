@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Assignment_Handling__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines how Pay Rate Loading will be handled when calculating rates for an Assignment. If Fixed, the Pay Rate Loading that applies on the Start Date of the Assignment will apply for the entire period of the Assignment regardless of if new Pay Rate Loadings come into effect. If Rolling, the Pay Rate Loading applied to the Assignment will update as the new Pay Rate Loadings come into effect.</description>
+    <inlineHelpText>Defines how Pay Rate Loading will be handled when calculating rates. If Fixed, the Loading that applies on the Start Date of the Assignment will apply for the entire period of the Assignment. If Rolling, the Loading applied to the Assignment will update.</inlineHelpText>
+    <label>Assignment Handling</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_et__Assignment_Handling_Picklists</valueSetName>
+    </valueSet>
+</CustomField>

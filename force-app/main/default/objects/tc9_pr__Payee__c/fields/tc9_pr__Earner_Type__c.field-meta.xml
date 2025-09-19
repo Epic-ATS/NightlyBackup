@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Earner_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates in Communities how this payee should populate their details.</description>
+    <inlineHelpText>Indicates in Communities how this payee should populate their details.</inlineHelpText>
+    <label>Earner Type</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PAYG</fullName>
+                <default>false</default>
+                <label>PAYG</label>
+            </value>
+            <value>
+                <fullName>PTY / LTD</fullName>
+                <default>false</default>
+                <label>PTY / LTD</label>
+            </value>
+            <value>
+                <fullName>Self employed</fullName>
+                <default>false</default>
+                <label>Self employed</label>
+            </value>
+            <value>
+                <fullName>Managed Company Contractor</fullName>
+                <default>false</default>
+                <label>Managed Company Contractor</label>
+            </value>
+            <value>
+                <fullName>PAYE</fullName>
+                <default>false</default>
+                <label>PAYE</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

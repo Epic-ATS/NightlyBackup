@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3f__Relationship_Field__c</fullName>
+    <deprecated>false</deprecated>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>What is the field on the Form Response Object (must be lookup/text) that will be populated with the ID of the created record?</inlineHelpText>
+    <label>Relationship Field</label>
+    <metadataRelationshipControllingField>b3f__Response_Mapping__mdt.b3f__Form_Response_Object__c</metadataRelationshipControllingField>
+    <referenceTo>FieldDefinition</referenceTo>
+    <relationshipLabel>Responses_Mapping</relationshipLabel>
+    <relationshipName>Responses_Mapping</relationshipName>
+    <required>true</required>
+    <type>MetadataRelationship</type>
+    <unique>true</unique>
+</CustomField>

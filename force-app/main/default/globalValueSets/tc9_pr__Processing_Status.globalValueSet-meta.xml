@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>New</fullName>
+        <default>true</default>
+        <label>New</label>
+    </customValue>
+    <customValue>
+        <fullName>Part Processed</fullName>
+        <default>false</default>
+        <label>Part Processed</label>
+    </customValue>
+    <customValue>
+        <fullName>Fully Processed</fullName>
+        <default>false</default>
+        <label>Fully Processed</label>
+    </customValue>
+    <description>To Be used on PayBatch Event Status</description>
+    <masterLabel>Processing Status</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

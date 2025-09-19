@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Assignment</fullName>
+        <default>false</default>
+        <label>Assignment</label>
+    </customValue>
+    <customValue>
+        <fullName>Rate Calculator Template</fullName>
+        <default>false</default>
+        <label>Rate Calculator Template</label>
+    </customValue>
+    <description>Indicates where the Rate Calculator will inherit its values from in the event the Assignment does not match the Rate Calculator template.</description>
+    <masterLabel>Rate Calculator Inherit Picklists</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

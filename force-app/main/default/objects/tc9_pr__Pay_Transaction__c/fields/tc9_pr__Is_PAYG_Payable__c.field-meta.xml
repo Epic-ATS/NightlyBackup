@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Is_PAYG_Payable__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Identifies in PAYG is payable for the Pay Transaction</description>
+    <externalId>false</externalId>
+    <formula>If( 
+Or( 
+text(tc9_pr__PAYG_Tax_Payable_for_Pay_Code__c) = &apos;No&apos;, 
+text(tc9_pr__PAYG_Tax_Payable_for_Payee__c) = &apos;No&apos; 
+), 
+&apos;No&apos;, 
+&apos;Yes&apos; 
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Identifies in PAYG is payable for the Pay Transaction</inlineHelpText>
+    <label>Is PAYG Payable?</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

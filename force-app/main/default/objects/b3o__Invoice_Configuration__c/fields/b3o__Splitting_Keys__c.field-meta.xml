@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__Splitting_Keys__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Splitting Keys</label>
+    <summaryFilterItems>
+        <field>b3o__Invoice_Configuration_Key__c.b3o__Type__c</field>
+        <operation>equals</operation>
+        <value>Split</value>
+    </summaryFilterItems>
+    <summaryForeignKey>b3o__Invoice_Configuration_Key__c.b3o__Invoice_Configuration__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

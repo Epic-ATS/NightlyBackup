@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__Disable_Get_or_Create_App_Stage_Trigger__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <inlineHelpText>On insert/update, if the application is missing an assignment to a b3o__Current_Application_Stage__c either get existing application stage for the first recruitment step for the app&apos;s related recruitment process or create a new application stage for the first recruitment step for the app&apos;s related recruitment process</inlineHelpText>
+    <label>Disable Get or Create App Stage Trigger</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

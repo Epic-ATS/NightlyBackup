@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_eau__Total_INB_PAYGW_Amount__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Total INB PAYGW YTD</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Total INB PAYGW YTD</inlineHelpText>
+    <label>Payee Total INB PAYGW Amount</label>
+    <precision>13</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Batch_size_for_back_pay_deletion__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Limits the number of assignment rates to be processed per batch for deleting the back pay transactions</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Limits the number of assignment rates to be processed per batch for deleting the back pay transactions</inlineHelpText>
+    <label>Batch size for back pay deletion</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_eau__Lodgement_Item_AU__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The Lodgement Item AU that the error relates to</description>
+    <inlineHelpText>The Lodgement Item AU that the error relates to</inlineHelpText>
+    <label>Lodgement Item AU</label>
+    <referenceTo>tc9_eau__Lodgement_Item_AU__c</referenceTo>
+    <relationshipLabel>Lodgement Errors AU</relationshipLabel>
+    <relationshipName>Lodgement_Item_AU_Errors</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

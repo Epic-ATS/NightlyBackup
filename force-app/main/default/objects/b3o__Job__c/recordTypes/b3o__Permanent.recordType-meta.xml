@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__Permanent</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>b3o__X3B_Job_Compact_Layout</compactLayoutAssignment>
+    <description>This job post is for a permanent position</description>
+    <label>Permanent</label>
+    <picklistValues>
+        <picklist>b3o__Employment_Type__c</picklist>
+        <values>
+            <fullName>Full Time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Part Time</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>b3o__Job_Boards__c</picklist>
+        <values>
+            <fullName>Community</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Default</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>b3o__Job_Category__c</picklist>
+        <values>
+            <fullName>Administration%2C business and management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Animals%2C land and environment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Computing and ICT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construction and building</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Design%2C arts and crafts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education and training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facilities and property services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Garage services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hairdressing and beauty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Heritage%2C culture and libraries</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospitality%2C catering and tourism</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Languages</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legal and court services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturing and production</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Performing arts and media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Print and publishing%2C marketing and advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail and customer services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Science%2C mathematics and statistics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Security%2C uniformed and protective services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social sciences and religion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social work and caring services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sport and leisure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transport%2C distribution and logistics</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>b3o__Job_Group__c</picklist>
+        <values>
+            <fullName>Group 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Group 2</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>b3o__Job_Industry__c</picklist>
+        <values>
+            <fullName>Accounting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aerospace and Aviation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Audio Visual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Automotive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banking and Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consultancy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Service and Call Centres</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education and Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electronics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy%2C Oil and Gas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environmental and Waste</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FMCG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facilities Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Graduate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hair%2C Beauty and Cosmetics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health%2C Medical and related</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Human Resources</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT and Internet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Logistics%2C Procurement%2C Distribution and Supply Chain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturing and Production</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing%2C Advertising and PR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media%2C New Media and Creative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Military and Defence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mining</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Multilingual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not for profit and Charities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Property and Real-estate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Sector</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recruitment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail and Wholesale</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scientific and Pharmaceuticals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Secretarial and Administration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Senior appointments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telecommunications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Travel%2C Leisure%2C Tourism and Hospitality</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>b3o__Pay_Format__c</picklist>
+        <values>
+            <fullName>Per Day</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Per Hour</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Per Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Per Week</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Per Year</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>b3o__Reason_for_Closing__c</picklist>
+        <values>
+            <fullName>Successful</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unsuccessful</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>b3o__Status__c</picklist>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Hold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

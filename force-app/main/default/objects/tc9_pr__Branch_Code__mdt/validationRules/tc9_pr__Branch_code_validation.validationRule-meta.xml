@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Branch_code_validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(OR(LEN(MasterLabel) &lt;&gt; 6,!ISNUMBER(MasterLabel)),ISPICKVAL( tc9_pr__Country__c,&apos;Australia&apos;))</errorConditionFormula>
+    <errorMessage>The Label should be the Branch Code. For Australian Branch Codes, it must be 6 characters long and contain numbers only (no letters, spaces or symbols).</errorMessage>
+</ValidationRule>

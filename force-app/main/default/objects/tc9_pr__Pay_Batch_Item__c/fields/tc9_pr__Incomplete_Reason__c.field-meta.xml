@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Incomplete_Reason__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>SUBSTITUTE(IF(NOT(ISBLANK(tc9_pr__Flag_Maximum_Gross_Pay__c)), tc9_pr__Flag_Maximum_Gross_Pay__c + &quot;,&quot; , NULL)&amp; 
+IF(NOT(ISBLANK(tc9_pr__Flag_Maximum_Net_Pay__c)), tc9_pr__Flag_Maximum_Net_Pay__c + &quot;,&quot;, NULL)&amp; 
+IF(NOT(ISBLANK(tc9_pr__Flag_Maximum_Total_Quantity__c)), tc9_pr__Flag_Maximum_Total_Quantity__c + &quot;,&quot;, NULL)&amp; 
+IF(NOT(ISBLANK(tc9_pr__Flag_Minimum_Gross_Pay__c)), tc9_pr__Flag_Minimum_Gross_Pay__c + &quot;,&quot;, NULL)&amp; 
+IF(NOT(ISBLANK(tc9_pr__Flag_Minimum_Net_Pay__c)), tc9_pr__Flag_Minimum_Net_Pay__c + &quot;,&quot;, NULL)&amp; 
+IF(NOT(ISBLANK(tc9_pr__Flag_Minimum_Total_Quantity__c)), tc9_pr__Flag_Minimum_Total_Quantity__c + &quot;,&quot;, NULL)&amp; 
+IF(NOT(ISBLANK(tc9_pr__Flag_AUS_PAYG_Refund__c)), tc9_pr__Flag_AUS_PAYG_Refund__c + &quot;,&quot;, NULL)&amp; 
+IF(AND(NOT(ISBLANK(tc9_pr__Flag_Custom_Text__c)), tc9_pr__Flag_Custom_Indicator__c = true), tc9_pr__Flag_Custom_Text__c + &quot;,&quot;, NULL) + &quot; &quot;, &quot;, &quot;, NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Incomplete Reason</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Secondary_Interpretation_Breakpoint__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Defines the secondary interpretation breakpoint for the junction record.</description>
+    <inlineHelpText>Defines the secondary interpretation breakpoint for the junction record.</inlineHelpText>
+    <label>Secondary Interpretation Breakpoint</label>
+    <referenceTo>tc9_et__Interpretation_Breakpoint__c</referenceTo>
+    <relationshipLabel>Interpretation Breakpoints (Secondary Interpretation Breakpoint)</relationshipLabel>
+    <relationshipName>Interpretation_Breakpoints4</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

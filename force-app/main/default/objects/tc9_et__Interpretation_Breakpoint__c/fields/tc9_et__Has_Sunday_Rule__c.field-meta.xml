@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Has_Sunday_Rule__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Identifies if the Interpretation Rule has any related Interpretation Breakpoints with a Type of Sunday</description>
+    <inlineHelpText>Identifies if the Interpretation Rule has any related Interpretation Breakpoints with a Type of Sunday</inlineHelpText>
+    <label>Has Sunday Rule</label>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Apply_Dual_Leave_Loading_Calculations__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates if during timesheet interpretation dual calculations are required for leave loading.</description>
+    <inlineHelpText>Indicates if during timesheet interpretation dual calculations are required for leave loading.</inlineHelpText>
+    <label>Apply Dual Leave Loading Calculations</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_pr__Yes_No_Picklists</valueSetName>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Invoice_To_Account__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Defines the Bill To Account that will be detailed on invoices when the Invoice Group By of &quot;Invoice To Account&quot;, &quot;Invoice To Contact&quot; or &quot;Assignment&quot; are used. The Invoice Group By of &quot;Client&quot;, &quot;Hiring Manager (Invoice Client)&quot;, &quot;Hiring Manager (Invoice Hiring Manager)&quot; and &quot;PO Number&quot; will use the Client detailed on the Assignment.</description>
+    <inlineHelpText>Defines the Bill To Account that will be detailed on invoices when the Invoice Group By of &quot;Invoice To Account&quot;, &quot;Invoice To Contact&quot; or &quot;Assignment&quot; are used.</inlineHelpText>
+    <label>Invoice To Account</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Assignments with Account as Invoice To Account</relationshipLabel>
+    <relationshipName>Assignments</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

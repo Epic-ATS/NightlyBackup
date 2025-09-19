@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Maximum_Duration_Paid__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Where the Minimum Allowable Balance is overridden this is the maximum number of Paid hours that can be processed against this Payee Leave Event</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Where the Minimum Allowable Balance is overridden this is the maximum number of Paid hours that can be processed against this Payee Leave Event</inlineHelpText>
+    <label>Maximum Duration Paid</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

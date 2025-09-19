@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Client__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Defines the Client that the Template Group applies</description>
+    <inlineHelpText>Defines the Client that the Template Group applies</inlineHelpText>
+    <label>Client</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Template Groups</relationshipLabel>
+    <relationshipName>Template_Groups</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

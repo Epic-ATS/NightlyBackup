@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Include_Timesheet_Manager_Allowances__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Defines if Allowances can be added via Timesheet Manager. When TRUE, Users can create Allowances and apply them to a Timesheet via the Timesheet Manager.</description>
+    <inlineHelpText>Defines if Allowances can be added via Timesheet Manager. When TRUE, Users can create Allowances and apply them to a Timesheet via the Timesheet Manager.</inlineHelpText>
+    <label>Include Timesheet Manager Allowances</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Defined on Pay Code</fullName>
+        <default>false</default>
+        <label>Defined on Pay Code</label>
+    </customValue>
+    <customValue>
+        <fullName>Custom List</fullName>
+        <default>false</default>
+        <label>Custom List</label>
+    </customValue>
+    <description>Indicates whether the quantity of units worked for leave accrual calculation will be based on all pay codes where &apos;Accrues Leave&apos; = True, or, based on a custom list as defined in the Pay Code Junction related list.</description>
+    <masterLabel>Pay Codes For Leave Accrual Calculation</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

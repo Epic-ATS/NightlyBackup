@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Annual_Rate_Change__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines if the minimum pay rate record is annual update to exsisting minimum pay rate records.</description>
+    <label>Annual Rate Change</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_pr__Yes_No_Picklists</valueSetName>
+    </valueSet>
+</CustomField>

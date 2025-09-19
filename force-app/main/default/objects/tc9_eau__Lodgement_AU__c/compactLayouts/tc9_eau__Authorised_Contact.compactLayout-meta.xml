@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_eau__Authorised_Contact</fullName>
+    <fields>Name</fields>
+    <fields>RecordTypeId</fields>
+    <fields>tc9_eau__Lodge_STP_As__c</fields>
+    <fields>tc9_eau__Filter_Payment_Entity__c</fields>
+    <fields>tc9_eau__STP_Lodgement_User__c</fields>
+    <label>Authorised Contact</label>
+</CompactLayout>

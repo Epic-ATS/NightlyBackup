@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Default_Pay_Rate_Pay_Code__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Sets the default Pay Rate Pay Code value on a new Assignment Rate record</description>
+    <inlineHelpText>Sets the default Pay Rate Pay Code value on a new Assignment Rate record</inlineHelpText>
+    <label>Default Pay Rate Pay Code</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>tc9_pr__Pay_Code__c.RecordType.DeveloperName</field>
+            <operation>equals</operation>
+            <value>Payment</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>tc9_pr__Pay_Code__c</referenceTo>
+    <relationshipLabel>Schedules</relationshipLabel>
+    <relationshipName>Schedules</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customObject>true</customObject>
+    <description>A master object that holds Invoice details. The Invoice holds header information and groups Invoice Items so they can be used to generate PDF Invoices</description>
+    <motif>Custom42: Treasure chest</motif>
+</CustomTab>

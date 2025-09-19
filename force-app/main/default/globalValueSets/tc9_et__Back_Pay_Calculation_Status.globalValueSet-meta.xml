@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Not Required</fullName>
+        <default>false</default>
+        <label>Not Required</label>
+    </customValue>
+    <customValue>
+        <fullName>New</fullName>
+        <default>false</default>
+        <label>New</label>
+    </customValue>
+    <customValue>
+        <fullName>Pending</fullName>
+        <default>false</default>
+        <label>Pending</label>
+    </customValue>
+    <customValue>
+        <fullName>Calculated</fullName>
+        <default>false</default>
+        <label>Calculated</label>
+    </customValue>
+    <customValue>
+        <fullName>Failed</fullName>
+        <default>false</default>
+        <label>Failed</label>
+    </customValue>
+    <customValue>
+        <fullName>Deleted</fullName>
+        <default>false</default>
+        <label>Deleted</label>
+    </customValue>
+    <description>Picklist values that are used to indicate the processing status of back pay calculations.</description>
+    <masterLabel>Back Pay Calculation Status</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

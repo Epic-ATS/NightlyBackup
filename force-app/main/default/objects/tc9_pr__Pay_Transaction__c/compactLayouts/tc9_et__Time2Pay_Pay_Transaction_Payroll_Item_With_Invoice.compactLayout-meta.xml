@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Time2Pay_Pay_Transaction_Payroll_Item_With_Invoice</fullName>
+    <fields>Name</fields>
+    <fields>RecordTypeId</fields>
+    <fields>tc9_et__Timesheet_Manager__c</fields>
+    <fields>tc9_et__Expense_Claim_Manager__c</fields>
+    <fields>tc9_pr__Pay_Batch_Manager__c</fields>
+    <fields>tc9_et__Invoice_PDF__c</fields>
+    <label>Time2Pay Pay Transaction - Payroll Item With Invoice</label>
+</CompactLayout>

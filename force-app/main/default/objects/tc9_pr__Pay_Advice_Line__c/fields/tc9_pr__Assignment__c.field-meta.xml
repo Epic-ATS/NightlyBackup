@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Assignment__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The related Assignment of this Pay Advice Line.  Only populated if Pay Advice Detail Level is &apos;Assignment&apos; on the payroll schedule.</description>
+    <inlineHelpText>The related Assignment of this Pay Advice Line.  Only populated if Pay Advice Detail Level is &apos;Assignment&apos; on the payroll schedule.</inlineHelpText>
+    <label>Assignment</label>
+    <referenceTo>tc9_pr__Assignment__c</referenceTo>
+    <relationshipLabel>Pay Advice Lines</relationshipLabel>
+    <relationshipName>Pay_Advice_Lines</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

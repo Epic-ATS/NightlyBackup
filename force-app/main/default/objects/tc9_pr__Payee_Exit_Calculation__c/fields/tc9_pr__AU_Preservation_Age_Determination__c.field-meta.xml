@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__AU_Preservation_Age_Determination__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates whether the related Payee is above or below the preservation age cap.</description>
+    <inlineHelpText>Indicates whether the related Payee is above or below the preservation age cap.</inlineHelpText>
+    <label>AU Preservation Age Determination</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Under</fullName>
+                <default>false</default>
+                <label>Under</label>
+            </value>
+            <value>
+                <fullName>Over</fullName>
+                <default>false</default>
+                <label>Over</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

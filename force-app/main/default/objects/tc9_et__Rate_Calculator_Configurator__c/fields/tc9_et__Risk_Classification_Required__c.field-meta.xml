@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Risk_Classification_Required__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Defines if the Risk Classification field on the Rate Calculator will be required</description>
+    <inlineHelpText>Defines if the Risk Classification field on the Rate Calculator will be required</inlineHelpText>
+    <label>Risk Classification Required?</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

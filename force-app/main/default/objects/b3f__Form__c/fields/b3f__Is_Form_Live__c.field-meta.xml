@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3f__Is_Form_Live__c</fullName>
+    <deprecated>false</deprecated>
+    <formula>if( b3f__Date_Available_Start__c &gt; today() || b3f__Date_Available_End__c&lt; today(), false, true)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Is Form Live</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

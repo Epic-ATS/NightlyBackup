@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Current_Balance_Last_Modified__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The date and time that the current balance was updated on this payee leave rule</description>
+    <inlineHelpText>The date and time that the current balance was updated on this payee leave rule</inlineHelpText>
+    <label>Current Balance Last Modified</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

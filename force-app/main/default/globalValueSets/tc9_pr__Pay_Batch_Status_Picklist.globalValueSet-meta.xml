@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Creating</fullName>
+        <default>false</default>
+        <label>Creating</label>
+    </customValue>
+    <customValue>
+        <fullName>Uncalculated</fullName>
+        <default>true</default>
+        <label>Uncalculated</label>
+    </customValue>
+    <customValue>
+        <fullName>Calculating</fullName>
+        <default>false</default>
+        <label>Calculating</label>
+    </customValue>
+    <customValue>
+        <fullName>Calculate Failed</fullName>
+        <default>false</default>
+        <label>Calculate Failed</label>
+    </customValue>
+    <customValue>
+        <fullName>Part Calculated</fullName>
+        <default>false</default>
+        <label>Part Calculated</label>
+    </customValue>
+    <customValue>
+        <fullName>Calculated with Errors</fullName>
+        <default>false</default>
+        <label>Calculated with Errors</label>
+    </customValue>
+    <customValue>
+        <fullName>Calculated</fullName>
+        <default>false</default>
+        <label>Calculated</label>
+    </customValue>
+    <customValue>
+        <fullName>Deleting</fullName>
+        <default>false</default>
+        <label>Deleting</label>
+    </customValue>
+    <customValue>
+        <fullName>Delete Failed</fullName>
+        <default>false</default>
+        <label>Delete Failed</label>
+    </customValue>
+    <customValue>
+        <fullName>Finalising</fullName>
+        <default>false</default>
+        <label>Finalising</label>
+    </customValue>
+    <customValue>
+        <fullName>Finalise Failed</fullName>
+        <default>false</default>
+        <label>Finalise Failed</label>
+    </customValue>
+    <customValue>
+        <fullName>Finalised</fullName>
+        <default>false</default>
+        <label>Finalised</label>
+    </customValue>
+    <customValue>
+        <fullName>Unfinalising</fullName>
+        <default>false</default>
+        <label>Unfinalising</label>
+    </customValue>
+    <customValue>
+        <fullName>Unfinalise Failed</fullName>
+        <default>false</default>
+        <label>Unfinalise Failed</label>
+    </customValue>
+    <customValue>
+        <fullName>Pay Advice Creating</fullName>
+        <default>false</default>
+        <label>Pay Advice Creating</label>
+    </customValue>
+    <customValue>
+        <fullName>Pay Advice Created</fullName>
+        <default>false</default>
+        <label>Pay Advice Created</label>
+    </customValue>
+    <customValue>
+        <fullName>Pay Advice Failed</fullName>
+        <default>false</default>
+        <label>Pay Advice Failed</label>
+    </customValue>
+    <customValue>
+        <fullName>Pay Advice Deleting</fullName>
+        <default>false</default>
+        <label>Pay Advice Deleting</label>
+    </customValue>
+    <customValue>
+        <fullName>Pay Advice Delete Failed</fullName>
+        <default>false</default>
+        <label>Pay Advice Delete Failed</label>
+    </customValue>
+    <customValue>
+        <fullName>Payment File Creating</fullName>
+        <default>false</default>
+        <label>Payment File Creating</label>
+    </customValue>
+    <customValue>
+        <fullName>Payment File Created</fullName>
+        <default>false</default>
+        <label>Payment File Created</label>
+    </customValue>
+    <customValue>
+        <fullName>Payment File Failed</fullName>
+        <default>false</default>
+        <label>Payment File Failed</label>
+    </customValue>
+    <customValue>
+        <fullName>Payment File Deleting</fullName>
+        <default>false</default>
+        <label>Payment File Deleting</label>
+    </customValue>
+    <customValue>
+        <fullName>Payment File Delete Failed</fullName>
+        <default>false</default>
+        <label>Payment File Delete Failed</label>
+    </customValue>
+    <customValue>
+        <fullName>Payment File Released</fullName>
+        <default>false</default>
+        <label>Payment File Released</label>
+    </customValue>
+    <customValue>
+        <fullName>Publishing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Publishing</label>
+    </customValue>
+    <customValue>
+        <fullName>Unfinalisation Failed</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Unfinalisation Failed</label>
+    </customValue>
+    <customValue>
+        <fullName>Published</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Published</label>
+    </customValue>
+    <customValue>
+        <fullName>Publishing Failed</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Publishing Failed</label>
+    </customValue>
+    <customValue>
+        <fullName>Finalisation Failed</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Finalisation Failed</label>
+    </customValue>
+    <customValue>
+        <fullName>Publish Failed</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Publish Failed</label>
+    </customValue>
+    <customValue>
+        <fullName>Payment File Creation Failed</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Payment File Creation Failed</label>
+    </customValue>
+    <customValue>
+        <fullName>Payment File Deletion Failed</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Payment File Deletion Failed</label>
+    </customValue>
+    <customValue>
+        <fullName>Calculation Failed</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Calculation Failed</label>
+    </customValue>
+    <description>To be used for the Status fields on Pay Batch and Payee Pay Batch Record</description>
+    <masterLabel>Pay Batch Status Picklist</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

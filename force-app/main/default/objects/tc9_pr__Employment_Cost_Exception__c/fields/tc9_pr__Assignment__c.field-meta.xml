@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Assignment__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The Assignment associated with the Employment Cost Exception</description>
+    <inlineHelpText>The Assignment associated with the Employment Cost Exception</inlineHelpText>
+    <label>Assignment</label>
+    <referenceTo>tc9_pr__Assignment__c</referenceTo>
+    <relationshipLabel>Employment Cost Exceptions</relationshipLabel>
+    <relationshipName>Employment_Cost_Exceptions</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

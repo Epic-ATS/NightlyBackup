@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__AU_Contributes_to_OTE__c</fullName>
+    <defaultValue>&apos;No&apos;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Component contributes to Ordinary Time Earnings</description>
+    <inlineHelpText>Component contributes to Ordinary Time Earnings</inlineHelpText>
+    <label>AU Contributes to OTE</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_pr__Yes_No_Picklists</valueSetName>
+    </valueSet>
+</CustomField>

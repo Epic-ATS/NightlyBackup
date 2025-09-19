@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3f__Custom_Code__c</fullName>
+    <deprecated>false</deprecated>
+    <inlineHelpText>Add custom CSS to your forms</inlineHelpText>
+    <label>Custom Code</label>
+    <length>131072</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>50</visibleLines>
+</CustomField>

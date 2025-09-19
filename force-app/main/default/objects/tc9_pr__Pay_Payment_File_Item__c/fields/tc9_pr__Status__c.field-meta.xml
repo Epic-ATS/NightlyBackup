@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Status__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The related status of the payment file.</description>
+    <externalId>false</externalId>
+    <formula>TEXT(tc9_pr__Payment_File__r.tc9_pr__Status__c)</formula>
+    <inlineHelpText>The related status of the payment file.</inlineHelpText>
+    <label>Payment File Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

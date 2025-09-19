@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_ext_recon__Earliest_Date__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Earliest date to run reconciliation from (i.e. only payee pay batches after July 1 2021.) Note. the code will default to July 1 2021 if this is left blank</description>
+    <inlineHelpText>Earliest date to run reconciliation from (i.e. only payee pay batches after July 1 2021.) Note. the code will default to July 1 2021 if this is left blank</inlineHelpText>
+    <label>Earliest Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

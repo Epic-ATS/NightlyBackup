@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__One_target_is_required</fullName>
+    <active>true</active>
+    <description>Allow only one target</description>
+    <errorConditionFormula>( IF(ISBLANK(b3o__Form__c),0,1) + 
+  IF(ISBLANK(b3o__Question_Set__c),0,1) + 
+  IF(ISBLANK(b3o__External_Link__c),0,1) + 
+  IF(ISBLANK(b3o__Document_Template__c),0,1) +
+  IF(ISBLANK(b3o__Session__c),0,1)  
+) &gt; 1</errorConditionFormula>
+    <errorMessage>Only one target is allowed</errorMessage>
+</ValidationRule>

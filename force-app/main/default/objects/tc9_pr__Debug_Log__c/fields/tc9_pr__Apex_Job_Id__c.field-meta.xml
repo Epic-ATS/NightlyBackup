@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Apex_Job_Id__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Debug Log details for support tracing.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Debug Log details for support tracing.</inlineHelpText>
+    <label>Apex Job Id</label>
+    <length>20</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

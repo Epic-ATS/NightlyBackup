@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Pre_Tax_Superannuation__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The value of a Pre Tax Superannuation Deduction.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The value of a Pre Tax Superannuation Deduction.</inlineHelpText>
+    <label>Pre-Tax Superannuation</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

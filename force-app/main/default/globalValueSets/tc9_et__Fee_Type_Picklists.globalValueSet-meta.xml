@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Retainer Fee Instalment 1</fullName>
+        <default>false</default>
+        <label>Retainer Fee Instalment 1</label>
+    </customValue>
+    <customValue>
+        <fullName>Retainer Fee Instalment 2</fullName>
+        <default>false</default>
+        <label>Retainer Fee Instalment 2</label>
+    </customValue>
+    <customValue>
+        <fullName>Retainer Fee Final Instalment</fullName>
+        <default>false</default>
+        <label>Retainer Fee Final Instalment</label>
+    </customValue>
+    <customValue>
+        <fullName>Permanent Placement of Employee</fullName>
+        <default>false</default>
+        <label>Permanent Placement of Employee</label>
+    </customValue>
+    <customValue>
+        <fullName>Temp To Perm Conversion of Employee</fullName>
+        <default>false</default>
+        <label>Temp To Perm Conversion of Employee</label>
+    </customValue>
+    <customValue>
+        <fullName>Travel Expense</fullName>
+        <default>false</default>
+        <label>Travel Expense</label>
+    </customValue>
+    <customValue>
+        <fullName>Advertising Expense</fullName>
+        <default>false</default>
+        <label>Advertising Expense</label>
+    </customValue>
+    <customValue>
+        <fullName>Applicant Screening</fullName>
+        <default>false</default>
+        <label>Applicant Screening</label>
+    </customValue>
+    <customValue>
+        <fullName>Onboarding Services</fullName>
+        <default>false</default>
+        <label>Onboarding Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Skill and Behavioural Testing</fullName>
+        <default>false</default>
+        <label>Skill and Behavioural Testing</label>
+    </customValue>
+    <customValue>
+        <fullName>Reference Checks</fullName>
+        <default>false</default>
+        <label>Reference Checks</label>
+    </customValue>
+    <customValue>
+        <fullName>Payroll Services</fullName>
+        <default>false</default>
+        <label>Payroll Services</label>
+    </customValue>
+    <description>To be used for Fee Type picklists</description>
+    <masterLabel>Fee Type Picklists</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

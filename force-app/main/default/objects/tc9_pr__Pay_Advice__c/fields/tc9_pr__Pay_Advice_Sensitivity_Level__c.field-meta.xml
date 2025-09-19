@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Pay_Advice_Sensitivity_Level__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The nominated sensitivity of this pay advice record. Customised security can be implemented based on the value in this field. Where Assignments and the Payee record have a pay advice sensitivity the overriding level will be inherited from the Payee.</description>
+    <inlineHelpText>The nominated sensitivity of this pay advice record. Customised security can be implemented based on the value in this field. Where Assignments and the Payee record have a pay advice sensitivity the overriding level will be inherited from the Payee.</inlineHelpText>
+    <label>Pay Advice Sensitivity Level</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_pr__Pay_Advice_Sensitivity</valueSetName>
+    </valueSet>
+</CustomField>

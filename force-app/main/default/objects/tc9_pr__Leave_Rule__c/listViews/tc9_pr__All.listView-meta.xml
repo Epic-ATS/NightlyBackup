@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__All</fullName>
+    <columns>NAME</columns>
+    <columns>RECORDTYPE</columns>
+    <columns>tc9_pr__Status__c</columns>
+    <columns>tc9_pr__Effective_Date__c</columns>
+    <columns>tc9_pr__Expiry_Date__c</columns>
+    <columns>tc9_pr__Pay_Code__c</columns>
+    <columns>tc9_pr__Reduce_Auto_Pay_Units__c</columns>
+    <columns>tc9_pr__Pay_Advice_Display_After_Period__c</columns>
+    <columns>tc9_pr__Display_on_Pay_Advice__c</columns>
+    <columns>tc9_pr__Allow_Minimum_Balance_Override__c</columns>
+    <columns>tc9_pr__Minimum_Allowable_Balance__c</columns>
+    <columns>tc9_pr__Balance_Only_and_Never_Accrues__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

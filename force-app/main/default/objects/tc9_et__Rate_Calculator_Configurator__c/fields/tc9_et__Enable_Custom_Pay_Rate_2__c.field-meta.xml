@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Enable_Custom_Pay_Rate_2__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>To be used for custom rate calculator calculations outside of standard product.</description>
+    <inlineHelpText>To be used for custom rate calculator calculations outside of standard product.</inlineHelpText>
+    <label>Enable Custom Pay Rate 2</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

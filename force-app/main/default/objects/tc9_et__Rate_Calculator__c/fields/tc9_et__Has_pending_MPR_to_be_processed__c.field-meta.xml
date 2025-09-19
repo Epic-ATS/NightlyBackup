@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Has_pending_MPR_to_be_processed__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Identifies if there is a minimum pay rate change where there are rate calculators that require a new rate calculator rate record.</description>
+    <inlineHelpText>Identifies if there is a minimum pay rate change where there are rate calculators that require a new rate calculator rate record.</inlineHelpText>
+    <label>Has pending MPR to be processed</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

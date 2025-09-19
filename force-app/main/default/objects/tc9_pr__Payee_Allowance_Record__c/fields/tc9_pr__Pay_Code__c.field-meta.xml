@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Pay_Code__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Defines the Pay Code that will be used when an allowance is paid.</description>
+    <inlineHelpText>Defines the Pay Code that will be used when an allowance is paid.</inlineHelpText>
+    <label>Pay Code</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>tc9_pr__Pay_Code__c.RecordType.DeveloperName</field>
+            <operation>equals</operation>
+            <value>Allowance</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>tc9_pr__Pay_Code__c</referenceTo>
+    <relationshipLabel>Payee Allowance Records</relationshipLabel>
+    <relationshipName>Alw_Records_Pay_Code</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Standard</fullName>
+        <default>false</default>
+        <label>Standard</label>
+    </customValue>
+    <customValue>
+        <fullName>Adjustment</fullName>
+        <default>false</default>
+        <label>Adjustment</label>
+    </customValue>
+    <description>Indicates how the pay batch will be treated during the finalise and post-processing activities</description>
+    <masterLabel>Pay Batch Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Balance</fullName>
+        <default>false</default>
+        <label>Balance</label>
+    </customValue>
+    <customValue>
+        <fullName>Fixed Amount</fullName>
+        <default>false</default>
+        <label>Fixed Amount</label>
+    </customValue>
+    <customValue>
+        <fullName>Percentage</fullName>
+        <default>false</default>
+        <label>Percentage</label>
+    </customValue>
+    <description>Where Fixed Amount is selected, funds will be distributed to the value defined in the Fixed Amount field.
+Where Percentage is selected, funds remaining percentage rate defined in the Percentage field.
+Where Balance is selected all unallocated funds will be allocated.</description>
+    <masterLabel>Distribution Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

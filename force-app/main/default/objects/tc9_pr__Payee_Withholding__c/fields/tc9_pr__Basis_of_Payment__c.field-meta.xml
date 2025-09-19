@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Basis_of_Payment__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The type of arrangement between the payer and the payee.</description>
+    <inlineHelpText>The type of arrangement between the payer and the payee.</inlineHelpText>
+    <label>Basis of Payment</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_pr__ATO_Basis_of_Payment</valueSetName>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__System_Temp_Value__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Used in code for certain calculations - temporary storage of data only and not to be used unless approved for development</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Used in code for certain calculations - temporary storage of data only and not to be used unless approved for development</inlineHelpText>
+    <label>System Temp Value</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

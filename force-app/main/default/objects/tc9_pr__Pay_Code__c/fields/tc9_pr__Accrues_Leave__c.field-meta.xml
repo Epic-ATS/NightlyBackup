@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Accrues_Leave__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether the quantity in Pay Transactions using this pay code will be considered during leave accrual calculation.</description>
+    <inlineHelpText>Indicates whether the quantity in Pay Transactions using this pay code will be considered during leave accrual calculation.</inlineHelpText>
+    <label>Accrues Leave</label>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

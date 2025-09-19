@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Payee__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The Payee that relates to the Payment File Line.</description>
+    <inlineHelpText>The Payee that relates to the Payment File Line.</inlineHelpText>
+    <label>Payee</label>
+    <referenceTo>tc9_pr__Payee__c</referenceTo>
+    <relationshipLabel>Payment File Lines</relationshipLabel>
+    <relationshipName>Payment_File_Lines</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

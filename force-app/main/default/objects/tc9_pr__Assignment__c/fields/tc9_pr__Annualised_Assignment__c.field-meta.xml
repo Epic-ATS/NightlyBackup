@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Annualised_Assignment__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Where there is an Annualised Salary arrangement in place this field has a direct relationship from the Auto Pay Assignment to the Timesheet Assignment.</description>
+    <inlineHelpText>Where there is an Annualised Salary arrangement in place this field has a direct relationship from the Auto Pay Assignment to the Timesheet Assignment.</inlineHelpText>
+    <label>Annualised Assignment</label>
+    <referenceTo>tc9_pr__Assignment__c</referenceTo>
+    <relationshipLabel>Annualised Assignments</relationshipLabel>
+    <relationshipName>Annualised_Assignments</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

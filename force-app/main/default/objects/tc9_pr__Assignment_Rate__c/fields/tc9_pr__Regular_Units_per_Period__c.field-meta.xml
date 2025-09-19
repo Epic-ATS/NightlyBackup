@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Regular_Units_per_Period__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The number of regular units that should be paid based on the frequency selected</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The number of regular units that should be paid based on the frequency selected</inlineHelpText>
+    <label>Regular Units per Period</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Deduction Units</fullName>
+        <default>false</default>
+        <label>Deduction Units</label>
+    </customValue>
+    <customValue>
+        <fullName>Payee Leave Rule</fullName>
+        <default>false</default>
+        <label>Payee Leave Rule</label>
+    </customValue>
+    <description>Indicates whether the purchased leave accrual units will match the number of units deducted, or, refer to the Payee Leave Rule for accrual calculation.</description>
+    <masterLabel>Purchased Leave Accrual Basis</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

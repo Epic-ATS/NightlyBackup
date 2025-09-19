@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Payroll_Tax_Total_Cost__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The total cost of Payroll Tax for the selected Pay Transaction</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The total cost of Payroll Tax for the selected Pay Transaction</inlineHelpText>
+    <label>Payroll Tax Total Cost</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

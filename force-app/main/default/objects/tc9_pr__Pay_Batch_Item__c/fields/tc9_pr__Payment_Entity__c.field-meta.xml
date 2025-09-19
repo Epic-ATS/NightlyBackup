@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Payment_Entity__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The related Payment Entity.</description>
+    <inlineHelpText>The related Payment Entity.</inlineHelpText>
+    <label>Payment Entity</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Payee Pay Batch (Payment Entity)</relationshipLabel>
+    <relationshipName>Pay_Batch_Items</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

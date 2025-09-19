@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Filtered_Pay_Transactions__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Adding a Text Area as Record Ids are 18 characters long x 20 Record Types and comma-delimited. When null it signifies that ALL have been selected.</description>
+    <inlineHelpText>Adding a Text Area as Record Ids are 18 characters long x 20 Record Types and comma-delimited. When null it signifies that ALL have been selected.</inlineHelpText>
+    <label>Filtered Pay Transactions</label>
+    <length>32768</length>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Insurance_Employment_Cost__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Defines the Insurance Employment Cost that applies to the Rate Calculator</description>
+    <inlineHelpText>Defines the Insurance Employment Cost that applies to the Rate Calculator</inlineHelpText>
+    <label>Insurance Employment Cost</label>
+    <referenceTo>tc9_pr__Employment_Cost__c</referenceTo>
+    <relationshipLabel>Rate Calculators with Insurance Employment Cost</relationshipLabel>
+    <relationshipName>Rate_Calculators8</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

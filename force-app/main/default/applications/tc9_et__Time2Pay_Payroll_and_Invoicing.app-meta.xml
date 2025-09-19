@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>tc9_pr__Debug_Header_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>tc9_pr__Debug_Header__c</pageOrSobjectType>
+    </actionOverrides>
+    <brand>
+        <headerColor>#2491EB</headerColor>
+        <logo>tc9_et__X2cloudnine_logo3</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
+    </brand>
+    <description>Payroll and Invoice Processing including Pay Advice and Invoice Payments</description>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>Time2Pay - Payroll and Invoicing</label>
+    <navType>Standard</navType>
+    <tabs>standard-Account</tabs>
+    <tabs>tc9_pr__Assignment__c</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>tc9_pr__Payee__c</tabs>
+    <tabs>tc9_pr__Pay_Transaction__c</tabs>
+    <tabs>tc9_pr__Pay_Batch__c</tabs>
+    <tabs>tc9_pr__Pay_Advice__c</tabs>
+    <tabs>tc9_et__Invoice__c</tabs>
+    <tabs>tc9_et__Invoice_Payment__c</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>tc9_pr__Debug_Header__c</tabs>
+    <tabs>tc9_pr__Project_Code__c</tabs>
+    <tabs>tc9_et__Rate_Calculator_Junction__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>tc9_et__Time2Pay_Payroll_and_Invoice_Processing_UtilityBar</utilityBar>
+</CustomApplication>

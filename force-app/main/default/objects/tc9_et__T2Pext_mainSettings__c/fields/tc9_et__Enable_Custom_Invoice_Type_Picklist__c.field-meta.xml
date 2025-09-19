@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Enable_Custom_Invoice_Type_Picklist__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Defines if the custom Invoice Type values defined in the “Process Invoice - Invoice Types” custom setting will be used for the Invoice Type picklist on the Process Invoice visualforce page. When FALSE, the standard package picklist will be used.</description>
+    <inlineHelpText>Defines if the custom Invoice Type values defined in the “Process Invoice - Invoice Types” custom setting will be used for the Invoice Type picklist on the Process Invoice visualforce page. When FALSE, the standard package picklist will be used.</inlineHelpText>
+    <label>Enable Custom Invoice Type Picklist</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

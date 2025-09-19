@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Primary_Margin_Markup_Rate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>System field to manage the UI block for the non-Primary Margin/Markup Rate records where it is linked to the Margin/Markup Rate with Primary Record set to true.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>System field to manage the UI block for the non-Primary Margin/Markup Rate records where it is linked to the Margin/Markup Rate with Primary Record set to true.</inlineHelpText>
+    <label>Primary Margin/Markup Rate</label>
+    <length>36</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Employment_Cost__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The Employment Cost associated with the Client Employment Cost</description>
+    <inlineHelpText>The Employment Cost associated with the Client Employment Cost</inlineHelpText>
+    <label>Employment Cost</label>
+    <referenceTo>tc9_pr__Employment_Cost__c</referenceTo>
+    <relationshipLabel>Employment Costs</relationshipLabel>
+    <relationshipName>Employment_Costs</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

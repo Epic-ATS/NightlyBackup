@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Include_Time_BPs_in_OT_Daily_Std_Calcs__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates if Time Breakpoints in Overtime should be included in daily standard calculations.</description>
+    <inlineHelpText>Indicates if Time Breakpoints in Overtime should be included in daily standard calculations.</inlineHelpText>
+    <label>Include Time BPs in OT - Daily Std Calcs</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Assignment_Rate_Automation</fullName>
+    <availability>online</availability>
+    <description>Button to kick-start the MPR Automation processing for assignment</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Assignment Rate Automation</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>/lightning/cmp/tc9_et__asyncJobContainer?c__processName=mprAutomation&amp;c__recordId={!tc9_pr__Assignment__c.Id}</url>
+</WebLink>

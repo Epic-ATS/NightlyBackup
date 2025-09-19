@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Custom_Post_Cost_3_Payable_Based_On__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines what the Amount calculated as the Custom Post Cost 3 Payable is based on</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Defines what the Amount calculated as the Custom Post Cost 3 Payable is based on</inlineHelpText>
+    <label>Custom Post Cost 3 Payable Based On</label>
+    <length>150</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

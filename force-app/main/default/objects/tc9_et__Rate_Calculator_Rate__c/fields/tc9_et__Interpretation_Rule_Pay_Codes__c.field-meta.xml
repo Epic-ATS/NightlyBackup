@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Interpretation_Rule_Pay_Codes__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates if all the Pay Codes detailed within the related Interpretation Rule should be automatically added to a Rate Calculator. When unchecked, Pay Codes must be added manually</description>
+    <inlineHelpText>Indicates if all the Pay Codes detailed within the related Interpretation Rule should be automatically added to a Rate Calculator. When unchecked, Pay Codes must be added manually</inlineHelpText>
+    <label>Interpretation Rule Pay Codes</label>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

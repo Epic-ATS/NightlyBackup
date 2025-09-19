@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Send_Email_To_Approver__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Defines if email notifications will be sent to Timesheet / Expense Claim Approvers. It works in conjunction with the 2 sets of Approval Email - New Token and Approval Email - Submit fields. If FALSE, all these fields are overridden and no emails are sent.</description>
+    <inlineHelpText>Defines if email notifications will be sent to Timesheet / Expense Claim Approvers. It works in conjunction with the 2 sets of Approval Email - New Token and Approval Email - Submit fields. If FALSE, all these fields are overridden and no emails are sent.</inlineHelpText>
+    <label>Send Email To Approver</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

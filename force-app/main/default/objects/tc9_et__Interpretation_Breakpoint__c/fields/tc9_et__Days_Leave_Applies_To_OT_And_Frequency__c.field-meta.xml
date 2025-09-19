@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Days_Leave_Applies_To_OT_And_Frequency__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines the days that Leave will be applied to &apos;Overtime&apos; and &apos;Frequency&apos; interpretation logic</description>
+    <inlineHelpText>Defines the days that Leave will be applied to &apos;Overtime&apos; and &apos;Frequency&apos; interpretation logic</inlineHelpText>
+    <label>Days Leave Applies To OT And Frequency</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_et__Frequency_Breakpoint_Days_picklist</valueSetName>
+    </valueSet>
+    <visibleLines>8</visibleLines>
+</CustomField>

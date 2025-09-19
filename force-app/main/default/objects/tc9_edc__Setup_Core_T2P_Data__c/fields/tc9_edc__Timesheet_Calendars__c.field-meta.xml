@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_edc__Timesheet_Calendars__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Shows the date and time when the process generated the timesheet calendar. This field gets stamped even if this process is skipped initially.</description>
+    <inlineHelpText>Shows the date and time when the process generated the timesheet calendar. This field gets stamped even if this process is skipped initially.</inlineHelpText>
+    <label>Timesheet Calendars</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Does_Not_Use_Online_Timesheets__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, the Employee will not be setup for online timesheet functionality in relation to this Assignment</description>
+    <inlineHelpText>If checked, the Employee for this assignment will not be automatically setup for online timesheets.</inlineHelpText>
+    <label>Does Not Use Online Timesheets</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

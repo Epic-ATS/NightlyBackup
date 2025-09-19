@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Superannuation_Fund__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The related Superannuation Fund</description>
+    <inlineHelpText>The related Superannuation Fund</inlineHelpText>
+    <label>Superannuation Fund</label>
+    <referenceTo>tc9_pr__Superannuation_Fund__c</referenceTo>
+    <relationshipLabel>Pay Advice Lines</relationshipLabel>
+    <relationshipName>Pay_Advice_Lines</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

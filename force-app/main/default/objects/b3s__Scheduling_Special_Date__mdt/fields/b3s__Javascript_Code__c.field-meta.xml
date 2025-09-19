@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3s__Javascript_Code__c</fullName>
+    <deprecated>false</deprecated>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Must return String or Null. Null - not a special date. A global variable &quot;date&quot; will be available, corresponding to the current day cell during rendering</inlineHelpText>
+    <label>Javascript Code</label>
+    <length>32768</length>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Payment_Detail__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The Payment Detail that relates to the Payment File.</description>
+    <inlineHelpText>The Payment Detail that relates to the Payment File.</inlineHelpText>
+    <label>Payment Detail</label>
+    <referenceTo>tc9_pr__Payment_Detail__c</referenceTo>
+    <relationshipLabel>Payment Files</relationshipLabel>
+    <relationshipName>Payment_Files</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

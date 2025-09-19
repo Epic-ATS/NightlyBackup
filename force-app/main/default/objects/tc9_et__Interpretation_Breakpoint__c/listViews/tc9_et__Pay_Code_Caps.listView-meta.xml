@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Pay_Code_Caps</fullName>
+    <columns>NAME</columns>
+    <columns>tc9_et__Breakpoint_Type__c</columns>
+    <columns>tc9_et__Interpretation_Rule__c</columns>
+    <columns>tc9_et__Pay_Code__c</columns>
+    <columns>tc9_et__Pay_Code_Cap__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>tc9_et__Interpretation_Breakpoint__c.tc9_et__Pay_Code_Cap</value>
+    </filters>
+    <label>Pay Code Caps</label>
+</ListView>

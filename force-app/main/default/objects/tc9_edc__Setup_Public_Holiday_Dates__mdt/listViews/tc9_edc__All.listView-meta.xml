@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_edc__All</fullName>
+    <columns>MasterLabel</columns>
+    <columns>DeveloperName</columns>
+    <columns>NamespacePrefix</columns>
+    <columns>tc9_edc__All_Calendars__c</columns>
+    <columns>tc9_edc__Start_Date__c</columns>
+    <columns>tc9_edc__End_Date__c</columns>
+    <columns>tc9_edc__ACT__c</columns>
+    <columns>tc9_edc__NSW__c</columns>
+    <columns>tc9_edc__NT__c</columns>
+    <columns>tc9_edc__QLD__c</columns>
+    <columns>tc9_edc__SA__c</columns>
+    <columns>tc9_edc__TAS__c</columns>
+    <columns>tc9_edc__VIC__c</columns>
+    <columns>tc9_edc__WA__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

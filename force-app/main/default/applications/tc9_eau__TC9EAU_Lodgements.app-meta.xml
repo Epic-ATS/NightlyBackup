@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#2491EB</headerColor>
+        <logo>tc9_eau__X2CloudnineCropped4</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
+    </brand>
+    <description>Single Touch Payroll and SuperStream processing for Australian Payroll.</description>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>AU Lodgements</label>
+    <navType>Standard</navType>
+    <tabs>standard-home</tabs>
+    <tabs>tc9_eau__Lodgement_AU__c</tabs>
+    <tabs>tc9_eau__Lodgement_Item_AU__c</tabs>
+    <tabs>tc9_eau__Lodgement_Error_AU__c</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>tc9_pr__Payee__c</tabs>
+    <tabs>tc9_pr__Superannuation_Fund__c</tabs>
+    <tabs>tc9_pr__Debug_Header__c</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>tc9_eau__STP_UtilityBar</utilityBar>
+</CustomApplication>

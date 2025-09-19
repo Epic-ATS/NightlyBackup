@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__Requested_Tasks__c</fullName>
+    <deprecated>false</deprecated>
+    <description>{&quot;type&quot;: &quot;ID_DOCUMENT_TEXT_DATA_EXTRACTION&quot;,&quot;config&quot;: {&quot;manual_check&quot;: &quot;FALLBACK&quot;,&quot;chip_data&quot;: &quot;DESIRED&quot;}}</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Requested Tasks</label>
+    <length>131072</length>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

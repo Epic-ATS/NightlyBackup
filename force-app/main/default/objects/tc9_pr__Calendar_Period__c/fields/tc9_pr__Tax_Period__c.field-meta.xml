@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Tax_Period__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Tax Period of the year.  Where used, this is derived from the Country entered in the Default Payee Aggregate Dates field on the Parent Payroll Calendar.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Tax Period of the year.  Where used, this is derived from the Country entered in the Default Payee Aggregate Dates field on the Parent Payroll Calendar.</inlineHelpText>
+    <label>Tax Period</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Deduction_Quantity_Worked__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Total number of units calculated for deduction processing.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Total number of units calculated for deduction processing.</inlineHelpText>
+    <label>Deduction Quantity Worked</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Pay_Advice_Delivery_Method__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The default distribution method for pay advices</description>
+    <inlineHelpText>The default distribution method for pay advices</inlineHelpText>
+    <label>Pay Advice Delivery Method</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Email as PDF</fullName>
+                <default>false</default>
+                <label>Email as PDF</label>
+            </value>
+            <value>
+                <fullName>Email as URL</fullName>
+                <default>false</default>
+                <label>Email as URL</label>
+            </value>
+            <value>
+                <fullName>Print</fullName>
+                <default>false</default>
+                <label>Print</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

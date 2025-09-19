@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Has_Rate_Calc_Update_Pending__c</fullName>
+    <deprecated>false</deprecated>
+    <formula>if(isblank(tc9_et__Last_Date_Rate_Calc_Update_Required__c),False,
+if(AND(ISBLANK(tc9_et__Last_Date_Rate_Calc_Update_Completed__c ), NOT(ISBLANK(tc9_et__Last_Date_Rate_Calc_Update_Required__c))),True,
+if(tc9_et__Last_Date_Rate_Calc_Update_Completed__c &lt;= tc9_et__Last_Date_Rate_Calc_Update_Required__c,True,False)))</formula>
+    <label>Has Rate Calc Update Pending</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

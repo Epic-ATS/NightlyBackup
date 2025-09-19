@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Weekly_Maximum_Earnings__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The maximum weekly earnings prescribed by the ATO for each bracket within the relevant tax scale.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The maximum weekly earnings prescribed by the ATO for each bracket within the relevant tax scale.</inlineHelpText>
+    <label>Weekly Maximum Earnings</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Don’t Send Automatically</fullName>
+        <default>false</default>
+        <label>Don’t Send Automatically</label>
+    </customValue>
+    <customValue>
+        <fullName>Weekly On A Defined Day</fullName>
+        <default>false</default>
+        <label>Weekly On A Defined Day</label>
+    </customValue>
+    <customValue>
+        <fullName>Fortnightly On A Defined Day</fullName>
+        <default>false</default>
+        <label>Fortnightly On A Defined Day</label>
+    </customValue>
+    <customValue>
+        <fullName>Bi-Monthly # Days After Bi-Monthly End</fullName>
+        <default>false</default>
+        <label>Bi-Monthly # Days After Bi-Monthly End</label>
+    </customValue>
+    <customValue>
+        <fullName>Monthly # Days After Month End</fullName>
+        <default>false</default>
+        <label>Monthly # Days After Month End</label>
+    </customValue>
+    <customValue>
+        <fullName># Days After Created</fullName>
+        <default>false</default>
+        <label># Days After Created</label>
+    </customValue>
+    <customValue>
+        <fullName># Days After Calendar Period End Date</fullName>
+        <default>false</default>
+        <label># Days After Calendar Period End Date</label>
+    </customValue>
+    <description>To be used for Auto Send Alternative Approver Approval Reminder picklists</description>
+    <masterLabel>Auto Send A.Approver Approval Reminder</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

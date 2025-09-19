@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>tc9_et__Update_Alternative_Invoice_No</fullName>
+        <description>Populates the Alternative Invoice No on Invoices. Will replace the INV in the name with CN for credit notes. Invoices will have the name copied direct.</description>
+        <field>tc9_et__Alternative_Invoice_No__c</field>
+        <formula>IF(
+   CONTAINS(RecordType.DeveloperName, &quot;Credit&quot;),
+   &quot;CN&quot; &amp; Right(Name, 11),
+   Name
+  )</formula>
+        <name>Update Alternative Invoice No</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>tc9_et__Populate Alternative Invoice No</fullName>
+        <actions>
+            <name>tc9_et__Update_Alternative_Invoice_No</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>tc9_et__Invoice__c.tc9_et__Alternative_Invoice_No__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <description>Populates the Alternative Invoice No on Invoices. Will replace the INV in the name with CN for credit notes. Invoices will have the name copied direct. Will only fire if the Alternative  Invoice No is blank</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>

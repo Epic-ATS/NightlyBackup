@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Warning_Maximum_Net_Pay__c</fullName>
+    <deprecated>false</deprecated>
+    <description>If populated this will be considered as the Maximum Net Pay threshold for a Payee Pay Batch record</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If populated this will be considered as the Maximum Net Pay threshold for a Payee Pay Batch record</inlineHelpText>
+    <label>Warning Maximum Net Pay</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

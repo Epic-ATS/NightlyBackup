@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__ETP_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates whether this is a Life ETP or a Death ETP record used during the calculation process.</description>
+    <inlineHelpText>Indicates whether this is a Life ETP or a Death ETP record used during the calculation process.</inlineHelpText>
+    <label>ETP Type</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Life Benefit Genuine</fullName>
+                <default>false</default>
+                <label>Life Benefit Genuine</label>
+            </value>
+            <value>
+                <fullName>Life Benefit Discretionary</fullName>
+                <default>false</default>
+                <label>Life Benefit Discretionary</label>
+            </value>
+            <value>
+                <fullName>Death Benefit Non Dependant</fullName>
+                <default>false</default>
+                <label>Death Benefit Non Dependant</label>
+            </value>
+            <value>
+                <fullName>Death Benefit Dependant</fullName>
+                <default>false</default>
+                <label>Death Benefit Dependant</label>
+            </value>
+            <value>
+                <fullName>Death Benefit Trustee</fullName>
+                <default>false</default>
+                <label>Death Benefit Trustee</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

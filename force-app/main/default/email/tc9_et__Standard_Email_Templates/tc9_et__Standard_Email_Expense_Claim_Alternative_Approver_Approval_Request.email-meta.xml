@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This is the standard email template to be used when sending a notification to an Alternative Approver that an Expense Claim has been submitted and is awaiting approval</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>tc9_et__SampleLetterhead</letterhead>
+    <name>Standard Email - Expense Claim - Alternative Approver - Approval Request</name>
+    <style>freeForm</style>
+    <subject>IMPORTANT: {!tc9_et__Expense_Claim__c.tc9_et__Payment_Entity__c} Expense Claims to Approve</subject>
+    <textOnly>Dear {!tc9_et__Expense_Claim__c.tc9_et__Alternative_Approver_First_Name__c},
+
+You have received this notification because you are the nominated secondary Approver for expense claims in the absence of a primary Approver response.
+
+The cut off for timesheet approval is 5.30pm Monday.
+
+Please click below to view and approve/reject all {!tc9_et__Expense_Claim__c.tc9_et__Payment_Entity__c}  expense claims for employees.
+
+{!tc9_et__Expense_Claim__c.tc9_et__Alternative_Approver_Current_Link_Token__c}
+
+If you require any assistance, please contact your {!tc9_et__Expense_Claim__c.tc9_et__Payment_Entity__c} Consultant or {!tc9_et__Expense_Claim__c.tc9_et__Expense_Claim_Support__c} on {!tc9_et__Expense_Claim__c.tc9_et__Expense_Claim_Support_Contact__c}.
+
+Yours Sincerely,
+
+{!tc9_et__Expense_Claim__c.tc9_et__Payment_Entity__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

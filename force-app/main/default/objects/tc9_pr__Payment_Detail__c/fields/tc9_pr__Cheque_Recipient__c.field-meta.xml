@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Cheque_Recipient__c</fullName>
+    <deprecated>false</deprecated>
+    <description>For Payee&apos;s, to whom a cheque for payment should be made out to.</description>
+    <inlineHelpText>For Payee&apos;s, to whom a cheque for payment should be made out to.</inlineHelpText>
+    <label>Cheque Recipient</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

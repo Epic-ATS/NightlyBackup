@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Spouse</fullName>
+        <default>false</default>
+        <label>Spouse</label>
+    </customValue>
+    <customValue>
+        <fullName>Child</fullName>
+        <default>false</default>
+        <label>Child</label>
+    </customValue>
+    <customValue>
+        <fullName>Salary Sacrifice</fullName>
+        <default>false</default>
+        <label>Salary Sacrifice</label>
+    </customValue>
+    <customValue>
+        <fullName>Award or Productivity</fullName>
+        <default>false</default>
+        <label>Award or Productivity</label>
+    </customValue>
+    <customValue>
+        <fullName>Third Party</fullName>
+        <default>false</default>
+        <label>Third Party</label>
+    </customValue>
+    <customValue>
+        <fullName>Voluntary Additional</fullName>
+        <default>false</default>
+        <label>Voluntary Additional</label>
+    </customValue>
+    <customValue>
+        <fullName>Employee Additional</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Employee Additional</label>
+    </customValue>
+    <customValue>
+        <fullName>Employer Additional</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Employer Additional</label>
+    </customValue>
+    <masterLabel>Superannuation Types</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

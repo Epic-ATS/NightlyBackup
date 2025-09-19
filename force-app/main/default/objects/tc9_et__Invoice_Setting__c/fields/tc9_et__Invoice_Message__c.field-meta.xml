@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Invoice_Message__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines the default Message that will be included on the on PDF Invoices created using this Invoice Setting. If blank the Invoice Message defined on the Invoice Entity will be used. Can be overridden at the Invoice Level.</description>
+    <inlineHelpText>Defines the default Message that will be included on the on PDF Invoices created using this Invoice Setting. If blank the Invoice Message defined on the Invoice Entity will be used. Can be overridden at the Invoice Level.</inlineHelpText>
+    <label>Invoice Message</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

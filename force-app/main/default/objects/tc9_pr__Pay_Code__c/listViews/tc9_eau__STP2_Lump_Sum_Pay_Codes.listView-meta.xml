@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_eau__STP2_Lump_Sum_Pay_Codes</fullName>
+    <columns>NAME</columns>
+    <columns>RECORDTYPE</columns>
+    <columns>tc9_pr__Lump_Sum_Type__c</columns>
+    <columns>tc9_pr__Lump_Sum_A_Type__c</columns>
+    <columns>tc9_pr__Pay_Rate_Multiplier__c</columns>
+    <columns>tc9_pr__Pay_Advice_Sort_Order__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>tc9_pr__Pay_Code__c.tc9_pr__Lump_Sum</value>
+    </filters>
+    <label>STP2 Lump Sum Pay Codes</label>
+</ListView>

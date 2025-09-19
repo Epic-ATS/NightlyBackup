@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Default_Transaction_Filters_Invoicing__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Defines which type of Invoice Filters will be selected by default when the Process Invoice page is first opened. If set to False, the page will open with Standard Invoice Filters selected. If True, the page will open with Transaction filters selected.</description>
+    <inlineHelpText>Defines which type of Invoice Filters will be selected by default when the Process Invoice page is first opened. If set to False, the page will open with Standard Invoice Filters selected. If True, the page will open with Transaction filters selected.</inlineHelpText>
+    <label>Default Transaction Filters Invoicing</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

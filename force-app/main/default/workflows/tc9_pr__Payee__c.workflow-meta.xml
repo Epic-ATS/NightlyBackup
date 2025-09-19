@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>tc9_pr__Payee_Payroll_Id_6_Characters</fullName>
+        <description>Populates the Payee Payroll Id field with the last 6 characters of the Payee Name</description>
+        <field>tc9_pr__Payroll_Id__c</field>
+        <formula>Right ( Name , 6 )</formula>
+        <name>Payee Payroll Id 6 Characters</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>tc9_pr__Populate Payee Payroll Id</fullName>
+        <actions>
+            <name>tc9_pr__Payee_Payroll_Id_6_Characters</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Generic workflow rule to populate the Payroll Id field with the last 6 digits of the Payee Name. Custom workflow rules/processes can be created as required.</description>
+        <formula>OR(AND(ISNEW(), ISBLANK(tc9_pr__Payroll_Id__c)), AND(ISBLANK(tc9_pr__Payroll_Id__c ), NOT(ISBLANK(PRIORVALUE(tc9_pr__Payroll_Id__c)))))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

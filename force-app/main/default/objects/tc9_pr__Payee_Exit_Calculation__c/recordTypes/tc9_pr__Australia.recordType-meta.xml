@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Australia</fullName>
+    <active>true</active>
+    <description>Australian legislation based exit calculation parent record</description>
+    <label>Australia</label>
+    <picklistValues>
+        <picklist>tc9_pr__ATO_Cessation_Type__c</picklist>
+        <values>
+            <fullName>Contract Cessation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deceased</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dismissal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Early Retirement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Genuine Redundancy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ill Health</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-genuine Redundancy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transfer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voluntary Cessation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__AU_Apply_12_Month_Rule__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__AU_Component_Type__c</picklist>
+        <values>
+            <fullName>Discretionary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Early Retirement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Genuine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Invalidity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leave</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__AU_Contributes_to_OTE__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__AU_Death_Payment_Recipient__c</picklist>
+        <values>
+            <fullName>Dependant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non Dependant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trustee</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__AU_ETP_Cap_Determination__c</picklist>
+        <values>
+            <fullName>Employment Termination Payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Whole of Income</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__AU_Leave_Type__c</picklist>
+        <values>
+            <fullName>Annual Leave</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Long Service Leave</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Leave</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Personal Leave</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__AU_PAYG_Treatment__c</picklist>
+        <values>
+            <fullName>Lump Sum A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lump Sum B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lump Sum D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marginal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tax Free ETP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Taxable ETP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wages</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__AU_PAYG_Withholding_Condition__c</picklist>
+        <values>
+            <fullName>No TFN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TFN Provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Working Holiday Maker</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__AU_Preservation_Age_Determination__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Over</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Under</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__AU_TFN_Provided__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__AU_Working_Holiday_Maker__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__Calculation_Status__c</picklist>
+        <values>
+            <fullName>Calculate Failed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calculated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calculating</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Confirm Failed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Confirmed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Confirming</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Draft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Hold</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__Cessation_Category__c</picklist>
+        <values>
+            <fullName>Death</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Early Retirement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Genuine Redundancy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Invalidity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-genuine Redundancy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regular</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__Cessation_Reason__c</picklist>
+        <values>
+            <fullName>Approved Early Retirement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Casual Termination</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Death</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dismissal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>End of Contract</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Invalidity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Redundancy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resignation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retirement</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__Commit_Final_Payment__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__Mapping_Component_Type__c</picklist>
+        <values>
+            <fullName>Annual Leave All Dates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Annual Leave Post93</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Annual Leave Pre78</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Annual Leave Pre93</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leave Loading All Dates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leave Loading Post93</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leave Loading Pre93</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Long Service Leave All Dates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Long Service Leave Post93</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Long Service Leave Pre78</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Long Service Leave Pre93</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lump Sum D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tax Free ETP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Taxable ETP</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__Mapping_Status__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inactive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Hold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__Override_Calculation__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

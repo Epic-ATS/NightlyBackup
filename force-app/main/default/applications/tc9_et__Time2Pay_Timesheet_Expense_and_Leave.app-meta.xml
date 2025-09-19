@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>tc9_pr__Debug_Header_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>tc9_pr__Debug_Header__c</pageOrSobjectType>
+    </actionOverrides>
+    <brand>
+        <headerColor>#2491EB</headerColor>
+        <logo>tc9_et__X2cloudnine_logo4</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
+    </brand>
+    <description>Timesheet, Expense and Leave Management</description>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>Time2Pay - Timesheet, Expense and Leave</label>
+    <navType>Standard</navType>
+    <tabs>standard-Account</tabs>
+    <tabs>tc9_pr__Assignment__c</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>tc9_pr__Payee__c</tabs>
+    <tabs>tc9_et__Timesheet__c</tabs>
+    <tabs>tc9_et__Timesheet_Notification_Manager</tabs>
+    <tabs>tc9_et__Timesheet_Item__c</tabs>
+    <tabs>tc9_et__Expense_Claim__c</tabs>
+    <tabs>tc9_pr__Payee_Leave_Event__c</tabs>
+    <tabs>tc9_pr__Pay_Transaction__c</tabs>
+    <tabs>tc9_pr__Debug_Header__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>tc9_et__Time2Pay_Payroll_and_Invoicing_Prep_UtilityBar</utilityBar>
+</CustomApplication>

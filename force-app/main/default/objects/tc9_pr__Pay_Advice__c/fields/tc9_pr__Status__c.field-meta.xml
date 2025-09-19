@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Status__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The distribution status of the pay advice record</description>
+    <inlineHelpText>The distribution status of the pay advice record</inlineHelpText>
+    <label>Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New</fullName>
+                <default>true</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>Document Created</fullName>
+                <default>false</default>
+                <label>Document Created</label>
+            </value>
+            <value>
+                <fullName>Document Creation Failed</fullName>
+                <default>false</default>
+                <label>Document Creation Failed</label>
+            </value>
+            <value>
+                <fullName>Sent</fullName>
+                <default>false</default>
+                <label>Sent</label>
+            </value>
+            <value>
+                <fullName>Sending Failed</fullName>
+                <default>false</default>
+                <label>Sending Failed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

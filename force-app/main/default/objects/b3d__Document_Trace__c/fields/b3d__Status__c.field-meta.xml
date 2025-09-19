@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3d__Status__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF(NOT(ISNULL(b3d__Rejected_Timestamp__c)), &apos;Rejected&apos;,if(b3d__Has_Error__c, &apos;Error&apos;,  if((b3d__Document_Signed__c &amp;&amp; b3d__Document_Downloaded__c), &apos;Signed &amp; Downloaded&apos;, if(b3d__Document_Signed__c, &apos;Signed&apos;, if(b3d__Document_Downloaded__c, &apos;Downloaded&apos;, if(b3d__Document_Successfully_Rendered__c, &apos;Viewed&apos;, &apos;Unknown&apos;))))
+)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

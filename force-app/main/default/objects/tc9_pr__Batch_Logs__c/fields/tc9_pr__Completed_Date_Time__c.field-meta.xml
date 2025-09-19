@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Completed_Date_Time__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The date and time when the Apex Job successfully completed.</description>
+    <inlineHelpText>The date and time when the Apex Job successfully completed.</inlineHelpText>
+    <label>Completed Date/Time</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

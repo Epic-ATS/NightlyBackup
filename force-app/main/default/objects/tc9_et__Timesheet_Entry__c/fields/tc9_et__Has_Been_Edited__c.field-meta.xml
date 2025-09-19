@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Has_Been_Edited__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Identifies that the Timesheet has been edited. Once edited it can not be deleted</description>
+    <formula>IF(
+OR(NOT(ISBLANK(tc9_et__Submitted_Date__c))
+,
+NOT(ISBLANK(tc9_et__Approved_Rejected_Date__c))
+,
+AND(tc9_et__Total_Hours__c != 0 , ISBLANK(tc9_et__Work_Schedule_Item__c))
+,
+AND(tc9_et__Break_1_Total__c != 0 , ISBLANK(tc9_et__Work_Schedule_Item__c))
+,
+AND(tc9_et__Break_2_Total__c != 0 , ISBLANK(tc9_et__Work_Schedule_Item__c))
+,
+NOT(ISBLANK(tc9_et__Employee_Notes__c))
+,
+AND(tc9_et__Break_1_Start_Time__c != tc9_et__Work_Schedule_Item__r.tc9_pr__Break_1_Start_Time__c, NOT(ISBLANK(tc9_et__Work_Schedule_Item__c))
+),
+AND(tc9_et__Break_2_Start_Time__c != tc9_et__Work_Schedule_Item__r.tc9_pr__Break_2_Start_Time__c, NOT(ISBLANK(tc9_et__Work_Schedule_Item__c))
+),
+AND(tc9_et__Start_Time__c != tc9_et__Work_Schedule_Item__r.tc9_pr__Shift_Start_Time__c, NOT(ISBLANK(tc9_et__Work_Schedule_Item__c))
+),
+AND(tc9_et__End_Time__c != tc9_et__Work_Schedule_Item__r.tc9_pr__Shift_End_Time__c, NOT(ISBLANK(tc9_et__Work_Schedule_Item__c))
+),
+AND(tc9_et__Break_1_End_Time__c != tc9_et__Work_Schedule_Item__r.tc9_pr__Break_1_End_Time__c, NOT(ISBLANK(tc9_et__Work_Schedule_Item__c))
+),
+AND(tc9_et__Break_2_End_Time__c != tc9_et__Work_Schedule_Item__r.tc9_pr__Break_2_End_Time__c, NOT(ISBLANK(tc9_et__Work_Schedule_Item__c))
+),
+AND((tc9_et__Break_1_Total__c/60) != tc9_et__Work_Schedule_Item__r.tc9_pr__Break_1_Total_Time__c, NOT(ISBLANK(tc9_et__Work_Schedule_Item__c))
+),
+AND((tc9_et__Break_2_Total__c/60) != tc9_et__Work_Schedule_Item__r.tc9_pr__Break_2_Total_Time__c, NOT(ISBLANK(tc9_et__Work_Schedule_Item__c))
+),
+AND(OR((tc9_et__Total_Hours__c - (tc9_et__Work_Schedule_Item__r.tc9_pr__Shift_Total_Time__c - tc9_et__Work_Schedule_Item__r.tc9_pr__Shift_Unpaid_Breaks__c)) &gt;= 0.017, (tc9_et__Total_Hours__c - (tc9_et__Work_Schedule_Item__r.tc9_pr__Shift_Total_Time__c - tc9_et__Work_Schedule_Item__r.tc9_pr__Shift_Unpaid_Breaks__c)) &lt;= -0.017), NOT(ISBLANK(tc9_et__Work_Schedule_Item__c))
+)
+),
+TRUE,
+FALSE
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Identifies that the Timesheet has been edited. Once edited it can not be deleted</inlineHelpText>
+    <label>Has Been Edited</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Superannuation_Withholding_Rule_Item__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Defines the Superannuation Withholding Rule Item that applies to the Rate Calculator Line</description>
+    <inlineHelpText>Defines the Superannuation Withholding Rule Item that applies to the Rate Calculator Line</inlineHelpText>
+    <label>Superannuation Withholding Rule Item</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>The Superannuation Withholding Rule Item selected on the Rate Calculator Line is not related to a Withholding Rule with the Record Type of AU Super</errorMessage>
+        <filterItems>
+            <field>tc9_pr__Withholding_Rule_Item__c.tc9_pr__Withholding_Rule__r.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>AU SUPER</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>tc9_pr__Withholding_Rule_Item__c</referenceTo>
+    <relationshipLabel>Rate Calculator Lines</relationshipLabel>
+    <relationshipName>Rate_Calculator_Lines</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

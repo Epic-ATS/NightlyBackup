@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Default_Payee_Aggregate_Dates__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The country selected in this field will control the population of Month, Quarter and Year end dates during Calendar Period creation</description>
+    <inlineHelpText>The country selected in this field will control the population of Month, Quarter and Year end dates during Calendar Period creation</inlineHelpText>
+    <label>Default Payee Aggregate Dates</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_pr__Supported_Functional_Countries</valueSetName>
+    </valueSet>
+</CustomField>

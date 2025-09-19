@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Assignment_Rates</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>tc9_pr__Template_Group</compactLayoutAssignment>
+    <description>To be used for creating Template Groups for Assignment Rates</description>
+    <label>Assignment Rates</label>
+</RecordType>

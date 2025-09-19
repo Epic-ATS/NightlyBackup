@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__No_Days_Future_Timesheets_Visible__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Used to determine how many future days timesheets are visible in the Employee Community. For example a value of 10 will mean timesheets with a start date of 10 days greater than today will be available in the community.  If left blank or 0 the start date will default to today so that only the current time period is visible.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Used to determine how many future days timesheets are visible in the Employee Community. For example a value of 10 will mean timesheets with a start date of 10 days greater than today will be available in the community.  If left blank or 0 the start date will default to today so that only the current time period is visible.</inlineHelpText>
+    <label>No. Days Future Timesheets Visible</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

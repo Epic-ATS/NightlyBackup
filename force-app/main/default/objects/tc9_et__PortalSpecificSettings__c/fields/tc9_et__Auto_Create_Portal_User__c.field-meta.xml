@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Auto_Create_Portal_User__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Defines if a Portal User will be automatically created when the first Timesheet is created for an Employee. If True, when the first Timesheet is created for an Employee, if they are not already a Portal User AND &quot;Does not use online Timesheet&quot; on the Assignment is FALSE, a Portal User record will automatically be created and login details sent to Employee. If FALSE, a User with appropriate profile access will need to manually create the Portal User records. This field works in conjunction with Portal Profile Name field. If the Portal Profile Name field is not populated with a valid profile, Portal User records will not be created.</description>
+    <inlineHelpText>If True, when the first Timesheet is created for an Employee, if they are not already a Portal User AND &quot;Does not use online Timesheet&quot; on the Assignment is FALSE, a Portal User record will automatically be created and login details sent to Employee.</inlineHelpText>
+    <label>Auto Create Portal User</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Enable_Insurance_Employment_Cost__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Defines if Insurance Employment Cost is enabled for the Rate Calculator. If False, fields relating to the cost will not be visible on the Rate Calculator and its related components</description>
+    <inlineHelpText>Defines if Insurance Employment Cost is enabled for the Rate Calculator. If False, fields relating to the cost will not be visible on the Rate Calculator and its related components</inlineHelpText>
+    <label>Enable Insurance Employment Cost</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

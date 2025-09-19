@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Time2Pay_Invoice_Setting</fullName>
+    <fields>Name</fields>
+    <fields>RecordTypeId</fields>
+    <fields>tc9_et__Account__c</fields>
+    <fields>tc9_et__Invoice_Record_Type__c</fields>
+    <fields>tc9_et__Effective_Date__c</fields>
+    <label>Time2Pay Invoice Setting</label>
+</CompactLayout>

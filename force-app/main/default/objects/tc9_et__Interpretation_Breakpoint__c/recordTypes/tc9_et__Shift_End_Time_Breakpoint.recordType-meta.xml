@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Shift_End_Time_Breakpoint</fullName>
+    <active>true</active>
+    <description>To be used for Shift End Time Breakpoints</description>
+    <label>Shift End Time Breakpoint</label>
+    <picklistValues>
+        <picklist>tc9_et__Additional_Interpretation_BP_Details__c</picklist>
+        <values>
+            <fullName>Standard Hours</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_et__Allowance_Type__c</picklist>
+        <values>
+            <fullName>24hr Care Shift</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Broken Shift</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Excursion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Overtime Round Up Shift</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sleepover</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wake Up</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_et__Breakpoint_Type__c</picklist>
+        <values>
+            <fullName>Friday End Time Breakpoint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monday End Time Breakpoint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Holiday End Time Breakpoint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saturday End Time Breakpoint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sunday End Time Breakpoint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thursday End Time Breakpoint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tuesday End Time Breakpoint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wednesday End Time Breakpoint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weekday End Time Breakpoint</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_et__Days_Leave_Applies_To_OT_And_Frequency__c</picklist>
+        <values>
+            <fullName>Friday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Holiday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saturday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sunday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thursday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tuesday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wednesday</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_et__Overtime_Breakpoint__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_et__Pay_Partial_Quantity__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_et__Reset_After_Payment__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_et__Start_Threshold_Type__c</picklist>
+        <values>
+            <fullName>Days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hours</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_et__Variation_Type__c</picklist>
+        <values>
+            <fullName>24hr Care Shift</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

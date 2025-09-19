@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Available_for_Use__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates whether this Pay Advice Template will be considered during the Pay Advice creation process. Existing Pay Advice records using a template which is no longer available for use can still be rendered as they previously were.</description>
+    <inlineHelpText>Indicates whether this Pay Advice Template will be considered during the Pay Advice creation process. Existing Pay Advice records using a template which is no longer available for use can still be rendered as they previously were.</inlineHelpText>
+    <label>Available for Use</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_pr__Yes_No_Picklists</valueSetName>
+    </valueSet>
+</CustomField>

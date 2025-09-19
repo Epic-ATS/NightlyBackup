@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Withholding_Rule__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When True the Status field on Withholding Rule records will be updated by the scheduled job based on the current date, record effective date and record expiry date.</description>
+    <inlineHelpText>When True the Status field on Withholding Rule records will be updated by the scheduled job based on the current date, record effective date and record expiry date.</inlineHelpText>
+    <label>Withholding_Rule__c</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

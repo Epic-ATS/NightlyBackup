@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Fee_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Identifies the Type of Invoiceable Fee the Invoice Item is for. Derived from the related Pay Transaction</description>
+    <inlineHelpText>Identifies the Type of Invoiceable Fee the Invoice Item is for. Derived from the related Pay Transaction</inlineHelpText>
+    <label>Fee Type</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_et__Fee_Type_Picklists</valueSetName>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Minimum_Pay_Rate__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Stores the value of the minimum pay rate that was used to create the rate calculator rate record.</description>
+    <inlineHelpText>Stores the value of the minimum pay rate that was used to create the rate calculator rate record.</inlineHelpText>
+    <label>Minimum Pay Rate</label>
+    <referenceTo>tc9_et__Minimum_Pay_Rate__c</referenceTo>
+    <relationshipLabel>Rate Calculator Rates</relationshipLabel>
+    <relationshipName>Rate_Calculator_Rates</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Time2Pay_Expense_Expense_Claim</fullName>
+    <fields>Name</fields>
+    <fields>tc9_et__Expense_Claim_Manager__c</fields>
+    <fields>tc9_et__Approval_Status__c</fields>
+    <fields>tc9_et__Flagged_For_Review__c</fields>
+    <fields>tc9_et__Expense_Claim__c</fields>
+    <fields>tc9_et__Claim_Approval_Status__c</fields>
+    <fields>tc9_et__Claim_Transaction_Creation_Status__c</fields>
+    <label>Time2Pay Expense - Expense Claim</label>
+</CompactLayout>

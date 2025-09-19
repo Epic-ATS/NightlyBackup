@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Transaction_Failure_Email_CC__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Stored email address, in addition to the running User, will receive notifications of transaction failures</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Stored email address, in addition to the running User, will receive notifications of transaction failures</inlineHelpText>
+    <label>Batch Failure Send Additional Email</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Email</type>
+    <unique>false</unique>
+</CustomField>

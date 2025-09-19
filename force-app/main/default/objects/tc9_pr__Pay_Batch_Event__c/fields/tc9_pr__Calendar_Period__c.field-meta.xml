@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Calendar_Period__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Defines the Pay Calendar Period that applies to the Pay Batch Event. The value is automatically updated during Pay Batch Manager calculations with the Pay Calendar Period on the related Payee Pay Batch Record when its Status is set to ‘Finalised’.</description>
+    <inlineHelpText>Defines the Pay Calendar Period that applies to the Pay Batch Event. The value is automatically updated during Pay Batch Manager calculations with the Pay Calendar Period on the related Payee Pay Batch Record when its Status is set to ‘Finalised’.</inlineHelpText>
+    <label>Pay Calendar Period</label>
+    <referenceTo>tc9_pr__Calendar_Period__c</referenceTo>
+    <relationshipLabel>Pay Batch Events</relationshipLabel>
+    <relationshipName>Pay_Batch_Events</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

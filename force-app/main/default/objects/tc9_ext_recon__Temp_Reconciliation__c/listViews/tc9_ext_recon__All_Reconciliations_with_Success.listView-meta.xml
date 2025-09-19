@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_ext_recon__All_Reconciliations_with_Success</fullName>
+    <columns>NAME</columns>
+    <columns>tc9_ext_recon__Temp_Payment_Entity__c</columns>
+    <columns>tc9_ext_recon__Temp_Reconcile_Success__c</columns>
+    <columns>tc9_ext_recon__Temp_Reconcile_Failure__c</columns>
+    <columns>tc9_ext_recon__Temp_Excluded_Payees__c</columns>
+    <columns>tc9_ext_recon__Temp_Reconcile_Payees__c</columns>
+    <columns>tc9_ext_recon__Temp_Period__c</columns>
+    <columns>tc9_ext_recon__Temp_FY_Year__c</columns>
+    <columns>tc9_ext_recon__Temp_Custom_Date_From__c</columns>
+    <columns>tc9_ext_recon__Temp_Custom_Date_To__c</columns>
+    <columns>tc9_ext_recon__Temp_Do_Not_Delete__c</columns>
+    <columns>tc9_ext_recon__Temp_Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>tc9_ext_recon__Temp_Reconcile_Failure__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>All Reconciliations with Success</label>
+</ListView>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Casual_Loading</fullName>
+    <active>true</active>
+    <label>Casual Loading</label>
+    <picklistValues>
+        <picklist>tc9_et__Assignment_Handling__c</picklist>
+        <values>
+            <fullName>Fixed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rolling</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_et__Loading_Rate_Based_On__c</picklist>
+        <values>
+            <fullName>%25 of Base Pay Rate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%25 of Multiplied Pay Rate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Addition of %25 of Base Pay Rate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fixed Amount</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shift Loaded Pay Rate</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

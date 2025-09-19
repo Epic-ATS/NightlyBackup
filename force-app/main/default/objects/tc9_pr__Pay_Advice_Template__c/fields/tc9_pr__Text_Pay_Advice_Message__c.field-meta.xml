@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Text_Pay_Advice_Message__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Customisable message which will appear on all Pay Advice PDFs using this pay advice template record.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Customisable message which will appear on all Pay Advice PDFs using this pay advice template record.</inlineHelpText>
+    <label>Text - Pay Advice Message</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__Pay_Information__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>if( b3o__Do_not_show_Pay_Rate__c == true, &apos;&apos;, 
+if(not(isblank(b3o__Custom_Pay_Information__c)), b3o__Custom_Pay_Information__c,
+if(not(b3o__Max_Pay_Rate__c == 0)|| not( b3o__Min_Pay_Rate__c == 0) || not( b3o__Set_Pay_Rate__c  == 0), 
+
+if(not( b3o__Min_Pay_Rate__c == 0) &amp;&amp; not(b3o__Max_Pay_Rate__c == 0),&quot;Between &quot; &amp;b3o__Currency__c &amp; text( floor( b3o__Min_Pay_Rate__c ) ) + &quot;.&quot; + right( text( ( 1 + b3o__Min_Pay_Rate__c - floor( b3o__Min_Pay_Rate__c ) ) * 100 ), 2 ) &amp; &quot; and &quot; &amp;b3o__Currency__c&amp; text( floor( b3o__Max_Pay_Rate__c ) ) + &quot;.&quot; + right( text( ( 1 + b3o__Max_Pay_Rate__c - floor( b3o__Max_Pay_Rate__c ) ) * 100 ), 2 )  ,
+if(not(b3o__Set_Pay_Rate__c == 0), b3o__Currency__c &amp; text(b3o__Set_Pay_Rate__c)   , 
+if( not(b3o__Min_Pay_Rate__c == 0) &amp;&amp;( b3o__Max_Pay_Rate__c == 0), &quot;From &quot;&amp;b3o__Currency__c &amp; text( floor( b3o__Min_Pay_Rate__c ) ) + &quot;.&quot; + right( text( ( 1 + b3o__Min_Pay_Rate__c - floor( b3o__Min_Pay_Rate__c ) ) * 100 ), 2 ), if(( b3o__Min_Pay_Rate__c== 0 ) &amp;&amp; not(( b3o__Max_Pay_Rate__c== 0 )), &quot;Up to &quot;&amp;b3o__Currency__c &amp; text( floor( b3o__Max_Pay_Rate__c ) ) + &quot;.&quot; + right( text( ( 1 + b3o__Max_Pay_Rate__c - floor( b3o__Max_Pay_Rate__c ) ) * 100 ), 2 ) , &apos;&apos;  ) ))), &apos;&apos;) )
+ )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>This will be displayed against the job in the job posting. If you want to override it, please complete the field &quot;Custom Pay Information&quot;</inlineHelpText>
+    <label>Pay Information</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

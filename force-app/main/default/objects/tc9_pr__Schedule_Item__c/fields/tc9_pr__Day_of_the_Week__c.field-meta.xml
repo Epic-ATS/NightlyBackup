@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Day_of_the_Week__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Which day of the week this record represents.</description>
+    <externalId>false</externalId>
+    <formula>IF ( RecordType.DeveloperName = &apos;Shift_Allocation&apos; , 
+CASE( IF ( WEEKDAY ( tc9_pr__Work_Schedule__r.tc9_pr__Work_Schedule_Start_Date__c ) + ( tc9_pr__Day_Number__c -1) &gt;7, WEEKDAY ( tc9_pr__Work_Schedule__r.tc9_pr__Work_Schedule_Start_Date__c ) +( tc9_pr__Day_Number__c -1) - 7 , WEEKDAY ( tc9_pr__Work_Schedule__r.tc9_pr__Work_Schedule_Start_Date__c ) + ( tc9_pr__Day_Number__c -1)) ,
+1,&quot;Sunday&quot;,
+2,&quot;Monday&quot;,
+3,&quot;Tuesday&quot;,
+4,&quot;Wednesday&quot;,
+5,&quot;Thursday&quot;,
+6,&quot;Friday&quot;,
+&quot;Saturday&quot;), 
+IF ( RecordType.DeveloperName = &apos;Work_Schedule_Entry&apos;, 
+CASE (WEEKDAY(tc9_pr__Entry_Date__c),
+1,&quot;Sunday&quot;,
+2,&quot;Monday&quot;,
+3,&quot;Tuesday&quot;,
+4,&quot;Wednesday&quot;,
+5,&quot;Thursday&quot;,
+6,&quot;Friday&quot;,
+&quot;Saturday&quot;)
+,&quot;&quot;)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Which day of the week this record represents.</inlineHelpText>
+    <label>Day of the Week</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

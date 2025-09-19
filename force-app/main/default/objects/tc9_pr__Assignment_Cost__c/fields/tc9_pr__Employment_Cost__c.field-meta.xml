@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Employment_Cost__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The relationship between an Employment Cost template record and the parent Employment Cost record</description>
+    <inlineHelpText>The relationship between an Employment Cost template record and the parent Employment Cost record</inlineHelpText>
+    <label>Employment Cost</label>
+    <referenceTo>tc9_pr__Employment_Cost__c</referenceTo>
+    <relationshipLabel>Assignment Costs</relationshipLabel>
+    <relationshipName>Assignment_Costs</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

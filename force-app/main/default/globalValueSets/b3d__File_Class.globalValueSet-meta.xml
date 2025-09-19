@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Administrative</fullName>
+        <default>false</default>
+        <label>Administrative</label>
+    </customValue>
+    <customValue>
+        <fullName>Agreements</fullName>
+        <default>false</default>
+        <label>Agreements</label>
+    </customValue>
+    <customValue>
+        <fullName>Application</fullName>
+        <default>false</default>
+        <label>Application</label>
+    </customValue>
+    <customValue>
+        <fullName>Background</fullName>
+        <default>false</default>
+        <label>Background</label>
+    </customValue>
+    <customValue>
+        <fullName>Certifications</fullName>
+        <default>false</default>
+        <label>Certifications</label>
+    </customValue>
+    <customValue>
+        <fullName>Education</fullName>
+        <default>false</default>
+        <label>Education</label>
+    </customValue>
+    <customValue>
+        <fullName>Health Verification</fullName>
+        <default>false</default>
+        <label>Health Verification</label>
+    </customValue>
+    <customValue>
+        <fullName>Identification</fullName>
+        <default>false</default>
+        <label>Identification</label>
+    </customValue>
+    <customValue>
+        <fullName>Licenses</fullName>
+        <default>false</default>
+        <label>Licenses</label>
+    </customValue>
+    <customValue>
+        <fullName>MedMal, Red Flags, Insurance</fullName>
+        <default>false</default>
+        <label>MedMal, Red Flags, Insurance</label>
+    </customValue>
+    <customValue>
+        <fullName>MQSA</fullName>
+        <default>false</default>
+        <label>MQSA</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Pre-Submittal</fullName>
+        <default>false</default>
+        <label>Pre-Submittal</label>
+    </customValue>
+    <customValue>
+        <fullName>Privilege Letter</fullName>
+        <default>false</default>
+        <label>Privilege Letter</label>
+    </customValue>
+    <customValue>
+        <fullName>Procedure Logs</fullName>
+        <default>false</default>
+        <label>Procedure Logs</label>
+    </customValue>
+    <customValue>
+        <fullName>Provider Onboarding</fullName>
+        <default>false</default>
+        <label>Provider Onboarding</label>
+    </customValue>
+    <customValue>
+        <fullName>Provider Receipt</fullName>
+        <default>false</default>
+        <label>Provider Receipt</label>
+    </customValue>
+    <customValue>
+        <fullName>Reference</fullName>
+        <default>false</default>
+        <label>Reference</label>
+    </customValue>
+    <customValue>
+        <fullName>Sales Other</fullName>
+        <default>false</default>
+        <label>Sales Other</label>
+    </customValue>
+    <customValue>
+        <fullName>MSOOnboarding</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MSOOnboarding</label>
+    </customValue>
+    <customValue>
+        <fullName>Work Authorization</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Work Authorization</label>
+    </customValue>
+    <customValue>
+        <fullName>Certificates</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Certificates</label>
+    </customValue>
+    <customValue>
+        <fullName>CME</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CME</label>
+    </customValue>
+    <customValue>
+        <fullName>Incident</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Incident</label>
+    </customValue>
+    <description>This is the top level category.</description>
+    <masterLabel>File Class</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

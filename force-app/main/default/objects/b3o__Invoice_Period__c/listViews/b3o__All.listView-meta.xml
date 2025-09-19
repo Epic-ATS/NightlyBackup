@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__All</fullName>
+    <columns>NAME</columns>
+    <columns>b3o__Invoice_Cycle__c</columns>
+    <columns>b3o__Start_Date__c</columns>
+    <columns>b3o__End_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>b3o__Invoice_Cycle__c</field>
+        <operation>equals</operation>
+        <value>Monthly last Friday</value>
+    </filters>
+    <label>All</label>
+</ListView>

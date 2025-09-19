@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Batch_Calculation_Failed__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates that the batch generation of the Rate Calculator Lines failed. A debug log defining the details will be created</description>
+    <inlineHelpText>Indicates that the batch generation of the Rate Calculator Lines failed. A debug log defining the details will be created</inlineHelpText>
+    <label>Batch Calculation Failed</label>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

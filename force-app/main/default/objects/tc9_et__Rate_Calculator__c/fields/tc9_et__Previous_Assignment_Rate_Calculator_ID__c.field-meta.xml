@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Previous_Assignment_Rate_Calculator_ID__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Stores the rate calculator ID of the previous rate calculator assigned to the assignment</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Stores the rate calculator ID of the previous rate calculator assigned to the assignment</inlineHelpText>
+    <label>Previous Assignment Rate Calculator ID</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

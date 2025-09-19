@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Enable_Total_Inc_Tax_on_Invoice__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines if the Total Inc Tax column will be displayed in the Invoice PDF documents. This applies only to the table within the main invoice body. The invoice totals will still be shown in the header and footer of the invoice</description>
+    <inlineHelpText>Defines if the Total Inc Tax column will be displayed in the Invoice PDF documents. This applies only to the table within the main invoice body. The invoice totals will still be shown in the header and footer of the invoice</inlineHelpText>
+    <label>Enable Total Inc Tax on Invoice</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_pr__Yes_No_Picklists</valueSetName>
+    </valueSet>
+</CustomField>

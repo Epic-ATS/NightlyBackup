@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_eau__ATO_Derived_Aggregated_Gross__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The STP2 ATO derived aggregated gross.</description>
+    <externalId>false</externalId>
+    <formula>If ( AND ( RecordType.DeveloperName = &apos;Single_Touch_Payroll&apos; , tc9_eau__Lodgement_AU__r.tc9_eau__STP_Phase_2_Report__c = TRUE ), tc9_eau__Payee_Gross_Payments__c + tc9_eau__Total_Paid_Leave__c + tc9_eau__Allowances_Taxable__c + tc9_eau__Allowances_Non_Taxable__c + tc9_eau__Overtime__c + tc9_eau__Bonus_and_Commission__c + tc9_eau__Directors_Fees__c + tc9_eau__LSW_Amount__c - tc9_eau__Deductions_Pre_tax__c , 0 )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>The STP2 ATO derived aggregated gross.</inlineHelpText>
+    <label>ATO Derived Aggregated Gross</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

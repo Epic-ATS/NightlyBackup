@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__No_Days_Payroll_Date_after_End_Date__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines the number of days after the calendar period end date that the Pay Batch will be calculated</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Defines the number of days after the calendar period end date that the Pay Batch will be calculated</inlineHelpText>
+    <label>No. Days Payroll Date after End Date</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

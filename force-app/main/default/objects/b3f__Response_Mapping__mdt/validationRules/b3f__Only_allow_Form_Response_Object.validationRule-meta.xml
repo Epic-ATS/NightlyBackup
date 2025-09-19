@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3f__Only_allow_Form_Response_Object</fullName>
+    <active>true</active>
+    <errorConditionFormula>b3f__Form_Response_Object__r.QualifiedApiName != &apos;b3f__FormResponse__c&apos;</errorConditionFormula>
+    <errorDisplayField>b3f__Form_Response_Object__c</errorDisplayField>
+    <errorMessage>Please select &quot;Form Response&quot; here.</errorMessage>
+</ValidationRule>

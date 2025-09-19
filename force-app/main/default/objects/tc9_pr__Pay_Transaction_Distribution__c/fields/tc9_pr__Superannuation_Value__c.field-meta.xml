@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Superannuation_Value__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The allocated value of Superannuation based on the nominated distribution in this record</description>
+    <externalId>false</externalId>
+    <formula>If ( RecordType.DeveloperName = &apos;Withholding_Superannuation&apos; , If ( AND ( tc9_pr__Distribution_Amount__c &lt;&gt; 0 , NOT ( ISBLANK ( tc9_pr__Distribution_Amount__c ) ) ) , tc9_pr__Distribution_Amount__c , ROUND ( ( tc9_pr__Pay_Transaction__r.tc9_pr__Superannuation_Guarantee__c + tc9_pr__Pay_Transaction__r.tc9_pr__Superannuation_Employer_Additional__c ) * tc9_pr__Distribution_Percentage__c , 2 ) ) , 0 )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>The allocated value of Superannuation based on the nominated distribution in this record</inlineHelpText>
+    <label>Superannuation Value</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Project_Services_Fee</fullName>
+    <active>true</active>
+    <description>To be used for Invoice Items relating to Project Services Fees</description>
+    <label>Project Services Fee</label>
+    <picklistValues>
+        <picklist>tc9_et__Fee_Type__c</picklist>
+        <values>
+            <fullName>Applicant Screening</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Onboarding Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reference Checks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Skill and Behavioural Testing</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_et__Invoice_Taxable__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

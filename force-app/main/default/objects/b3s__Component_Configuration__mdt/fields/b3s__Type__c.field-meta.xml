@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3s__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Clock In / Out Component</fullName>
+                <default>true</default>
+                <label>Clock In / Out Component</label>
+            </value>
+            <value>
+                <fullName>Timesheet Submission</fullName>
+                <default>false</default>
+                <label>Timesheet Submission</label>
+            </value>
+            <value>
+                <fullName>Timesheet Approval</fullName>
+                <default>false</default>
+                <label>Timesheet Approval</label>
+            </value>
+            <value>
+                <fullName>Client Shift Manager</fullName>
+                <default>false</default>
+                <label>Client Shift Manager</label>
+            </value>
+            <value>
+                <fullName>Terminal</fullName>
+                <default>false</default>
+                <label>Terminal</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

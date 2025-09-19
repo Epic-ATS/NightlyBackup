@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Pay_Advice_Detail_Level__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates what level of information will be shown in the breakdown of pay advice earnings and deductions.</description>
+    <inlineHelpText>Indicates what level of information will be shown in the breakdown of pay advice earnings and deductions.</inlineHelpText>
+    <label>Pay Advice Detail Level</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Payee</fullName>
+                <default>false</default>
+                <label>Payee</label>
+            </value>
+            <value>
+                <fullName>Assignment</fullName>
+                <default>false</default>
+                <label>Assignment</label>
+            </value>
+            <value>
+                <fullName>Project Code</fullName>
+                <default>false</default>
+                <label>Project Code</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

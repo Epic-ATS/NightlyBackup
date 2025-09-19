@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SamlSsoConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <errorUrl>https://epic-3b.my.salesforce.com?login=1</errorUrl>
+    <identityLocation>SubjectNameId</identityLocation>
+    <identityMapping>UserId</identityMapping>
+    <issuer>https://3bforms.my.salesforce.com</issuer>
+    <loginUrl>https://3bforms.my.salesforce.com/idp/endpoint/HttpPost</loginUrl>
+    <name>3bforms SAML SSO Setting</name>
+    <oauthTokenEndpoint>https://epic-3b.my.salesforce.com/services/oauth2/token</oauthTokenEndpoint>
+    <redirectBinding>false</redirectBinding>
+    <requestSigningCertId>0P1d30000005Fb7</requestSigningCertId>
+    <salesforceLoginUrl>https://epic-3b.my.salesforce.com</salesforceLoginUrl>
+    <samlEntityId>https://saml.salesforce.com/00Dd300000274tlEAA</samlEntityId>
+    <samlVersion>SAML2_0</samlVersion>
+    <useConfigRequestMethod>false</useConfigRequestMethod>
+    <useSameDigestAlgoForSigning>false</useSameDigestAlgoForSigning>
+    <userProvisioning>false</userProvisioning>
+    <validationCert>MIIErDCCA5SgAwIBAgIOAWOXIw5/AAAAAD9aJIYwDQYJKoZIhvcNAQELBQAwgZAxKDAmBgNVBAMMH1NlbGZTaWduZWRDZXJ0XzI1TWF5MjAxOF8xMTUwNDYxGDAWBgNVBAsMDzAwRDFyMDAwMDAyZHBHNTEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0EwHhcNMTgwNTI1MTE1MDQ3WhcNMTkwNTI1MDAwMDAwWjCBkDEoMCYGA1UEAwwfU2VsZlNpZ25lZENlcnRfMjVNYXkyMDE4XzExNTA0NjEYMBYGA1UECwwPMDBEMXIwMDAwMDJkcEc1MRcwFQYDVQQKDA5TYWxlc2ZvcmNlLmNvbTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzELMAkGA1UECAwCQ0ExDDAKBgNVBAYTA1VTQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKNq/3ZhIvmgcCn4k0Gzq18M2RCOySKeDNjNl1bRHN12cot9LC9hFvDsZs3726DccrB4iQpca+WKkCF9MK+jIt69X0u6ZFEBzfgVsyrKIXrX53xWJ4AeHOwSO4udRk4e4jitcHDJBlrHE9pfMWCBRPEtnlxEghNmqFXz3lAeT05rNFGI+NcQ1arA8yftJ/Ln2mGJ3XF9FYoRQlJyz3o30lslvSzDNWzoD9FoqgfuAwYBr7xmgjzAIUi5Q83FzW1Pe3tCFYq8YAXCmsFulwaDNJs1NAhA6xkndHhlGR5sNzdRAF7GpMLNYY1E3VErMOIpEwcgQWaldt9U9jmzmU7bMWsCAwEAAaOCAQAwgf0wHQYDVR0OBBYEFPHhGIracWKI/M8/ETS1fsWPPmowMA8GA1UdEwEB/wQFMAMBAf8wgcoGA1UdIwSBwjCBv4AU8eEYitpxYoj8zz8RNLV+xY8+ajChgZakgZMwgZAxKDAmBgNVBAMMH1NlbGZTaWduZWRDZXJ0XzI1TWF5MjAxOF8xMTUwNDYxGDAWBgNVBAsMDzAwRDFyMDAwMDAyZHBHNTEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0GCDgFjlyMOfwAAAAA/WiSGMA0GCSqGSIb3DQEBCwUAA4IBAQBDgc4uEYug5KIbSj/muQqff8LxAP+jR3zNxj78lcYIuqeIlkgJstN+NyZC3Dv9mAklV8/zv7MpUx+Xz8liH5rHmE2svQaX7Lz+X1GjNe810/jwibPpjSe6CoFk1TaBt+m7xM4pNzHHxY5+yby+V7cM7rvuDeFBF2qq7GEJfVPSmRhTmupCwqxbzh32sJ5AXQzxgoUljO4ZGtQi2yXjSEM9TnX+GbfB5URv4ppRG7cqMD/kC1CFr8dni1zGjmZFS4M5WNKn64stT0Hvx2ibZLoDD90Gf3Wo0SmBnUD8HO4shuOVBkBKFrh+UqNYBCjIwEQc/sFoPAMaP+jepsShOwZZ</validationCert>
+</SamlSsoConfig>

@@ -1,0 +1,9 @@
+Payment File {!tc9_pr__Payment_File__c.Name} is ready for your approval.  Please login to Salesforce using the link below to review the details.
+
+  Payment Entity: {!tc9_pr__Payment_File__c.tc9_pr__Payment_Entity__c}
+  Bank Account Name: {!tc9_pr__Payment_File__c.tc9_pr__Account_Name__c}
+  Payment Date: {!tc9_pr__Payment_File__c.tc9_pr__Payment_Date__c}
+  Total Net Pay: {!tc9_pr__Payment_File__c.tc9_pr__Total_Amount_of_Payments__c}
+  Number of Payments: {!tc9_pr__Payment_File__c.tc9_pr__Total_Number_of_Payments__c}
+  
+  Link: {!tc9_pr__Payment_File__c.Link}

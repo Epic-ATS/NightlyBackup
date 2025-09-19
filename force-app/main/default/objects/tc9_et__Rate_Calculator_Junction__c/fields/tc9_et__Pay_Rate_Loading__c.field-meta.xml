@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Pay_Rate_Loading__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Defines the Pay Rate Loading that applies to the Rate Calculator Junction</description>
+    <inlineHelpText>Defines the Pay Rate Loading that applies to the Rate Calculator Junction</inlineHelpText>
+    <label>Pay Rate Loading(DO NOT USE)</label>
+    <referenceTo>tc9_et__Pay_Rate_Loading__c</referenceTo>
+    <relationshipLabel>Rate Calculator Junctions with Pay Rate Loading</relationshipLabel>
+    <relationshipName>Rate_Calculator_Junctions</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

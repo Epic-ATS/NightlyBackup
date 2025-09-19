@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Primary_MPR_Pay_Rate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Pay Rate of the Parent Minimum Pay Rate</description>
+    <externalId>false</externalId>
+    <formula>tc9_et__Primary_Minimum_Pay_Rate__r.tc9_et__Pay_Rate__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Pay Rate of the Parent Minimum Pay Rate</inlineHelpText>
+    <label>Parent MPR Pay Rate</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

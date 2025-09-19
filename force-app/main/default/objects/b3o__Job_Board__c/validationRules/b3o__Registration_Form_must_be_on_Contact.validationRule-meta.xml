@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__Registration_Form_must_be_on_Contact</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(not(isblank(b3o__Registration_Form__c)),b3o__Registration_Form__r.b3f__Object_Name__c != &apos;Contact&apos;)</errorConditionFormula>
+    <errorDisplayField>b3o__Registration_Form__c</errorDisplayField>
+    <errorMessage>The registration form must be set on the Contact object</errorMessage>
+</ValidationRule>

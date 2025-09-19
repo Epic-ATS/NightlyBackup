@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Assignment_Rate_Template_Group_Pay_Rate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The Pay Rate that will be used for assignment rate template group automation when multiplying.</description>
+    <externalId>false</externalId>
+    <label>Assignment Rate Template Group Pay Rate</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

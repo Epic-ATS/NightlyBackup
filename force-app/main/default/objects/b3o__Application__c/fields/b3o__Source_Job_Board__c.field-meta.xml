@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__Source_Job_Board__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Source Job Board</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>b3o__Company_Job_Boards</valueSetName>
+    </valueSet>
+</CustomField>

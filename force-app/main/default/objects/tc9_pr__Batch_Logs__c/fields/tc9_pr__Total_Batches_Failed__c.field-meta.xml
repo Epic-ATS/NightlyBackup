@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Total_Batches_Failed__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The total number of batches that failed during the execution of the Apex Job.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The total number of batches that failed during the execution of the Apex Job.</inlineHelpText>
+    <label>Total Batches Failed</label>
+    <precision>10</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

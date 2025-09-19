@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Apply_Casual_Loading_to_Overtime__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines if Casual Loading should apply to Overtime in a Broken Shift</description>
+    <inlineHelpText>Defines if Casual Loading should apply to Overtime in a Broken Shift</inlineHelpText>
+    <label>Apply Casual Loading to Overtime</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_pr__Yes_No_Picklists</valueSetName>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__PAYG_Marginal_Tax__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether marginal taxation should be applied to earnings using this pay code</description>
+    <inlineHelpText>Indicates whether marginal taxation should be applied to earnings using this pay code</inlineHelpText>
+    <label>PAYG Marginal Tax</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

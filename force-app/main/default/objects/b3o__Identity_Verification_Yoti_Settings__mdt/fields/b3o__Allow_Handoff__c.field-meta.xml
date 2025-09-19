@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__Allow_Handoff__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Allows the relying business to enable/disable handoff functionality (normally defaults to false, but some orgs are defaulted to true in the env configs)</inlineHelpText>
+    <label>Allow Handoff</label>
+    <type>Checkbox</type>
+</CustomField>

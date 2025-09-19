@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Default_Template_Groups_MPR__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Defaults the Assignment Rate Template Group and Payee Timesheet Allowance Template Group based on the Interpretation Rule Name</description>
+    <inlineHelpText>Defaults the Assignment Rate Template Group and Payee Timesheet Allowance Template Group based on the Interpretation Rule Name</inlineHelpText>
+    <label>Default Template Groups MPR</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

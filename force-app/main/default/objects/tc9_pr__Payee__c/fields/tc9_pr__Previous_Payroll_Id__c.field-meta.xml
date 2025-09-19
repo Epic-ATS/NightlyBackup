@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Previous_Payroll_Id__c</fullName>
+    <deprecated>false</deprecated>
+    <description>STP2 - when changing the Payroll Id of a Payee with existing YTD values in the financial year, please enter their Previous Payroll Id in this field to avoid duplication of YTDs in myGov.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>STP2 - when changing the Payroll Id of a Payee with existing YTD values in the financial year, please enter their Previous Payroll Id in this field to avoid duplication of YTDs in myGov.</inlineHelpText>
+    <label>Previous Payroll Id</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

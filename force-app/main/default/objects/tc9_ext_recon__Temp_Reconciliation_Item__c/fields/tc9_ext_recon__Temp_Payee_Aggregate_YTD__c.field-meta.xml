@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_ext_recon__Temp_Payee_Aggregate_YTD__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines the sum of all Payee Aggregates for the combination of Record Type and Pay code</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Defines the sum of all Payee Aggregates for the combination of Record Type and Pay code</inlineHelpText>
+    <label>Payee Aggregate YTD</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

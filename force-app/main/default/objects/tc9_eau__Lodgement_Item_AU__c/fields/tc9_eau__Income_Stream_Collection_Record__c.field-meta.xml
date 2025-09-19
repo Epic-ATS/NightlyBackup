@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_eau__Income_Stream_Collection_Record__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The parent Income Stream Collection Lodgement Item AU record.</description>
+    <inlineHelpText>The parent Income Stream Collection Lodgement Item AU record.</inlineHelpText>
+    <label>Income Stream Collection Record</label>
+    <referenceTo>tc9_eau__Lodgement_Item_AU__c</referenceTo>
+    <relationshipLabel>Lodgement Items AU</relationshipLabel>
+    <relationshipName>Lodgement_Items_AU</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

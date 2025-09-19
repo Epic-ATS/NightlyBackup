@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Quantity_Worked_Minimum__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The deduction will be considered if the quantity of units worked is greater than or equal this value.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The deduction will be considered if the quantity of units worked is greater than or equal this value.</inlineHelpText>
+    <label>Quantity Worked Minimum</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

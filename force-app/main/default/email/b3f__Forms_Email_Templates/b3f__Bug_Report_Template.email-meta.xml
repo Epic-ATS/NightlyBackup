@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This email is used to report bugs to 3B Forms</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>b3f__Forms_Default_Letterhead</letterhead>
+    <name>Bug Report Template</name>
+    <style>freeForm</style>
+    <subject>Bug Recorded - {!Organization.Name} - {!Organization.Id}</subject>
+    <textOnly>The following bug was recorded
+
+
+
+
+Type
+
+{!b3f__FormResponse__c.b3f__Type__c}
+
+App Ver
+
+{!b3f__FormResponse__c.b3f__Package_Version__c}
+
+Sys Details
+
+{!b3f__FormResponse__c.b3f__System_Details__c}
+
+IP Address
+
+{!b3f__FormResponse__c.b3f__IPAddress__c}
+
+Form
+
+{!b3f__FormResponse__c.b3f__Form__c}
+
+
+
+Navigator
+
+{!b3f__FormResponse__c.b3f__Full_Navigator__c}
+
+
+
+Error MSG
+
+{!b3f__FormResponse__c.b3f__ErrorMessage__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

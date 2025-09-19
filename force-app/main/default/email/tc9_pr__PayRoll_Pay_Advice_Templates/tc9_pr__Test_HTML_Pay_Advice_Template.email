@@ -1,0 +1,34 @@
+<table border="0" cellpadding="5" width="650" cellspacing="0" height="550" >
+<tr valign="top" height="100" >
+<td style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" >
+<table border="0" cellpadding="5" width="100%" cellspacing="0" height="100%" >
+<tr valign="top" height="100" >
+<td width="650" tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[Hi&nbsp;{!Contact.FirstName},]]></td>
+</tr>
+<tr height="15" >
+<td style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" >
+<![CDATA[]]></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr valign="top" height="450" >
+<td style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" >
+<table border="0" cellpadding="5" width="100%" cellspacing="5" height="100%" >
+<tr valign="top" height="225" >
+<td width="50%" tEditID="c1r2" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[Your Pay Advice for period ending&nbsp;{!tc9_pr__Pay_Advice__c.tc9_pr__Period_End_Date__c} is now available for you to view.<div><br></div><div>Please login into the portal by clicking this <a href="www.google.com">link</a>.</div><div><br></div><div>In the event you have any questions please contact payroll by return email.</div>]]></td>
+<td width="50%" tEditID="c2r2" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c2r2" locked="0" >
+<![CDATA[<div style="text-align: right; color: rgb(0, 0, 0); font-family: arial;"><span style="font-size: small;">Payment Date:</span></div><div style="text-align: right; color: rgb(0, 0, 0); font-family: arial;"><span style="font-size: small;">{!tc9_pr__Pay_Advice__c.tc9_pr__Date_Paid__c}</span></div><font size="2" style="color: rgb(0, 0, 0); font-family: arial;"><div style="text-align: right;"><br></div><div style="text-align: right;">Payment Amount:</div><div style="text-align: right;">{!tc9_pr__Pay_Advice__c.tc9_pr__Net_Earnings__c}</div></font><div style="text-align: right; color: rgb(0, 0, 0); font-family: arial;"><font size="2"><br></font></div><div style="text-align: right; "><font size="2" style="color: rgb(0, 0, 0); font-family: arial;">Message:</font></div><div style="text-align: right; "><font face="arial" size="2">{!tc9_pr__Pay_Advice__c.tc9_pr__Pay_Advice_Message__c}</font></div>]]></td>
+</tr>
+<tr valign="top" height="225" >
+<td width="50%" tEditID="c1r3" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[Regards,<div>Payroll</div>]]></td>
+<td width="50%" tEditID="c2r3" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c2r3" locked="0" >
+<![CDATA[]]></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>

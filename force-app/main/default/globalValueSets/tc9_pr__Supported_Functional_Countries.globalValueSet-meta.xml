@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Australia</fullName>
+        <default>false</default>
+        <label>Australia</label>
+    </customValue>
+    <customValue>
+        <fullName>United Kingdom</fullName>
+        <default>false</default>
+        <label>United Kingdom</label>
+    </customValue>
+    <description>List of countries that can be selected from for where 2cloudnine Payroll applies country-based defaults/controls.</description>
+    <masterLabel>Supported Functional Countries</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Archived</fullName>
+        <default>false</default>
+        <label>Archived</label>
+    </customValue>
+    <masterLabel>Archiving Status</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

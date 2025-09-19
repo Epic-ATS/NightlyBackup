@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Leave_Loading_Interpretation_Rule__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The interpretation rule used for leave loading calculation if dual interpretation loading calculations applied.</description>
+    <inlineHelpText>The interpretation rule used for leave loading calculation if dual interpretation loading calculations applied.</inlineHelpText>
+    <label>Leave Loading Interpretation Rule</label>
+    <referenceTo>tc9_et__Interpretation_Rule__c</referenceTo>
+    <relationshipLabel>Timesheets (Leave Loading Interpretation Rule)</relationshipLabel>
+    <relationshipName>Timesheets1</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

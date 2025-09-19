@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>New</fullName>
+        <default>true</default>
+        <label>New</label>
+    </customValue>
+    <customValue>
+        <fullName>Validating</fullName>
+        <default>false</default>
+        <label>Validating</label>
+    </customValue>
+    <customValue>
+        <fullName>Validated</fullName>
+        <default>false</default>
+        <label>Validated</label>
+    </customValue>
+    <customValue>
+        <fullName>Validation Failed</fullName>
+        <default>false</default>
+        <label>Validation Failed</label>
+    </customValue>
+    <customValue>
+        <fullName>Deleting</fullName>
+        <default>false</default>
+        <label>Deleting</label>
+    </customValue>
+    <customValue>
+        <fullName>Deletion Failed</fullName>
+        <default>false</default>
+        <label>Deletion Failed</label>
+    </customValue>
+    <customValue>
+        <fullName>Confirmed</fullName>
+        <default>false</default>
+        <label>Confirmed</label>
+    </customValue>
+    <customValue>
+        <fullName>Completed</fullName>
+        <default>false</default>
+        <label>Completed</label>
+    </customValue>
+    <customValue>
+        <fullName>Warning</fullName>
+        <default>false</default>
+        <label>Warning</label>
+    </customValue>
+    <customValue>
+        <fullName>Rejected</fullName>
+        <default>false</default>
+        <label>Rejected</label>
+    </customValue>
+    <customValue>
+        <fullName>Error</fullName>
+        <default>false</default>
+        <label>Error</label>
+    </customValue>
+    <customValue>
+        <fullName>Canceled</fullName>
+        <default>false</default>
+        <label>Canceled</label>
+    </customValue>
+    <customValue>
+        <fullName>Retrieving Funds</fullName>
+        <default>false</default>
+        <label>Retrieving Funds</label>
+    </customValue>
+    <customValue>
+        <fullName>Funds Retrieved</fullName>
+        <default>false</default>
+        <label>Funds Retrieved</label>
+    </customValue>
+    <customValue>
+        <fullName>Retrieval Failed</fullName>
+        <default>false</default>
+        <label>Retrieval Failed</label>
+    </customValue>
+    <masterLabel>Status Picklists</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

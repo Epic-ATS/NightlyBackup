@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Primary_Rate_Calculator_Rate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>System field to manage the UI block for the non-Primary Rate Calculator Rate records where it is linked to the Rate Calculator Rate with Primary Record set to true.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>System field to manage the UI block for the non-Primary Rate Calculator Rate records where it is linked to the Rate Calculator Rate with Primary Record set to true.</inlineHelpText>
+    <label>Primary Rate Calculator Rate</label>
+    <length>36</length>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

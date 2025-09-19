@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3d__Completed_Document_Link__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(
+&quot;/apex/b3d__GeneratedDocument?id=&quot;&amp; Id &amp; &quot;&amp;renderAs=&quot; &amp; TEXT(b3d__Render_As__c), 
+&quot;Open &quot; &amp; TEXT(b3d__Render_As__c), 
+&quot;_blank&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>View the completed document.</inlineHelpText>
+    <label>Completed Document Link</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

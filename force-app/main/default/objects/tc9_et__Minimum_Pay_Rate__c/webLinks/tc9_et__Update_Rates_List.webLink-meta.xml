@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Update_Rates_List</fullName>
+    <availability>online</availability>
+    <description>List View Button to kick-start the Update Rates process for Minimum Pay Rates</description>
+    <displayType>massActionButton</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Update Rates</masterLabel>
+    <openType>sidebar</openType>
+    <page>tc9_et__UpdateRatesVFContainerPage</page>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+</WebLink>

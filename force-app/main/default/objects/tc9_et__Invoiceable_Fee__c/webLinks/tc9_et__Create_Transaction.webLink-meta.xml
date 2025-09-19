@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Create_Transaction</fullName>
+    <availability>online</availability>
+    <description>To be used to create a Pay Transaction with the Record Type &apos;Invoiceable Fee&apos; and pre-populate with values from the Invoiceable Fee</description>
+    <displayType>button</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Create Transaction</masterLabel>
+    <openType>sidebar</openType>
+    <page>tc9_et__CreateInvoiceableFeeTransaction</page>
+    <protected>false</protected>
+</WebLink>

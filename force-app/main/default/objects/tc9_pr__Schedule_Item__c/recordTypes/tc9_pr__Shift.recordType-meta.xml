@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Shift</fullName>
+    <active>true</active>
+    <description>An individual shift.  Multiple shifts can be assigned per day.</description>
+    <label>Shift</label>
+    <picklistValues>
+        <picklist>tc9_pr__Break_1_Paid__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__Break_2_Paid__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__Break_Time_Format__c</picklist>
+        <values>
+            <fullName>Start%2FEnd Times</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Total Hours</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__Day_Off__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__Shift_Time_Format__c</picklist>
+        <values>
+            <fullName>Start%2FEnd Times</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Total Hours</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

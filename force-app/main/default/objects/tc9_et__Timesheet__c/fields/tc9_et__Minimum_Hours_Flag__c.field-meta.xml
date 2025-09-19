@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Minimum_Hours_Flag__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Defines if the Timesheet was deemed to not have reached minimum hours specified on the Interpretation Rule</description>
+    <inlineHelpText>Defines if the Timesheet was deemed to not have reached minimum hours specified on the Interpretation Rule</inlineHelpText>
+    <label>Minimum Hours Flag</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

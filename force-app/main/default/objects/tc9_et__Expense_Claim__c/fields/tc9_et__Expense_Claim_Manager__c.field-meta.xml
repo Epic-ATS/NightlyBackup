@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Expense_Claim_Manager__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Button to open the Expense Claim Manager</description>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(&quot;/lightning/cmp/tc9_et__ExpClaimManager?c__recordId=&quot; + Id, IMAGE(LEFT($Api.Partner_Server_URL_260, FIND( &apos;/services&apos;, $Api.Partner_Server_URL_260))+ 
+If( Text ( tc9_et__Approval_Status__c ) = &quot;Submitted&quot; , &quot;resource/tc9_pr__Payroll_resources/AUS_Payroll/Images/LaunchButton_Blue.png&quot;, 
+If( Text ( tc9_et__Approval_Status__c ) = &quot;Rejected&quot; , &quot;resource/tc9_pr__Payroll_resources/AUS_Payroll/Images/LaunchButton_Grey.png&quot;, 
+If( AND(Text ( tc9_et__Approval_Status__c ) = &quot;Approved&quot;, text(tc9_et__Transaction_Creation_Stage__c) != &quot;4&quot;), &quot;resource/tc9_pr__Payroll_resources/AUS_Payroll/Images/LaunchButton_Green.png&quot;, 
+If( AND(Text ( tc9_et__Approval_Status__c ) = &quot;Approved&quot;, text(tc9_et__Transaction_Creation_Stage__c) = &quot;4&quot;), &quot;resource/tc9_pr__Payroll_resources/AUS_Payroll/Images/LaunchButton_Red.png&quot;, 
+&quot;resource/tc9_pr__Payroll_resources/AUS_Payroll/Images/LaunchButton_Orange.png&quot; ) ) ) ),&quot;Manager&quot;),&quot;_parent&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Button to open the Expense Claim Manager</inlineHelpText>
+    <label>Expense Claim Manager</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

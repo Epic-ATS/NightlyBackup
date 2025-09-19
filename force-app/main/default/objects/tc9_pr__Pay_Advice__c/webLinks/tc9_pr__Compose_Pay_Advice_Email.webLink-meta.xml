@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Compose_Pay_Advice_Email</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>1100</height>
+    <linkType>url</linkType>
+    <masterLabel>Compose Pay Advice Email</masterLabel>
+    <openType>noSidebar</openType>
+    <protected>false</protected>
+    <url>/one/one.app#/alohaRedirect/apex/tc9_pr__ComposePayAdviceEmail_Page?id={!tc9_pr__Pay_Advice__c.Id}</url>
+</WebLink>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Invoice_Tax_Rate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The Invoice Tax Rate that will be used as a default for Assignment Rate and Invoiceable Fees created using this Assignment. Derived from the related Invoice Tax ID record</description>
+    <formula>if (text( tc9_et__Invoice_Taxable__c )=&quot;Yes&quot;,  tc9_et__Invoice_Tax_ID__r.tc9_et__Tax_Rate__c , 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>The Tax Rate that will be used for the Invoice Item.</inlineHelpText>
+    <label>Invoice Tax Rate</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

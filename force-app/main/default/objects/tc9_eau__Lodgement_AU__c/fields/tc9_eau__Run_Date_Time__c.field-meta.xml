@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_eau__Run_Date_Time__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Date/time stamp this STP record was processed for submission</description>
+    <inlineHelpText>Date/time stamp this STP record was processed for submission</inlineHelpText>
+    <label>Run Date Time</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

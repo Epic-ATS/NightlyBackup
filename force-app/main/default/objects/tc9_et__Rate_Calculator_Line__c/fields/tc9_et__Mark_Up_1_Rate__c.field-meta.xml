@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Mark_Up_1_Rate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines the Rate that will be used in calculating the Mark Up 1 Amount</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Defines the Rate that will be used in calculating the Mark Up 1 Amount</inlineHelpText>
+    <label>Mark Up 1 Rate</label>
+    <precision>10</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

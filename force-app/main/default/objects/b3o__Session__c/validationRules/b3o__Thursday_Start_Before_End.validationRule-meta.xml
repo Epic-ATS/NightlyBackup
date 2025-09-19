@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__Thursday_Start_Before_End</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(NOT(ISBLANK( b3o__Thursday_Start__c )), NOT(ISBLANK( b3o__Thursday_End__c )), b3o__Thursday_Start__c &gt; b3o__Thursday_End__c)</errorConditionFormula>
+    <errorDisplayField>b3o__Thursday_Start__c</errorDisplayField>
+    <errorMessage>Start time must be before End time</errorMessage>
+</ValidationRule>

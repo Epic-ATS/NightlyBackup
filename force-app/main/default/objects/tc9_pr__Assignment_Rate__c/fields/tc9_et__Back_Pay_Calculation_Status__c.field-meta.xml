@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Back_Pay_Calculation_Status__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates the status of this Assignment Rate record within the automated back pay calculation process.</description>
+    <inlineHelpText>Indicates the status of this Assignment Rate record within the automated back pay calculation process.</inlineHelpText>
+    <label>Back Pay Calculation Status(DO NOT USE)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_et__Back_Pay_Calculation_Status</valueSetName>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Create_Related_Margin_Mark_Up_Records__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>The check box will create corresponding Margin / Mark Up records on the Rate Calculator from the values selected in this MPR record. This field will be locked upon creation of the Margin / Mark Up Records</description>
+    <inlineHelpText>The check box will create corresponding Margin / Mark Up records on the Rate Calculator from the values selected in this MPR record. This field will be locked upon creation of the Margin / Mark Up Records</inlineHelpText>
+    <label>Create Related Margin / Mark Up Records</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Employee_Notes__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Comments the Employee has made against the Timesheet Entry</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Comments the Employee has made against the Timesheet Entry</inlineHelpText>
+    <label>Employee Notes</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

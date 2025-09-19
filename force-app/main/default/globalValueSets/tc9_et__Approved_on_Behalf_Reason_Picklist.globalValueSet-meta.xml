@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Could not contact Approver or Alternative Approver</fullName>
+        <default>false</default>
+        <label>Could not contact Approver or Alternative Approver</label>
+    </customValue>
+    <customValue>
+        <fullName>No hours or expenses records</fullName>
+        <default>false</default>
+        <label>No hours or expenses records</label>
+    </customValue>
+    <customValue>
+        <fullName>Auto Approved</fullName>
+        <default>false</default>
+        <label>Auto Approved</label>
+    </customValue>
+    <description>To be used for Approved on Behalf Reason picklist field</description>
+    <masterLabel>Approved on Behalf Reason Picklist</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

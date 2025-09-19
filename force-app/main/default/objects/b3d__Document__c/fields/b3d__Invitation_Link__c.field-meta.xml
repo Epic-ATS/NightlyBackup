@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3d__Invitation_Link__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF((ISBLANK(b3d__External_Id__c) || NOT(ISNULL( b3d__Deleted_Timestamp__c ))), &apos;&apos;, $Setup.b3d__General_Settings__c.b3d__X3B_Sign_Base_URL__c &amp; &quot;/d/&quot;&amp; b3d__Slug__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Invitation Link</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

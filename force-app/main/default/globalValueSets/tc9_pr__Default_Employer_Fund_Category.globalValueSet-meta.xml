@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Any</fullName>
+        <default>false</default>
+        <label>Any</label>
+    </customValue>
+    <customValue>
+        <fullName>Category 1</fullName>
+        <default>false</default>
+        <label>Category 1</label>
+    </customValue>
+    <description>For employers with multiple default funds this restricts which default fund category the payee can select</description>
+    <masterLabel>Default Employer Fund Category</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

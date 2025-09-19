@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Invoice_Setting__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Defines the Invoice Setting that applies to the Pay Transaction</description>
+    <inlineHelpText>Defines the Invoice Setting that applies to the Pay Transaction</inlineHelpText>
+    <label>Invoice Setting</label>
+    <referenceTo>tc9_et__Invoice_Setting__c</referenceTo>
+    <relationshipLabel>Pay Transactions</relationshipLabel>
+    <relationshipName>Pay_Transactions</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

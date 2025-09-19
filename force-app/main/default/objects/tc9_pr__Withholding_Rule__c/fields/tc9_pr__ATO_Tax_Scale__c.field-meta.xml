@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__ATO_Tax_Scale__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Specifies which ATO issued tax scale the Withholding Rule record represents.</description>
+    <inlineHelpText>Specifies which ATO issued tax scale the Withholding Rule record represents.</inlineHelpText>
+    <label>ATO Tax Scale</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1</fullName>
+                <default>false</default>
+                <label>1</label>
+            </value>
+            <value>
+                <fullName>2</fullName>
+                <default>false</default>
+                <label>2</label>
+            </value>
+            <value>
+                <fullName>3</fullName>
+                <default>false</default>
+                <label>3</label>
+            </value>
+            <value>
+                <fullName>4R</fullName>
+                <default>false</default>
+                <label>4R</label>
+            </value>
+            <value>
+                <fullName>4F</fullName>
+                <default>false</default>
+                <label>4F</label>
+            </value>
+            <value>
+                <fullName>5</fullName>
+                <default>false</default>
+                <label>5</label>
+            </value>
+            <value>
+                <fullName>6</fullName>
+                <default>false</default>
+                <label>6</label>
+            </value>
+            <value>
+                <fullName>9C</fullName>
+                <default>false</default>
+                <label>9C</label>
+            </value>
+            <value>
+                <fullName>9I</fullName>
+                <default>false</default>
+                <label>9I</label>
+            </value>
+            <value>
+                <fullName>9S</fullName>
+                <default>false</default>
+                <label>9S</label>
+            </value>
+            <value>
+                <fullName>WHM</fullName>
+                <default>false</default>
+                <label>WHM</label>
+            </value>
+            <value>
+                <fullName>Additional Week</fullName>
+                <default>false</default>
+                <label>Additional Week</label>
+            </value>
+            <value>
+                <fullName>Additional Fortnight</fullName>
+                <default>false</default>
+                <label>Additional Fortnight</label>
+            </value>
+            <value>
+                <fullName>LSA</fullName>
+                <default>false</default>
+                <label>LSA</label>
+            </value>
+            <value>
+                <fullName>LSB</fullName>
+                <default>false</default>
+                <label>LSB</label>
+            </value>
+            <value>
+                <fullName>GST</fullName>
+                <default>false</default>
+                <label>GST</label>
+            </value>
+            <value>
+                <fullName>LSD</fullName>
+                <default>false</default>
+                <label>LSD</label>
+            </value>
+            <value>
+                <fullName>ETP</fullName>
+                <default>false</default>
+                <label>ETP</label>
+            </value>
+            <value>
+                <fullName>Preservation Age</fullName>
+                <default>false</default>
+                <label>Preservation Age</label>
+            </value>
+            <value>
+                <fullName>TAX SCALE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>TAX SCALE</label>
+            </value>
+            <value>
+                <fullName>WOI</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>WOI</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

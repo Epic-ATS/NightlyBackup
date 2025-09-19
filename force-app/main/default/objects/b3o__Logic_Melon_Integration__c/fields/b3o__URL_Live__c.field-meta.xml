@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__URL_Live__c</fullName>
+    <defaultValue>&quot;http://api.logicmelon.co.uk/SOAP/Multiposter.asmx&quot;</defaultValue>
+    <deprecated>false</deprecated>
+    <label>URL: Live</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>

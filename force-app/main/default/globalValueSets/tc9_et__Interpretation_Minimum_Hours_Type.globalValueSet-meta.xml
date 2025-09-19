@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Daily</fullName>
+        <default>true</default>
+        <label>Daily</label>
+    </customValue>
+    <customValue>
+        <fullName>Shift Start Time</fullName>
+        <default>false</default>
+        <label>Shift Start Time</label>
+    </customValue>
+    <customValue>
+        <fullName>Shift End Time</fullName>
+        <default>false</default>
+        <label>Shift End Time</label>
+    </customValue>
+    <description>Used on the Interpretation Rule to define if the Minimum Paid Hours is based on daily, shift start or shift end time</description>
+    <masterLabel>Interpretation Minimum Hours Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_eau__Lodgement_Error_AU</fullName>
+    <fields>Name</fields>
+    <fields>RecordTypeId</fields>
+    <fields>tc9_eau__ATO_Error__c</fields>
+    <fields>tc9_eau__Employee__c</fields>
+    <fields>tc9_eau__Payee__c</fields>
+    <fields>tc9_eau__Lodgement_AU__c</fields>
+    <fields>tc9_eau__Lodgement_Item_AU__c</fields>
+    <label>Lodgement Error AU</label>
+</CompactLayout>

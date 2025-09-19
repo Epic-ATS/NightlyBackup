@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Pay_Advice_Group_By__c</fullName>
+    <deprecated>false</deprecated>
+    <description>By Pay Batch this field Indicates if pay advices will be created as one per payee regardless of how many calendar periods they have been paid for, or, one per payee pay batch i.e. one per calendar period.</description>
+    <inlineHelpText>By Pay Batch this field Indicates if pay advices will be created as one per payee regardless of how many calendar periods they have been paid for, or, one per payee pay batch i.e. one per calendar period.</inlineHelpText>
+    <label>Pay Advice Group By</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_pr__Pay_Advice_Group_By</valueSetName>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>tc9_pr__SampleLetterhead</letterhead>
+    <name>HTML Pay Advice Template</name>
+    <style>newsletter</style>
+    <subject>Your Pay Advice is Ready</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+Your Pay Advice for period ending {!tc9_pr__Pay_Advice__c.tc9_pr__Period_End_Date__c} is now available for you to view.
+
+Payment Date: {!tc9_pr__Pay_Advice__c.tc9_pr__Date_Paid__c}
+
+Payment Amount: {!tc9_pr__Pay_Advice__c.tc9_pr__Net_Earnings__c}
+
+Message: {!tc9_pr__Pay_Advice__c.tc9_pr__Pay_Advice_Message__c}
+
+Regards,
+Payroll</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

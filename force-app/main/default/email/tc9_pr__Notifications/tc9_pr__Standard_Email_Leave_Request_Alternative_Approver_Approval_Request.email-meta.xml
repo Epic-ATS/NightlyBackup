@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This is the standard email template to be used when sending a notification to an Alternative Approver that a Leave Request has been submitted and is awaiting approval</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>tc9_pr__SampleLetterhead</letterhead>
+    <name>Standard Email - Leave Request - Alternative Approver - Approval Request</name>
+    <style>freeForm</style>
+    <subject>IMPORTANT REMINDER: {!tc9_pr__Payee_Leave_Event__c.tc9_pr__Payment_Entity__c} Leave Requests to approve</subject>
+    <textOnly>Dear {!tc9_pr__Payee_Leave_Event__c.tc9_pr__Alternative_Approver_First_Name__c},
+
+You have received this notification because you are the nominated secondary Approver for leave requests in the absence of a primary Approver response.
+
+The cut off for leave request approval is 5.30pm Monday.
+
+Please click below to view and approve/reject all {!tc9_pr__Payee_Leave_Event__c.tc9_pr__Payment_Entity__c}  leave requests for employees who worked last week.
+
+{!tc9_pr__Payee_Leave_Event__c.tc9_pr__Alternative_Approver_Current_Link_Token__c}
+
+If you require any assistance, please contact your {!tc9_pr__Payee_Leave_Event__c.tc9_pr__Payment_Entity__c} Consultant or {!tc9_pr__Payee_Leave_Event__c.tc9_pr__Payee_Leave_Event_Support__c} on {!tc9_pr__Payee_Leave_Event__c.tc9_pr__Payee_Leave_Event_Support_Contact__c}.
+
+Yours Sincerely,
+
+{!tc9_pr__Payee_Leave_Event__c.tc9_pr__Payment_Entity__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

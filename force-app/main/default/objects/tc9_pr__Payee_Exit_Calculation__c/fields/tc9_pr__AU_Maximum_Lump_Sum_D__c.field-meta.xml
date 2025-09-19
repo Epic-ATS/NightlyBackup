@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__AU_Maximum_Lump_Sum_D__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The maximum value of Lump Sum D that can be considered for this Payee Exit Calculation.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The maximum value of Lump Sum D that can be considered for this Payee Exit Calculation.</inlineHelpText>
+    <label>AU Maximum Lump Sum D</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Enable_0_and_Negative_Invoices__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines if pay transactions with Total Including Tax of 0 or a negative value will be included during invoice creation. If No pay transactions with negative or 0 total pay values will not be included in invoices.</description>
+    <inlineHelpText>Defines if pay transactions with Total Including Tax of 0 or a negative value will be included during invoice creation. If No pay transactions with negative or 0 total pay values will not be included in invoices.</inlineHelpText>
+    <label>0 &amp; Negative Pay Transactions Invoiced</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_pr__Yes_No_Picklists</valueSetName>
+    </valueSet>
+</CustomField>

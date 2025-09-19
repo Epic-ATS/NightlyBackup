@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Daily_Pay_Code_Cap_Record__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Defines the Daily Pay Code Cap that applies to the Breakpoint. This field is automatically populated when a Pay Code Cap applies to the Pay Code used.</description>
+    <inlineHelpText>Defines the Daily Pay Code Cap that applies to the Breakpoint. This field is automatically populated when a Pay Code Cap applies to the Pay Code used.</inlineHelpText>
+    <label>Daily Pay Code Cap Record</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>$Source.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Pay Code Cap</value>
+        </filterItems>
+        <filterItems>
+            <field>$Source.tc9_et__Breakpoint_Type__c</field>
+            <operation>equals</operation>
+            <value>Daily Pay Code Cap</value>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>tc9_et__Interpretation_Breakpoint__c</referenceTo>
+    <relationshipLabel>Interpretation Breakpoints with Daily Pay Code Cap</relationshipLabel>
+    <relationshipName>Interpretation_Breakpoints</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

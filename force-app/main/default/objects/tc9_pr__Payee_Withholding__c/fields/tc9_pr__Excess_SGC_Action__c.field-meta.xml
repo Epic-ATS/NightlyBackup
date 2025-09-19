@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Excess_SGC_Action__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Determines how 2cloudnine Payroll will process excess employer superannuation contributions during payrun calculation</description>
+    <inlineHelpText>Determines how 2cloudnine Payroll will process excess employer superannuation contributions during payrun calculation</inlineHelpText>
+    <label>Excess SGC Action</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No Action</fullName>
+                <default>false</default>
+                <label>No Action</label>
+            </value>
+            <value>
+                <fullName>Refund</fullName>
+                <default>false</default>
+                <label>Refund</label>
+            </value>
+            <value>
+                <fullName>Deduction</fullName>
+                <default>false</default>
+                <label>Deduction</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

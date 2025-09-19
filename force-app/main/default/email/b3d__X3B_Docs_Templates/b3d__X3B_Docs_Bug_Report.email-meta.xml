@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Alert email for a new bug</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>b3d__X3B_Docs_Letterhead</letterhead>
+    <name>3B Docs Bug Report</name>
+    <style>freeForm</style>
+    <subject>3B Docs Bug Recorded - {!Organization.Name} - {!User.Username}</subject>
+    <textOnly>Error Link
+
+{!b3d__Document_Trace__c.Name}
+
+App Version
+
+{!b3d__Document_Trace__c.b3d__Package_Version__c}
+
+Browser
+
+{!b3d__Document_Trace__c.b3d__Browser__c}
+
+IP Address
+
+{!b3d__Document_Trace__c.b3d__IP_Address_V4__c}
+
+Screen
+
+{!b3d__Document_Trace__c.b3d__Device_Screen_Details__c}
+
+Template
+
+{!b3d__Document_Trace__c.b3d__Template__c}
+
+Navigator
+
+{!b3d__Document_Trace__c.b3d__Full_User_Agent__c}
+
+Generated
+
+{!b3d__Document_Trace__c.b3d__Document_Successfully_Rendered__c}
+
+Downloaded
+
+{!b3d__Document_Trace__c.b3d__Document_Downloaded__c}
+
+Signed
+
+{!b3d__Document_Trace__c.b3d__Document_Signed__c}
+
+
+
+Error
+
+{!b3d__Document_Trace__c.b3d__Error_Message__c}
+
+Document link: {!b3d__Document_Trace__c.b3d__Dynamic_Document_Link__c}
+
+Completed link: {!b3d__Document_Trace__c.b3d__Completed_Document_Link__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

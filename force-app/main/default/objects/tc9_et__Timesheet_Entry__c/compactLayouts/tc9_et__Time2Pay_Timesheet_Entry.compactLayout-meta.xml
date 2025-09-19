@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Time2Pay_Timesheet_Entry</fullName>
+    <fields>Name</fields>
+    <fields>tc9_et__Timesheet_Manager__c</fields>
+    <fields>tc9_et__Approval_Status__c</fields>
+    <fields>tc9_et__Timesheet__c</fields>
+    <fields>tc9_et__Total_Hours__c</fields>
+    <label>Time2Pay Timesheet Entry</label>
+</CompactLayout>

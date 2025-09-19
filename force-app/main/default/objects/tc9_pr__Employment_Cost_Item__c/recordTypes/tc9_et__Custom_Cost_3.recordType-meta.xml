@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Custom_Cost_3</fullName>
+    <active>true</active>
+    <description>To be used for Employment Cost Items associated with Custom Cost 3</description>
+    <label>Custom Cost 3</label>
+    <picklistValues>
+        <picklist>tc9_et__Invoiceable_Calculated_Based_On__c</picklist>
+        <values>
+            <fullName>%25 of Base Pay Rate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%25 of Loaded Pay Rate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%25 of Multiplied Pay Rate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%25 of Total Cost %2B Mark Up%2FMargin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%25 of Total Pay Rate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%25 of Total Pay Rate %2B Costs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fixed Amount</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_et__Risk_Classification__c</picklist>
+        <values>
+            <fullName>Extreme</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__Industry__c</picklist>
+        <values>
+            <fullName>All</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__Payable_Calculated_Based_On__c</picklist>
+        <values>
+            <fullName>%25 of Base Pay Rate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%25 of Loaded Pay Rate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%25 of Multiplied Pay Rate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%25 of Total Cost %2B Mark Up%2FMargin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%25 of Total Pay Rate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%25 of Total Pay Rate %2B Costs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fixed Amount</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__Status__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inactive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Hold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+</RecordType>

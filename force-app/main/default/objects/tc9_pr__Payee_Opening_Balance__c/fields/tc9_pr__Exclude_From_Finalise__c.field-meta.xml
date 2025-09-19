@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Exclude_From_Finalise__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates that confirmed payee opening balance record will be used during pay batch calculations but not included in the finalise process. Any MTD, QTD, YTD values will not be added to Payee Aggregates.</description>
+    <inlineHelpText>Indicates that confirmed payee opening balance record will be used during pay batch calculations but not included in the finalise process. Any MTD, QTD, YTD values will not be added to Payee Aggregates.</inlineHelpText>
+    <label>Exclude From Finalise</label>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

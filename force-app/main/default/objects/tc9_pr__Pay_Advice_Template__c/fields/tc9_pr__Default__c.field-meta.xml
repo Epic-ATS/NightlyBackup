@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Default__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This identifies the pay advice template record to be used where a payment entity, schedule and/or client specific template has not been defined</description>
+    <inlineHelpText>This identifies the pay advice template record to be used where a payment entity, schedule and/or client specific template has not been defined</inlineHelpText>
+    <label>Default</label>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

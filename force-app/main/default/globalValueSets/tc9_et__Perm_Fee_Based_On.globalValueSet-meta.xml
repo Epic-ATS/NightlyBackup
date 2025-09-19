@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Flat Fee</fullName>
+        <default>false</default>
+        <label>Flat Fee</label>
+    </customValue>
+    <customValue>
+        <fullName>Percentage of Base Salary</fullName>
+        <default>false</default>
+        <label>Percentage of Base Salary</label>
+    </customValue>
+    <customValue>
+        <fullName>Percentage of Total Salary Package</fullName>
+        <default>false</default>
+        <label>Percentage of Total Salary Package</label>
+    </customValue>
+    <description>To be used in Perm Fee Fee Based On picklist fields</description>
+    <masterLabel>Perm Fee Based On</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Workcover_on_Super_Exempt__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If selected, workcover on-costs will not calculate on the associated superannuation totals</description>
+    <inlineHelpText>If selected, workcover on-costs will not calculate on the associated superannuation totals</inlineHelpText>
+    <label>Workcover on Super Exempt</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

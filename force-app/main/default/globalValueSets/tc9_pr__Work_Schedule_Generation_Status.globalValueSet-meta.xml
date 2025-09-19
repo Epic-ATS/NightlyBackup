@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>New</fullName>
+        <default>false</default>
+        <label>New</label>
+    </customValue>
+    <customValue>
+        <fullName>Pending</fullName>
+        <default>false</default>
+        <label>Pending</label>
+    </customValue>
+    <customValue>
+        <fullName>Failed</fullName>
+        <default>false</default>
+        <label>Failed</label>
+    </customValue>
+    <customValue>
+        <fullName>Validated</fullName>
+        <default>false</default>
+        <label>Validated</label>
+    </customValue>
+    <customValue>
+        <fullName>Published</fullName>
+        <default>false</default>
+        <label>Published</label>
+    </customValue>
+    <description>The generation status of a work schedule and its related records.</description>
+    <masterLabel>Work Schedule Generation Status</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

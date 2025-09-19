@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_eau__Intermediary_Dec_Acceptance_Indicator__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates that the intermediary submitting this lodgement has accepted the conditions of lodgement</description>
+    <inlineHelpText>Indicates that the intermediary submitting this lodgement has accepted the conditions of lodgement</inlineHelpText>
+    <label>Intermediary Dec Acceptance Indicator</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

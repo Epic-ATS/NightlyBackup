@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__OV_Interpretation_Breakpoint__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Temporarily override code validation on the Interpretation Breakpoint object</description>
+    <inlineHelpText>Temporarily override code validation on the Interpretation Breakpoint object</inlineHelpText>
+    <label>Override Interpretation Breakpoint</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Extended_After_Entry_Processed__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This will be marked true if the Timesheet was extended (ie new Timesheet Entries added) after the Timesheet has had Transactions created. When checked prior transactions will be considered when processing  new Timesheet Entries</description>
+    <inlineHelpText>This will be marked true if the Timesheet was extended (ie new Timesheet Entries added) after the Timesheet has had Transactions created. When checked prior transactions will be considered when processing  new Timesheet Entries</inlineHelpText>
+    <label>Extended After Entry Processed</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

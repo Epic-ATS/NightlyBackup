@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Payroll Payment File</fullName>
+        <default>false</default>
+        <label>Payroll Payment File</label>
+    </customValue>
+    <customValue>
+        <fullName>Superannuation Contributions</fullName>
+        <default>false</default>
+        <label>Superannuation Contributions</label>
+    </customValue>
+    <customValue>
+        <fullName>Superannuation Refunds</fullName>
+        <default>false</default>
+        <label>Superannuation Refunds</label>
+    </customValue>
+    <description>The functions that a Payment Entity bank account can be used for.</description>
+    <masterLabel>Payment Entity Bank Account Uses</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

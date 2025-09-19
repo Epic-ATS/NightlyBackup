@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__Based_on_Set_Schedule</fullName>
+    <active>true</active>
+    <description>You need to create session schedules for invitees to book themselves in</description>
+    <label>Based on Set Schedule</label>
+</RecordType>

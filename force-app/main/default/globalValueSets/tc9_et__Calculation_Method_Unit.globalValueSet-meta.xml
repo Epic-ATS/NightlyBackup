@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Currency</fullName>
+        <default>false</default>
+        <label>Currency</label>
+    </customValue>
+    <customValue>
+        <fullName>Percentage</fullName>
+        <default>false</default>
+        <label>Percentage</label>
+    </customValue>
+    <description>To be used for Calculation Method Unit picklist fields</description>
+    <masterLabel>Calculation Method Unit</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

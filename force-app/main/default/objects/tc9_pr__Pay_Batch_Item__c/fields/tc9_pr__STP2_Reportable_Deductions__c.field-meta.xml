@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__STP2_Reportable_Deductions__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The sum total of all related Pay Transactions where the pay code is reportable as an Allowance in STP2.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The sum total of all related Pay Transactions where the pay code is reportable as an Allowance in STP2.</inlineHelpText>
+    <label>STP2 Reportable Deductions</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Claim_Transaction_Creation_Status__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The stage in the transaction creation process the related Expense Claim is in, updated by the application automatically. 
+New - Expense Claim has not been approved 
+Ready - Expense Claim Approved, ready to be processed 
+Processed - Expense Claim has had Transactions created 
+Failed - The process to create Transactions failed - check Debug Log</description>
+    <externalId>false</externalId>
+    <formula>if(
+not(isblank(tc9_et__Expense_Claim__c)), tc9_et__Expense_Claim__r.tc9_et__Transaction_Creation_Status_Colour__c, &quot;&quot;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>The stage in the transaction creation process the related Expense Claim is in
+New - Has not been approved 
+Ready - Approved, ready to be processed 
+Processed - Has had Transactions created 
+Failed - The process to create Transactions failed</inlineHelpText>
+    <label>Claim Transaction Creation Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

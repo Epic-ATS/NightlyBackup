@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__ETP_Non_Taxable_N__c</fullName>
+    <deprecated>false</deprecated>
+    <description>ETP Type N non taxable component.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ETP Type N non taxable component.</inlineHelpText>
+    <label>ETP Non Taxable N</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

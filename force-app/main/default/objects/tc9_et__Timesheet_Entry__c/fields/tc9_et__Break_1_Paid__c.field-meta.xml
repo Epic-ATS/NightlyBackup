@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Break_1_Paid__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines if Break 1 will be considered a paid break and therefore not subtracted from the Total Hours</description>
+    <inlineHelpText>Defines if Break 1 will be considered a paid break and therefore not subtracted from the Total Hours</inlineHelpText>
+    <label>Break 1 Paid?</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_pr__Yes_No_Picklists</valueSetName>
+    </valueSet>
+</CustomField>

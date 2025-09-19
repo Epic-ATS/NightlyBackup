@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Expiry_Date__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The last date in the validity range of this calendar</description>
+    <formula>tc9_pr__End_Date__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>The last date in the validity range of this calendar</inlineHelpText>
+    <label>Expiry Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

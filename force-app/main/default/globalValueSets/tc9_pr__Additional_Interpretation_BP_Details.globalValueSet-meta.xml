@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Standard Hours</fullName>
+        <default>false</default>
+        <label>Standard Hours</label>
+    </customValue>
+    <description>To allocate a violation picklist value to interpretation breakpoints and then when pay transactions are created as a result of interpretation the picklist value from the breakpoint is copied across onto the pay transaction that is relates to.</description>
+    <masterLabel>Additional Interpretation BP Details</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

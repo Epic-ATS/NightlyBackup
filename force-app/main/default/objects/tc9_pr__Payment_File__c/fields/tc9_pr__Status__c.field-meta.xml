@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Status__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The Status of Payment File. 
+Draft - Payment File is generated ready for review
+Failed - An error occurred in generating the Payment File
+Released - Payment File has been approved for release</description>
+    <inlineHelpText>The Status of Payment File
+Draft -Payment File is generated ready for review
+Failed -An error occurred in generating the Payment File
+Released -Payment File has been approved for release 
+Export Failed -An error occurred in releasing the Payment File</inlineHelpText>
+    <label>Status</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Draft</fullName>
+                <default>true</default>
+                <label>Draft</label>
+            </value>
+            <value>
+                <fullName>Failed</fullName>
+                <default>false</default>
+                <label>Failed</label>
+            </value>
+            <value>
+                <fullName>Released</fullName>
+                <default>false</default>
+                <label>Released</label>
+            </value>
+            <value>
+                <fullName>Export Failed</fullName>
+                <default>false</default>
+                <label>Export Failed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

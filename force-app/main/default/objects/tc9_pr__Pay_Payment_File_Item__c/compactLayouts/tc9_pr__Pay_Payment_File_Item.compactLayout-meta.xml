@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Pay_Payment_File_Item</fullName>
+    <fields>Name</fields>
+    <fields>tc9_pr__Payment_Entity__c</fields>
+    <fields>tc9_pr__Pay_Batch__c</fields>
+    <fields>tc9_pr__Payment_File__c</fields>
+    <fields>tc9_pr__Payment_Date__c</fields>
+    <label>Pay Payment File Item</label>
+</CompactLayout>

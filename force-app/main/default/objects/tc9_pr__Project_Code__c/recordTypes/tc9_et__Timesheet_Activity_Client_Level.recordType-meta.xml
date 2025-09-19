@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Timesheet_Activity_Client_Level</fullName>
+    <active>true</active>
+    <description>A specific timesheet activity used during interpretation that applies at a Client level</description>
+    <label>Timesheet Activity - Client Level</label>
+    <picklistValues>
+        <picklist>tc9_et__Allowance_Type__c</picklist>
+        <values>
+            <fullName>24hr Care Shift</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Broken Shift</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Excursion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Overtime Round Up Shift</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sleepover</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wake Up</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_et__Interpretation_Breakpoint_Type__c</picklist>
+        <values>
+            <fullName>Excursion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Overtime Round Up Shift</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sleepover</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Split%2FBroken Shift</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wake Up</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_et__Is_an_Interpretation_Variation__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_et__Variation_Type__c</picklist>
+        <values>
+            <fullName>24hr Care Shift</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__Status__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inactive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Hold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Schedule</fullName>
+    <fields>Name</fields>
+    <fields>RecordTypeId</fields>
+    <fields>tc9_pr__Period_Type__c</fields>
+    <fields>tc9_pr__Split_Option__c</fields>
+    <fields>tc9_pr__Payee_Selection__c</fields>
+    <fields>tc9_pr__Pay_Advice_Detail_Level__c</fields>
+    <fields>tc9_pr__Earliest_Payroll_Calculation_Date__c</fields>
+    <label>Schedule</label>
+</CompactLayout>

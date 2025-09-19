@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3d__X3B_Sign_Submit_Endpoint__c</fullName>
+    <defaultValue>&quot;https://app.3bdocs.com/s/&quot;</defaultValue>
+    <deprecated>false</deprecated>
+    <inlineHelpText>This is the endpoint in 3B Sign used for submitting document invitations</inlineHelpText>
+    <label>3B Sign Submit Endpoint</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>

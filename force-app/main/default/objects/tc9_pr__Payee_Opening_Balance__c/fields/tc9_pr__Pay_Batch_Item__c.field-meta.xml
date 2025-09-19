@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Pay_Batch_Item__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The Payee Pay Batch this payee opening balance was processed in.</description>
+    <inlineHelpText>The Payee Pay Batch this payee opening balance was processed in.</inlineHelpText>
+    <label>Payee Pay Batch Processed</label>
+    <referenceTo>tc9_pr__Pay_Batch_Item__c</referenceTo>
+    <relationshipLabel>Payee Opening Balances</relationshipLabel>
+    <relationshipName>Payee_Opening_Balances</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

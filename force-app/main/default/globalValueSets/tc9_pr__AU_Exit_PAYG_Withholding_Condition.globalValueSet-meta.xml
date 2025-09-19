@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>TFN Provided</fullName>
+        <default>false</default>
+        <label>TFN Provided</label>
+    </customValue>
+    <customValue>
+        <fullName>No TFN</fullName>
+        <default>false</default>
+        <label>No TFN</label>
+    </customValue>
+    <customValue>
+        <fullName>Working Holiday Maker</fullName>
+        <default>false</default>
+        <label>Working Holiday Maker</label>
+    </customValue>
+    <description>PAYG withholding condition to be applied in Exit Pay Code Mapping</description>
+    <masterLabel>AU Exit PAYG Withholding Condition</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Converted_Remaining_to_Days__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Hours Remaining converted from hours to days</description>
+    <externalId>false</externalId>
+    <formula>ROUND ( tc9_pr__Hours_Remaining__c / tc9_pr__Payee_Leave_Rule__r.tc9_pr__Conversion_Average_Hours_per_Day__c , 6 )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Hours Remaining converted from hours to days</inlineHelpText>
+    <label>Converted Remaining to Days</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

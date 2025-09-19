@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Process_Duration__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The approximate length of time the Apex Job ran for.</description>
+    <externalId>false</externalId>
+    <formula>IF (TEXT ( tc9_pr__Status__c ) = &apos;Failed&apos;,
+    IF(ISBLANK (tc9_pr__Completed_Date_Time__c ),
+        TEXT( FLOOR( MOD( ( LastModifiedDate - tc9_pr__Start_DateTime__c ) * 24, 24 ) ) ) &amp; &quot; hours &quot;
+         &amp; TEXT( IF((ROUND( MOD( (LastModifiedDate - tc9_pr__Start_DateTime__c ) * 24 * 60, 60 ), 0 )) &gt;= 0, 
+                        (ROUND( MOD( (LastModifiedDate - tc9_pr__Start_DateTime__c ) * 24 * 60, 60 ), 0 )), 
+                        0)) &amp; &quot; minutes&quot;,
+            TEXT( FLOOR( MOD( (tc9_pr__Completed_Date_Time__c - tc9_pr__Start_DateTime__c ) * 24, 24 ) ) ) &amp; &quot; hours &quot;
+            &amp; TEXT( IF((ROUND( MOD( (tc9_pr__Completed_Date_Time__c - tc9_pr__Start_DateTime__c ) * 24 * 60, 60 ), 0 )) &gt;= 0, 
+                        (ROUND( MOD( (tc9_pr__Completed_Date_Time__c - tc9_pr__Start_DateTime__c ) * 24 * 60, 60 ), 0 )), 
+                        0)) &amp; &quot; minutes&quot;
+    ),
+        IF(ISBLANK (tc9_pr__Completed_Date_Time__c),
+            TEXT( FLOOR( MOD( ( NOW() - tc9_pr__Start_DateTime__c ) * 24, 24 ) ) ) &amp; &quot; hours &quot;
+            &amp; TEXT( IF((ROUND( MOD( (NOW() - tc9_pr__Start_DateTime__c ) * 24 * 60, 60 ), 0 )) &gt;= 0, 
+                        (ROUND( MOD( (NOW() - tc9_pr__Start_DateTime__c ) * 24 * 60, 60 ), 0 )), 
+                        0) ) &amp; &quot; minutes (processing...)&quot;,
+                TEXT( FLOOR( MOD( (tc9_pr__Completed_Date_Time__c - tc9_pr__Start_DateTime__c ) * 24, 24 ) ) ) &amp; &quot; hours &quot;
+                &amp; TEXT( IF((ROUND( MOD( (tc9_pr__Completed_Date_Time__c - tc9_pr__Start_DateTime__c ) * 24 * 60, 60 ), 0 )) &gt;= 0, 
+                        (ROUND( MOD( (tc9_pr__Completed_Date_Time__c - tc9_pr__Start_DateTime__c ) * 24 * 60, 60 ), 0 )), 
+                        0)) &amp; &quot; minutes&quot;
+        )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>The approximate length of time the Apex Job ran for.</inlineHelpText>
+    <label>Process Duration</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

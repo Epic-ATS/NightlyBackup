@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Calendar_Period__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The parent calendar period based on the maximum payroll date entered at pay batch creation</description>
+    <inlineHelpText>The parent calendar period based on the maximum payroll date entered at pay batch creation</inlineHelpText>
+    <label>Calendar Period</label>
+    <referenceTo>tc9_pr__Calendar_Period__c</referenceTo>
+    <relationshipLabel>Pay Batches</relationshipLabel>
+    <relationshipName>Pay_Batches</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

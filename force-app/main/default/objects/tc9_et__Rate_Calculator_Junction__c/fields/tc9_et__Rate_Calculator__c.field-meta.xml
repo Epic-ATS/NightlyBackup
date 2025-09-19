@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Rate_Calculator__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Defines the Rate Calculator that applies to the Rate Calculator Junction</description>
+    <inlineHelpText>Defines the Rate Calculator that applies to the Rate Calculator Junction</inlineHelpText>
+    <label>Rate Calculator</label>
+    <referenceTo>tc9_et__Rate_Calculator__c</referenceTo>
+    <relationshipLabel>Rate Calculator Junctions with Rate Calculator</relationshipLabel>
+    <relationshipName>Rate_Calculator_Junctions</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

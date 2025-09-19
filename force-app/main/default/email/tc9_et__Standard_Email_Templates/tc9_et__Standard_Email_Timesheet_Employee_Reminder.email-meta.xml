@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This is the standard email template to be used when sending reminder notifications to employees that their Timesheet has not been submitted</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>tc9_et__SampleLetterhead</letterhead>
+    <name>Standard Email - Timesheet - Employee - Reminder</name>
+    <style>freeForm</style>
+    <subject>IMPORTANT: {!tc9_et__Timesheet__c.tc9_et__Payment_Entity__c} Timesheet has NOT been submitted</subject>
+    <textOnly>Dear {!tc9_et__Timesheet__c.tc9_et__Employee_First_Name__c},
+
+It appears that you have not submitted your timesheet for last week for your {!tc9_et__Timesheet__c.tc9_et__Assignment_Name__c} role at {!tc9_et__Timesheet__c.tc9_et__Client_Name__c}.
+
+The cut off for submitting timesheets is 12.00 noon Monday.
+
+It is important that you submit your timesheet immediately to be included in this week’s payroll.
+
+Please log into the Employee Portal ASAP to view and submit your timesheet.
+
+If you require any assistance, please contact your {!tc9_et__Timesheet__c.tc9_et__Payment_Entity__c} Consultant or {!tc9_et__Timesheet__c.tc9_et__Timesheet_Support__c} on {!tc9_et__Timesheet__c.tc9_et__Timesheet_Support_Contact__c}.
+
+Yours Sincerely,
+
+{!tc9_et__Timesheet__c.tc9_et__Payment_Entity__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

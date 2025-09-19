@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Manual_Entry__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When a transaction is created manually this checkbox should be set to TRUE so it is identified as a manual transaction.</description>
+    <inlineHelpText>When a transaction is created manually this checkbox should be set to TRUE so it is identified as a manual transaction.</inlineHelpText>
+    <label>Manual Entry?</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,109 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p>&nbsp;</p><table style="height: 552px; width: 539px;" border="1px solid black">
+<tbody>
+<tr style="height: 46px;">
+<td style="width: 97.5469px; height: 46px;">
+<p><strong>Error Link </strong></p>
+</td>
+<td style="width: 526.523px; height: 46px;">
+<p><a href="https://3bdocumentgeneration-dev-ed.my.salesforce.com/p/email/template/EmailTemplateEditorUi/{!b3d__Document_Trace__c.Link}">{!b3d__Document_Trace__c.Name}</a></p>
+</td>
+</tr>
+<tr style="height: 46px;">
+<td style="width: 97.5469px; height: 46px;">
+<p><strong>App Version</strong></p>
+</td>
+<td style="width: 526.523px; height: 46px;">
+<p><em>{!b3d__Document_Trace__c.b3d__Package_Version__c}</em></p>
+</td>
+</tr>
+<tr style="height: 46px;">
+<td style="width: 97.5469px; height: 46px;">
+<p><strong>Browser</strong></p>
+</td>
+<td style="width: 526.523px; height: 46px;">
+<p><em>&nbsp;</em><em>{!b3d__Document_Trace__c.b3d__Browser__c}</em></p>
+</td>
+</tr>
+<tr style="height: 46px;">
+<td style="width: 97.5469px; height: 46px;">
+<p><strong>IP Address</strong></p>
+</td>
+<td style="width: 526.523px; height: 46px;">
+<p><em>{!b3d__Document_Trace__c.b3d__IP_Address_V4__c}</em></p>
+</td>
+</tr>
+<tr style="height: 46px;">
+<td style="width: 97.5469px; height: 46px;">
+<p><strong>Screen</strong></p>
+</td>
+<td style="width: 526.523px; height: 46px;">
+<p><em>{!b3d__Document_Trace__c.b3d__Device_Screen_Details__c}</em></p>
+</td>
+</tr>
+<tr style="height: 46px;">
+<td style="width: 97.5469px; height: 46px;">
+<p><strong>&nbsp;Template </strong></p>
+</td>
+<td style="width: 526.523px; height: 46px;">
+<p>{!b3d__Document_Trace__c.b3d__Template__c}</p>
+</td>
+</tr>
+<tr style="height: 46px;">
+<td style="width: 97.5469px; height: 46px;">
+<p><strong>Navigator</strong></p>
+</td>
+<td style="width: 526.523px; height: 46px;">
+<p>{!b3d__Document_Trace__c.b3d__Full_User_Agent__c}</p>
+</td>
+</tr>
+<tr style="height: 46px;">
+<td style="width: 97.5469px; height: 46px;">
+<p><strong>Generated</strong></p>
+</td>
+<td style="width: 526.523px; height: 46px;">
+<p>{!b3d__Document_Trace__c.b3d__Document_Successfully_Rendered__c}</p>
+</td>
+</tr>
+<tr style="height: 46px;">
+<td style="width: 97.5469px; height: 46px;">
+<p><strong>Downloaded</strong></p>
+</td>
+<td style="width: 526.523px; height: 46px;">
+<p>{!b3d__Document_Trace__c.b3d__Document_Downloaded__c}</p>
+</td>
+</tr>
+<tr style="height: 46px;">
+<td style="width: 97.5469px; height: 46px;">
+<p><strong>Signed</strong></p>
+</td>
+<td style="width: 526.523px; height: 46px;">
+<p>{!b3d__Document_Trace__c.b3d__Document_Signed__c}</p>
+</td>
+</tr>
+<tr style="height: 46px;">
+<td style="width: 97.5469px; height: 46px;">
+<p><strong>&nbsp;</strong></p>
+</td>
+<td style="width: 526.523px; height: 46px;">
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr style="height: 46px;">
+<td style="width: 97.5469px; height: 46px;">
+<p><strong>Error</strong></p>
+</td>
+<td style="width: 526.523px; height: 46px;">
+<p>{!b3d__Document_Trace__c.b3d__Error_Message__c}</p>
+</td>
+</tr>
+</tbody>
+</table><p>Document link: {!b3d__Document_Trace__c.b3d__Dynamic_Document_Link__c}</p><p>Completed link: {!b3d__Document_Trace__c.b3d__Completed_Document_Link__c}</p><p>
+
+
+
+</p><p>&nbsp;</p>]]></td>
+</tr>
+</table>

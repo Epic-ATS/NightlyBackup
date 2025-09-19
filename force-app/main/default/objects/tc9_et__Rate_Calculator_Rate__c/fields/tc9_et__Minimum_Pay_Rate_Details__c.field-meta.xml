@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Minimum_Pay_Rate_Details__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Holds data specific to the automation of Minimum Pay Rates for Rate Calculation</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Holds data specific to the automation of Minimum Pay Rates for Rate Calculation</inlineHelpText>
+    <label>Minimum Pay Rate Details</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

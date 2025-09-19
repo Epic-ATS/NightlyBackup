@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>List of objects for Automatic Status Update through a scheduled job.</description>
+    <enableFeeds>false</enableFeeds>
+    <label>Automatic Status Update</label>
+    <visibility>Public</visibility>
+</CustomObject>

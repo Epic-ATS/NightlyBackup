@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Payment_Detail_Check_Completed__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The date/time the Payment Details were last validated. This field is automatically updated.</description>
+    <inlineHelpText>The date/time the Payment Details were last validated. This field is automatically updated.</inlineHelpText>
+    <label>Payment Detail Check Completed</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

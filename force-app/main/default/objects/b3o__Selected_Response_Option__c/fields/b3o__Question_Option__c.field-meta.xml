@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__Question_Option__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Question Option</label>
+    <referenceTo>b3o__Question_Option__c</referenceTo>
+    <relationshipLabel>Selected Response Options</relationshipLabel>
+    <relationshipName>Selected_Response_Options</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Schedule_Period_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines the Period Type belong to the Pay Schedule of the related Assignment</description>
+    <externalId>false</externalId>
+    <formula>TEXT(tc9_pr__Assignment__r.tc9_pr__Schedule__r.tc9_pr__Period_Type__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Defines the Period Type belong to the Pay Schedule of the related Assignment</inlineHelpText>
+    <label>Pay Schedule Period Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

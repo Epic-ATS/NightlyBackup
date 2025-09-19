@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Platform event records created by packaged Payroll processes. These events can be subscribed to and used to trigger the creation of Calendar periods.</description>
+    <eventType>HighVolume</eventType>
+    <label>Calendar Period Event</label>
+    <pluralLabel>Calendar Period Events</pluralLabel>
+    <publishBehavior>PublishAfterCommit</publishBehavior>
+</CustomObject>

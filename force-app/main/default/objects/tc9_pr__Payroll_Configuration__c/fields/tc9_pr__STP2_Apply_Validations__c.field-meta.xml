@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__STP2_Apply_Validations__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates that STP 2 in-code validations should be applied when users create/update records.</description>
+    <inlineHelpText>Indicates that STP 2 in-code validations should be applied when users create/update records.</inlineHelpText>
+    <label>STP2 Apply Validations?</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

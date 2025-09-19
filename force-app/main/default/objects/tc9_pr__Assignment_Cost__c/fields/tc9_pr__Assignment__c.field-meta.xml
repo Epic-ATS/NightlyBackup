@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Assignment__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The related Assignment of an Assignment Level record</description>
+    <inlineHelpText>The related Assignment of an Assignment Level record</inlineHelpText>
+    <label>Assignment</label>
+    <referenceTo>tc9_pr__Assignment__c</referenceTo>
+    <relationshipLabel>Assignment Costs</relationshipLabel>
+    <relationshipName>Assignment_Costs</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

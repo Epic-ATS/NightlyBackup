@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Hide_Blank_Detail_Sections__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Select Yes to hide pay advice sections where there are no current period, prior period, year to date or leave balance values to display</description>
+    <inlineHelpText>Select Yes to hide pay advice sections where there are no current period, prior period, year to date or leave balance values to display</inlineHelpText>
+    <label>Hide Blank Detail Sections</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_pr__Yes_No_Picklists</valueSetName>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_eau__Payroll_Tax</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>tc9_eau__Lodgement_Error_AU</compactLayoutAssignment>
+    <description>Australin Payroll Tax lodgement details</description>
+    <label>Payroll Tax</label>
+</RecordType>

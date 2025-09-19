@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Total_Span_Hours__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Total hours that apply per day for handling split/broken shifts</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Total hours that apply per day for handling split/broken shifts</inlineHelpText>
+    <label>Total Span Hours</label>
+    <precision>4</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

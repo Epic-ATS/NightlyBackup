@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
+    </brand>
+    <description>App for Reconciliation Management</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>Reconciliation Manager</label>
+    <navType>Standard</navType>
+    <tabs>tc9_ext_recon__Temp_Reconciliation_Manager</tabs>
+    <tabs>tc9_ext_recon__Temp_Reconciliation__c</tabs>
+    <tabs>tc9_ext_recon__Temp_Reconciliation_Item__c</tabs>
+    <tabs>tc9_pr__Payee__c</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>tc9_pr__Payee_Aggregate__c</tabs>
+    <tabs>tc9_pr__Payee_Opening_Balance__c</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>tc9_ext_recon__Reconciliation_Manager_UtilityBar</utilityBar>
+</CustomApplication>

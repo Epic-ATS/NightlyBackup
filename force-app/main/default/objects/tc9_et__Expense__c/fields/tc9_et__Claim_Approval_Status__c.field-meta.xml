@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Claim_Approval_Status__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The Approval Status of the related Expense Claim</description>
+    <externalId>false</externalId>
+    <formula>if(
+not(isblank(tc9_et__Expense_Claim__c)), tc9_et__Expense_Claim__r.tc9_et__Approval_Status_Colour__c, &quot;&quot;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>The Approval Status of the related Expense Claim</inlineHelpText>
+    <label>Claim Approval Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

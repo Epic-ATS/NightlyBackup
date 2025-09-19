@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Leave_Balance_Offset_Days__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The Leave Balance Offset converted to days.</description>
+    <externalId>false</externalId>
+    <formula>ROUND ( tc9_pr__Leave_Balance_Offset__c / tc9_pr__Payee_Leave_Rule__r.tc9_pr__Conversion_Average_Hours_per_Day__c , 6 )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>The Leave Balance Offset converted to days.</inlineHelpText>
+    <label>Leave Balance Offset Days</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

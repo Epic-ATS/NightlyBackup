@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_ec__Available_Payment_Methods__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Available Payment Methods as selected on the Payment Entity for this Payee</description>
+    <externalId>false</externalId>
+    <formula>IF( INCLUDES(tc9_pr__Payment_Entity__r.tc9_pr__Available_Payment_Methods__c, &quot;Payee Australian Bank&quot;), &quot;Payee Australian Bank; &quot;,&quot;&quot;)
+&amp;
+IF( INCLUDES(tc9_pr__Payment_Entity__r.tc9_pr__Available_Payment_Methods__c, &quot;Payee International Bank&quot;), &quot;Payee International Bank; &quot;, &quot;&quot;)
+&amp;
+IF( INCLUDES(tc9_pr__Payment_Entity__r.tc9_pr__Available_Payment_Methods__c, &quot;Payee Cheque&quot;), &quot;Payee Cheque; &quot;, &quot;&quot;)
+&amp;
+IF( INCLUDES(tc9_pr__Payment_Entity__r.tc9_pr__Available_Payment_Methods__c, &quot;Payee Cash&quot;), &quot;Payee Cash; &quot;, &quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Available Payment Methods as selected on the Payment Entity for this Payee</inlineHelpText>
+    <label>Available Payment Methods</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

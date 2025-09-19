@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Payee_Leave_Rule</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>tc9_pr__Suspension</compactLayoutAssignment>
+    <description>Suspension related to a Payee Leave Rule</description>
+    <label>Payee Leave Rule</label>
+    <picklistValues>
+        <picklist>tc9_pr__Status__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inactive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Hold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+</RecordType>

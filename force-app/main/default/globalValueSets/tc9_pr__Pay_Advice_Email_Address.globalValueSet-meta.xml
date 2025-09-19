@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Primary</fullName>
+        <default>false</default>
+        <label>Primary</label>
+    </customValue>
+    <customValue>
+        <fullName>Alternative</fullName>
+        <default>false</default>
+        <label>Alternative</label>
+    </customValue>
+    <description>The email address that Pay Advices will be sent to.</description>
+    <masterLabel>Pay Advice Email Address</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

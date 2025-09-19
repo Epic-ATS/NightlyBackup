@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Approval_Status_No_Colour__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The Approval Status of the Timesheet Entry</description>
+    <externalId>false</externalId>
+    <formula>If( 
+tc9_et__Approval_Flag__c, 
+&quot;Approved&quot;, 
+If( 
+tc9_et__Rejection_Flag__c , 
+&quot;Rejected&quot;, 
+If( 
+tc9_et__Submitted_Flag__c, 
+&quot;Submitted&quot;, 
+&quot;New&quot; 
+) 
+) 
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>The Approval Status of the Timesheet Entry</inlineHelpText>
+    <label>Approval Status (No Colour)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

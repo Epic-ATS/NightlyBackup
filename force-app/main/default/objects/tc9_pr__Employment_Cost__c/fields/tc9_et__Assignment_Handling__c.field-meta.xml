@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Assignment_Handling__c</fullName>
+    <deprecated>false</deprecated>
+    <description>When you choose &apos;Rolling,&apos; the system will generate Rate Calculator Lines for each Employment Cost Item found within the Effective and Expiry dates of the Rate Calculator. However, if you select &apos;Fixed,&apos; all Rate Calculator Lines will use the most recent Employment Cost Item created for this Employment Cost.</description>
+    <inlineHelpText>When you choose &apos;Rolling,&apos; the system will generate Rate Calculator Lines for each Employment Cost Item found within the Effective and Expiry dates of the Rate Calculator. However, if you select &apos;Fixed,&apos; all Rate Calculator Lines will use the most recent Employment Cost Item created for this Employment Cost.</inlineHelpText>
+    <label>Assignment Handling</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_et__Assignment_Handling_Picklists</valueSetName>
+    </valueSet>
+</CustomField>

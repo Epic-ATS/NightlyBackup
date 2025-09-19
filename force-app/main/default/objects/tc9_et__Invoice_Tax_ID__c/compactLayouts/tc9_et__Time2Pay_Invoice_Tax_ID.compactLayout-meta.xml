@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Time2Pay_Invoice_Tax_ID</fullName>
+    <fields>Name</fields>
+    <fields>tc9_et__Tax_Rate__c</fields>
+    <label>Time2Pay Invoice Tax ID</label>
+</CompactLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__STP2_Gross_OT_Allowances__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The total of allowance pay transactions to be included in Gross or Overtime during STP2 creation.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The total of allowance pay transactions to be included in Gross or Overtime during STP2 creation.</inlineHelpText>
+    <label>STP2 Gross/OT Allowances</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

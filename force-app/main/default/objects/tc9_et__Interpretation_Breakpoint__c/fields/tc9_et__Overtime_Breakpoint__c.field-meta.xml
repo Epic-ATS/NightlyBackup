@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Overtime_Breakpoint__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines that the time applied to this breakpoint should be considered as overtime for frequency calculations.</description>
+    <inlineHelpText>Defines that the time applied to this breakpoint should be considered as overtime for frequency calculations.</inlineHelpText>
+    <label>Overtime Breakpoint</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_pr__Yes_No_Picklists</valueSetName>
+    </valueSet>
+</CustomField>

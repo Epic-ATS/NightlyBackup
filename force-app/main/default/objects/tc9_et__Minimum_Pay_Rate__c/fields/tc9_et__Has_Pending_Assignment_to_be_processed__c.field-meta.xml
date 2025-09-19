@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Has_Pending_Assignment_to_be_processed__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates if there is a matching  assignment and it has to be picked up in the scheduled job</description>
+    <inlineHelpText>Indicates if there is a matching  assignment and it has to be picked up in the scheduled job</inlineHelpText>
+    <label>Has Pending Assignment to be processed</label>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

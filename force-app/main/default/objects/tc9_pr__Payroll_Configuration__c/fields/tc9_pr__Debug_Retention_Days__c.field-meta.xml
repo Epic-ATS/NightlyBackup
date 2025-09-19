@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Debug_Retention_Days__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The number of days for which Debug Header and Debug Log records will be retained when the deletion job runs.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The number of days for which Debug Header and Debug Log records will be retained when the deletion job runs.</inlineHelpText>
+    <label>Debug Retention Days</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

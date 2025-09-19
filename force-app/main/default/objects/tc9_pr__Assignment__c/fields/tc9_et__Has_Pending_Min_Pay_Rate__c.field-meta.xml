@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Has_Pending_Min_Pay_Rate__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates if the assignment has a pending MPR to be processed in a scheduled job</description>
+    <inlineHelpText>Indicates if the assignment has a pending MPR to be processed in a scheduled job</inlineHelpText>
+    <label>Has Pending Min Pay Rate</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

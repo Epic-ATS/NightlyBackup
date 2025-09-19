@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Hide_Timesheet_Manager_Approve__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Defines if the &quot;Approve&quot; buttons in the Timesheet Manager are available for use. If True, they will be hidden. When hidden, specific Users can be given access to use the buttons via the &apos;Enable Timesheet Manager Approve&apos; field on the User object.</description>
+    <inlineHelpText>Defines if the &quot;Approve&quot; buttons in the Timesheet Manager are available for use. If True, they will be hidden. When hidden, specific Users can be given access to use the buttons via the &apos;Enable Timesheet Manager Approve&apos; field on the User object.</inlineHelpText>
+    <label>Hide Timesheet Manager Approve</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

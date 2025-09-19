@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Rate_Calculator_To_Pay_Code_Project_Code</fullName>
+    <active>true</active>
+    <label>Rate Calculator To Pay Code Project Code</label>
+</RecordType>

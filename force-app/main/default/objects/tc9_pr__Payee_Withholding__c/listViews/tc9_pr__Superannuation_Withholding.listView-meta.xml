@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Superannuation_Withholding</fullName>
+    <columns>NAME</columns>
+    <columns>tc9_pr__Status__c</columns>
+    <columns>RECORDTYPE</columns>
+    <columns>tc9_pr__Employee__c</columns>
+    <columns>tc9_pr__Payee__c</columns>
+    <columns>tc9_pr__Effective_Date__c</columns>
+    <columns>tc9_pr__Expiry_Date__c</columns>
+    <columns>tc9_pr__Pay_Batch_Event__c</columns>
+    <columns>tc9_pr__Pay_Batch_Event_Processing_Status__c</columns>
+    <columns>tc9_pr__Super_Membership_Number__c</columns>
+    <columns>tc9_pr__Superannuation_Fund__c</columns>
+    <columns>tc9_pr__Superannuation_Fund_Nomination__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>tc9_pr__Payee_Withholding__c.tc9_pr__AU_SUPER</value>
+    </filters>
+    <label>Superannuation Withholding</label>
+</ListView>

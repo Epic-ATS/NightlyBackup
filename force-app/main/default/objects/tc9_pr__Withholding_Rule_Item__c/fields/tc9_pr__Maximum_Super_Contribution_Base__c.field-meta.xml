@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Maximum_Super_Contribution_Base__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The maximum quarterly earnings on which Superannuation has to be calculated.  At employer’s discretion.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The maximum quarterly earnings on which Superannuation has to be calculated.  At employer’s discretion.</inlineHelpText>
+    <label>Maximum Super Contribution Base</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

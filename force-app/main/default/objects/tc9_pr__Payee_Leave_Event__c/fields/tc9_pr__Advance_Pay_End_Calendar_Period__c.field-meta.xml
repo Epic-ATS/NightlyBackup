@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Advance_Pay_End_Calendar_Period__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The last payroll calendar period of an advance pay Payee Leave Event.</description>
+    <inlineHelpText>The last payroll calendar period of an advance pay Payee Leave Event.</inlineHelpText>
+    <label>Advance Pay End Calendar Period</label>
+    <referenceTo>tc9_pr__Calendar_Period__c</referenceTo>
+    <relationshipLabel>Payee Leave Events (Advance Pay End Calendar Period)</relationshipLabel>
+    <relationshipName>Payee_Leave_Events3</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

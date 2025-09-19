@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Include_Break_Overtime_In_Overtime__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Defines if Break Loading hours Breakpoints will be treated as Overtime while assessing Frequency Breakpoints</description>
+    <inlineHelpText>Defines if Break Loading hours Breakpoints will be treated as Overtime while assessing Frequency Breakpoints</inlineHelpText>
+    <label>Include Break Loading In Overtime</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

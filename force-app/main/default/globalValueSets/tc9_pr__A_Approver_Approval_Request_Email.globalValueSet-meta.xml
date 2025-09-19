@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Standard_Email_Leave_Request_Alternative_Approver_Approval_Request</fullName>
+        <default>false</default>
+        <label>Standard_Email_Leave_Request_Alternative_Approver_Approval_Request</label>
+    </customValue>
+    <customValue>
+        <fullName>Standard_Email_Timesheet_Alternative_Approver_Approval_Request</fullName>
+        <default>false</default>
+        <label>Standard_Email_Timesheet_Alternative_Approver_Approval_Request</label>
+    </customValue>
+    <customValue>
+        <fullName>Standard_Email_Expense_Claim_Alternative_Approver_Approval_Request</fullName>
+        <default>false</default>
+        <label>Standard_Email_Expense_Claim_Alternative_Approver_Approval_Request</label>
+    </customValue>
+    <description>To be used for Alternative Approver Approval Request Email picklists</description>
+    <masterLabel>A.Approver Approval Request Email</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

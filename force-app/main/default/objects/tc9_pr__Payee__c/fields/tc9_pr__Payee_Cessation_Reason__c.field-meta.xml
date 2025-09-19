@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Payee_Cessation_Reason__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The reason employment ended</description>
+    <inlineHelpText>The reason employment ended</inlineHelpText>
+    <label>Payee Cessation Reason</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Approved Early Retirement</fullName>
+                <default>false</default>
+                <label>Approved Early Retirement</label>
+            </value>
+            <value>
+                <fullName>Casual Termination</fullName>
+                <default>false</default>
+                <label>Casual Termination</label>
+            </value>
+            <value>
+                <fullName>Death</fullName>
+                <default>false</default>
+                <label>Death</label>
+            </value>
+            <value>
+                <fullName>Dismissal</fullName>
+                <default>false</default>
+                <label>Dismissal</label>
+            </value>
+            <value>
+                <fullName>End of Contract</fullName>
+                <default>false</default>
+                <label>End of Contract</label>
+            </value>
+            <value>
+                <fullName>Invalidity</fullName>
+                <default>false</default>
+                <label>Invalidity</label>
+            </value>
+            <value>
+                <fullName>Non-Genuine Redundancy</fullName>
+                <default>false</default>
+                <label>Non-Genuine Redundancy</label>
+            </value>
+            <value>
+                <fullName>Redundancy</fullName>
+                <default>false</default>
+                <label>Redundancy</label>
+            </value>
+            <value>
+                <fullName>Resigned</fullName>
+                <default>false</default>
+                <label>Resigned</label>
+            </value>
+            <value>
+                <fullName>Retirement</fullName>
+                <default>false</default>
+                <label>Retirement</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

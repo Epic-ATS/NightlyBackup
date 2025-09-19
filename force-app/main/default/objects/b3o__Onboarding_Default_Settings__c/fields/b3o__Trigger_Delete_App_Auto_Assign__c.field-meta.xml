@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__Trigger_Delete_App_Auto_Assign__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Moved to Onboarding Trigger Control</description>
+    <inlineHelpText>Auto-assign last application stage to an application where the an app stage is deleted</inlineHelpText>
+    <label>DEPRECATED</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

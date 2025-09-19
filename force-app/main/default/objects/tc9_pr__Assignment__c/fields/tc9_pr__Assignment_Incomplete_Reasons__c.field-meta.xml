@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Assignment_Incomplete_Reasons__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Issues to be resolved before the Assignment can be included in a 2cloudnine Pay Batch</description>
+    <externalId>false</externalId>
+    <formula>If ( ISBLANK ( tc9_pr__Payee__c ) , &quot;No Payee&quot; &amp;BR() , &quot;&quot; ) &amp;
+If ( ISBLANK ( tc9_pr__Employee__c ) , &quot;No Employee&quot; &amp;BR() , &quot;&quot; ) &amp;
+If ( ISBLANK ( tc9_pr__Payment_Entity__c ) , &quot;No Payment Entity&quot; &amp; BR() , &quot;&quot; ) &amp;
+If ( ISBLANK ( tc9_pr__Schedule__c ) , &quot;No Schedule&quot; &amp;BR() , &quot;&quot; ) &amp;
+If ( ISBLANK ( tc9_pr__Assignment_Start_Date__c ) , &quot;No Assignment Start Date&quot; &amp;BR() , &quot;&quot; )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Issues to be resolved before the Assignment can be included in a 2cloudnine Pay Batch</inlineHelpText>
+    <label>Assignment Incomplete Reasons</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

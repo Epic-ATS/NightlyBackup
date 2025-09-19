@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__APRA_and_RSA_Funds</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>tc9_pr__Superannuation_Funds</compactLayoutAssignment>
+    <description>Use for Superannuation Funds regulated by the Australian Prudential Regulation Authority and Retirement Savings Accounts</description>
+    <label>APRA and RSA Funds</label>
+    <picklistValues>
+        <picklist>tc9_pr__Default_Employer_Fund_Category__c</picklist>
+        <values>
+            <fullName>Any</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Category 1</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__Status__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inactive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Initial Validation Failed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Validation Pending</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+</RecordType>

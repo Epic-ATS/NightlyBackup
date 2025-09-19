@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Interpretation_Rule_Template_Group__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Defines an Interpretation Template Group that will apply for the Assignment. When selected, the Interpretation Rules defined within the selected Template Group will be able to be used on Timesheets within the assignment.</description>
+    <inlineHelpText>Defines an Interpretation Template Group that will apply for the Assignment. When selected, the Interpretation Rules defined within the selected Template Group will be able to be used on Timesheets within the assignment.</inlineHelpText>
+    <label>Interpretation Rule Template Group</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>tc9_pr__Template_Group__c.RecordType.DeveloperName</field>
+            <operation>equals</operation>
+            <value>Interpretation_Rules</value>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>tc9_pr__Template_Group__c</referenceTo>
+    <relationshipLabel>Assignments (Interpretation Rule Template Group)</relationshipLabel>
+    <relationshipName>Assignments1</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

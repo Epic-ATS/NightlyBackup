@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customObject>true</customObject>
+    <description>A child object to both the Timesheet and Expense Claim that holds individual details of expenses to be reimbursed and any related Project Codes</description>
+    <motif>Custom41: Stack of Cash</motif>
+</CustomTab>

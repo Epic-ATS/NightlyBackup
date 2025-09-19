@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__Expires_In_Days__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Gets days to expiry of this certificate. If no end date is available, returns 1 year.</description>
+    <externalId>false</externalId>
+    <formula>IF(NOT(ISNULL(b3o__End_Date__c)),b3o__End_Date__c - TODAY(), 365)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Expires In (Days)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

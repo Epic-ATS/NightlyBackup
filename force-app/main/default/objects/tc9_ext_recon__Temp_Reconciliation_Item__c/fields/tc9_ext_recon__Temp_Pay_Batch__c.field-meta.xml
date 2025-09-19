@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_ext_recon__Temp_Pay_Batch__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Defines which pay batch this reconciliation item is associated with</description>
+    <inlineHelpText>Defines which pay batch this reconciliation item is associated with</inlineHelpText>
+    <label>Pay Batch</label>
+    <referenceTo>tc9_pr__Pay_Batch__c</referenceTo>
+    <relationshipLabel>Reconciliation Items</relationshipLabel>
+    <relationshipName>Temp_Reconciliation_Items</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

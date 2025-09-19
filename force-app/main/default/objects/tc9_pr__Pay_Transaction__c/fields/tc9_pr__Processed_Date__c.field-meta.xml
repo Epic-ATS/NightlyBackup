@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Processed_Date__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The date/time that the Pay Transaction was processed in a Payroll</description>
+    <inlineHelpText>The date/time that the Pay Transaction was processed in a Payroll</inlineHelpText>
+    <label>Payroll Processed Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

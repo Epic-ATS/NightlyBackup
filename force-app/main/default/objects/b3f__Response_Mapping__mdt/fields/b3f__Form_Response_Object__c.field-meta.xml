@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3f__Form_Response_Object__c</fullName>
+    <deprecated>false</deprecated>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>This must always map to the Form Response Object (3B Forms)</inlineHelpText>
+    <label>Form Response Object</label>
+    <referenceTo>EntityDefinition</referenceTo>
+    <relationshipLabel>Responses_Mapping1</relationshipLabel>
+    <relationshipName>Responses_Mapping1</relationshipName>
+    <required>true</required>
+    <type>MetadataRelationship</type>
+    <unique>false</unique>
+</CustomField>

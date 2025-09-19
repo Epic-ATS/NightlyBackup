@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ACH</fullName>
+        <default>false</default>
+        <label>ACH</label>
+    </customValue>
+    <customValue>
+        <fullName>Addendum</fullName>
+        <default>false</default>
+        <label>Addendum</label>
+    </customValue>
+    <customValue>
+        <fullName>Additional Certifications</fullName>
+        <default>false</default>
+        <label>Additional Certifications</label>
+    </customValue>
+    <customValue>
+        <fullName>Additional Forms</fullName>
+        <default>false</default>
+        <label>Additional Forms</label>
+    </customValue>
+    <customValue>
+        <fullName>Annual TB</fullName>
+        <default>false</default>
+        <label>Annual TB</label>
+    </customValue>
+    <customValue>
+        <fullName>Background Check</fullName>
+        <default>false</default>
+        <label>Background Check</label>
+    </customValue>
+    <customValue>
+        <fullName>Billing Application</fullName>
+        <default>false</default>
+        <label>Billing Application</label>
+    </customValue>
+    <customValue>
+        <fullName>Birth Certificate</fullName>
+        <default>false</default>
+        <label>Birth Certificate</label>
+    </customValue>
+    <customValue>
+        <fullName>Board Certifications</fullName>
+        <default>false</default>
+        <label>Board Certifications</label>
+    </customValue>
+    <customValue>
+        <fullName>Case Logs</fullName>
+        <default>false</default>
+        <label>Case Logs</label>
+    </customValue>
+    <customValue>
+        <fullName>Claims History</fullName>
+        <default>false</default>
+        <label>Claims History</label>
+    </customValue>
+    <customValue>
+        <fullName>Client Application</fullName>
+        <default>false</default>
+        <label>Client Application</label>
+    </customValue>
+    <customValue>
+        <fullName>Client Documentation</fullName>
+        <default>false</default>
+        <label>Client Documentation</label>
+    </customValue>
+    <customValue>
+        <fullName>Client Required Documentation</fullName>
+        <default>false</default>
+        <label>Client Required Documentation</label>
+    </customValue>
+    <customValue>
+        <fullName>CME</fullName>
+        <default>false</default>
+        <label>CME</label>
+    </customValue>
+    <customValue>
+        <fullName>COI</fullName>
+        <default>false</default>
+        <label>COI</label>
+    </customValue>
+    <customValue>
+        <fullName>Color Photo</fullName>
+        <default>false</default>
+        <label>Color Photo</label>
+    </customValue>
+    <customValue>
+        <fullName>Competency Letter</fullName>
+        <default>false</default>
+        <label>Competency Letter</label>
+    </customValue>
+    <customValue>
+        <fullName>Complete Packets</fullName>
+        <default>false</default>
+        <label>Complete Packets</label>
+    </customValue>
+    <customValue>
+        <fullName>CPR</fullName>
+        <default>false</default>
+        <label>CPR</label>
+    </customValue>
+    <customValue>
+        <fullName>CSR</fullName>
+        <default>false</default>
+        <label>CSR</label>
+    </customValue>
+    <customValue>
+        <fullName>CV</fullName>
+        <default>false</default>
+        <label>CV</label>
+    </customValue>
+    <customValue>
+        <fullName>DEA</fullName>
+        <default>false</default>
+        <label>DEA</label>
+    </customValue>
+    <customValue>
+        <fullName>Diploma(s)</fullName>
+        <default>false</default>
+        <label>Diploma(s)</label>
+    </customValue>
+    <customValue>
+        <fullName>Divorce Decree</fullName>
+        <default>false</default>
+        <label>Divorce Decree</label>
+    </customValue>
+    <customValue>
+        <fullName>DOP</fullName>
+        <default>false</default>
+        <label>DOP</label>
+    </customValue>
+    <customValue>
+        <fullName>Driver&apos;s License</fullName>
+        <default>false</default>
+        <label>Driver&apos;s License</label>
+    </customValue>
+    <customValue>
+        <fullName>Drug Screen</fullName>
+        <default>false</default>
+        <label>Drug Screen</label>
+    </customValue>
+    <customValue>
+        <fullName>EAD</fullName>
+        <default>false</default>
+        <label>EAD</label>
+    </customValue>
+    <customValue>
+        <fullName>ECFMG</fullName>
+        <default>false</default>
+        <label>ECFMG</label>
+    </customValue>
+    <customValue>
+        <fullName>Eligibility Questionnaire for IMLC</fullName>
+        <default>false</default>
+        <label>Eligibility Questionnaire for IMLC</label>
+    </customValue>
+    <customValue>
+        <fullName>FCVS Verification</fullName>
+        <default>false</default>
+        <label>FCVS Verification</label>
+    </customValue>
+    <customValue>
+        <fullName>Fellowship</fullName>
+        <default>false</default>
+        <label>Fellowship</label>
+    </customValue>
+    <customValue>
+        <fullName>Finance</fullName>
+        <default>false</default>
+        <label>Finance</label>
+    </customValue>
+    <customValue>
+        <fullName>Green Card</fullName>
+        <default>false</default>
+        <label>Green Card</label>
+    </customValue>
+    <customValue>
+        <fullName>H1B</fullName>
+        <default>false</default>
+        <label>H1B</label>
+    </customValue>
+    <customValue>
+        <fullName>Hospital Application</fullName>
+        <default>false</default>
+        <label>Hospital Application</label>
+    </customValue>
+    <customValue>
+        <fullName>IMLC</fullName>
+        <default>false</default>
+        <label>IMLC</label>
+    </customValue>
+    <customValue>
+        <fullName>IMLC-LOQ</fullName>
+        <default>false</default>
+        <label>IMLC-LOQ</label>
+    </customValue>
+    <customValue>
+        <fullName>Immunizations</fullName>
+        <default>false</default>
+        <label>Immunizations</label>
+    </customValue>
+    <customValue>
+        <fullName>Internship</fullName>
+        <default>false</default>
+        <label>Internship</label>
+    </customValue>
+    <customValue>
+        <fullName>IPA</fullName>
+        <default>false</default>
+        <label>IPA</label>
+    </customValue>
+    <customValue>
+        <fullName>J1</fullName>
+        <default>false</default>
+        <label>J1</label>
+    </customValue>
+    <customValue>
+        <fullName>Licensing Application</fullName>
+        <default>false</default>
+        <label>Licensing Application</label>
+    </customValue>
+    <customValue>
+        <fullName>Life Certifications</fullName>
+        <default>false</default>
+        <label>Life Certifications</label>
+    </customValue>
+    <customValue>
+        <fullName>Marriage Certificate</fullName>
+        <default>false</default>
+        <label>Marriage Certificate</label>
+    </customValue>
+    <customValue>
+        <fullName>Military</fullName>
+        <default>false</default>
+        <label>Military</label>
+    </customValue>
+    <customValue>
+        <fullName>Modality Checklist</fullName>
+        <default>false</default>
+        <label>Modality Checklist</label>
+    </customValue>
+    <customValue>
+        <fullName>Naturalization</fullName>
+        <default>false</default>
+        <label>Naturalization</label>
+    </customValue>
+    <customValue>
+        <fullName>NPDB</fullName>
+        <default>false</default>
+        <label>NPDB</label>
+    </customValue>
+    <customValue>
+        <fullName>NPI Letter</fullName>
+        <default>false</default>
+        <label>NPI Letter</label>
+    </customValue>
+    <customValue>
+        <fullName>NY Infection Control</fullName>
+        <default>false</default>
+        <label>NY Infection Control</label>
+    </customValue>
+    <customValue>
+        <fullName>OHS Clearance</fullName>
+        <default>false</default>
+        <label>OHS Clearance</label>
+    </customValue>
+    <customValue>
+        <fullName>Orientation Template</fullName>
+        <default>false</default>
+        <label>Orientation Template</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Other (Court Records, Personal Explanation, etc)</fullName>
+        <default>false</default>
+        <label>Other (Court Records, Personal Explanation, etc)</label>
+    </customValue>
+    <customValue>
+        <fullName>PA Clearance</fullName>
+        <default>false</default>
+        <label>PA Clearance</label>
+    </customValue>
+    <customValue>
+        <fullName>Passport</fullName>
+        <default>false</default>
+        <label>Passport</label>
+    </customValue>
+    <customValue>
+        <fullName>Physical</fullName>
+        <default>false</default>
+        <label>Physical</label>
+    </customValue>
+    <customValue>
+        <fullName>Pre-Application</fullName>
+        <default>false</default>
+        <label>Pre-Application</label>
+    </customValue>
+    <customValue>
+        <fullName>Provider Submitted</fullName>
+        <default>false</default>
+        <label>Provider Submitted</label>
+    </customValue>
+    <customValue>
+        <fullName>Questionnaire</fullName>
+        <default>false</default>
+        <label>Questionnaire</label>
+    </customValue>
+    <customValue>
+        <fullName>Release</fullName>
+        <default>false</default>
+        <label>Release</label>
+    </customValue>
+    <customValue>
+        <fullName>Request Form</fullName>
+        <default>false</default>
+        <label>Request Form</label>
+    </customValue>
+    <customValue>
+        <fullName>Residency</fullName>
+        <default>false</default>
+        <label>Residency</label>
+    </customValue>
+    <customValue>
+        <fullName>Respiratory Fit Test</fullName>
+        <default>false</default>
+        <label>Respiratory Fit Test</label>
+    </customValue>
+    <customValue>
+        <fullName>Schedule A</fullName>
+        <default>false</default>
+        <label>Schedule A</label>
+    </customValue>
+    <customValue>
+        <fullName>Section G</fullName>
+        <default>false</default>
+        <label>Section G</label>
+    </customValue>
+    <customValue>
+        <fullName>SS Card</fullName>
+        <default>false</default>
+        <label>SS Card</label>
+    </customValue>
+    <customValue>
+        <fullName>State Medical License</fullName>
+        <default>false</default>
+        <label>State Medical License</label>
+    </customValue>
+    <customValue>
+        <fullName>State Specific</fullName>
+        <default>false</default>
+        <label>State Specific</label>
+    </customValue>
+    <customValue>
+        <fullName>Transcripts</fullName>
+        <default>false</default>
+        <label>Transcripts</label>
+    </customValue>
+    <customValue>
+        <fullName>W9</fullName>
+        <default>false</default>
+        <label>W9</label>
+    </customValue>
+    <customValue>
+        <fullName>Work History</fullName>
+        <default>false</default>
+        <label>Work History</label>
+    </customValue>
+    <customValue>
+        <fullName>Nursing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Nursing</label>
+    </customValue>
+    <customValue>
+        <fullName>OIG</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OIG</label>
+    </customValue>
+    <customValue>
+        <fullName>Peer</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Peer</label>
+    </customValue>
+    <customValue>
+        <fullName>Physician Explanation</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Physician Explanation</label>
+    </customValue>
+    <customValue>
+        <fullName>Procedure Logs</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Procedure Logs</label>
+    </customValue>
+    <customValue>
+        <fullName>Red Flag</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Red Flag</label>
+    </customValue>
+    <customValue>
+        <fullName>Affiliation</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Affiliation</label>
+    </customValue>
+    <customValue>
+        <fullName>Stroke</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Stroke</label>
+    </customValue>
+    <customValue>
+        <fullName>Supervisor</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Supervisor</label>
+    </customValue>
+    <customValue>
+        <fullName>Verification Letter</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Verification Letter</label>
+    </customValue>
+    <customValue>
+        <fullName>Active Military Form</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Active Military Form</label>
+    </customValue>
+    <customValue>
+        <fullName>Chief</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Chief</label>
+    </customValue>
+    <customValue>
+        <fullName>Residency/Internship</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Residency/Internship</label>
+    </customValue>
+    <customValue>
+        <fullName>Board</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Board</label>
+    </customValue>
+    <customValue>
+        <fullName>CMEs</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CMEs</label>
+    </customValue>
+    <customValue>
+        <fullName>J-1</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>J-1</label>
+    </customValue>
+    <customValue>
+        <fullName>Fingerprints</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Fingerprints</label>
+    </customValue>
+    <customValue>
+        <fullName>List of References</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>List of References</label>
+    </customValue>
+    <customValue>
+        <fullName>Malpractice Claims History</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Malpractice Claims History</label>
+    </customValue>
+    <customValue>
+        <fullName>Medical</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Medical</label>
+    </customValue>
+    <customValue>
+        <fullName>Medical Diploma</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Medical Diploma</label>
+    </customValue>
+    <customValue>
+        <fullName>Medical Director</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Medical Director</label>
+    </customValue>
+    <customValue>
+        <fullName>MedMal</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MedMal</label>
+    </customValue>
+    <customValue>
+        <fullName>MSOOnboarding</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MSOOnboarding</label>
+    </customValue>
+    <masterLabel>File Category</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

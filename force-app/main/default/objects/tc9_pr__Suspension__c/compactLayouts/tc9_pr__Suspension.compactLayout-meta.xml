@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Suspension</fullName>
+    <fields>Name</fields>
+    <fields>tc9_pr__Effective_Date__c</fields>
+    <fields>tc9_pr__Expiry_Date__c</fields>
+    <fields>tc9_pr__Status__c</fields>
+    <fields>RecordTypeId</fields>
+    <label>Suspension</label>
+</CompactLayout>

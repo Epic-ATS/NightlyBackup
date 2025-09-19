@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_ext_recon__Temp_Payee__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The parent Payee record that is linked to the reconciliation item.</description>
+    <inlineHelpText>The parent Payee record that is linked to the reconciliation item.</inlineHelpText>
+    <label>Payee</label>
+    <referenceTo>tc9_pr__Payee__c</referenceTo>
+    <relationshipLabel>Reconciliation Items</relationshipLabel>
+    <relationshipName>Temp_Reconciliation_Items</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Total_Salary_Package_Override__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The calculated total of all Salary Package Components. This is an override field that allows for custom calculation of the Total Salary Package. When populated the value in this field will be used in further calculations using the Total Salary Package, otherwise the value in the Total Salary Package formula field will be used.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The calculated total of all Salary Package Components.</inlineHelpText>
+    <label>Total Salary Package Override</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Do_Not_Delete__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When ticked this record will be skipped by the scheduled job which regularly deletes batch logs that are no longer required</description>
+    <inlineHelpText>When ticked this record will be skipped by the scheduled job which regularly deletes batch logs that are no longer required.</inlineHelpText>
+    <label>Do Not Delete</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

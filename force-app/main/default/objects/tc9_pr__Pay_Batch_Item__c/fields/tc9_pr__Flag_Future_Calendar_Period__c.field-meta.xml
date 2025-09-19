@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Flag_Future_Calendar_Period__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates that the End Date of the Pay Calendar Period on the Payee Pay Batch is greater than the End Date of the Pay Calendar Period on the related Pay Batch</description>
+    <externalId>false</externalId>
+    <formula>If ( tc9_pr__Calendar_Period__r.tc9_pr__End_Date__c &gt; tc9_pr__Pay_Batch__r.tc9_pr__Calendar_Period__r.tc9_pr__End_Date__c ,&quot;Future Calendar Period&quot; , &quot;&quot; )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Indicates that the End Date of the Pay Calendar Period on the Payee Pay Batch is greater than the End Date of the Pay Calendar Period on the related Pay Batch</inlineHelpText>
+    <label>Flag Future Pay Calendar Period</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

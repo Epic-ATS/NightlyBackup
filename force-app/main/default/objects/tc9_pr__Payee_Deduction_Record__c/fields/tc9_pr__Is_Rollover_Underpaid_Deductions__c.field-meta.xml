@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Is_Rollover_Underpaid_Deductions__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Default = False. Defines if deduction amounts that can not be withheld should be rolled over to be withheld in future payruns.</description>
+    <inlineHelpText>Default = False. Defines if deduction amounts that can not be withheld should be rolled over to be withheld in future payruns.</inlineHelpText>
+    <label>Is Rollover Underpaid Deductions?</label>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

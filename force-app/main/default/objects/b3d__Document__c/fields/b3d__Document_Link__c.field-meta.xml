@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3d__Document_Link__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>$Setup.b3d__General_Settings__c.b3d__X3B_Sign_Base_URL__c &amp; &quot;/templates/&quot;&amp; b3d__External_Id__c &amp;&quot;/edit?userId=&quot; &amp; $User.Id &amp; &quot;&amp;orgId=&quot; &amp; $Organization.Id &amp; &quot;&amp;sessionId=&quot; &amp; $Api.Session_ID</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Document Link</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

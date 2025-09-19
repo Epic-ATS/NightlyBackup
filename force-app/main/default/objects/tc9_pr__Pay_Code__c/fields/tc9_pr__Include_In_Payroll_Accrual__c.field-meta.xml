@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Include_In_Payroll_Accrual__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates that pay transactions using this pay code will be included in the General Ledger payroll accrual process where this checkbox is True.</description>
+    <inlineHelpText>Indicates that pay transactions using this pay code will be included in the General Ledger payroll accrual process where this checkbox is True.</inlineHelpText>
+    <label>Include in Payroll Accrual</label>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

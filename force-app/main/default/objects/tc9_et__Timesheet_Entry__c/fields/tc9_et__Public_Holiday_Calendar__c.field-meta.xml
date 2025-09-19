@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Public_Holiday_Calendar__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The Record ID of the Public Holiday Calendar that applies to the Timesheet Entry as determined by the related Assignment</description>
+    <externalId>false</externalId>
+    <formula>tc9_et__Timesheet__r.tc9_et__Assignment__r.tc9_et__Public_Holiday_Calendar__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>The Record ID of the Public Holiday Calendar that applies to the Timesheet Entry as determined by the related Assignment</inlineHelpText>
+    <label>Public Holiday Calendar</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

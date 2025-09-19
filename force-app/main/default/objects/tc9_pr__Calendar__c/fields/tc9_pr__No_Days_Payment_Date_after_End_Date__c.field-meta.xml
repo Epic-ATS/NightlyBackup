@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__No_Days_Payment_Date_after_End_Date__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The number of days after end calendar period end date from which the bank file will be processed</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The number of days after end calendar period end date from which the bank file will be processed</inlineHelpText>
+    <label>No. Days Payment Date after End Date</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

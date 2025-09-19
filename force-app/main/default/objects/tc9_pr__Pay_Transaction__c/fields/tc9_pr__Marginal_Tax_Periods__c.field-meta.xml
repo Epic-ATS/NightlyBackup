@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Marginal_Tax_Periods__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The number of tax periods to be applied during the calculation of marginal earnings and marginal PAYG</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The number of tax periods to be applied during the calculation of marginal earnings and marginal PAYG</inlineHelpText>
+    <label>Marginal Tax Periods</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

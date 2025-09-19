@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__T2P_Product_Override__c</fullName>
+    <deprecated>false</deprecated>
+    <description>&quot;Yes&quot; indicates the product triggers have been overridden on this Pay Transaction</description>
+    <inlineHelpText>&quot;Yes&quot; indicates the product triggers have been overridden on this Pay Transaction</inlineHelpText>
+    <label>Time2pay Product Override</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_pr__Yes_No_Picklists</valueSetName>
+    </valueSet>
+</CustomField>

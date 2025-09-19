@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_eau__SuperStream_Lodgement_AU</fullName>
+    <fields>Name</fields>
+    <fields>RecordTypeId</fields>
+    <fields>tc9_eau__Status__c</fields>
+    <fields>tc9_eau__Filter_Payment_Entity__c</fields>
+    <fields>tc9_eau__Payment_Date_From__c</fields>
+    <fields>tc9_eau__Payment_Date_To__c</fields>
+    <fields>tc9_eau__Total_Contributions__c</fields>
+    <label>SuperStream Lodgement AU</label>
+</CompactLayout>

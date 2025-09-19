@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__ETP</fullName>
+    <active>true</active>
+    <label>ETP</label>
+    <picklistValues>
+        <picklist>tc9_eau__ATO_Deduction_Type__c</picklist>
+        <values>
+            <fullName>Fees</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gross</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Workplace Giving</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_et__Invoice_Taxable__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__ATO_Allowance_Type__c</picklist>
+        <values>
+            <fullName>Car</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laundry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transport</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Travel</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__ATO_Income_Classification__c</picklist>
+        <values>
+            <fullName>Business and Personal Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closely Held Payees</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Community Development Employment Project</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Death Beneficiary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exempt Foreign Employment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foreign Employment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inbound Assignee to Australia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Individual Non Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Joint Petroleum Development Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Employee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Reportable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Specified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seasonal Worker Programme</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voluntary Agreement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Working Holiday Maker</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__AU_Payroll_Tax_Report_Exceptions__c</picklist>
+        <values>
+            <fullName>ACT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NSW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QLD Metro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QLD Regional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIC Metro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIC Regional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__Deduction_Type__c</picklist>
+        <values>
+            <fullName>Post-tax Deduction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre-tax Deduction</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__ETP_Type__c</picklist>
+        <values>
+            <fullName>B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>P</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__Lump_Sum_A_Type__c</picklist>
+        <values>
+            <fullName>R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__Lump_Sum_Type__c</picklist>
+        <values>
+            <fullName>A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>W</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__SGC_Calculation_Impact__c</picklist>
+        <values>
+            <fullName>No Impact</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__STP_Allowance_Type__c</picklist>
+        <values>
+            <fullName>Award Transport Payments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cents per KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Domestic or Overseas Travel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gross</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laundry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Applicable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Overtime</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Overtime Meals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Qualifications%2FCertificates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tasks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tools</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__STP_Deduction_Type__c</picklist>
+        <values>
+            <fullName>Child Support Deduction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Child Support Garnishee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fees</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Applicable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salary Sacrifice Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salary Sacrifice Superannuation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Workplace Giving</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__STP_Leave_Type__c</picklist>
+        <values>
+            <fullName>Ancillary or Defence Leave</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cash out in Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Paid Leave</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid Parental Leave</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unused Leave on Termination</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Workers Compensation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__STP_Payment_Type__c</picklist>
+        <values>
+            <fullName>Bonus and Commission</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Directors Fees</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gross</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Overtime</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid Leave</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Loading</fullName>
+        <default>false</default>
+        <label>Loading</label>
+    </customValue>
+    <description>To be used for Interpretation Catergories Picklists</description>
+    <masterLabel>Interpretation Categories</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

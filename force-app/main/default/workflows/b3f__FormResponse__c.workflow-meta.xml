@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>b3f__Report_Bug</fullName>
+        <ccEmails>bugreports@3bforms.com</ccEmails>
+        <description>Report Bug</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>b3f__Forms_Email_Templates/b3f__Bug_Report_Template</template>
+    </alerts>
+    <rules>
+        <fullName>b3f__Report Bug to 3B Forms</fullName>
+        <actions>
+            <name>b3f__Report_Bug</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <formula>text(b3f__Type__c)  = &apos;FAILED&apos; &amp;&amp;  $Setup.b3f__Forms_General_Settings__c.b3f__Send_Debug_Emails__c</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Minimum_Pay_Rate_Template__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Indicates the Template Group that the Rate Calculator is related to</description>
+    <inlineHelpText>Indicates the Template Group that the Rate Calculator is related to</inlineHelpText>
+    <label>Minimum Pay Rate Template</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>tc9_pr__Template_Group__c.RecordType.DeveloperName</field>
+            <operation>equals</operation>
+            <value>Rate_Calculator_Template</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>tc9_pr__Template_Group__c</referenceTo>
+    <relationshipLabel>Rate Calculators (Minimum Pay Rate Template)</relationshipLabel>
+    <relationshipName>Rate_Calculators1</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

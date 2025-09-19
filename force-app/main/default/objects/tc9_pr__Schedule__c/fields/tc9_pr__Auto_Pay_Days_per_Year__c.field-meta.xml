@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Auto_Pay_Days_per_Year__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Standard days per year for calculation of Amount per Period where Auto Pay is Yes</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Standard days per year for calculation of Amount per Period where Auto Pay is Yes</inlineHelpText>
+    <label>Auto Pay Days per Year</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

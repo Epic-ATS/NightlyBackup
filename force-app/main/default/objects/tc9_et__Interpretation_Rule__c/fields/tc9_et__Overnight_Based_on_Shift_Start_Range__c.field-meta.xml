@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Overnight_Based_on_Shift_Start_Range__c</fullName>
+    <deprecated>false</deprecated>
+    <description>If Yes, users will be able to define on a day level the start and end threshold to pay the shift from the previous day at this breakpoint. For example, if my Shift Start and Shift End fields are populated on a Public Holiday, any shifts starting between these times on the previous day will be paid at Public Holiday rates.</description>
+    <inlineHelpText>If Yes, users will be able to define on a day level the start and end threshold to pay the shift from the previous day at this breakpoint. For example, if my Shift Start and Shift End fields are populated on a Public Holiday, any shifts starting between these times on the previous day will be paid at Public Holiday rates.</inlineHelpText>
+    <label>Overnight Based on Shift Start Range?</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_pr__Yes_No_Picklists</valueSetName>
+    </valueSet>
+</CustomField>

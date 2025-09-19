@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <logo>b3s__X3blogo</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>Scheduling</label>
+    <navType>Standard</navType>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>b3o__Job__c</tabs>
+    <tabs>b3o__Job_Type__c</tabs>
+    <tabs>b3o__Site__c</tabs>
+    <tabs>b3s__Expense__c</tabs>
+    <tabs>b3s__Scheduler</tabs>
+    <tabs>b3s__Shift__c</tabs>
+    <tabs>b3o__Placement__c</tabs>
+    <tabs>b3s__Group__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>b3s__Scheduling_UtilityBar</utilityBar>
+</CustomApplication>

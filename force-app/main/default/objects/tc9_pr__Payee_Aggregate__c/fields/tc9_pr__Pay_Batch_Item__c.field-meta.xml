@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Pay_Batch_Item__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The Payee Pay Batch this Payee Aggregate record is related to</description>
+    <inlineHelpText>The Payee Pay Batch this Payee Aggregate record is related to</inlineHelpText>
+    <label>Payee Pay Batch</label>
+    <referenceTo>tc9_pr__Pay_Batch_Item__c</referenceTo>
+    <relationshipLabel>Payee Aggregates</relationshipLabel>
+    <relationshipName>Payee_Aggregates</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

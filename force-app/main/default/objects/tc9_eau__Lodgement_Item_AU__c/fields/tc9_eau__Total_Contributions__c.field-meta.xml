@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_eau__Total_Contributions__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Total Superannuation contribution</description>
+    <externalId>false</externalId>
+    <formula>tc9_eau__Child_Contribution__c  +  tc9_eau__Personal_Contribution__c  +  tc9_eau__Spouse_Contribution__c  +  tc9_eau__Third_Party_Contribution__c + tc9_eau__Super_Guarantee__c + tc9_eau__Award_or_Productivity__c + tc9_eau__Voluntary_Additional__c + tc9_eau__Salary_Sacrifice__c +  tc9_eau__Employer_Additional_Super__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Total Superannuation contribution</inlineHelpText>
+    <label>Total Contributions</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

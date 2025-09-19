@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__ABA_File_User_Preferred_Specification__c</fullName>
+    <deprecated>false</deprecated>
+    <description>For Payment Entity&apos;s, the User Preferred Specification that will be included on an ABA Payment File. The value to be defined in this field should be provided by your financial institution.</description>
+    <inlineHelpText>For Payment Entity&apos;s, the User Preferred Specification that will be included on an ABA Payment File. The value to be defined in this field should be provided by your financial institution.</inlineHelpText>
+    <label>ABA File User Preferred Specification</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

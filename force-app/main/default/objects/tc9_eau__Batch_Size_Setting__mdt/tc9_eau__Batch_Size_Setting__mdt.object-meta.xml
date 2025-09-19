@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Size for various batch jobs in STP package can be customized using this setting</description>
+    <label>Batch Size Setting</label>
+    <pluralLabel>Batch Size Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

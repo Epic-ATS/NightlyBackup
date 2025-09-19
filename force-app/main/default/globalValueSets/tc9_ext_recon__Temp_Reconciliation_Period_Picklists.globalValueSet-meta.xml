@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Since Last Reconciliation</fullName>
+        <default>false</default>
+        <label>Since Last Reconciliation</label>
+    </customValue>
+    <customValue>
+        <fullName>Custom Payment Date</fullName>
+        <default>false</default>
+        <label>Custom Payment Date</label>
+    </customValue>
+    <customValue>
+        <fullName>EFY 30 June</fullName>
+        <default>false</default>
+        <label>EFY 30 June</label>
+    </customValue>
+    <description>Reconciliation period classifications</description>
+    <masterLabel>Reconciliation Period Picklists</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

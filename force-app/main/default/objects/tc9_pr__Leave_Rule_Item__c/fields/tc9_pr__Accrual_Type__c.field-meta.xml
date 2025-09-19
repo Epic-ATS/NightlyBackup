@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Accrual_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates how the Leave Rule will be calculated</description>
+    <inlineHelpText>Indicates how the Leave Rule will be calculated</inlineHelpText>
+    <label>Accrual Type</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fixed per Period</fullName>
+                <default>false</default>
+                <label>Fixed per Period</label>
+            </value>
+            <value>
+                <fullName>Leave Grant</fullName>
+                <default>false</default>
+                <label>Leave Grant</label>
+            </value>
+            <value>
+                <fullName>Units per Hour Worked</fullName>
+                <default>false</default>
+                <label>Units per Hour Worked</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

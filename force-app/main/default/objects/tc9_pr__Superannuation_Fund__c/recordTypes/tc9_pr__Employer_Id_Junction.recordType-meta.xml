@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Employer_Id_Junction</fullName>
+    <active>true</active>
+    <description>A junction record between a Payment Entity and a Superannuation Fund</description>
+    <label>Employer Id Junction</label>
+    <picklistValues>
+        <picklist>tc9_pr__Default_Employer_Fund_Category__c</picklist>
+        <values>
+            <fullName>Any</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Category 1</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__Status__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inactive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Initial Validation Failed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Validation Pending</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

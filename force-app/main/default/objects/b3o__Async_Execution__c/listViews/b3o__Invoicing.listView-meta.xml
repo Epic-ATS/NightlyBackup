@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__Invoicing</fullName>
+    <columns>NAME</columns>
+    <columns>b3o__Status__c</columns>
+    <columns>b3o__Attempts__c</columns>
+    <columns>b3o__Job_ID__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>NAME</field>
+        <operation>equals</operation>
+        <value>SIM_Invoicing_Batch,SIM_Invoicing_BulkRunManagement</value>
+    </filters>
+    <label>Invoicing</label>
+</ListView>

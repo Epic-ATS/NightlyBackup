@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Payment_Consolidation__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates whether multiple payment file lines related to the same Payment Detail record will be processed as multiple payments or consolidated into one payment.</description>
+    <inlineHelpText>Indicates whether multiple payment file lines related to the same Payment Detail record will be processed as multiple payments or consolidated into one payment.</inlineHelpText>
+    <label>Payment Consolidation</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_pr__Payment_Consolidation</valueSetName>
+    </valueSet>
+</CustomField>

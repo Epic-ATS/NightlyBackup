@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Voluntary Cessation</fullName>
+        <default>false</default>
+        <label>Voluntary Cessation</label>
+    </customValue>
+    <customValue>
+        <fullName>Ill Health</fullName>
+        <default>false</default>
+        <label>Ill Health</label>
+    </customValue>
+    <customValue>
+        <fullName>Deceased</fullName>
+        <default>false</default>
+        <label>Deceased</label>
+    </customValue>
+    <customValue>
+        <fullName>Genuine Redundancy</fullName>
+        <default>false</default>
+        <label>Genuine Redundancy</label>
+    </customValue>
+    <customValue>
+        <fullName>Dismissal</fullName>
+        <default>false</default>
+        <label>Dismissal</label>
+    </customValue>
+    <customValue>
+        <fullName>Contract Cessation</fullName>
+        <default>false</default>
+        <label>Contract Cessation</label>
+    </customValue>
+    <customValue>
+        <fullName>Transfer</fullName>
+        <default>false</default>
+        <label>Transfer</label>
+    </customValue>
+    <customValue>
+        <fullName>Early Retirement</fullName>
+        <default>false</default>
+        <label>Early Retirement</label>
+    </customValue>
+    <customValue>
+        <fullName>Non-genuine Redundancy</fullName>
+        <default>false</default>
+        <label>Non-genuine Redundancy</label>
+    </customValue>
+    <description>The ATO-approved list of Cessation Types for STP Reporting</description>
+    <masterLabel>ATO Cessation Type Picklists</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

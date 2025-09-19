@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__WorkCover_Employment_Cost_Item__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Defines the WorkCover Employment Cost Item that applies to the Rate Calculator Line</description>
+    <inlineHelpText>Defines the WorkCover Employment Cost Item that applies to the Rate Calculator Line</inlineHelpText>
+    <label>WorkCover Employment Cost Item</label>
+    <referenceTo>tc9_pr__Employment_Cost_Item__c</referenceTo>
+    <relationshipLabel>Rate Calculator Lines with WorkCover Employment Cost Item</relationshipLabel>
+    <relationshipName>Rate_Calculator_LinesTx5O</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Contact</fullName>
+        <default>false</default>
+        <label>Contact</label>
+    </customValue>
+    <customValue>
+        <fullName>Application</fullName>
+        <default>false</default>
+        <label>Application</label>
+    </customValue>
+    <masterLabel>Related Form Object</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

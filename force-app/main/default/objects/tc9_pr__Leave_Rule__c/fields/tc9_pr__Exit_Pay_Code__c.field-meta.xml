@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Exit_Pay_Code__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The default pay code to be used for payment of leave balance upon payee exit</description>
+    <inlineHelpText>The default pay code to be used for payment of leave balance upon payee exit</inlineHelpText>
+    <label>Exit Pay Code</label>
+    <referenceTo>tc9_pr__Pay_Code__c</referenceTo>
+    <relationshipLabel>Leave Rules (Exit Pay Code)</relationshipLabel>
+    <relationshipName>Leave_Rules1</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

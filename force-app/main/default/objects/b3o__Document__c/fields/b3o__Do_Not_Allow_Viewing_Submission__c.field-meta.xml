@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__Do_Not_Allow_Viewing_Submission__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <inlineHelpText>If checked, the user won&apos;t be able to preview submissions they made</inlineHelpText>
+    <label>Do Not Allow Viewing Submission</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Can_be_Paid_Out_After_Units__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates the number of units after which this leave rule can be paid out upon payee exit</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates the number of units after which this leave rule can be paid out upon payee exit</inlineHelpText>
+    <label>Can be Paid Out After Units</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

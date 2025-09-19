@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Project_Code__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Defines the Project Code that applies to the Timesheet Item</description>
+    <inlineHelpText>Defines the Project Code that applies to the Timesheet Item</inlineHelpText>
+    <label>Project Code</label>
+    <referenceTo>tc9_pr__Project_Code__c</referenceTo>
+    <relationshipLabel>Timesheet Items</relationshipLabel>
+    <relationshipName>Timesheet_Items</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

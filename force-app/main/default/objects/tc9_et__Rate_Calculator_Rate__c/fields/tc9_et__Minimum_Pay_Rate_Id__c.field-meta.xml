@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Minimum_Pay_Rate_Id__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Stores the value of the minimum pay rate ID that was used to create the rate calculator rate record.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Stores the value of the minimum pay rate ID that was used to create the rate calculator rate record.</inlineHelpText>
+    <label>Minimum Pay Rate Id</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

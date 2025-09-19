@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__WHS_Employment_Cost__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Defines the WHS Employment Cost that applies to the Rate Calculator</description>
+    <inlineHelpText>Defines the WHS Employment Cost that applies to the Rate Calculator</inlineHelpText>
+    <label>WHS Employment Cost</label>
+    <referenceTo>tc9_pr__Employment_Cost__c</referenceTo>
+    <relationshipLabel>Rate Calculators with WHS Employment Cost</relationshipLabel>
+    <relationshipName>Rate_CalculatorscbZQ</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

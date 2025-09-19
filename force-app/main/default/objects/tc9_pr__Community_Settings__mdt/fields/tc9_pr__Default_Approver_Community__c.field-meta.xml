@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Default_Approver_Community__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>To specify if the community will be used as the default Approver Community in the event the Approver Community field is not populated on the Contact record</description>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>To specify if the community will be used as the default Approver Community in the event the Approver Community field is not populated on the Contact record</inlineHelpText>
+    <label>Default Approver Community</label>
+    <type>Checkbox</type>
+</CustomField>

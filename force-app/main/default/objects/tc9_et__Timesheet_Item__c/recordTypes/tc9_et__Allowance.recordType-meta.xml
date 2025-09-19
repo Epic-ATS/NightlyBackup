@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Allowance</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>tc9_et__Timesheet_Item_Compact_Layout</compactLayoutAssignment>
+    <description>To be used for Timesheet Allowances</description>
+    <label>Allowance</label>
+    <picklistValues>
+        <picklist>tc9_et__Approved_Rejected_on_Behalf_Reason__c</picklist>
+        <values>
+            <fullName>Auto Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Could not contact Approver or Alternative Approver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No hours or expenses records</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

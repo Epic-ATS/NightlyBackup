@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Pay_Advice_Template__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The template record used to control PDF rendering and email distribution</description>
+    <inlineHelpText>The template record used to control PDF rendering and email distribution</inlineHelpText>
+    <label>Pay Advice Template</label>
+    <referenceTo>tc9_pr__Pay_Advice_Template__c</referenceTo>
+    <relationshipLabel>Pay Advices</relationshipLabel>
+    <relationshipName>Pay_Advices</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

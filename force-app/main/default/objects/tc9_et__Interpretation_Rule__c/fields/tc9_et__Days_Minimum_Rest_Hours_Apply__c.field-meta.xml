@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Days_Minimum_Rest_Hours_Apply__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Field is deprecated and no longer in use</description>
+    <inlineHelpText>Field is deprecated and no longer in use</inlineHelpText>
+    <label>DO NOT USE</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_pr__Days_Monday_To_Sunday</valueSetName>
+    </valueSet>
+    <visibleLines>8</visibleLines>
+</CustomField>

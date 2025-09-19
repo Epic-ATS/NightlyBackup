@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Has_Rate_Calculator_Line_Update_Pending__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates that the Rate Calculator has Rate Calculator Line updates pending update</description>
+    <formula>AND(tc9_et__Calculate_By_Batch__c = false,(
+      if(isblank(tc9_et__Last_Rate_Calculator_Line_Update_Date__c), False,
+      if(tc9_et__Last_Rate_Calculator_Line_Creation_Date__c &lt;= tc9_et__Last_Rate_Calculator_Line_Update_Date__c,True,False))
+      )
+   )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Indicates that the Rate Calculator has Rate Calculator Line updates pending update</inlineHelpText>
+    <label>Has Rate Calculator Line Update Pending</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Distribution_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Where Fixed Amount is selected, funds will be distributed to the value defined in the Fixed Amount field.
+Where Percentage is selected, funds remaining percentage rate defined in the Percentage field.
+Where Balance is selected all unallocated funds will be allocated.</description>
+    <inlineHelpText>For Fixed Amount, funds will be distributed to the value defined in the Fixed Amount field.
+For Percentage, funds remaining percentage rate defined in the Percentage field.For Balance, all unallocated funds will be allocated.</inlineHelpText>
+    <label>Distribution Type</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_pr__Distribution_Type</valueSetName>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_eau__Event_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The process type of this record</description>
+    <inlineHelpText>The process type of this record</inlineHelpText>
+    <label>Event Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pay Event</fullName>
+                <default>false</default>
+                <label>Pay Event</label>
+            </value>
+            <value>
+                <fullName>Update Event</fullName>
+                <default>false</default>
+                <label>Update Event</label>
+            </value>
+            <value>
+                <fullName>Full File Replacement</fullName>
+                <default>false</default>
+                <label>Full File Replacement</label>
+            </value>
+            <value>
+                <fullName>Retrieve Funds</fullName>
+                <default>false</default>
+                <label>Retrieve Funds</label>
+            </value>
+            <value>
+                <fullName>Validate Funds</fullName>
+                <default>false</default>
+                <label>Validate Funds</label>
+            </value>
+            <value>
+                <fullName>Validate Employer</fullName>
+                <default>false</default>
+                <label>Validate Employer</label>
+            </value>
+            <value>
+                <fullName>Validate Contributions</fullName>
+                <default>false</default>
+                <label>Validate Contributions</label>
+            </value>
+            <value>
+                <fullName>Submit Contributions</fullName>
+                <default>false</default>
+                <label>Submit Contributions</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

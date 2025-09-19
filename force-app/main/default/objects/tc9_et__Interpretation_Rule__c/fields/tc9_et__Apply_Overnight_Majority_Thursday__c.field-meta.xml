@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Apply_Overnight_Majority_Thursday__c</fullName>
+    <deprecated>false</deprecated>
+    <description>If Yes, users will be able to define that overnight logic for this day will be paid at the breakpoint where the majority of the Timesheet Entry falls.</description>
+    <inlineHelpText>If Yes, users will be able to define that overnight logic for this day will be paid at the breakpoint where the majority of the Timesheet Entry falls.</inlineHelpText>
+    <label>Apply Overnight Majority Thursday</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_pr__Yes_No_Picklists</valueSetName>
+    </valueSet>
+</CustomField>

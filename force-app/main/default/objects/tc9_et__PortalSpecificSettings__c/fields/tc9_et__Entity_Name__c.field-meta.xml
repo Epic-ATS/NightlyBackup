@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Entity_Name__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines a user friendly name of the Entity that is identified in the Entity ID field. This is for User Information and Error Reporting only and not reflected in the Site.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Defines a user friendly name of the Entity that is identified in the Entity ID field. This is for User Information and Error Reporting only and not reflected in the Site.</inlineHelpText>
+    <label>Entity Name</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

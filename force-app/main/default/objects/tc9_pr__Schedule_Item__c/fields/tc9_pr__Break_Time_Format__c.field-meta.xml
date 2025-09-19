@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Break_Time_Format__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates how the break time will be entered.</description>
+    <inlineHelpText>Indicates how the break time will be entered.</inlineHelpText>
+    <label>Break Time Format</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_pr__Shift_Time_Formats</valueSetName>
+    </valueSet>
+</CustomField>

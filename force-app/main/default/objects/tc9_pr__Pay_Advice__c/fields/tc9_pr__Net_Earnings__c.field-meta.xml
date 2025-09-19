@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Net_Earnings__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The Net Earnings of the pay advice record.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Net Earnings of the pay advice record.</inlineHelpText>
+    <label>Net Earnings</label>
+    <precision>16</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

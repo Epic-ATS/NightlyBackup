@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__AU_ETP_Cap_Determination__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The ETP cap applied to this Payee Exit Calculation record.</description>
+    <inlineHelpText>The ETP cap applied to this Payee Exit Calculation record.</inlineHelpText>
+    <label>AU ETP Cap Determination</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Employment Termination Payment</fullName>
+                <default>false</default>
+                <label>Employment Termination Payment</label>
+            </value>
+            <value>
+                <fullName>Whole of Income</fullName>
+                <default>false</default>
+                <label>Whole of Income</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

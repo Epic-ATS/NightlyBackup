@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Leave_Approver__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Appointed contact who will receive notifications when leave applications are created</description>
+    <inlineHelpText>Appointed contact who will receive notifications when leave applications are created</inlineHelpText>
+    <label>Leave Approver</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Assignments (Leave Approver)</relationshipLabel>
+    <relationshipName>Assignments1</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

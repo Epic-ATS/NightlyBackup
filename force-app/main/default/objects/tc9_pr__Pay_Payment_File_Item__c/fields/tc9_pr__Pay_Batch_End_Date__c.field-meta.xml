@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Pay_Batch_End_Date__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The calendar period end date of the related Pay Batch.</description>
+    <formula>tc9_pr__Pay_Batch__r.tc9_pr__Calendar_Period__r.tc9_pr__End_Date__c</formula>
+    <inlineHelpText>The calendar period end date of the related Pay Batch.</inlineHelpText>
+    <label>Pay Batch End Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

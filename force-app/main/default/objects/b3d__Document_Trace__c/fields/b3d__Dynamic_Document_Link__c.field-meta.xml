@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3d__Dynamic_Document_Link__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(
+&quot;/apex/page/Document?templateId=&quot;&amp; b3d__Template__c &amp; &quot;&amp;recordId=&quot;&amp; b3d__Record_ID__c &amp; IF(NOT(ISBLANK(b3d__Data_Version_ID__c)), (&quot;&amp;versionId=&quot;&amp; b3d__Data_Version_ID__c), &quot;&quot;), 
+IF(NOT(ISBLANK(b3d__Data_Version_ID__c)), &quot;Versioned&quot;, &quot;Latest&quot;), 
+&quot;_blank&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Dynamic Document Link</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

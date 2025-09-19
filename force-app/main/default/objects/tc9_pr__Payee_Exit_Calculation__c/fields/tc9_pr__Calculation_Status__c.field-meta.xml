@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Calculation_Status__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The processing status of this Payee Exit record.</description>
+    <inlineHelpText>The processing status of this Payee Exit record.</inlineHelpText>
+    <label>Calculation Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Draft</fullName>
+                <default>false</default>
+                <label>Draft</label>
+            </value>
+            <value>
+                <fullName>Confirmed</fullName>
+                <default>false</default>
+                <label>Confirmed</label>
+            </value>
+            <value>
+                <fullName>On Hold</fullName>
+                <default>false</default>
+                <label>On Hold</label>
+            </value>
+            <value>
+                <fullName>Calculated</fullName>
+                <default>false</default>
+                <label>Calculated</label>
+            </value>
+            <value>
+                <fullName>Calculating</fullName>
+                <default>false</default>
+                <label>Calculating</label>
+            </value>
+            <value>
+                <fullName>Calculate Failed</fullName>
+                <default>false</default>
+                <label>Calculate Failed</label>
+            </value>
+            <value>
+                <fullName>Confirming</fullName>
+                <default>false</default>
+                <label>Confirming</label>
+            </value>
+            <value>
+                <fullName>Confirm Failed</fullName>
+                <default>false</default>
+                <label>Confirm Failed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

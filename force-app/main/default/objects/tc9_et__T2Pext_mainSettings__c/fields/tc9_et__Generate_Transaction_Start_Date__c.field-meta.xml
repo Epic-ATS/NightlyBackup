@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Generate_Transaction_Start_Date__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines the earliest Timesheet Entry Date that will be picked up in the Scheduled Job to Process Timesheets and Create Transactions. Timesheets with Entry Dates prior to this date must be processed manually via the Process Transactions button within the Timesheet Manager.
+This field is mainly used to prevent historical Timesheets created in Data Migration from been picked up for processing.</description>
+    <inlineHelpText>Defines the earliest Timesheet Entry Date that will be picked up by the Scheduled Job to Process Timesheets and Create Transactions. Timesheets with Entry Dates prior to this date must be processed manually via the Timesheet Manager.</inlineHelpText>
+    <label>Generate Transaction Start Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

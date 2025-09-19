@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Base Pay Rate</fullName>
+        <default>false</default>
+        <label>Base Pay Rate</label>
+    </customValue>
+    <customValue>
+        <fullName>Pay Rate</fullName>
+        <default>false</default>
+        <label>Pay Rate</label>
+    </customValue>
+    <customValue>
+        <fullName>Total Pay Rate + Costs</fullName>
+        <default>false</default>
+        <label>Total Pay Rate + Costs</label>
+    </customValue>
+    <description>To be used for Rate Calculator Calculation based on picklist fields</description>
+    <masterLabel>RC Calculation Based On Picklists</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

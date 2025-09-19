@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Mapping_Component_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Exit component type to be used in Exit Mapping</description>
+    <inlineHelpText>Exit component type to be used in Exit Mapping</inlineHelpText>
+    <label>Mapping Component Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_pr__Exit_Component_Type</valueSetName>
+    </valueSet>
+</CustomField>

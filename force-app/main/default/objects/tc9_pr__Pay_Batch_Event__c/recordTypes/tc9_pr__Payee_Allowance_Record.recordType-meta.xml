@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Payee_Allowance_Record</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>tc9_pr__Pay_Batch_Event_Compact_Layout</compactLayoutAssignment>
+    <description>Used to capture Payee Allowances required for payroll calculation</description>
+    <label>Payee Allowance Record</label>
+    <picklistValues>
+        <picklist>tc9_pr__Processing_Status__c</picklist>
+        <values>
+            <fullName>Fully Processed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Part Processed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__Void__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

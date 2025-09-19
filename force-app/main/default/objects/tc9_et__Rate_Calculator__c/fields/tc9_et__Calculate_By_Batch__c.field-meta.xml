@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Calculate_By_Batch__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When True and Calculated By Batch is False, the rate calculator lines will be calculated via a scheduled batch job.</description>
+    <inlineHelpText>When True and Calculated By Batch is False, the rate calculator lines will be calculated via a scheduled batch job.</inlineHelpText>
+    <label>Calculate By Batch</label>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Work_Schedule_Total_Breaks__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Total duration of all breaks in the Work Schedule.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Total duration of all breaks in the Work Schedule.</inlineHelpText>
+    <label>Work Schedule Total Breaks</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

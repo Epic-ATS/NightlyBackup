@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Bank_Account_Name__c</fullName>
+    <deprecated>false</deprecated>
+    <description>For Payee&apos;s, the name of the bank account that payments will be made into.
+For Payment Entity&apos;s, the name of the bank account that payments will be made from.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>For Payee&apos;s, the name of the bank account that payments will be made into.
+For Payment Entity&apos;s, the name of the bank account that payments will be made from.</inlineHelpText>
+    <label>Bank Account Name</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

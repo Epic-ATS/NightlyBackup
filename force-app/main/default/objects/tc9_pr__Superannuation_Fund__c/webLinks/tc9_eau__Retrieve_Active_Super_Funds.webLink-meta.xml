@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_eau__Retrieve_Active_Super_Funds</fullName>
+    <availability>online</availability>
+    <description>Retrieves active super funds from super choice</description>
+    <displayType>massActionButton</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Retrieve Active Super Funds</masterLabel>
+    <openType>sidebar</openType>
+    <page>tc9_eau__RetreiveActiveSuperFunds</page>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+</WebLink>

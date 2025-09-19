@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Tax_Rate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines the Invoice Tax Rate that will apply when the Invoice Tax ID is used</description>
+    <inlineHelpText>Defines the Invoice Tax Rate that will apply when the Invoice Tax ID is used</inlineHelpText>
+    <label>Tax Rate</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

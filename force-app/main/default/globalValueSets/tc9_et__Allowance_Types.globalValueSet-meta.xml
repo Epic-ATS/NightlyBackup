@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>24hr Care Shift</fullName>
+        <default>false</default>
+        <label>24hr Care Shift</label>
+    </customValue>
+    <customValue>
+        <fullName>Broken Shift</fullName>
+        <default>false</default>
+        <label>Broken Shift</label>
+    </customValue>
+    <customValue>
+        <fullName>Excursion</fullName>
+        <default>false</default>
+        <label>Excursion</label>
+    </customValue>
+    <customValue>
+        <fullName>Overtime Round Up Shift</fullName>
+        <default>false</default>
+        <label>Overtime Round Up Shift</label>
+    </customValue>
+    <customValue>
+        <fullName>Sleepover</fullName>
+        <default>false</default>
+        <label>Sleepover</label>
+    </customValue>
+    <customValue>
+        <fullName>Wake Up</fullName>
+        <default>false</default>
+        <label>Wake Up</label>
+    </customValue>
+    <masterLabel>Allowance Types</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

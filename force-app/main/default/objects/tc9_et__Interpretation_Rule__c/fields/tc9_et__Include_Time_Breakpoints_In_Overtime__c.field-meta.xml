@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Include_Time_Breakpoints_In_Overtime__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Defines if Hours allocated to Time Breakpoints will be treated as Overtime while assessing Frequency Breakpoints</description>
+    <inlineHelpText>Defines if Hours allocated to Time Breakpoints will be treated as Overtime while assessing Frequency Breakpoints</inlineHelpText>
+    <label>Include Time BPs In OT - Freq Std Calcs</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Pay_To_Withholding_Record__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Where the Pay To Type is Payee Withholding, defines the Payee Withholding record detailing the recipient payments should be made to</description>
+    <inlineHelpText>Where the Pay To Type is Payee Withholding, defines the Payee Withholding record detailing the recipient payments should be made to</inlineHelpText>
+    <label>Pay To Withholding Record</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>tc9_pr__Payee_Withholding__c.tc9_pr__Payee__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.tc9_pr__Payee__c</valueField>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>tc9_pr__Payee_Withholding__c</referenceTo>
+    <relationshipLabel>Payee Deduction Records</relationshipLabel>
+    <relationshipName>Payee_Deduction_Records</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

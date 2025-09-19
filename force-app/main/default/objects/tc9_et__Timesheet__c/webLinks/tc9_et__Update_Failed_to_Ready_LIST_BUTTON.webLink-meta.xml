@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Update_Failed_to_Ready_LIST_BUTTON</fullName>
+    <availability>online</availability>
+    <description>To be used for updating the Timesheet&apos;s Transaction Creation Status field from Failed to Ready. When the Transaction Creation Status is Ready the Timesheet is eligible for Transaction Processing</description>
+    <displayType>massActionButton</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Update Failed to Ready</masterLabel>
+    <openType>sidebar</openType>
+    <page>tc9_et__UpdateFailedtoReadyList</page>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+</WebLink>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Available_Pay_Rates__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Define which pay rates are available for user-selection when a Leave Take payee leave event is created.</description>
+    <inlineHelpText>Define which pay rates are available for user-selection when a Leave Take payee leave event is created.</inlineHelpText>
+    <label>Available Pay Rates</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_pr__Leave_Pay_Rates</valueSetName>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

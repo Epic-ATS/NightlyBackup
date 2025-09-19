@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Reason__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The reason for the creation of the Assignment Rate record.</description>
+    <inlineHelpText>The reason for the creation of the Assignment Rate record.</inlineHelpText>
+    <label>Reason</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New Starter</fullName>
+                <default>false</default>
+                <label>New Starter</label>
+            </value>
+            <value>
+                <fullName>Annual Review</fullName>
+                <default>false</default>
+                <label>Annual Review</label>
+            </value>
+            <value>
+                <fullName>Promotion</fullName>
+                <default>false</default>
+                <label>Promotion</label>
+            </value>
+            <value>
+                <fullName>Leave Without Pay</fullName>
+                <default>false</default>
+                <label>Leave Without Pay</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

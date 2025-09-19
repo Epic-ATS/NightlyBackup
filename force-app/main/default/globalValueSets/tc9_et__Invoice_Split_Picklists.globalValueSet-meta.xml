@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>No Split</fullName>
+        <default>false</default>
+        <label>No Split</label>
+    </customValue>
+    <customValue>
+        <fullName>Per Calendar</fullName>
+        <default>false</default>
+        <label>Per Calendar</label>
+    </customValue>
+    <customValue>
+        <fullName>Per Timesheet Period</fullName>
+        <default>false</default>
+        <label>Per Timesheet Period</label>
+    </customValue>
+    <masterLabel>Invoice Split Picklists</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

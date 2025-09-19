@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>% of Base Pay Rate</fullName>
+        <default>false</default>
+        <label>% of Base Pay Rate</label>
+    </customValue>
+    <customValue>
+        <fullName>% of Multiplied Pay Rate</fullName>
+        <default>false</default>
+        <label>% of Multiplied Pay Rate</label>
+    </customValue>
+    <customValue>
+        <fullName>Shift Loaded Pay Rate</fullName>
+        <default>false</default>
+        <label>Shift Loaded Pay Rate</label>
+    </customValue>
+    <customValue>
+        <fullName>Fixed Amount</fullName>
+        <default>false</default>
+        <label>Fixed Amount</label>
+    </customValue>
+    <customValue>
+        <fullName>Addition of % of Base Pay Rate</fullName>
+        <default>false</default>
+        <label>Addition of % of Base Pay Rate</label>
+    </customValue>
+    <masterLabel>Pay Rate Loading Based On</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

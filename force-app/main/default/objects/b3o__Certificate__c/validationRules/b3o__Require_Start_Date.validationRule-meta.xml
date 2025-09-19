@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__Require_Start_Date</fullName>
+    <active>true</active>
+    <errorConditionFormula>b3o__Certificate_Type__r.b3o__Require_Start_Date__c &amp;&amp; isblank(b3o__Start_Date__c)</errorConditionFormula>
+    <errorDisplayField>b3o__Start_Date__c</errorDisplayField>
+    <errorMessage>Start date of certificate is required</errorMessage>
+</ValidationRule>

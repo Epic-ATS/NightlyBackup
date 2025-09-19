@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Accrual_Reduction_Pay_Code__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The pay code used to offset leave accrual hours each pay period. A common use case for this is the accrual of RDO</description>
+    <inlineHelpText>The pay code used to offset leave accrual hours each pay period. A common use case for this is the accrual of RDO</inlineHelpText>
+    <label>Accrual Reduction Pay Code</label>
+    <referenceTo>tc9_pr__Pay_Code__c</referenceTo>
+    <relationshipLabel>Leave Rules (Accrual Reduction Pay Code)</relationshipLabel>
+    <relationshipName>Leave_Rules3</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

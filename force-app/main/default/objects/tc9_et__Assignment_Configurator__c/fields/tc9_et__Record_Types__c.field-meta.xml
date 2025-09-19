@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Record_Types__c</fullName>
+    <deprecated>false</deprecated>
+    <description>List the Assignment Record Type Developer Name(s) (case sensitive) from which the field will be copied. Separated by a comma (,) and no spaces. For example, “Temp,Perm”. If left blank this field will be copied for all Assignment record types.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>List the Assignment Record Type Developer Name(s) (case sensitive) from which the field will be copied. Separated by a comma (,) and no spaces. For example, “Temp,Perm”. If left blank this field will be copied for all Assignment record types.</inlineHelpText>
+    <label>Record Types</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

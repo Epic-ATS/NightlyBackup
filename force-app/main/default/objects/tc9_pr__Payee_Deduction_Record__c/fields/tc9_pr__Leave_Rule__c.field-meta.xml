@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Leave_Rule__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Parent Leave Rule from which a new Payee Leave Rule will be auto created if record type Purchased Leave Deductions and Auto Create New Payee Leave Rule = Yes.</description>
+    <inlineHelpText>Parent Leave Rule from which a new Payee Leave Rule will be auto created if record type Purchased Leave Deductions and Auto Create New Payee Leave Rule = Yes.</inlineHelpText>
+    <label>Leave Rule</label>
+    <referenceTo>tc9_pr__Leave_Rule__c</referenceTo>
+    <relationshipLabel>Payee Deduction Records</relationshipLabel>
+    <relationshipName>Payee_Deduction_Records</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

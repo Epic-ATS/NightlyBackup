@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Half Pay</fullName>
+        <default>false</default>
+        <label>Half Pay</label>
+    </customValue>
+    <customValue>
+        <fullName>Standard Pay</fullName>
+        <default>false</default>
+        <label>Standard Pay</label>
+    </customValue>
+    <customValue>
+        <fullName>Double Pay</fullName>
+        <default>false</default>
+        <label>Double Pay</label>
+    </customValue>
+    <description>Users can define whether leave takes should be paid at half pay, standard pay or double pay.</description>
+    <masterLabel>Leave Pay Rates</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

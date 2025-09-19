@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Last_Employee_Rejection_Sent__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines the Date/Time the last email was sent to the Employee to advise the Expense Claim is rejected. This field is reset to blank on re-submission</description>
+    <inlineHelpText>Defines the Date/Time the last email was sent to the Employee to advise the Expense Claim is rejected. This field is reset to blank on re-submission</inlineHelpText>
+    <label>Last Employee Rejection Sent</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

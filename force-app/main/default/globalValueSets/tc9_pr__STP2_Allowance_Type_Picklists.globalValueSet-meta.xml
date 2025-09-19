@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Award Transport Payments</fullName>
+        <default>false</default>
+        <label>Award Transport Payments</label>
+    </customValue>
+    <customValue>
+        <fullName>Cents per KM</fullName>
+        <default>false</default>
+        <label>Cents per KM</label>
+    </customValue>
+    <customValue>
+        <fullName>Domestic or Overseas Travel</fullName>
+        <default>false</default>
+        <label>Domestic or Overseas Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Gross</fullName>
+        <default>false</default>
+        <label>Gross</label>
+    </customValue>
+    <customValue>
+        <fullName>Laundry</fullName>
+        <default>false</default>
+        <label>Laundry</label>
+    </customValue>
+    <customValue>
+        <fullName>Not Applicable</fullName>
+        <default>false</default>
+        <label>Not Applicable</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Overtime</fullName>
+        <default>false</default>
+        <label>Overtime</label>
+    </customValue>
+    <customValue>
+        <fullName>Overtime Meals</fullName>
+        <default>false</default>
+        <label>Overtime Meals</label>
+    </customValue>
+    <customValue>
+        <fullName>Qualifications/Certificates</fullName>
+        <default>false</default>
+        <label>Qualifications/Certificates</label>
+    </customValue>
+    <customValue>
+        <fullName>Tasks</fullName>
+        <default>false</default>
+        <label>Tasks</label>
+    </customValue>
+    <customValue>
+        <fullName>Tools</fullName>
+        <default>false</default>
+        <label>Tools</label>
+    </customValue>
+    <description>Allowance Types permissible for STP Phase 2 reporting</description>
+    <masterLabel>STP2 Allowance Type Picklists</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

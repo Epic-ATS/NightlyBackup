@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Time2Pay_Interpretation_Rule</fullName>
+    <fields>Name</fields>
+    <fields>tc9_et__Interpretation_Rule_Builder__c</fields>
+    <fields>RecordTypeId</fields>
+    <label>Time2Pay Interpretation Rule</label>
+</CompactLayout>

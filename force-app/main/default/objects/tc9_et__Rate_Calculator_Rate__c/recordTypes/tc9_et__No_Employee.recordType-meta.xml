@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__No_Employee</fullName>
+    <active>true</active>
+    <description>To be used for Rate Records where an Employee is not applied</description>
+    <label>No Employee</label>
+    <picklistValues>
+        <picklist>tc9_et__Rate_Entered__c</picklist>
+        <values>
+            <fullName>Base Pay Rate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pay Rate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Total Pay Rate</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

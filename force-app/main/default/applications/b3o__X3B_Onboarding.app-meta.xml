@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <content>b3o__X3B_Onboarding</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+    </actionOverrides>
+    <brand>
+        <headerColor>#00CA72</headerColor>
+        <logo>b3o__X3bonboardingsquare</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
+    </brand>
+    <description>Onboard. Vet. Comply</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>3B Onboarding</label>
+    <navType>Standard</navType>
+    <setupExperience>all</setupExperience>
+    <tabs>standard-home</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>b3o__Job__c</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>b3f__Form__c</tabs>
+    <tabs>b3o__Recruitment_Process__c</tabs>
+    <tabs>b3o__Site__c</tabs>
+    <tabs>b3o__Job_Type__c</tabs>
+    <tabs>b3o__Job_Board__c</tabs>
+    <tabs>b3o__Document_Pack__c</tabs>
+    <tabs>b3o__Session__c</tabs>
+    <tabs>b3o__Shortlist__c</tabs>
+    <tabs>b3o__Question_Set__c</tabs>
+    <tabs>b3o__Certificate_Type__c</tabs>
+    <tabs>b3o__Compliance_Rule__c</tabs>
+    <tabs>b3o__Log_Entry__c</tabs>
+    <tabs>b3o__Agreement__c</tabs>
+    <tabs>b3o__Marketplace</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>b3o__X3B_Onboarding_UtilityBar</utilityBar>
+</CustomApplication>

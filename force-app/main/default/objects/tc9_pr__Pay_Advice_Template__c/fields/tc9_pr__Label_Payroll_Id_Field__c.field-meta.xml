@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Label_Payroll_Id_Field__c</fullName>
+    <defaultValue>&apos;Payroll Id&apos;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Customisable label for the Payroll Id field label on the pay advice PDF</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Customisable label for the Payroll Id field label on the pay advice PDF</inlineHelpText>
+    <label>Label - Payroll Id Field</label>
+    <length>100</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

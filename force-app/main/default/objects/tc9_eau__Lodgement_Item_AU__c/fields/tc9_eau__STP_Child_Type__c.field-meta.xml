@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_eau__STP_Child_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>A summary of the STP Child Type</description>
+    <externalId>false</externalId>
+    <formula>If (RecordType.DeveloperName = &apos;STP_Paid_Leave&apos; , TEXT(tc9_eau__Leave_Type__c) ,
+If (RecordType.DeveloperName = &apos;STP_Allowance&apos; , TEXT(tc9_eau__Allowance_Type__c) + If (tc9_eau__Allowance_Other_Description__c != null , &apos; (&apos; + tc9_eau__Allowance_Other_Description__c +&apos;)&apos; , null ) ,
+If (RecordType.DeveloperName = &apos;STP_Deduction&apos; || RecordType.DeveloperName = &apos;STP_Salary_Sacrifice&apos; , TEXT(tc9_eau__STP_Deduction_Type__c) ,
+If (RecordType.DeveloperName = &apos;STP_Lump_Sum&apos; , TEXT(tc9_eau__Lump_Sum_Type__c) + If (NOT(ISBLANK(TEXT(tc9_eau__Lump_Sum_A_Type__c))) , TEXT(tc9_eau__Lump_Sum_A_Type__c) , null) ,
+If (RecordType.DeveloperName = &apos;STP_ETP&apos; , TEXT(tc9_eau__ETP_Type__c) , null ) ) ) ) )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>A summary of the STP Child Type</inlineHelpText>
+    <label>STP Child Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__GCM_Key__c</fullName>
+    <defaultValue>&quot;AAAAEhzj0Hw:APA91bE3cDXnkHsE2aE0wpile5eNvTMJrCHkpA7GTBYuzmJbUMeUeLPlV-mwZ5IFifcBh2kvpIYuFjPi5G7Xa7QeaiX5z6rEplGf9qzFVJiIokpN7Yow3f-yTRmt8zpJmd0YGBNSUh2R&quot;</defaultValue>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Google cloud messaging key</inlineHelpText>
+    <label>GCM Key</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

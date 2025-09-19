@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__FBT</fullName>
+    <columns>NAME</columns>
+    <columns>RECORDTYPE</columns>
+    <columns>tc9_pr__Pay_Rate_Multiplier__c</columns>
+    <columns>tc9_pr__ATO_Income_Classification__c</columns>
+    <columns>tc9_pr__PAYG_Tax_Exempt__c</columns>
+    <columns>tc9_pr__Contributes_to_ETP__c</columns>
+    <columns>tc9_pr__Contributes_to_OTE__c</columns>
+    <columns>tc9_pr__Contributes_to_RESC__c</columns>
+    <columns>tc9_pr__Accrues_Leave__c</columns>
+    <columns>tc9_pr__ETP_Type__c</columns>
+    <columns>tc9_pr__Excess_SGC_Refund__c</columns>
+    <columns>tc9_pr__Lump_Sum_A_Type__c</columns>
+    <columns>tc9_pr__Lump_Sum_Type__c</columns>
+    <columns>tc9_pr__Pay_Advice_Sort_Order__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>tc9_pr__Pay_Code__c.tc9_pr__FBT</value>
+    </filters>
+    <label>FBT</label>
+</ListView>

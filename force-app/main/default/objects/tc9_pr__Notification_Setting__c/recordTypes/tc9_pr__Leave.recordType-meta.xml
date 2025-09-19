@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Leave</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>tc9_pr__Notification_Settings</compactLayoutAssignment>
+    <description>To be used for define notification settings relating to leave notifications</description>
+    <label>Leave</label>
+    <picklistValues>
+        <picklist>tc9_pr__A_Approver_Approval_Reminder_Email__c</picklist>
+        <values>
+            <fullName>Standard_Email_Leave_Request_Alternative_Approver_Approval_Reminder</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__A_Approver_Approval_Request_Email__c</picklist>
+        <values>
+            <fullName>Standard_Email_Leave_Request_Alternative_Approver_Approval_Request</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__A_Approver_Reminder_Repeat__c</picklist>
+        <values>
+            <fullName>Daily</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Every 3 Hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hourly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Repeat</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__A_Approver_Reminder_Week_Day__c</picklist>
+        <values>
+            <fullName>Friday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saturday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sunday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thursday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tuesday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wednesday</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__A_Approver_Request_Week_Day__c</picklist>
+        <values>
+            <fullName>Friday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saturday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sunday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thursday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tuesday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wednesday</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__Auto_Send_A_Approver_Approval_Reminder__c</picklist>
+        <values>
+            <fullName>%23 Days After Calendar Period End Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%23 Days After Created</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bi-Monthly %23 Days After Bi-Monthly End</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Don%E2%80%99t Send Automatically</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Fortnightly On A Defined Day</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly %23 Days After Month End</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weekly On A Defined Day</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__Auto_Send_A_Approver_Approval_Request__c</picklist>
+        <values>
+            <fullName>%23 Days After Calendar Period End Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%23 Days After Created</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bi-Monthly %23 Days After Bi-Monthly End</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Don%E2%80%99t Send Automatically</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Fortnightly On A Defined Day</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly %23 Days After Month End</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Send on Submission</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weekly On A Defined Day</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__Auto_Send_Employee_Approved__c</picklist>
+        <values>
+            <fullName>Don%E2%80%99t Send Automatically</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Send on Approval</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__Auto_Send_Employee_Rejected__c</picklist>
+        <values>
+            <fullName>Don%E2%80%99t Send Automatically</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Send on Rejection</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__Auto_Send_Employee_Reminder__c</picklist>
+        <values>
+            <fullName>%23 Days After Calendar Period End Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%23 Days After Created</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bi-Monthly %23 Days After Bi-Monthly End</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Don%E2%80%99t Send Automatically</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Fortnightly On A Defined Day</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly %23 Days After Month End</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weekly On A Defined Day</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__Auto_Send_P_Approver_Approval_Reminder__c</picklist>
+        <values>
+            <fullName>%23 Days After Calendar Period End Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%23 Days After Created</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bi-Monthly %23 Days After Bi-Monthly End</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Don%E2%80%99t Send Automatically</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Fortnightly On A Defined Day</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly %23 Days After Month End</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weekly On A Defined Day</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__Auto_Send_P_Approver_Approval_Request__c</picklist>
+        <values>
+            <fullName>%23 Days After Calendar Period End Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%23 Days After Created</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bi-Monthly %23 Days After Bi-Monthly End</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Don%E2%80%99t Send Automatically</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fortnightly On A Defined Day</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly %23 Days After Month End</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Send on Submission</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Weekly On A Defined Day</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__Auto_Send_P_Approver_Approved_By_Other__c</picklist>
+        <values>
+            <fullName>Don%E2%80%99t Send Automatically</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Send on Approval %2F Rejection</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__Auto_Send_P_Approver_Approved_On_Behalf__c</picklist>
+        <values>
+            <fullName>Don%E2%80%99t Send Automatically</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Send on Approval %2F Rejection</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__Auto_Send_P_Approver_Rejected_By_Other__c</picklist>
+        <values>
+            <fullName>Don%E2%80%99t Send Automatically</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Send on Approval %2F Rejection</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__Auto_Send_P_Approver_Rejected_On_Behalf__c</picklist>
+        <values>
+            <fullName>Don%E2%80%99t Send Automatically</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Send on Approval %2F Rejection</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__Employee_Approved_Email__c</picklist>
+        <values>
+            <fullName>Standard_Email_Leave_Request_Employee_Approved</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__Employee_Rejected_Email__c</picklist>
+        <values>
+            <fullName>Standard_Email_Leave_Request_Employee_Rejected</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__Employee_Rejection_Repeat__c</picklist>
+        <values>
+            <fullName>Daily</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Every 3 Hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hourly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Repeat</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__Employee_Reminder_Email__c</picklist>
+        <values>
+            <fullName>Standard_Email_Leave_Request_Employee_Reminder</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__Employee_Reminder_Repeat__c</picklist>
+        <values>
+            <fullName>Daily</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Every 3 Hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hourly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Repeat</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__Employee_Reminder_Week_Day__c</picklist>
+        <values>
+            <fullName>Friday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saturday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sunday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thursday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tuesday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wednesday</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__P_Approver_Approval_Reminder_Email__c</picklist>
+        <values>
+            <fullName>Standard_Email_Leave_Request_Primary_Approver_Approval_Reminder</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__P_Approver_Approval_Request_Email__c</picklist>
+        <values>
+            <fullName>Standard_Email_Leave_Request_Primary_Approver_Approval_Request</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__P_Approver_Approved_By_Other_Email__c</picklist>
+        <values>
+            <fullName>Standard_Email_Leave_Request_Primary_Approver_Approved_By_Other</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__P_Approver_Approved_On_Behalf_Email__c</picklist>
+        <values>
+            <fullName>Standard_Email_Leave_Request_Primary_Approver_Approved_On_Behalf</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__P_Approver_Rejected_By_Other_Email__c</picklist>
+        <values>
+            <fullName>Standard_Email_Leave_Request_Primary_Approver_Rejected_By_Other</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__P_Approver_Rejected_On_Behalf_Email__c</picklist>
+        <values>
+            <fullName>Standard_Email_Leave_Request_Primary_Approver_Rejected_On_Behalf</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__P_Approver_Reminder_Repeat__c</picklist>
+        <values>
+            <fullName>Daily</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Every 3 Hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hourly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Repeat</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__P_Approver_Reminder_Week_Day__c</picklist>
+        <values>
+            <fullName>Friday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saturday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sunday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thursday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tuesday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wednesday</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__P_Approver_Request_Week_Day__c</picklist>
+        <values>
+            <fullName>Friday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saturday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sunday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thursday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tuesday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wednesday</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

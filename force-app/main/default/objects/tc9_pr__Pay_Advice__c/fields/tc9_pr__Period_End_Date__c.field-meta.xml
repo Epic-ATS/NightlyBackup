@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Period_End_Date__c</fullName>
+    <deprecated>false</deprecated>
+    <description>End Date of the Calendar Period.</description>
+    <inlineHelpText>End Date of the Calendar Period.</inlineHelpText>
+    <label>Period End Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

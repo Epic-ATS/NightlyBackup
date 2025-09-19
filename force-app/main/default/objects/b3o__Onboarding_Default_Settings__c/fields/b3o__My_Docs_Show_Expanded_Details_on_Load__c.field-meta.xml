@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__My_Docs_Show_Expanded_Details_on_Load__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <inlineHelpText>If checked, when loading My Documents, we will show expanded view of all submissions per document</inlineHelpText>
+    <label>My Docs: Show Expanded Details on Load</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

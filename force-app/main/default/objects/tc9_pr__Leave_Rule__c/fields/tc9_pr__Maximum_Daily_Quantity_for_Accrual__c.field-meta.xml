@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Maximum_Daily_Quantity_for_Accrual__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The maximum quantity worked per day which will be considered for leave accrual per quantity worked.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The maximum quantity worked per day which will be considered for leave accrual per quantity worked.</inlineHelpText>
+    <label>Maximum Daily Quantity for Accrual</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

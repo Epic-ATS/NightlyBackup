@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>if(b3o__Is_Full_Negative__c== true, &apos;Full Negative Copy&apos;, if( b3o__Is_Adjusted__c == false &amp;&amp;  b3o__Is_Adjustment__c == false, &apos;Normal&apos;, if(b3o__Is_Adjusted__c, &apos;Adjusted&apos;, &apos;Adjustment&apos;)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Interpretation_Rule_Name__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Displays the Interpretation Rule Name as read only for use on Lightning Pages</description>
+    <externalId>false</externalId>
+    <formula>Name</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Displays the Interpretation Rule Name as read only for use on Lightning Pages</inlineHelpText>
+    <label>Interpretation Rule Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

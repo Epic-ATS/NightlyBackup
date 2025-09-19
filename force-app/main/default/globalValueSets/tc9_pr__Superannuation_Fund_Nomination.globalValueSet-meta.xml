@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>APRA or RSA Fund</fullName>
+        <default>false</default>
+        <label>APRA or RSA Fund</label>
+    </customValue>
+    <customValue>
+        <fullName>Default Employer Fund</fullName>
+        <default>false</default>
+        <label>Default Employer Fund</label>
+    </customValue>
+    <customValue>
+        <fullName>Self Managed Fund</fullName>
+        <default>false</default>
+        <label>Self Managed Fund</label>
+    </customValue>
+    <description>The type of fund nominated by the Payee.</description>
+    <masterLabel>Superannuation Fund Nomination</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

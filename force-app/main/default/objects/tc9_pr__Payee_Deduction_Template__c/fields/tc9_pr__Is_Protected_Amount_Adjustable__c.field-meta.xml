@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Is_Protected_Amount_Adjustable__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Defines if the protected amount can be modified at a Payee Deduction Record level when related to the Deduction Template. If True, the rate value can be changed.</description>
+    <inlineHelpText>Defines if the protected amount can be modified at a Payee Deduction Record level when related to the Deduction Template. If True, the rate value can be changed.</inlineHelpText>
+    <label>Is Protected Amount Adjustable?</label>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

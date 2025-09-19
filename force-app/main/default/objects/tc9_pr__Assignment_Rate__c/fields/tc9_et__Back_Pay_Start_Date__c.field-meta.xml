@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Back_Pay_Start_Date__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The start date of the back pay period.</description>
+    <inlineHelpText>The start date of the back pay period.</inlineHelpText>
+    <label>Back Pay Start Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Payroll_Tax_Locations__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Records the Record IDs of the Locations to which Payroll Tax will apply for this Pay Code</description>
+    <inlineHelpText>Records the Record IDs of the Locations to which Payroll Tax will apply for this Pay Code</inlineHelpText>
+    <label>Payroll Tax Locations</label>
+    <length>1000</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Client_Custom_Post_Cost_1</fullName>
+    <active>true</active>
+    <description>To be used for Client level Employment Cost Exceptions associated with Custom Post Cost 1</description>
+    <label>Client Custom Post Cost 1</label>
+    <picklistValues>
+        <picklist>tc9_pr__Employment_Cost_Exempt__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

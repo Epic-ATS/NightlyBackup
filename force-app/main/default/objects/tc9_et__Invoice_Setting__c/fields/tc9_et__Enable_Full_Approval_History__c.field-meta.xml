@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Enable_Full_Approval_History__c</fullName>
+    <deprecated>false</deprecated>
+    <description>When enabled the Invoices with Backing Sheets will retrieve and display full approval status history as provided by the record history on the status field.</description>
+    <inlineHelpText>When enabled the Invoices with Backing Sheets will retrieve and display full approval status history as provided by the record history on the status field.</inlineHelpText>
+    <label>Enable Full Approval History</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_pr__Yes_No_Picklists</valueSetName>
+    </valueSet>
+</CustomField>

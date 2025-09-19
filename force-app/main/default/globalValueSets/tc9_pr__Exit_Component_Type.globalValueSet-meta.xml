@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Annual Leave All Dates</fullName>
+        <default>false</default>
+        <label>Annual Leave All Dates</label>
+    </customValue>
+    <customValue>
+        <fullName>Annual Leave Pre78</fullName>
+        <default>false</default>
+        <label>Annual Leave Pre78</label>
+    </customValue>
+    <customValue>
+        <fullName>Annual Leave Pre93</fullName>
+        <default>false</default>
+        <label>Annual Leave Pre93</label>
+    </customValue>
+    <customValue>
+        <fullName>Annual Leave Post93</fullName>
+        <default>false</default>
+        <label>Annual Leave Post93</label>
+    </customValue>
+    <customValue>
+        <fullName>Leave Loading All Dates</fullName>
+        <default>false</default>
+        <label>Leave Loading All Dates</label>
+    </customValue>
+    <customValue>
+        <fullName>Leave Loading Pre93</fullName>
+        <default>false</default>
+        <label>Leave Loading Pre93</label>
+    </customValue>
+    <customValue>
+        <fullName>Leave Loading Post93</fullName>
+        <default>false</default>
+        <label>Leave Loading Post93</label>
+    </customValue>
+    <customValue>
+        <fullName>Long Service Leave All Dates</fullName>
+        <default>false</default>
+        <label>Long Service Leave All Dates</label>
+    </customValue>
+    <customValue>
+        <fullName>Long Service Leave Pre78</fullName>
+        <default>false</default>
+        <label>Long Service Leave Pre78</label>
+    </customValue>
+    <customValue>
+        <fullName>Long Service Leave Pre93</fullName>
+        <default>false</default>
+        <label>Long Service Leave Pre93</label>
+    </customValue>
+    <customValue>
+        <fullName>Long Service Leave Post93</fullName>
+        <default>false</default>
+        <label>Long Service Leave Post93</label>
+    </customValue>
+    <customValue>
+        <fullName>Taxable ETP</fullName>
+        <default>false</default>
+        <label>Taxable ETP</label>
+    </customValue>
+    <customValue>
+        <fullName>Tax Free ETP</fullName>
+        <default>false</default>
+        <label>Tax Free ETP</label>
+    </customValue>
+    <customValue>
+        <fullName>Lump Sum D</fullName>
+        <default>false</default>
+        <label>Lump Sum D</label>
+    </customValue>
+    <description>Termination payment component types for Exit Pay Code mapping</description>
+    <masterLabel>Exit Component Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

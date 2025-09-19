@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Number_of_Times_Applied__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The number of times the allowance has been applied</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The number of times the allowance has been applied</inlineHelpText>
+    <label>Number of Times Applied</label>
+    <precision>14</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

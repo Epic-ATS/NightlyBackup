@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Standard_Email_Invoice_URL_AUS</fullName>
+        <default>false</default>
+        <label>Standard_Email_Invoice_URL_AUS</label>
+    </customValue>
+    <customValue>
+        <fullName>Standard_Email_Invoice_URL_NZ</fullName>
+        <default>false</default>
+        <label>Standard_Email_Invoice_URL_NZ</label>
+    </customValue>
+    <customValue>
+        <fullName>Standard_Email_Credit_Note_Single_URL</fullName>
+        <default>false</default>
+        <label>Standard_Email_Credit_Note_Single_URL</label>
+    </customValue>
+    <customValue>
+        <fullName>Time2Pay_Standard_Email_Template_Invoice_URL_NZ</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Time2Pay_Standard_Email_Template_Invoice_URL_NZ</label>
+    </customValue>
+    <customValue>
+        <fullName>Time2Pay_Standard_Email_Template_Invoice_URL_AUS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Time2Pay_Standard_Email_Template_Invoice_URL_AUS</label>
+    </customValue>
+    <customValue>
+        <fullName>Time2Pay_Standard_Email_Template_Credit_Note_Single_URL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Time2Pay_Standard_Email_Template_Credit_Note_Single_URL</label>
+    </customValue>
+    <description>To be used for Invoice Email Template - Online Picklists</description>
+    <masterLabel>Invoice Email Templates - Online</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

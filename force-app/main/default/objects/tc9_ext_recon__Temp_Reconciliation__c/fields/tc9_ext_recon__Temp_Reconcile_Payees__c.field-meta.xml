@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_ext_recon__Temp_Reconcile_Payees__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines which payees should be considered in the reconciliation process</description>
+    <inlineHelpText>Defines which payees should be considered in the reconciliation process</inlineHelpText>
+    <label>Reconcile Payees</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_ext_recon__Temp_Reconcile_Payees_Picklists</valueSetName>
+    </valueSet>
+</CustomField>

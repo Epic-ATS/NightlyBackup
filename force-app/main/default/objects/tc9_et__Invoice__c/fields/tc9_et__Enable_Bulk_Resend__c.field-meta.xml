@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Enable_Bulk_Resend__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When True, if the Invoice has already been sent, the User will be able to resend it via bulk send. If False the user will not be able to resend the Invoice via bulk send and they should use single send to resend the Invoice if required.</description>
+    <inlineHelpText>When True, if the Invoice has already been sent, the User will be able to resend it via bulk send. If False the user will not be able to resend the Invoice via bulk send and they should use single send to resend the Invoice if required.</inlineHelpText>
+    <label>Enable Bulk Resend</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

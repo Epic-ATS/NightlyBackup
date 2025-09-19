@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__Days_since_last_posted__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>if((Today() -  b3o__Date_Posted__c) &gt; 400, &apos;A While Back&apos;, if((Today() -  b3o__Date_Posted__c) &gt; 365, &apos;A Year Ago&apos;, if((Today() -  b3o__Date_Posted__c) &gt; 180, &apos;6 Months Ago&apos;, if((Today() -  b3o__Date_Posted__c) &gt; 90, &apos;3 Months Ago&apos;, if((Today() -  b3o__Date_Posted__c) &gt; 60, &apos;2 Months Ago&apos;, if((Today() -  b3o__Date_Posted__c) &gt; 30, &apos;1 Month Ago&apos;, if((Today() -  b3o__Date_Posted__c) &lt; 0, &apos;Recently&apos;, if((Today() -  b3o__Date_Posted__c) == 0,&apos;Today&apos; ,if((Today() -  b3o__Date_Posted__c) == 1,&apos;Yesterday&apos; , text(Today() -  b3o__Date_Posted__c) &amp; &quot; days ago&quot;)))))) )))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Days since last posted</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

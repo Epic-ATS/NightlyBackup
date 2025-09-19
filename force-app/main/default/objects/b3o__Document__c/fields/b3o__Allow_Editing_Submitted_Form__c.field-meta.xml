@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__Allow_Editing_Submitted_Form__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <inlineHelpText>If checked, the user can re-submit the document up until its approval</inlineHelpText>
+    <label>Allow Editing Submitted Document</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

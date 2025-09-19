@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3s__Specialty__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Specialty</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Obstetrics</fullName>
+                <default>false</default>
+                <label>Obstetrics</label>
+            </value>
+            <value>
+                <fullName>Operating Room</fullName>
+                <default>false</default>
+                <label>Operating Room</label>
+            </value>
+            <value>
+                <fullName>Catheterization Lab</fullName>
+                <default>false</default>
+                <label>Catheterization Lab</label>
+            </value>
+            <value>
+                <fullName>Cardiac</fullName>
+                <default>false</default>
+                <label>Cardiac</label>
+            </value>
+            <value>
+                <fullName>Pediatrics</fullName>
+                <default>false</default>
+                <label>Pediatrics</label>
+            </value>
+            <value>
+                <fullName>Endoscopy</fullName>
+                <default>false</default>
+                <label>Endoscopy</label>
+            </value>
+            <value>
+                <fullName>Gastrointestinal</fullName>
+                <default>false</default>
+                <label>Gastrointestinal</label>
+            </value>
+            <value>
+                <fullName>Diagnostic Radiology</fullName>
+                <default>false</default>
+                <label>Diagnostic Radiology</label>
+            </value>
+            <value>
+                <fullName>Interventional Radiology</fullName>
+                <default>false</default>
+                <label>Interventional Radiology</label>
+            </value>
+            <value>
+                <fullName>Neuroradiology</fullName>
+                <default>false</default>
+                <label>Neuroradiology</label>
+            </value>
+            <value>
+                <fullName>Mammography</fullName>
+                <default>false</default>
+                <label>Mammography</label>
+            </value>
+            <value>
+                <fullName>Musculoskeletal Radiology</fullName>
+                <default>false</default>
+                <label>Musculoskeletal Radiology</label>
+            </value>
+            <value>
+                <fullName>Nuclear Radiology</fullName>
+                <default>false</default>
+                <label>Nuclear Radiology</label>
+            </value>
+            <value>
+                <fullName>General Radiology</fullName>
+                <default>false</default>
+                <label>General Radiology</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

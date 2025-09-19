@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_eau__Payroll_Tax_Period_End__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The end date of the payroll tax reporting period entered by the user</description>
+    <label>Payroll Tax Period End</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

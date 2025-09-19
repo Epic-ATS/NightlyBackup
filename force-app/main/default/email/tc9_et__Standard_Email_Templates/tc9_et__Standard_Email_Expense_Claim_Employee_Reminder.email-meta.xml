@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This is the standard email template to be used when sending reminder notifications to employees that their Expense Claim has not been submitted</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>tc9_et__SampleLetterhead</letterhead>
+    <name>Standard Email - Expense Claim - Employee - Reminder</name>
+    <style>freeForm</style>
+    <subject>IMPORTANT: {!tc9_et__Expense_Claim__c.tc9_et__Payment_Entity__c} Expense Claim has NOT been submitted</subject>
+    <textOnly>Dear {!tc9_et__Expense_Claim__c.tc9_et__Employee_First_Name__c},
+
+It appears that you have not submitted an expense claim that was created  for your {!tc9_et__Expense_Claim__c.tc9_et__Assignment_Name__c} role at {!tc9_et__Expense_Claim__c.tc9_et__Client_Name__c}.
+
+The cut off for submitting expense claims is 12.00 noon Monday.
+
+It is important that you submit your expense claim immediately to be included in this week’s payroll.
+
+Please log into the Employee Portal ASAP to view and submit your expense claim.
+
+If you require any assistance, please contact your {!tc9_et__Expense_Claim__c.tc9_et__Payment_Entity__c} Consultant or {!tc9_et__Expense_Claim__c.tc9_et__Expense_Claim_Support__c} on {!tc9_et__Expense_Claim__c.tc9_et__Expense_Claim_Support_Contact__c}.
+
+Yours Sincerely,
+
+{!tc9_et__Expense_Claim__c.tc9_et__Payment_Entity__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

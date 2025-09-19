@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__Tally_Up_Score__c</fullName>
+    <deprecated>false</deprecated>
+    <inlineHelpText>Total score across all Assessment Responses</inlineHelpText>
+    <label>Score</label>
+    <summarizedField>b3o__Assessment_Response__c.b3o__Score__c</summarizedField>
+    <summaryForeignKey>b3o__Assessment_Response__c.b3o__Scorecard__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

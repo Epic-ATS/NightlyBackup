@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Higher_Rate_Saturday__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Users will be able to define that this day is the higher rate for overnight majority where the split is 50%. The picklist with the largest number will be selected when assessing the higher rate.</description>
+    <inlineHelpText>Users will be able to define that this day is the higher rate for overnight majority where the split is 50%. The picklist with the largest number will be selected when assessing the higher rate.</inlineHelpText>
+    <label>Higher Rate  Saturday</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_et__Interpretation_Higher_Rate_Picklists</valueSetName>
+    </valueSet>
+</CustomField>

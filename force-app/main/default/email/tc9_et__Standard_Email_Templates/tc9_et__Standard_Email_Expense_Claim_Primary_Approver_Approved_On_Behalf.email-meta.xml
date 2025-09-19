@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This is the standard email template to be used when sending notifications to the Primary Approver that an Expense Claim has been approved on their behalf by an internal user</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>tc9_et__SampleLetterhead</letterhead>
+    <name>Standard Email - Expense Claim - Primary Approver - Approved On Behalf</name>
+    <style>freeForm</style>
+    <subject>Outstanding Expense Claim approved on your behalf</subject>
+    <textOnly>Dear {!tc9_et__Expense_Claim__c.tc9_et__Primary_Approver_First_Name__c},
+
+This is a notification that the following expense claim has been approved on your behalf.
+
+Expense Claim: {!tc9_et__Expense_Claim__c.Name}
+Claim Date: {!tc9_et__Expense_Claim__c.tc9_et__Claim_Date__c}
+Employee: {!tc9_et__Expense_Claim__c.tc9_et__Employee_Full_Name__c}
+
+The expense claim was approved by {!tc9_et__Expense_Claim__c.tc9_et__Approved_Rejected_on_Behalf_User_Name__c} with the following reason provided:
+{!tc9_et__Expense_Claim__c.tc9_et__Approved_Rejected_on_Behalf_Reason__c}
+
+If you have any questions regarding the above, please contact your {!tc9_et__Expense_Claim__c.tc9_et__Payment_Entity__c} Consultant or {!tc9_et__Expense_Claim__c.tc9_et__Expense_Claim_Support__c} on {!tc9_et__Expense_Claim__c.tc9_et__Expense_Claim_Support_Contact__c}.
+
+Yours Sincerely,
+
+{!tc9_et__Expense_Claim__c.tc9_et__Payment_Entity__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

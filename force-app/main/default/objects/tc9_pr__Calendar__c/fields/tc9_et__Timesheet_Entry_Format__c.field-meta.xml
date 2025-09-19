@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Timesheet_Entry_Format__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The format that timesheets will be entered</description>
+    <inlineHelpText>The format that timesheets will be entered</inlineHelpText>
+    <label>Timesheet Entry Format</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_et__Timesheet_Entry_Format_Picklist</valueSetName>
+    </valueSet>
+</CustomField>

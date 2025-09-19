@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This is the standard email template to be used when sending reminder notifications to employees that their Leave Request has not been submitted</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>tc9_pr__SampleLetterhead</letterhead>
+    <name>Standard Email - Leave Request - Employee - Reminder</name>
+    <style>freeForm</style>
+    <subject>IMPORTANT: {!tc9_pr__Payee_Leave_Event__c.tc9_pr__Payment_Entity__c} Leave Request has NOT been submitted</subject>
+    <textOnly>Dear {!tc9_pr__Payee_Leave_Event__c.tc9_pr__Employee_First_Name__c}, 
+
+It appears that you have not submitted your leave request for last week for your {!tc9_pr__Payee_Leave_Event__c.tc9_pr__Assignment_Name__c} role at {!tc9_pr__Payee_Leave_Event__c.tc9_pr__Client_Name__c}.
+
+The cut off for submitting leave requests is 12.00 noon Monday.
+
+It is important that you submit your leave request immediately to be included in this week’s payroll. 
+
+Please log into the Employee Portal ASAP to view and submit your leave request.
+
+If you require any assistance, please contact your 
+{!tc9_pr__Payee_Leave_Event__c.tc9_pr__Payment_Entity__c} Consultant or 
+{!tc9_pr__Payee_Leave_Event__c.tc9_pr__Payee_Leave_Event_Support__c} on 
+{!tc9_pr__Payee_Leave_Event__c.tc9_pr__Payee_Leave_Event_Support_Contact__c}.
+
+Yours Sincerely, 
+
+{!tc9_pr__Payee_Leave_Event__c.tc9_pr__Payment_Entity__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

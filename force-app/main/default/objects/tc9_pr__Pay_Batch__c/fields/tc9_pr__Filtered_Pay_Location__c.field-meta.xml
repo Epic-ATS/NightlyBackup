@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Filtered_Pay_Location__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>When the Pay Batch is created, if filtered by a Pay Location, this field indicates which Pay Location the Pay Batch was filtered by</description>
+    <inlineHelpText>When the Pay Batch is created, if filtered by a Pay Location, this field indicates which Pay Location the Pay Batch was filtered by</inlineHelpText>
+    <label>Filtered Pay Location</label>
+    <referenceTo>tc9_pr__Location__c</referenceTo>
+    <relationshipLabel>Pay Batches</relationshipLabel>
+    <relationshipName>Pay_Batches</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

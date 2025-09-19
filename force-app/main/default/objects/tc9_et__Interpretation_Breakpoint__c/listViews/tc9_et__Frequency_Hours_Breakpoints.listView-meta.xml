@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Frequency_Hours_Breakpoints</fullName>
+    <columns>NAME</columns>
+    <columns>tc9_et__Breakpoint_Type__c</columns>
+    <columns>tc9_et__Interpretation_Rule__c</columns>
+    <columns>tc9_et__Pay_Code__c</columns>
+    <columns>tc9_et__Daily_Pay_Code_Cap_Value__c</columns>
+    <columns>tc9_et__Start_Threshold__c</columns>
+    <columns>tc9_et__End_Threshold__c</columns>
+    <columns>tc9_et__Sunday_Pay_Code__c</columns>
+    <columns>tc9_et__Public_Holiday_Pay_Code__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>tc9_et__Interpretation_Breakpoint__c.tc9_et__Frequency_Hours_Breakpoint</value>
+    </filters>
+    <label>Frequency Hours Breakpoints</label>
+</ListView>

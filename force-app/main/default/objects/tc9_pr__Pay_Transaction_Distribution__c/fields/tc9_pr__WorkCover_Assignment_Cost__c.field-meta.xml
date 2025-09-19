@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__WorkCover_Assignment_Cost__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The Assignment Cost record selected for the calculation of WorkCover</description>
+    <inlineHelpText>The Assignment Cost record selected for the calculation of WorkCover</inlineHelpText>
+    <label>WorkCover Assignment Cost</label>
+    <referenceTo>tc9_pr__Assignment_Cost__c</referenceTo>
+    <relationshipLabel>Pay Transaction Distributions (WorkCover Assignment Cost)</relationshipLabel>
+    <relationshipName>Pay_Transaction_Distributions1</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

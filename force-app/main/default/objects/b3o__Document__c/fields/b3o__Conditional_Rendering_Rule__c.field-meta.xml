@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__Conditional_Rendering_Rule__c</fullName>
+    <deprecated>false</deprecated>
+    <inlineHelpText>JSON rule for conditionally rendering this document</inlineHelpText>
+    <label>Conditional Rendering Rule</label>
+    <length>131072</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

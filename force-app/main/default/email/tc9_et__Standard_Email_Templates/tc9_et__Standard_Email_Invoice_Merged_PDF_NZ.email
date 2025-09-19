@@ -1,0 +1,12 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<font size="2" style="font-family: arial; font-size: 12pt;" face="Arial, sans-serif"><span style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; background-color: rgb(255, 255, 255);">Dear&nbsp;&nbsp;</span>{!tc9_et__Invoice__c.tc9_et__Invoice_To_Contact_First_Name__c}<br></font><span style="font-family: Verdana; font-size: 12px; white-space: pre-wrap; background-color: rgb(255, 255, 255);">
+Please find attached Invoice(s) from {!tc9_et__Invoice__c.tc9_et__Invoice_Entity__c}.</span><div style=""><font style=""><font face="Verdana"><span style="font-size: 12px; white-space: pre-wrap;"><br></span></font></font><span style="font-family: Verdana; font-size: 12px; white-space: pre-wrap; background-color: rgb(255, 255, 255);">Please remit payment to:
+Bank Account Name: {!tc9_et__Invoice__c.tc9_et__Remit_To_Bank_Account_Name__c}
+Branch (BSB): {!tc9_et__Invoice__c.tc9_et__Remit_To_Bank_Branch_Code__c}
+Account Number: {!tc9_et__Invoice__c.tc9_et__Remit_To_Bank_Account_Number__c}
+Suffix: {!tc9_et__Invoice__c.tc9_et__Remit_To_Bank_Account_Suffix__c}</span></div><div style=""><span style="font-family: Verdana; font-size: 12px; white-space: pre-wrap; background-color: rgb(255, 255, 255);"><br></span></div><div style=""><span style="font-family: Verdana; font-size: 12px; white-space: pre-wrap; background-color: rgb(255, 255, 255);">Remittance advice can be emailed to {!tc9_et__Invoice__c.tc9_et__Remittance_Email__c}</span></div><div style=""><span style="font-family: Verdana; font-size: 12px; white-space: pre-wrap; background-color: rgb(255, 255, 255);"><br></span></div><div style=""><span style="font-family: Verdana; font-size: 12px; white-space: pre-wrap; background-color: rgb(255, 255, 255);">If you would like to discuss the attached invoice(s), or have any problems opening the attachment(s), please contact {!tc9_et__Invoice__c.tc9_et__Contact_for_Invoice_Queries_Name__c} on {!tc9_et__Invoice__c.tc9_et__Contact_for_Invoice_Queries_Phone__c}.</span></div><div style=""><br></div><div style=""><span style="font-family: Verdana; font-size: 12px; white-space: pre-wrap; background-color: rgb(255, 255, 255);">Regards,
+{!tc9_et__Invoice__c.tc9_et__Invoice_Entity__c}</span></div>]]></td>
+</tr>
+</table>

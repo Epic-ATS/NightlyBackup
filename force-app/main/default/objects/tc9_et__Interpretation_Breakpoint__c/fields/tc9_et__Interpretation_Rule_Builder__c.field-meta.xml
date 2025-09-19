@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Interpretation_Rule_Builder__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Button to open the Interpretation Rule Builder</description>
+    <externalId>false</externalId>
+    <formula>tc9_et__Interpretation_Rule__r.tc9_et__Interpretation_Rule_Builder__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Button to open the Interpretation Rule Builder</inlineHelpText>
+    <label>Interpretation Rule Builder</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

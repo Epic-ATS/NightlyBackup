@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Pay_Code_To_Mark_Up_Margin_Rate</fullName>
+    <active>true</active>
+    <description>To be used for Pay Code to Mark Up / Margin Rate Record Junctions</description>
+    <label>Pay Code To  Mark Up / Margin Rate</label>
+</RecordType>

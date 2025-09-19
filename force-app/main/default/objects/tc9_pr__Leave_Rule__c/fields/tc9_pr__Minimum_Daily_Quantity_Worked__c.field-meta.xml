@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Minimum_Daily_Quantity_Worked__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The minimum number of units which must be worked per day for leave accrual per quantity worked to be considered.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The minimum number of units which must be worked per day for leave accrual per quantity worked to be considered.</inlineHelpText>
+    <label>Minimum Daily Quantity Worked</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

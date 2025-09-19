@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Tax_File_Number__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The Tax File Number of the payee which must be provided in a valid ATO format.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Tax File Number of the payee which must be provided in a valid ATO format.</inlineHelpText>
+    <label>Tax File Number</label>
+    <length>9</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

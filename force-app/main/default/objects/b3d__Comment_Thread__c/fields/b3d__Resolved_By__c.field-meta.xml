@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3d__Resolved_By__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <label>Resolved By</label>
+    <referenceTo>b3d__Collaborator__c</referenceTo>
+    <relationshipLabel>Comment Threads (Resolved By)</relationshipLabel>
+    <relationshipName>Comment_Threads1</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

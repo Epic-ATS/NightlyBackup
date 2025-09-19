@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Send_Invoice_Email_LIST_BUTTON</fullName>
+    <availability>online</availability>
+    <description>To be used to email the PDF version of the selected Invoice records to the Bill To Contact when their Distribution Type is one of the email formats. Selected Invoices with a Distribution Type of Print will be skipped.</description>
+    <displayType>massActionButton</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Send Invoice Email</masterLabel>
+    <openType>sidebar</openType>
+    <page>tc9_et__InvoiceMultipleEmail</page>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+</WebLink>

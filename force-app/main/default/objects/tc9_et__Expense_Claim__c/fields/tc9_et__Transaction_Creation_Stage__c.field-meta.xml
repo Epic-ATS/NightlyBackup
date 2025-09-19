@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Transaction_Creation_Stage__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The stage in the transaction creation process the Expense Claim is in, updated by the application automatically. 
+1 - Expense Claim has not been approved 
+2 - Expense Claim Approved, ready to be processed 
+3 - Expense Claim has had Transactions created 
+4 - The process to create Transactions failed - check Debug Log</description>
+    <inlineHelpText>The stage in the transaction creation process the Expense Claim is in
+1 - Claim has not been approved 
+2 - Claim Approved, ready to be processed 
+3 - Claim has had Transactions created 
+4 - The process to create Transactions failed</inlineHelpText>
+    <label>Transaction Creation Stage</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_et__Generate_Transaction_Picklists</valueSetName>
+    </valueSet>
+</CustomField>

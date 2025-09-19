@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Generate_Calendar_Period_records__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Identifies Calendar records being created outside of the standard page.</description>
+    <inlineHelpText>Identifies Calendar records being created outside of the standard page.</inlineHelpText>
+    <label>Generate Calendar Period records</label>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

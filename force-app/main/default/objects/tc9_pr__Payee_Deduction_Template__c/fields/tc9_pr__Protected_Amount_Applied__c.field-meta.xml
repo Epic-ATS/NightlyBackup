@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Protected_Amount_Applied__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines the protected amount that will be used when calculating the deduction amount during the deduction transaction creation. When deductions are calculated, the deduction amount withheld will be adjusted as needed to ensure the amount withheld does not reduce the Payee&apos;s earnings to an amount lower than the protected earnings. If blank not protected amount applies</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Defines the protected amount that will be used when calculating the deduction amount during the deduction transaction creation.</inlineHelpText>
+    <label>Protected Amount Applied</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

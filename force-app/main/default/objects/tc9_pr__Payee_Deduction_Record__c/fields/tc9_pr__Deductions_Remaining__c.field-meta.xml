@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Deductions_Remaining__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The number of deductions remaining.</description>
+    <externalId>false</externalId>
+    <formula>IF(
+  ISBLANK(tc9_pr__Quantity__c), &quot;No Limit Applied&quot;, TEXT(tc9_pr__Quantity__c - tc9_pr__Number_of_Times_Applied__c)
+)</formula>
+    <inlineHelpText>The number of deductions remaining.</inlineHelpText>
+    <label>Deductions Remaining</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

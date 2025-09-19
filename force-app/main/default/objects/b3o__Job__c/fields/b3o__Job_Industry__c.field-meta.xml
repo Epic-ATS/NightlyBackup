@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__Job_Industry__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Job Industry</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Accounting</fullName>
+                <default>false</default>
+                <label>Accounting</label>
+            </value>
+            <value>
+                <fullName>Aerospace and Aviation</fullName>
+                <default>false</default>
+                <label>Aerospace and Aviation</label>
+            </value>
+            <value>
+                <fullName>Agriculture</fullName>
+                <default>false</default>
+                <label>Agriculture</label>
+            </value>
+            <value>
+                <fullName>Audio Visual</fullName>
+                <default>false</default>
+                <label>Audio Visual</label>
+            </value>
+            <value>
+                <fullName>Automotive</fullName>
+                <default>false</default>
+                <label>Automotive</label>
+            </value>
+            <value>
+                <fullName>Banking and Finance</fullName>
+                <default>false</default>
+                <label>Banking and Finance</label>
+            </value>
+            <value>
+                <fullName>Construction</fullName>
+                <default>false</default>
+                <label>Construction</label>
+            </value>
+            <value>
+                <fullName>Consultancy</fullName>
+                <default>false</default>
+                <label>Consultancy</label>
+            </value>
+            <value>
+                <fullName>Customer Service and Call Centres</fullName>
+                <default>false</default>
+                <label>Customer Service and Call Centres</label>
+            </value>
+            <value>
+                <fullName>Dental</fullName>
+                <default>false</default>
+                <label>Dental</label>
+            </value>
+            <value>
+                <fullName>Education and Training</fullName>
+                <default>false</default>
+                <label>Education and Training</label>
+            </value>
+            <value>
+                <fullName>Electronics</fullName>
+                <default>false</default>
+                <label>Electronics</label>
+            </value>
+            <value>
+                <fullName>Energy, Oil and Gas</fullName>
+                <default>false</default>
+                <label>Energy, Oil and Gas</label>
+            </value>
+            <value>
+                <fullName>Engineering</fullName>
+                <default>false</default>
+                <label>Engineering</label>
+            </value>
+            <value>
+                <fullName>Environmental and Waste</fullName>
+                <default>false</default>
+                <label>Environmental and Waste</label>
+            </value>
+            <value>
+                <fullName>Facilities Management</fullName>
+                <default>false</default>
+                <label>Facilities Management</label>
+            </value>
+            <value>
+                <fullName>FMCG</fullName>
+                <default>false</default>
+                <label>FMCG</label>
+            </value>
+            <value>
+                <fullName>Graduate</fullName>
+                <default>false</default>
+                <label>Graduate</label>
+            </value>
+            <value>
+                <fullName>Hair, Beauty and Cosmetics</fullName>
+                <default>false</default>
+                <label>Hair, Beauty and Cosmetics</label>
+            </value>
+            <value>
+                <fullName>Health, Medical and related</fullName>
+                <default>false</default>
+                <label>Health, Medical and related</label>
+            </value>
+            <value>
+                <fullName>Human Resources</fullName>
+                <default>false</default>
+                <label>Human Resources</label>
+            </value>
+            <value>
+                <fullName>Insurance</fullName>
+                <default>false</default>
+                <label>Insurance</label>
+            </value>
+            <value>
+                <fullName>IT and Internet</fullName>
+                <default>false</default>
+                <label>IT and Internet</label>
+            </value>
+            <value>
+                <fullName>Legal</fullName>
+                <default>false</default>
+                <label>Legal</label>
+            </value>
+            <value>
+                <fullName>Logistics, Procurement, Distribution and Supply Chain</fullName>
+                <default>false</default>
+                <label>Logistics, Procurement, Distribution and Supply Chain</label>
+            </value>
+            <value>
+                <fullName>Manufacturing and Production</fullName>
+                <default>false</default>
+                <label>Manufacturing and Production</label>
+            </value>
+            <value>
+                <fullName>Marketing, Advertising and PR</fullName>
+                <default>false</default>
+                <label>Marketing, Advertising and PR</label>
+            </value>
+            <value>
+                <fullName>Media, New Media and Creative</fullName>
+                <default>false</default>
+                <label>Media, New Media and Creative</label>
+            </value>
+            <value>
+                <fullName>Military and Defence</fullName>
+                <default>false</default>
+                <label>Military and Defence</label>
+            </value>
+            <value>
+                <fullName>Mining</fullName>
+                <default>false</default>
+                <label>Mining</label>
+            </value>
+            <value>
+                <fullName>Multilingual</fullName>
+                <default>false</default>
+                <label>Multilingual</label>
+            </value>
+            <value>
+                <fullName>Not for profit and Charities</fullName>
+                <default>false</default>
+                <label>Not for profit and Charities</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Property and Real-estate</fullName>
+                <default>false</default>
+                <label>Property and Real-estate</label>
+            </value>
+            <value>
+                <fullName>Public Sector</fullName>
+                <default>false</default>
+                <label>Public Sector</label>
+            </value>
+            <value>
+                <fullName>Rail</fullName>
+                <default>false</default>
+                <label>Rail</label>
+            </value>
+            <value>
+                <fullName>Recruitment</fullName>
+                <default>false</default>
+                <label>Recruitment</label>
+            </value>
+            <value>
+                <fullName>Retail and Wholesale</fullName>
+                <default>false</default>
+                <label>Retail and Wholesale</label>
+            </value>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>Scientific and Pharmaceuticals</fullName>
+                <default>false</default>
+                <label>Scientific and Pharmaceuticals</label>
+            </value>
+            <value>
+                <fullName>Secretarial and Administration</fullName>
+                <default>false</default>
+                <label>Secretarial and Administration</label>
+            </value>
+            <value>
+                <fullName>Senior appointments</fullName>
+                <default>false</default>
+                <label>Senior appointments</label>
+            </value>
+            <value>
+                <fullName>Social services</fullName>
+                <default>false</default>
+                <label>Social services</label>
+            </value>
+            <value>
+                <fullName>Telecommunications</fullName>
+                <default>false</default>
+                <label>Telecommunications</label>
+            </value>
+            <value>
+                <fullName>Training</fullName>
+                <default>false</default>
+                <label>Training</label>
+            </value>
+            <value>
+                <fullName>Travel, Leisure, Tourism and Hospitality</fullName>
+                <default>false</default>
+                <label>Travel, Leisure, Tourism and Hospitality</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

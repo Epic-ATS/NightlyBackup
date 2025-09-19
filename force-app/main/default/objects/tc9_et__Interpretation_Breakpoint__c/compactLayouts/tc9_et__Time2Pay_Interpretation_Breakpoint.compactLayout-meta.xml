@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Time2Pay_Interpretation_Breakpoint</fullName>
+    <fields>Name</fields>
+    <fields>tc9_et__Interpretation_Rule_Builder__c</fields>
+    <fields>tc9_et__Interpretation_Rule__c</fields>
+    <fields>tc9_et__Interpretation_Rule_Record_Type__c</fields>
+    <fields>tc9_et__Breakpoint_Type__c</fields>
+    <fields>tc9_et__Pay_Code__c</fields>
+    <label>Time2Pay Interpretation Breakpoint</label>
+</CompactLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__Do_Not_Pre_Load_Document__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <inlineHelpText>Pre-loading will load the document before the user has clicked on the &quot;Submit&quot; button. This improves UX. However, pre-loading triggers the creation of a trace/submission/submitter. Select this option to direct the app to load documents only when requested.</inlineHelpText>
+    <label>Do Not Pre-Load Document</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

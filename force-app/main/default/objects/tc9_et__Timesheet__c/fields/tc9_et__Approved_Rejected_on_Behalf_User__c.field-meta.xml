@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Approved_Rejected_on_Behalf_User__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>If the Timesheet was approved/rejected on Behalf of the Approver, this field records the User who approved/rejected the Timesheet</description>
+    <inlineHelpText>If the Timesheet was approved/rejected on Behalf of the Approver, this field records the User who approved/rejected the Timesheet</inlineHelpText>
+    <label>Approved/Rejected on Behalf User</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Timesheets2</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

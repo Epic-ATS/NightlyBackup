@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>tc9_eau__STP_Email_Cancelled_by_ATO</fullName>
+        <description>STP Email - Cancelled by ATO</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>tc9_eau__Lodgement_Emails/tc9_eau__STP_Cancelled_by_the_ATO</template>
+    </alerts>
+    <alerts>
+        <fullName>tc9_eau__STP_Email_Lodgement_Submitted</fullName>
+        <description>STP Email - Lodgement Submitted</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>tc9_eau__Lodgement_Emails/tc9_eau__STP_Submitted_to_ATO</template>
+    </alerts>
+    <alerts>
+        <fullName>tc9_eau__STP_Email_STP_Processed_by_ATO</fullName>
+        <description>STP Email - STP Processed by ATO</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>tc9_eau__Lodgement_Emails/tc9_eau__STP_Processed_by_the_ATO</template>
+    </alerts>
+    <rules>
+        <fullName>tc9_eau__STP Email - Cancelled by ATO</fullName>
+        <actions>
+            <name>tc9_eau__STP_Email_Cancelled_by_ATO</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>Send email to user when STP Lodgement has been cancelled by the ATO</description>
+        <formula>AND ( ISCHANGED ( tc9_eau__Status__c ) , TEXT ( tc9_eau__Status__c ) = &apos;Cancelled&apos; ,  RecordType.DeveloperName = &apos;Single_Touch_Payroll&apos; )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>tc9_eau__STP Email - Processed by ATO</fullName>
+        <actions>
+            <name>tc9_eau__STP_Email_STP_Processed_by_ATO</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>Send email to user when STP Lodgement has been successfully processed by the ATO</description>
+        <formula>AND ( ISCHANGED ( tc9_eau__Status__c ) , TEXT ( tc9_eau__Status__c ) = &apos;Completed&apos; ,  RecordType.DeveloperName = &apos;Single_Touch_Payroll&apos; )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>tc9_eau__STP Email - Submitted to ATO</fullName>
+        <actions>
+            <name>tc9_eau__STP_Email_Lodgement_Submitted</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>Send email to user when STP Lodgement has been submitted to the ATO for processing</description>
+        <formula>AND ( ISCHANGED ( tc9_eau__Status__c ) , TEXT ( tc9_eau__Status__c ) = &apos;Confirmed&apos; ,  RecordType.DeveloperName = &apos;Single_Touch_Payroll&apos; )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

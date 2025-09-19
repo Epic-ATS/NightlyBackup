@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Is_Timesheet_Created__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates that there is 1 or more Timesheets created for the Assignment</description>
+    <inlineHelpText>Indicates that there is 1 or more Timesheets created for the Assignment</inlineHelpText>
+    <label>Is Timesheet Created?</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

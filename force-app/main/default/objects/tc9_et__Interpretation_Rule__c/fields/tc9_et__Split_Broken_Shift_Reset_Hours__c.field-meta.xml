@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Split_Broken_Shift_Reset_Hours__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines the time calculated between the end of a timesheet entry and the start of another timesheet entry to determine if a Split Broken shift applies.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Defines the time calculated between the end of a timesheet entry and the start of another timesheet entry to determine if a Split Broken shift applies.</inlineHelpText>
+    <label>Split/Broken Shift Reset Hours</label>
+    <precision>8</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Override_Amount_per_Period__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates that the user has manually entered the Amount per Period value that should be paid per Calendar Period</description>
+    <inlineHelpText>Indicates that the user has manually entered the Amount per Period value that should be paid per Calendar Period</inlineHelpText>
+    <label>Override Amount per Period</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes</fullName>
+                <default>false</default>
+                <label>Yes</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

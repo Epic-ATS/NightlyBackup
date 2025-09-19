@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__A_target_is_required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISBLANK(b3o__Form__c), ISBLANK(b3o__Question_Set__c), ISBLANK(b3o__External_Link__c), 
+ISBLANK(b3o__Document__c),
+ISBLANK(b3o__Document_Template__c),
+ISBLANK(b3o__Session__c))</errorConditionFormula>
+    <errorMessage>Please provide a Document, Template, Form, Question Set or an External Link to this document</errorMessage>
+</ValidationRule>

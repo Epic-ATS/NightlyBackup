@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Hours_per_Period__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Input the regular number of hours the employee is expected to work per period</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Input the regular number of hours the employee is expected to work per period</inlineHelpText>
+    <label>Hours per Period</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

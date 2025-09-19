@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Is_Allowance_Rate_Adjustable__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Defines if the allowance rate can be modified at a Payee Allowance Record level when related to the Allowance Template. If True, the rate value can be changed.</description>
+    <inlineHelpText>Defines if the allowance rate can be modified at a Payee Allowance Record level when related to the Allowance Template. If True, the rate value can be changed.</inlineHelpText>
+    <label>Is Allowance Rate Adjustable?</label>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

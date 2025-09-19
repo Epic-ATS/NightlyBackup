@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_ext_recon__Temp_Period__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines which period should be considered for this reconciliation job</description>
+    <inlineHelpText>Defines which period should be considered for this reconciliation job</inlineHelpText>
+    <label>Period</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_ext_recon__Temp_Reconciliation_Period_Picklists</valueSetName>
+    </valueSet>
+</CustomField>

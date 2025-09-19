@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Expense_Claim__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Defines the Expense Claim applies to the Expense (if applicable). If not related to an Expense Claim the Expense must be related to a Timesheet. The Expense can not be related to both a Timesheet and an Expense Claim</description>
+    <inlineHelpText>Defines the Expense Claim applies to the Expense (if applicable). If not related to an Expense Claim the Expense must be related to a Timesheet. The Expense can not be related to both a Timesheet and an Expense Claim</inlineHelpText>
+    <label>Expense Claim</label>
+    <referenceTo>tc9_et__Expense_Claim__c</referenceTo>
+    <relationshipLabel>Expenses</relationshipLabel>
+    <relationshipName>Expenses</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

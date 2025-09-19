@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_eau__Submission_Id__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Unique identifier submitted to the ATO during the STP process. Used mainly for Full File Replacement event</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Unique identifier submitted to the ATO during the STP process. Used mainly for Full File Replacement event</inlineHelpText>
+    <label>Submission Id</label>
+    <length>200</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

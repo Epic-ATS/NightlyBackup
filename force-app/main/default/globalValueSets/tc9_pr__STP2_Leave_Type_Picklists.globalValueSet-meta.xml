@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Ancillary or Defence Leave</fullName>
+        <default>false</default>
+        <label>Ancillary or Defence Leave</label>
+    </customValue>
+    <customValue>
+        <fullName>Cash out in Service</fullName>
+        <default>false</default>
+        <label>Cash out in Service</label>
+    </customValue>
+    <customValue>
+        <fullName>Paid Parental Leave</fullName>
+        <default>false</default>
+        <label>Paid Parental Leave</label>
+    </customValue>
+    <customValue>
+        <fullName>Other Paid Leave</fullName>
+        <default>false</default>
+        <label>Other Paid Leave</label>
+    </customValue>
+    <customValue>
+        <fullName>Unused Leave on Termination</fullName>
+        <default>false</default>
+        <label>Unused Leave on Termination</label>
+    </customValue>
+    <customValue>
+        <fullName>Workers Compensation</fullName>
+        <default>false</default>
+        <label>Workers Compensation</label>
+    </customValue>
+    <description>Leave types permissible for STP Phase 2 reporting</description>
+    <masterLabel>STP2 Leave Type Picklists</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

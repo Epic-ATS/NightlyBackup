@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Filtered_Payee_Locations__c</fullName>
+    <deprecated>false</deprecated>
+    <description>When the pay batch is created, if filtered by Payee Location, this field indicates which Location the Pay Batch was filtered by.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>When the pay batch is created, if filtered by Payee Location, this field indicates which Location the Pay Batch was filtered by.</inlineHelpText>
+    <label>Filtered Payee Location</label>
+    <length>100</length>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

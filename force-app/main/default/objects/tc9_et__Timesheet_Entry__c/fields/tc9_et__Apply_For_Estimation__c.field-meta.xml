@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Apply_For_Estimation__c</fullName>
+    <deprecated>false</deprecated>
+    <description>If yes the timesheet entry will be enabled for estimation calculation and will have estimation pay transactions provided after calculation.</description>
+    <inlineHelpText>If yes the timesheet entry will be enabled for estimation calculation and will have estimation pay transactions provided after calculation.</inlineHelpText>
+    <label>Apply For Estimation</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_pr__Yes_No_Picklists</valueSetName>
+    </valueSet>
+</CustomField>

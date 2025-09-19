@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Gross</fullName>
+        <default>false</default>
+        <label>Gross</label>
+    </customValue>
+    <customValue>
+        <fullName>Car</fullName>
+        <default>false</default>
+        <label>Car</label>
+    </customValue>
+    <customValue>
+        <fullName>Laundry</fullName>
+        <default>false</default>
+        <label>Laundry</label>
+    </customValue>
+    <customValue>
+        <fullName>Meals</fullName>
+        <default>false</default>
+        <label>Meals</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Transport</fullName>
+        <default>false</default>
+        <label>Transport</label>
+    </customValue>
+    <customValue>
+        <fullName>Travel</fullName>
+        <default>false</default>
+        <label>Travel</label>
+    </customValue>
+    <description>To be used for all ATO Allowance Type based picklist fields</description>
+    <masterLabel>ATO Allowance Type Picklists</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

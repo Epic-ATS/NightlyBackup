@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_ext_recon__Temp_Reconcile_Result__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines whether the payee has reconciled for the payee aggregate record type and pay code</description>
+    <inlineHelpText>Defines whether the payee has reconciled for the payee aggregate record type and pay code</inlineHelpText>
+    <label>Result</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_ext_recon__Temp_Reconciliation_Result</valueSetName>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This is the standard email template to be used when sending notifications to employees that their Timesheet has been approved</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>tc9_et__SampleLetterhead</letterhead>
+    <name>Standard Email - Timesheet - Employee - Approved</name>
+    <style>freeForm</style>
+    <subject>{!tc9_et__Timesheet__c.tc9_et__Payment_Entity__c}  Timesheet Approval Confirmation</subject>
+    <textOnly>Dear {!tc9_et__Timesheet__c.tc9_et__Employee_First_Name__c},
+
+This is a notification that the following timesheet has been approved.
+
+Timesheet: {!tc9_et__Timesheet__c.Name}
+Client: {!tc9_et__Timesheet__c.tc9_et__Client_Name__c}
+Assignment: {!tc9_et__Timesheet__c.tc9_et__Assignment_Name__c}
+Start Date: {!tc9_et__Timesheet__c.tc9_et__Start_Date__c}
+End Date: {!tc9_et__Timesheet__c.tc9_et__End_Date__c}
+
+If you require any assistance, please contact your {!tc9_et__Timesheet__c.tc9_et__Payment_Entity__c} Consultant or {!tc9_et__Timesheet__c.tc9_et__Timesheet_Support__c} on {!tc9_et__Timesheet__c.tc9_et__Timesheet_Support_Contact__c}.
+
+Yours Sincerely,
+
+{!tc9_et__Timesheet__c.tc9_et__Payment_Entity__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3d__Name_Pattern_Enforcement</fullName>
+    <active>true</active>
+    <description>Ensure that the name match a string that contains only those characters (or an empty string)</description>
+    <errorConditionFormula>NOT(
+REGEX(Name,&quot;^[a-zA-Z0-9_]*$&quot;)
+)</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>Only Alpha-Numeric characters and underscores are allowed, no spaces.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__Posted_on_Job_Boards__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Posted on Job Boards</label>
+    <summaryForeignKey>b3o__Job_Board_Posting__c.b3o__X3B_Job__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

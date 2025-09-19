@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Timesheet_Activity__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Defines the timesheet activity for the Minimum Pay Rate</description>
+    <inlineHelpText>Defines the timesheet activity for the Minimum Pay Rate</inlineHelpText>
+    <label>Timesheet Activity</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>tc9_pr__Project_Code__c.RecordType.DeveloperName</field>
+            <operation>equals</operation>
+            <value>Timesheet_Activity_Template_Level</value>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>tc9_pr__Project_Code__c</referenceTo>
+    <relationshipLabel>Minimum Pay Rates (Timesheet Activity)</relationshipLabel>
+    <relationshipName>Minimum_Pay_Rates1</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

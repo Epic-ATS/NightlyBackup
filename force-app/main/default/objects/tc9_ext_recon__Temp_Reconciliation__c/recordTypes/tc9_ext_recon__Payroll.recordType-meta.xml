@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_ext_recon__Payroll</fullName>
+    <active>true</active>
+    <description>Used to define the parent Payroll Reconciliation record type.</description>
+    <label>Payroll</label>
+    <picklistValues>
+        <picklist>tc9_ext_recon__Temp_Period__c</picklist>
+        <values>
+            <fullName>Custom Payment Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EFY 30 June</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Since Last Reconciliation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_ext_recon__Temp_Reconcile_Payees__c</picklist>
+        <values>
+            <fullName>Everyone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Failed payees only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid since last run</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_ext_recon__Temp_Status__c</picklist>
+        <values>
+            <fullName>Aborted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Failed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Holding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Preparing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Processing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Queued</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

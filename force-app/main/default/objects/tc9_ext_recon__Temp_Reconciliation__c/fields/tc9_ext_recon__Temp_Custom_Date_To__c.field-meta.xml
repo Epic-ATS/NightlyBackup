@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_ext_recon__Temp_Custom_Date_To__c</fullName>
+    <deprecated>false</deprecated>
+    <description>If Custom Date is selected in the period field, this field will define what the To date is</description>
+    <inlineHelpText>If Custom Date is selected in the period field, this field will define what the To date is</inlineHelpText>
+    <label>Custom Date To</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

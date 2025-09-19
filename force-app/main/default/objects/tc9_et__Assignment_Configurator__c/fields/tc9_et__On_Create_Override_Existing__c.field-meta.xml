@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__On_Create_Override_Existing__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If the user has entered a value in the Assignment field before the initial save, when True, the user entered value will be overridden with the value from the specified Client field. The value will only override user entry on initial save of record.</description>
+    <inlineHelpText>If the user has entered a value in the Assignment field before the initial save, when True, the user entered value will be overridden with the value from the specified Client field. The value will only override user entry on initial save of record.</inlineHelpText>
+    <label>On Create Override Existing</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

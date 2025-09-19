@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>tc9_pr__Debug_Header_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>tc9_pr__Debug_Header__c</pageOrSobjectType>
+    </actionOverrides>
+    <brand>
+        <headerColor>#2491EB</headerColor>
+        <logo>tc9_et__X2cloudnine_logo</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
+    </brand>
+    <description>Setup and Configuration for 2Cloudnine Payroll and the Time2Pay Extension</description>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>Time2Pay - Org Setup</label>
+    <navType>Standard</navType>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>tc9_pr__Schedule__c</tabs>
+    <tabs>tc9_pr__Calendar__c</tabs>
+    <tabs>tc9_pr__Location__c</tabs>
+    <tabs>tc9_pr__Pay_Code__c</tabs>
+    <tabs>tc9_pr__Superannuation_Fund__c</tabs>
+    <tabs>tc9_et__Interpretation_Rule__c</tabs>
+    <tabs>tc9_pr__Leave_Rule__c</tabs>
+    <tabs>tc9_pr__Leave_Template__c</tabs>
+    <tabs>tc9_pr__Payee_Allowance_Template__c</tabs>
+    <tabs>tc9_pr__Payee_Deduction_Template__c</tabs>
+    <tabs>tc9_et__Invoice_Tax_ID__c</tabs>
+    <tabs>tc9_et__Invoice_Setting__c</tabs>
+    <tabs>tc9_et__Payment_Terms__c</tabs>
+    <tabs>tc9_pr__Debug_Header__c</tabs>
+    <tabs>tc9_pr__Notification_Setting__c</tabs>
+    <tabs>tc9_et__Timesheet_Item__c</tabs>
+    <tabs>tc9_et__Award_Classifications_and_Levels__c</tabs>
+    <tabs>tc9_pr__Client_Employment_Cost__c</tabs>
+    <tabs>tc9_et__Minimum_Pay_Rate__c</tabs>
+    <tabs>tc9_et__PayRate_Loading__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>tc9_et__X2C9_Payroll_Time2Pay_Extension_Admin_UtilityBar</utilityBar>
+</CustomApplication>

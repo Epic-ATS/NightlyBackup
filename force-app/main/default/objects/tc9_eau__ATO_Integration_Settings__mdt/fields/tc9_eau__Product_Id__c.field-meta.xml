@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_eau__Product_Id__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Product ID provided to Payroll / Digital Service Provider (DSP) by the ATO as part of one-off DSP registration process. 5 digit Id refers to test environment while 6 digit refers to the production environment</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Product ID provided to Payroll / Digital Service Provider (DSP) by the ATO as part of one-off DSP registration process. 5 digit Id refers to test environment while 6 digit refers to the production environment</inlineHelpText>
+    <label>Product Id</label>
+    <length>255</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

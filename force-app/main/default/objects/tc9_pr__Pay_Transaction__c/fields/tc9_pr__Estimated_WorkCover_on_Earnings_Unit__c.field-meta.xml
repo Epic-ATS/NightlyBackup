@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Estimated_WorkCover_on_Earnings_Unit__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines the estimated WorkCover amount per unit that will be applied to the Pay Rate.</description>
+    <externalId>false</externalId>
+    <formula>If( 
+   OR(
+      RecordType.DeveloperName = &quot;Payment&quot;,
+      RecordType.DeveloperName = &quot;Allowance&quot;
+      ),
+   If( 
+      tc9_pr__WorkCover_Exempt__c,
+      0,
+      tc9_pr__Assignment_Rate__r.tc9_pr__Estimated_WorkCover_on_Earnings__c * tc9_pr__Quantity__c
+     ),
+   0
+   )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Defines the estimated WorkCover amount per unit that will be applied to the Pay Rate.</inlineHelpText>
+    <label>Estimated WorkCover on Earnings Unit</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

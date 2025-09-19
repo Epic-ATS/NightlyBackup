@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Reason__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The user-entered reason for this Payee Leave Event</description>
+    <inlineHelpText>The user-entered reason for this Payee Leave Event</inlineHelpText>
+    <label>Reason</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Annual Leave</fullName>
+                <default>false</default>
+                <label>Annual Leave</label>
+            </value>
+            <value>
+                <fullName>Carers Leave</fullName>
+                <default>false</default>
+                <label>Carers Leave</label>
+            </value>
+            <value>
+                <fullName>Long Service Leave</fullName>
+                <default>false</default>
+                <label>Long Service Leave</label>
+            </value>
+            <value>
+                <fullName>Personal Leave</fullName>
+                <default>false</default>
+                <label>Personal Leave</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

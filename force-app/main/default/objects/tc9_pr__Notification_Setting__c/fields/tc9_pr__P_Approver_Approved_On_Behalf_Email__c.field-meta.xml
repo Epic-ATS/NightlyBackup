@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__P_Approver_Approved_On_Behalf_Email__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines the Email Template that will be used when sending the Primary Approver a Notification an Approval was completed on their behalf</description>
+    <inlineHelpText>Defines the Email Template that will be used when sending the Primary Approver a Notification an Approval was completed on their behalf</inlineHelpText>
+    <label>P.Approver Approved On Behalf Email</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_pr__P_Approver_Approved_On_Behalf_Email</valueSetName>
+    </valueSet>
+</CustomField>

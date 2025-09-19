@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customObject>true</customObject>
+    <description>A child object to the Invoice that holds individual payment details to be applied against the Invoice.</description>
+    <motif>Custom42: Treasure chest</motif>
+</CustomTab>

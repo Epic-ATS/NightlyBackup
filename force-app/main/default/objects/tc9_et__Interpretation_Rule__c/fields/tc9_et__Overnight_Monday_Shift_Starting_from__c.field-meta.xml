@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Overnight_Monday_Shift_Starting_from__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines the start time of the previous day’s shift to pay the rate of this day. For example, if you have 11pm here any shift starting the day before between 11pm-12am will be paid at this day’s rate.</description>
+    <inlineHelpText>Defines the start time of the previous day’s shift to pay the rate of this day. For example, if you have 11pm here any shift starting the day before between 11pm-12am will be paid at this day’s rate.</inlineHelpText>
+    <label>Overnight Monday Shift Starting from</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Time</type>
+</CustomField>

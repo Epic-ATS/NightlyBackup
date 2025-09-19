@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_eau__STP2_Reportable_Earnings__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The reportable values of amounts paid to payees that are not separately reported as allowances. The following fields are summed to generate this value: Payee Gross Payments; Overtime; Bonus and Commission; Total Paid Leave; Directors Fees; Payee CDEP Amount; Exempt Foreign Income Amount; Lump Sums - Taxable; Lump Sums - Non Taxable; ETPs - Taxable + ETPs - Non Taxable</description>
+    <externalId>false</externalId>
+    <formula>tc9_eau__Payee_Gross_Payments__c + tc9_eau__Overtime__c + tc9_eau__Bonus_and_Commission__c + tc9_eau__Total_Paid_Leave__c + tc9_eau__Directors_Fees__c + tc9_eau__Payee_CDEP_Payment_Amount__c + tc9_eau__Exempt_Foreign_Income_Amount__c + tc9_eau__Lump_Sums_Taxable__c + tc9_eau__Lump_Sums_Non_Taxable__c + tc9_eau__ETPs_Taxable__c + tc9_eau__ETPs_Non_Taxable__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>The reportable values of amounts paid to payees that are not separately reported as allowances. The following fields are summed to generate this value: Payee Gross Payments; Overtime; Bonus and Commission; Total Paid Leave; Directors Fees; Payee CDEP Amount; Exempt Foreign Income Amount; Lump Sums - Taxable; Lump Sums - Non Taxable; ETPs - Taxable + ETPs - Non Taxable</inlineHelpText>
+    <label>STP2 Reportable Earnings</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

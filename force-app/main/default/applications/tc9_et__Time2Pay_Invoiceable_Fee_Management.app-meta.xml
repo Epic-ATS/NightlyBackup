@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>tc9_pr__Debug_Header_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>tc9_pr__Debug_Header__c</pageOrSobjectType>
+    </actionOverrides>
+    <brand>
+        <headerColor>#2491EB</headerColor>
+        <logo>tc9_et__X2cloudnine_logo2</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
+    </brand>
+    <description>Invoiceable Fee calculation and scheduling</description>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>Time2Pay - Invoiceable Fee Management</label>
+    <navType>Standard</navType>
+    <tabs>standard-Account</tabs>
+    <tabs>tc9_pr__Assignment__c</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>tc9_et__Invoiceable_Fee__c</tabs>
+    <tabs>tc9_pr__Pay_Transaction__c</tabs>
+    <tabs>tc9_pr__Debug_Header__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>tc9_et__Time2Pay_Invoiceable_Fee_Management_UtilityBar</utilityBar>
+</CustomApplication>

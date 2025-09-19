@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__EmployeeDetails</fullName>
+    <description>Used to define custom fields to add to the Rate Calculator Visualforce page. Fields will be displayed in the Employee Details section.</description>
+    <displayedFields>
+        <field>tc9_et__Assignment__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>tc9_et__Employee__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>tc9_et__Payee__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <label>Employee Details</label>
+</FieldSet>

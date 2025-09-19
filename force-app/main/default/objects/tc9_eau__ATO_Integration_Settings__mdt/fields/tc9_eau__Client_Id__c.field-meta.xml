@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_eau__Client_Id__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The static value created and shared by Integration provider as part of the initial set-up, and the same value used by all Clients</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>The static value created and shared by Integration provider as part of the initial set-up, and the same value used by all Clients</inlineHelpText>
+    <label>Client Id</label>
+    <length>255</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

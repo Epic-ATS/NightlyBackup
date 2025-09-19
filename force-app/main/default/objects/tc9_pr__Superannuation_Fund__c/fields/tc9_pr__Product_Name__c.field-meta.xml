@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Product_Name__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The official Product Name of this Superannuation Fund (this may be different to the Fund name).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The official Product Name of this Superannuation Fund (this may be different to the Fund name).</inlineHelpText>
+    <label>Product Name</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

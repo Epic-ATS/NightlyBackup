@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Distribution_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>&quot;For Payee&apos;s, how the payments made will be distributed. 
+Where Fixed Amount is selected, funds will be  distributed to the value defined in the Fixed Amount field.
+Where Percentage is selected, funds remaining after any fixed amounts are taken will be distributed at the percentage rate defined in the Percentage field.
+Where Amount Remaining is selected, all unallocated funds will be allocated.&quot;</description>
+    <inlineHelpText>&quot;How the payments made will be distributed. 
+Fixed Amount - the value defined in the Fixed Amount field
+Percentage - the percentage rate defined in the Percentage field
+Amount Remaining - all unallocated funds will be allocated.&quot;</inlineHelpText>
+    <label>Distribution Type</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Balance</fullName>
+                <default>false</default>
+                <label>Balance</label>
+            </value>
+            <value>
+                <fullName>Fixed Amount</fullName>
+                <default>false</default>
+                <label>Fixed Amount</label>
+            </value>
+            <value>
+                <fullName>Percentage</fullName>
+                <default>false</default>
+                <label>Percentage</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

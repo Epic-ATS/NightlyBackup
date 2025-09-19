@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Payee_Pay_Batch_Reversed_Id__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The Payee Pay Batch record creating the reversal is stored in this field. As it is a lookup, information about the Pay Batch can be retrieved.</description>
+    <inlineHelpText>The Payee Pay Batch record creating the reversal is stored in this field. As it is a lookup, information about the Pay Batch can be retrieved.</inlineHelpText>
+    <label>Payee Pay Batch Reversed Id</label>
+    <referenceTo>tc9_pr__Pay_Batch_Item__c</referenceTo>
+    <relationshipLabel>Pay Transactions (Payee Pay Batch Reversed Id)</relationshipLabel>
+    <relationshipName>Pay_Transactions1</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

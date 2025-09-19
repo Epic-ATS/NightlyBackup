@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Alternative_TimeSheet_Approver__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>A secondary approver for Timesheets. This contact isn&apos;t automatically sent approval notifications however they can be sent, as a alternative to the primary approver, using the Send Approver Notification buttons on the Assignment and Timesheet</description>
+    <inlineHelpText>A secondary approver for Timesheets. This contact isn&apos;t automatically sent approval notifications however they can be sent, as a alternative to the primary approver, using the Send Approver Notification buttons on the Assignment and Timesheet</inlineHelpText>
+    <label>Alternative TimeSheet Approver</label>
+    <lookupFilter>
+        <active>false</active>
+        <filterItems>
+            <field>Contact.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Client Contact</value>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Assignments with Contact as Alternative TimeSheet Approver</relationshipLabel>
+    <relationshipName>Assignments_ATSA</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

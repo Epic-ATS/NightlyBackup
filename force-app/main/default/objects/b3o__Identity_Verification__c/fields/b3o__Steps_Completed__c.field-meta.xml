@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__Steps_Completed__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Steps Completed</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>check.identity</fullName>
+                <default>false</default>
+                <label>check.identity</label>
+            </value>
+            <value>
+                <fullName>check.photo_id</fullName>
+                <default>false</default>
+                <label>check.photo_id</label>
+            </value>
+            <value>
+                <fullName>check.watchlist</fullName>
+                <default>false</default>
+                <label>check.watchlist</label>
+            </value>
+            <value>
+                <fullName>document.request</fullName>
+                <default>false</default>
+                <label>document.request</label>
+            </value>
+            <value>
+                <fullName>document.transfer</fullName>
+                <default>false</default>
+                <label>document.transfer</label>
+            </value>
+            <value>
+                <fullName>form</fullName>
+                <default>false</default>
+                <label>form</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

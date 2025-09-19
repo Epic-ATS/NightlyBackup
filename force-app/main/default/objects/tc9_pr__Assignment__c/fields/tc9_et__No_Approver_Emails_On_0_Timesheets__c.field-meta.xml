@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__No_Approver_Emails_On_0_Timesheets__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, the Timesheet Approver will not be emailed to advise on a timesheets submission if there a 0 hours AND no related expenses</description>
+    <inlineHelpText>If checked, the Timesheet Approver will not be emailed to advise on a timesheets submission if there a 0 hours AND no related expenses</inlineHelpText>
+    <label>No Approver Emails On 0 Timesheets</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_eau__Single_Touch_Payroll</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>tc9_eau__Lodgement_AU</compactLayoutAssignment>
+    <label>Single Touch Payroll</label>
+    <picklistValues>
+        <picklist>tc9_eau__Event_Type__c</picklist>
+        <values>
+            <fullName>Full File Replacement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pay Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Update Event</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_eau__Lodge_STP_As__c</picklist>
+        <values>
+            <fullName>Employer Direct</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employer Intermediary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Registered Tax%2FBAS Agent</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_eau__Mark_all_payees_as_final__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_eau__Payroll_Tax_Report_Period__c</picklist>
+        <values>
+            <fullName>Financial Year</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Month</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_eau__Status__c</picklist>
+        <values>
+            <fullName>Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Confirmed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Validated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Validation_Failed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_eau__SuperStream_Contribution_Type__c</picklist>
+        <values>
+            <fullName>All</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_eau__Zero_all_YTDs__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

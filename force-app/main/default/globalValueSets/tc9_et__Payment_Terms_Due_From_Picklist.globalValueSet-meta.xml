@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Invoice Date</fullName>
+        <default>false</default>
+        <label>Invoice Date</label>
+    </customValue>
+    <customValue>
+        <fullName>End Of Month</fullName>
+        <default>false</default>
+        <label>End Of Month</label>
+    </customValue>
+    <masterLabel>Payment Terms Due From Picklist</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

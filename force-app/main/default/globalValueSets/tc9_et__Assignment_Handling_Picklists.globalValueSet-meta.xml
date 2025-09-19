@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Rolling</fullName>
+        <default>false</default>
+        <label>Rolling</label>
+    </customValue>
+    <customValue>
+        <fullName>Fixed</fullName>
+        <default>false</default>
+        <label>Fixed</label>
+    </customValue>
+    <description>To be used for Assignment Handling picklist fields</description>
+    <masterLabel>Assignment Handling Picklists</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

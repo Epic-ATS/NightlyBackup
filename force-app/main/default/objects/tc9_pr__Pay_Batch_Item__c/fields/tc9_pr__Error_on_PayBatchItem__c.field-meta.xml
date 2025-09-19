@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Error_on_PayBatchItem__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates that there is a data error on a related Payee Pay Batch record. This is raised as a warning. A warning can be bypassed if the Enforce Flag Validation custom setting (Payroll_Configuration__c.Enforce_Flag_Validation__c) is set to False.</description>
+    <inlineHelpText>Indicates that there is a data error on a related Payee Pay Batch record. This is raised as a warning. A warning can be bypassed if the Enforce Flag Validation custom setting (Payroll_Configuration__c.Enforce_Flag_Validation__c) is set to False.</inlineHelpText>
+    <label>Error on PayBatchItem</label>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

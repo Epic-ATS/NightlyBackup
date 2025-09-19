@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Batch_Failure_Additional_Email__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines an email address, in addition to the User who initiated a process, that will be automatically sent email notifications if the process fails. This only applies when Batch Failure Send User Email is Yes.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Defines an email address, in addition to the User who initiated a process, that will be automatically sent email notifications if the process fails. This only applies when Batch Failure Send User Email is Yes.</inlineHelpText>
+    <label>Batch Failure Additional Email</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Email</type>
+    <unique>false</unique>
+</CustomField>

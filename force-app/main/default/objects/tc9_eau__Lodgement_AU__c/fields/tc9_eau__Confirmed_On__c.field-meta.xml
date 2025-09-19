@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_eau__Confirmed_On__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The date/time stamp this STP record was confirmed as ready for submission to the ATO</description>
+    <inlineHelpText>The date/time stamp this STP record was confirmed as ready for submission to the ATO</inlineHelpText>
+    <label>Confirmed On</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

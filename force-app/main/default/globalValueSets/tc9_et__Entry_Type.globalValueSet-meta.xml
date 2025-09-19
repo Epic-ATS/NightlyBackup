@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Leave</fullName>
+        <default>false</default>
+        <label>Leave</label>
+    </customValue>
+    <customValue>
+        <fullName>Part Day Public Holiday</fullName>
+        <default>false</default>
+        <label>Part Day Public Holiday</label>
+    </customValue>
+    <description>Used to identify timesheet entries that are not a standard time entry, eg. Leave Entries</description>
+    <masterLabel>Entry Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

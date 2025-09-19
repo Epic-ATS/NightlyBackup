@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Comments__c</fullName>
+    <deprecated>false</deprecated>
+    <description>User entered comments regarding this Suspension record.</description>
+    <inlineHelpText>User entered comments regarding this Suspension record.</inlineHelpText>
+    <label>Comments</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

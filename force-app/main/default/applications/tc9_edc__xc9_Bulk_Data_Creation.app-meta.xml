@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <logo>tc9_edc__X2CloudnineStandard3_21</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>2cloudnine Bulk Data Creation - App to automatically create setup data for 2cloudnine Payroll and 2cloudnine Time2Pay</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>2c9 Bulk Data Creation</label>
+    <navType>Standard</navType>
+    <tabs>standard-home</tabs>
+    <tabs>tc9_edc__Setup_Payroll</tabs>
+    <tabs>tc9_edc__Setup_Time2Pay</tabs>
+    <tabs>tc9_edc__Setup_Interpretation_Rule_Cloning</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>tc9_edc__X2cloudnine_Bulk_Data_Creation_UtilityBar</utilityBar>
+</CustomApplication>

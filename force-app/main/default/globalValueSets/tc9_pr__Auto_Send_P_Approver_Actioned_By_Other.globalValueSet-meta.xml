@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Don’t Send Automatically</fullName>
+        <default>false</default>
+        <label>Don’t Send Automatically</label>
+    </customValue>
+    <customValue>
+        <fullName>Send on Approval / Rejection</fullName>
+        <default>false</default>
+        <label>Send on Approval / Rejection</label>
+    </customValue>
+    <description>To be used for Auto Send Primary Approver Actioned By Other picklists</description>
+    <masterLabel>Auto Send P.Approver Actioned By Other</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3s__Rating__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Rating</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Excellent</fullName>
+                <default>false</default>
+                <label>Excellent</label>
+            </value>
+            <value>
+                <fullName>Good</fullName>
+                <default>false</default>
+                <label>Good</label>
+            </value>
+            <value>
+                <fullName>Bad</fullName>
+                <default>false</default>
+                <label>Bad</label>
+            </value>
+            <value>
+                <fullName>Terrible</fullName>
+                <default>false</default>
+                <label>Terrible</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__Must_define_Page_or_External_Page</fullName>
+    <active>false</active>
+    <errorConditionFormula>FALSE</errorConditionFormula>
+    <errorMessage>You must define either a page or an external link</errorMessage>
+</ValidationRule>

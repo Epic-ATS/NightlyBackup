@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Saturday__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates if the timesheet will include timesheet entries for Saturdays on creation. When False, they will not be included and must be added manually to the timesheet if needed.</description>
+    <inlineHelpText>Indicates if the timesheet will include timesheet entries for Saturdays on creation. When False, they will not be included and must be added manually to the timesheet if needed.</inlineHelpText>
+    <label>Saturday</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

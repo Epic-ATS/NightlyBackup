@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Default_Superannuation_Fund__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The nominated default fund for the Payment Entity and Default Employer Fund Category</description>
+    <inlineHelpText>The nominated default fund for the Payment Entity and Default Employer Fund Category</inlineHelpText>
+    <label>Default Superannuation Fund</label>
+    <referenceTo>tc9_pr__Superannuation_Fund__c</referenceTo>
+    <relationshipLabel>Default Superannuation Fund</relationshipLabel>
+    <relationshipName>Superannuation_Funds</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

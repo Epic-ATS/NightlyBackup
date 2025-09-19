@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Sort_Order__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Where multiple Leave Rule Items are related to the same rule this field indicates the order in which the Leave Rule Items should be assesed.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Where multiple Leave Rule Items are related to the same rule this field indicates the order in which the Leave Rule Items should be assesed.</inlineHelpText>
+    <label>Sort Order</label>
+    <precision>12</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

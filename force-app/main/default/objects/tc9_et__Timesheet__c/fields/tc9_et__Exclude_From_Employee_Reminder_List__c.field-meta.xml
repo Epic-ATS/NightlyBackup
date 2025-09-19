@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Exclude_From_Employee_Reminder_List__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Defines if a Timesheet will be excluded from Bulk Employee Reminder listings. When TRUE the Timesheet will be excluded from Bulk Employee Reminders. Reminders can only be send on the individual basis via the Timesheets</description>
+    <inlineHelpText>Defines if a Timesheet will be excluded from Bulk Employee Reminder listings. When TRUE the Timesheet will be excluded from Bulk Employee Reminders. Reminders can only be send on the individual basis via the Timesheets</inlineHelpText>
+    <label>Exclude From Employee Reminder List</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

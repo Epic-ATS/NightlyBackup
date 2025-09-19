@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Sort_Order__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The order in which the payment detail records for this payee will be considered during payment file creation.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The order in which the payment detail records for this payee will be considered during payment file creation.</inlineHelpText>
+    <label>Sort Order</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Pay_Loading__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates whether loading will be paid when a payee leave event is calculated for this payee leave rule</description>
+    <inlineHelpText>Indicates whether loading will be paid when a payee leave event is calculated for this payee leave rule</inlineHelpText>
+    <label>Pay Loading</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_pr__Yes_No_Picklists</valueSetName>
+    </valueSet>
+</CustomField>

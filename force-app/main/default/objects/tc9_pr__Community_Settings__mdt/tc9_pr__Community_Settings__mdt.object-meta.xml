@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>To be used in defining information used in creating community users and approver link tokens</description>
+    <label>Community Settings</label>
+    <pluralLabel>Community Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

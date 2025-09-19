@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__User_or_Contact_Required</fullName>
+    <active>true</active>
+    <description>Either user or contact must be selected</description>
+    <errorConditionFormula>AND(isblank(b3o__Contact__c), isblank(b3o__User__c))</errorConditionFormula>
+    <errorMessage>Please select a User or Contact to link to this record</errorMessage>
+</ValidationRule>

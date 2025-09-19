@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Sunday_Penalty_Pay_Code__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Defines the Pay Code that applies to the Interpretation Breakpoint for Sunday Penalty.</description>
+    <inlineHelpText>Defines the Pay Code that applies to the Interpretation Breakpoint for Sunday Penalty.</inlineHelpText>
+    <label>Sunday Penalty Pay Code</label>
+    <referenceTo>tc9_pr__Pay_Code__c</referenceTo>
+    <relationshipLabel>Interpretation Breakpoints (Sunday Penalty Pay Code)</relationshipLabel>
+    <relationshipName>Interpretation_BreakpointsSunPPC</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

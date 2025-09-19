@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Custom_Cost_1_Invoiceable_Amount__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines the calculated Custom Cost 1 Invoiceable Amount that applies to the Rate Calculator Line</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Defines the calculated Custom Cost 1 Invoiceable Amount that applies to the Rate Calculator Line</inlineHelpText>
+    <label>Custom Cost 1 Invoiceable Amount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

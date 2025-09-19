@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Employee_Specific_No_Employee</fullName>
+    <fields>Name</fields>
+    <fields>tc9_et__Rate_Calculator_Name__c</fields>
+    <fields>RecordTypeId</fields>
+    <fields>tc9_et__Calculation_Period_Start__c</fields>
+    <fields>tc9_et__Calculation_Period_End__c</fields>
+    <label>Employee Specific No Employee&quot;</label>
+</CompactLayout>

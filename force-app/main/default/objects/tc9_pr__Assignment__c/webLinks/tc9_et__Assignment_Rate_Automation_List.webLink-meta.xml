@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Assignment_Rate_Automation_List</fullName>
+    <availability>online</availability>
+    <description>List View Button to kick-start the MPR Automation processing for assignments</description>
+    <displayType>massActionButton</displayType>
+    <linkType>page</linkType>
+    <masterLabel>Assignment Rate Automation</masterLabel>
+    <openType>replace</openType>
+    <page>tc9_et__MprAutomationVFContainer</page>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+</WebLink>

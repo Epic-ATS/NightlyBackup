@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Pay_in_Advance__c</fullName>
+    <deprecated>false</deprecated>
+    <description>By selecting &apos;Yes&apos; the full duration of this payee leave event will be paid in the calendar period immediately prior to the leave start date.</description>
+    <inlineHelpText>By selecting &apos;Yes&apos; the full duration of this payee leave event will be paid in the calendar period immediately prior to the leave start date.</inlineHelpText>
+    <label>Pay in Advance</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_pr__Yes_No_Picklists</valueSetName>
+    </valueSet>
+</CustomField>

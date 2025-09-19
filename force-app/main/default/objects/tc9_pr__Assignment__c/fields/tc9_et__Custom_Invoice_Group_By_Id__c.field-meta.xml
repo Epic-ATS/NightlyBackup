@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Custom_Invoice_Group_By_Id__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines the custom group by text for Invoice Grouping</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Defines the custom group by text for Invoice Grouping</inlineHelpText>
+    <label>Custom Invoice Group By Id</label>
+    <length>250</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

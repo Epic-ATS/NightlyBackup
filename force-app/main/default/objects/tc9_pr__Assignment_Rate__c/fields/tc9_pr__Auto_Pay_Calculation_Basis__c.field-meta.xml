@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Auto_Pay_Calculation_Basis__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates how an auto pay assignment rate will be calculated.  ‘Assignment Rate’ will be based on the auto pay values in the assignment rate, ‘Work Schedule’ will use the actual pattern of work.</description>
+    <inlineHelpText>Indicates how an auto pay assignment rate will be calculated.  ‘Assignment Rate’ will be based on the auto pay values in the assignment rate, ‘Work Schedule’ will use the actual pattern of work.</inlineHelpText>
+    <label>Auto Pay Calculation Basis</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_pr__Auto_Pay_Calculation_Basis</valueSetName>
+    </valueSet>
+</CustomField>

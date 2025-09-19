@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This is the standard email template to be used when sending notifications to the Primary Approver that a Timesheet has been rejected by an alternative Timesheet Approver</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>tc9_et__SampleLetterhead</letterhead>
+    <name>Standard Email - Timesheet - Primary Approver - Rejected By Other</name>
+    <style>freeForm</style>
+    <subject>Outstanding Timesheet rejected by alternative Approver</subject>
+    <textOnly>Dear {!tc9_et__Timesheet__c.tc9_et__Primary_Approver_First_Name__c},
+
+This is a notification that the following timesheet has been rejected by  {!tc9_et__Timesheet__c.tc9_et__Approved_Rejected_By_Name__c}.
+
+Timesheet: {!tc9_et__Timesheet__c.Name}
+Start Date: {!Time_Sheet__c.tc9_et1__Start_Date__c}
+End Date: {!Time_Sheet__c.tc9_et1__End_Date__c})
+Employee: {!tc9_et__Timesheet__c.tc9_et__Employee_Full_Name__c}
+
+The reason provided for the rejected timesheet is:
+{!tc9_et__Timesheet__c.tc9_et__Rejection_Comments__c}
+
+If you have any questions regarding the above, please contact your {!tc9_et__Timesheet__c.tc9_et__Payment_Entity__c} Consultant or {!tc9_et__Timesheet__c.tc9_et__Timesheet_Support__c} on {!tc9_et__Timesheet__c.tc9_et__Timesheet_Support_Contact__c}.
+
+Yours Sincerely,
+
+{!tc9_et__Timesheet__c.tc9_et__Payment_Entity__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

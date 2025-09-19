@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Excess_SGC_Refund__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates that this pay code will be used automatically when Ordinary Time Earnings cross the maximum contribution base and the payee is due to be paid the excess refund</description>
+    <inlineHelpText>Indicates that this pay code will be used automatically when Ordinary Time Earnings cross the maximum contribution base and the payee is due to be paid the excess refund</inlineHelpText>
+    <label>Excess SGC Refund</label>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

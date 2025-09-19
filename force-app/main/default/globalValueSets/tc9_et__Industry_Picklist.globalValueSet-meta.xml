@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Example Industry</fullName>
+        <default>false</default>
+        <label>Example Industry</label>
+    </customValue>
+    <customValue>
+        <fullName>Industry 1</fullName>
+        <default>false</default>
+        <label>Industry 1</label>
+    </customValue>
+    <customValue>
+        <fullName>Industry 2</fullName>
+        <default>false</default>
+        <label>Industry 2</label>
+    </customValue>
+    <customValue>
+        <fullName>Industry 3</fullName>
+        <default>false</default>
+        <label>Industry 3</label>
+    </customValue>
+    <masterLabel>Industry Picklist</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

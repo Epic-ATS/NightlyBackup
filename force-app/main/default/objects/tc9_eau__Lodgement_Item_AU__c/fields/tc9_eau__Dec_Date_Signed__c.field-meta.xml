@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_eau__Dec_Date_Signed__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Payee Date Declaration Accepted</description>
+    <inlineHelpText>Payee Date Declaration Accepted</inlineHelpText>
+    <label>Payee Date Declaration Signed</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

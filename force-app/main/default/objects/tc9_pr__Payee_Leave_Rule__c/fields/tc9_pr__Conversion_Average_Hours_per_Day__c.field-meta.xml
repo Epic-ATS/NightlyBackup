@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Conversion_Average_Hours_per_Day__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Average number of hours per day used to convert payee leave events and payee aggregate values from hours to days</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Average number of hours per day used to convert payee leave events and payee aggregate values from hours to days</inlineHelpText>
+    <label>Conversion Average Hours per Day</label>
+    <precision>8</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

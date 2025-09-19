@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__Job_Category__c</fullName>
+    <deprecated>false</deprecated>
+    <inlineHelpText>Slotting job posts into categories helps candidates find jobs easier.</inlineHelpText>
+    <label>Job Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Administration, business and management</fullName>
+                <default>false</default>
+                <label>Administration, business and management</label>
+            </value>
+            <value>
+                <fullName>Animals, land and environment</fullName>
+                <default>false</default>
+                <label>Animals, land and environment</label>
+            </value>
+            <value>
+                <fullName>Computing and ICT</fullName>
+                <default>false</default>
+                <label>Computing and ICT</label>
+            </value>
+            <value>
+                <fullName>Construction and building</fullName>
+                <default>false</default>
+                <label>Construction and building</label>
+            </value>
+            <value>
+                <fullName>Design, arts and crafts</fullName>
+                <default>false</default>
+                <label>Design, arts and crafts</label>
+            </value>
+            <value>
+                <fullName>Education and training</fullName>
+                <default>false</default>
+                <label>Education and training</label>
+            </value>
+            <value>
+                <fullName>Engineering</fullName>
+                <default>false</default>
+                <label>Engineering</label>
+            </value>
+            <value>
+                <fullName>Facilities and property services</fullName>
+                <default>false</default>
+                <label>Facilities and property services</label>
+            </value>
+            <value>
+                <fullName>Financial services</fullName>
+                <default>false</default>
+                <label>Financial services</label>
+            </value>
+            <value>
+                <fullName>Garage services</fullName>
+                <default>false</default>
+                <label>Garage services</label>
+            </value>
+            <value>
+                <fullName>Hairdressing and beauty</fullName>
+                <default>false</default>
+                <label>Hairdressing and beauty</label>
+            </value>
+            <value>
+                <fullName>Healthcare</fullName>
+                <default>false</default>
+                <label>Healthcare</label>
+            </value>
+            <value>
+                <fullName>Heritage, culture and libraries</fullName>
+                <default>false</default>
+                <label>Heritage, culture and libraries</label>
+            </value>
+            <value>
+                <fullName>Hospitality, catering and tourism</fullName>
+                <default>false</default>
+                <label>Hospitality, catering and tourism</label>
+            </value>
+            <value>
+                <fullName>Languages</fullName>
+                <default>false</default>
+                <label>Languages</label>
+            </value>
+            <value>
+                <fullName>Legal and court services</fullName>
+                <default>false</default>
+                <label>Legal and court services</label>
+            </value>
+            <value>
+                <fullName>Manufacturing and production</fullName>
+                <default>false</default>
+                <label>Manufacturing and production</label>
+            </value>
+            <value>
+                <fullName>Performing arts and media</fullName>
+                <default>false</default>
+                <label>Performing arts and media</label>
+            </value>
+            <value>
+                <fullName>Print and publishing, marketing and advertising</fullName>
+                <default>false</default>
+                <label>Print and publishing, marketing and advertising</label>
+            </value>
+            <value>
+                <fullName>Retail and customer services</fullName>
+                <default>false</default>
+                <label>Retail and customer services</label>
+            </value>
+            <value>
+                <fullName>Science, mathematics and statistics</fullName>
+                <default>false</default>
+                <label>Science, mathematics and statistics</label>
+            </value>
+            <value>
+                <fullName>Security, uniformed and protective services</fullName>
+                <default>false</default>
+                <label>Security, uniformed and protective services</label>
+            </value>
+            <value>
+                <fullName>Social sciences and religion</fullName>
+                <default>false</default>
+                <label>Social sciences and religion</label>
+            </value>
+            <value>
+                <fullName>Social work and caring services</fullName>
+                <default>false</default>
+                <label>Social work and caring services</label>
+            </value>
+            <value>
+                <fullName>Sport and leisure</fullName>
+                <default>false</default>
+                <label>Sport and leisure</label>
+            </value>
+            <value>
+                <fullName>Transport, distribution and logistics</fullName>
+                <default>false</default>
+                <label>Transport, distribution and logistics</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

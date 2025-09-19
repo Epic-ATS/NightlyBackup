@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Rolled_Over_Amount_Not_Withheld__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The sum total of the related pay transactions with the Is Rolled Over Amount Not Withheld? field set to True. This defines the total aount thats has been rolled over to be withheld in a future payrun for the Payee Deduction record</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The sum total of the related pay transactions with the Is Rolled Over Amount Not Withheld? field set to True. This defines the total aount thats has been rolled over to be withheld in a future payrun for the Payee Deduction record</inlineHelpText>
+    <label>Rolled Over Amount Not Withheld</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

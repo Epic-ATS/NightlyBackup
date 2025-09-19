@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Failed payees only</fullName>
+        <default>false</default>
+        <label>Failed payees only</label>
+    </customValue>
+    <customValue>
+        <fullName>Everyone</fullName>
+        <default>false</default>
+        <label>Everyone</label>
+    </customValue>
+    <customValue>
+        <fullName>Paid since last run</fullName>
+        <default>false</default>
+        <label>Paid since last run</label>
+    </customValue>
+    <description>Defines which payees will be reconciled in the batch job</description>
+    <masterLabel>Reconcile Payees Picklists</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

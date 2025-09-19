@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Invoice_Settings_Template_Group__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Specifies the Invoice Setting Template Group assigned to this Assignment. Pay Transactions related to this Assignment will apply the relevant Invoice Settings from this Template Group.</description>
+    <inlineHelpText>Specifies the Invoice Setting Template Group assigned to this Assignment. Pay Transactions related to this Assignment will apply the relevant Invoice Settings from this Template Group.</inlineHelpText>
+    <label>Invoice Settings Template Group</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>tc9_pr__Template_Group__c.RecordType.DeveloperName</field>
+            <operation>equals</operation>
+            <value>Invoice_Settings</value>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>tc9_pr__Template_Group__c</referenceTo>
+    <relationshipLabel>Assignments (Invoice Setting Template Group)</relationshipLabel>
+    <relationshipName>Assignments2</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

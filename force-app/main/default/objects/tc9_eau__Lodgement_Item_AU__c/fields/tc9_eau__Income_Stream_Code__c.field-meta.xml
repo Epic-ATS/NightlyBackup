@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_eau__Income_Stream_Code__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The Income Stream Code as defined by the ATO.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Income Stream Code as defined by the ATO.</inlineHelpText>
+    <label>Income Stream Code</label>
+    <length>10</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

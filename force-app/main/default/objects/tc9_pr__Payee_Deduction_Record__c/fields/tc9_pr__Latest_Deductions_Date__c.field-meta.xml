@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Latest_Deductions_Date__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The value in the latest Pay_Transaction__c.Entry_Date__c field of all Pay Transactions related to the Payee Deduction Record</description>
+    <inlineHelpText>The value in the latest Pay_Transaction__c.Entry_Date__c field of all Pay Transactions related to the Payee Deduction Record</inlineHelpText>
+    <label>Latest Deductions Date</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

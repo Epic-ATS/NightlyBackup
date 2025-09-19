@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Sort_Order__c</fullName>
+    <defaultValue>1</defaultValue>
+    <deprecated>false</deprecated>
+    <description>The order in which Assignment Rate records with the same effective date should be assessed during Payrun</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The order in which Assignment Rate records with the same effective date should be assessed during Payrun</inlineHelpText>
+    <label>Sort Order</label>
+    <precision>12</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

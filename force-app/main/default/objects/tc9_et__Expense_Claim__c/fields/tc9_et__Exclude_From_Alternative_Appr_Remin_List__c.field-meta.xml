@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Exclude_From_Alternative_Appr_Remin_List__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Defines if an Expense Claim will be excluded from Bulk Alternative Approver Reminder listings. When TRUE the Expense Claim will be excluded from Bulk Alternative Approver Reminders. Reminders can only be send on the individual basis via the Expense Claims</description>
+    <label>Exclude From Alternative Appr Remin List</label>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

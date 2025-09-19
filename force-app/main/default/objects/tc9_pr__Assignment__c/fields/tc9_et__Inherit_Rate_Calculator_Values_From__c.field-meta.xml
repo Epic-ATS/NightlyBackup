@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Inherit_Rate_Calculator_Values_From__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates where the Rate Calculator will inherit its values from in the event the Assignment does not match the Rate Calculator template.</description>
+    <inlineHelpText>Indicates where the Rate Calculator will inherit its values from in the event the Assignment does not match the Rate Calculator template.</inlineHelpText>
+    <label>Inherit Rate Calculator Values From</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_et__Rate_Calculator_Inherit_Picklists</valueSetName>
+    </valueSet>
+</CustomField>

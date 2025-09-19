@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Days_Minimum_Rest_Hours_Apply2__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The days where minimum rest logic will be interpreted.</description>
+    <inlineHelpText>The days where minimum rest logic will be interpreted.</inlineHelpText>
+    <label>Days Minimum Rest Hours Apply</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_et__Frequency_Breakpoint_Days_picklist</valueSetName>
+    </valueSet>
+    <visibleLines>8</visibleLines>
+</CustomField>

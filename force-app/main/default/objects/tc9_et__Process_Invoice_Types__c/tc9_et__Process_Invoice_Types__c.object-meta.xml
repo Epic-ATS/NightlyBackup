@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>A custom setting used to define custom “Invoice Type” picklist options to be used on the Process Invoice visualforce page. This is used when the “Enable Custom Invoice Type Picklist“ field within the Time2Pay Ext Main Settings custom setting is set to TRUE.</description>
+    <enableFeeds>false</enableFeeds>
+    <label>Time2Pay Process Invoice - Invoice Types</label>
+    <visibility>Public</visibility>
+</CustomObject>

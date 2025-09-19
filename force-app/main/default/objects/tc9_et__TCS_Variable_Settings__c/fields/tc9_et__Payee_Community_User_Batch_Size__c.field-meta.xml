@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Payee_Community_User_Batch_Size__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines the batch size to create community users from the Payee Object</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Defines the batch size to create community users from the Payee Object</inlineHelpText>
+    <label>Payee Community User Batch Size</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

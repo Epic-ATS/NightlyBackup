@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Assignment_Invoiceable_Fee_Record_Types__c</fullName>
+    <deprecated>false</deprecated>
+    <description>List the related Assignment/Invoiceable Fee Record Type Developer Name(s) (case sensitive) that will be used to filter the transactions when invoicing. They must be separated by a comma (,) and no spaces. For example, “Temp,Perm”.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>List the related Assignment/Invoiceable Fee Record Type Developer Name(s) (case sensitive) that will be used to filter the transactions when invoicing. They must be separated by a comma (,) and no spaces. For example, “Temp,Perm”.</inlineHelpText>
+    <label>Assignment/Invoiceable Fee Record Types</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

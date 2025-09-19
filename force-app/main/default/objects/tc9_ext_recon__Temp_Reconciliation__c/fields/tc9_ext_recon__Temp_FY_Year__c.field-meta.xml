@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_ext_recon__Temp_FY_Year__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines the financial year ending for the period</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Defines the financial year ending for the period</inlineHelpText>
+    <label>Year</label>
+    <length>4</length>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

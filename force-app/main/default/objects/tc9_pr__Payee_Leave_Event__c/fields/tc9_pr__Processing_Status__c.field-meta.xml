@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Processing_Status__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The current Processing Status of this Payee Leave Event</description>
+    <inlineHelpText>The current Processing Status of this Payee Leave Event</inlineHelpText>
+    <label>Processing Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New</fullName>
+                <default>true</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>Fully Processed</fullName>
+                <default>false</default>
+                <label>Fully Processed</label>
+            </value>
+            <value>
+                <fullName>Part Processed</fullName>
+                <default>false</default>
+                <label>Part Processed</label>
+            </value>
+            <value>
+                <fullName>Failed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Failed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

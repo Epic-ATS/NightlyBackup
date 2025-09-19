@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Pay_Rate_Multiplier__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines the Pay Rate Multiplier that will be used in calculating the Multiplied Pay Rate</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Defines the Pay Rate Multiplier that will be used in calculating the Multiplied Pay Rate</inlineHelpText>
+    <label>Pay Rate Multiplier</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

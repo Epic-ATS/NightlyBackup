@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>_blank</fullName>
+        <default>true</default>
+        <label>_blank</label>
+    </customValue>
+    <customValue>
+        <fullName>_self</fullName>
+        <default>false</default>
+        <label>_self</label>
+    </customValue>
+    <customValue>
+        <fullName>_parent</fullName>
+        <default>false</default>
+        <label>_parent</label>
+    </customValue>
+    <customValue>
+        <fullName>_top</fullName>
+        <default>false</default>
+        <label>_top</label>
+    </customValue>
+    <customValue>
+        <fullName>Modal</fullName>
+        <default>false</default>
+        <label>Modal</label>
+    </customValue>
+    <masterLabel>Link Targets</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

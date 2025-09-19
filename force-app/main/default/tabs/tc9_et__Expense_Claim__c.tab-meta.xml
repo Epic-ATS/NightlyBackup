@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customObject>true</customObject>
+    <description>A master object that holds details of expenses. The Timesheet holds header information and groups Expenses so they can go through a submission/approval process</description>
+    <motif>Custom41: Stack of Cash</motif>
+</CustomTab>

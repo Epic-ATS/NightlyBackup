@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Pay_Code_Sort_Order__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines the Sort Order applied to the related Pay Code. The sort order controls ordering on Invoice PDFs</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Defines the Sort Order applied to the related Pay Code. The sort order controls ordering on Invoice PDFs</inlineHelpText>
+    <label>Pay Code Sort Order</label>
+    <precision>12</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,10 @@
+Hi,
+
+You STP Lodgement {!tc9_eau__Lodgement_Error_AU__c.tc9_eau__Lodgement_AU__c} cannot be processed by the ATO due to the following error:
+
+{!tc9_eau__Lodgement_Error_AU__c.tc9_eau__Error_Message__c}
+
+{!tc9_eau__Lodgement_Error_AU__c.Link}
+
+Regards,
+2cloudnine Payroll

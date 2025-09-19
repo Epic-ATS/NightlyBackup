@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__Application_Endpoint__c</fullName>
+    <defaultValue>&quot;https://api.yoti.com/idverify/v1/&quot;</defaultValue>
+    <deprecated>false</deprecated>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Application Endpoint</label>
+    <required>false</required>
+    <type>Url</type>
+</CustomField>

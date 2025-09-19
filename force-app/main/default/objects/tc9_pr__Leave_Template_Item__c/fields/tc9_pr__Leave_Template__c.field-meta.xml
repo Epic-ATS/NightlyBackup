@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Leave_Template__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>A lookup to the related Leave Template</description>
+    <inlineHelpText>A lookup to the related Leave Template</inlineHelpText>
+    <label>Leave Template</label>
+    <referenceTo>tc9_pr__Leave_Template__c</referenceTo>
+    <relationshipLabel>Leave Template Items</relationshipLabel>
+    <relationshipName>Leave_Template_Items</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

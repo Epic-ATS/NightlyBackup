@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Left</fullName>
+        <default>false</default>
+        <label>Left</label>
+    </customValue>
+    <customValue>
+        <fullName>Center</fullName>
+        <default>false</default>
+        <label>Center</label>
+    </customValue>
+    <customValue>
+        <fullName>Right</fullName>
+        <default>false</default>
+        <label>Right</label>
+    </customValue>
+    <customValue>
+        <fullName>Justify</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Justify</label>
+    </customValue>
+    <description>Used to indicate the position of text in rendered PDFs</description>
+    <masterLabel>Text Position</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

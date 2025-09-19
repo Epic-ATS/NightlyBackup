@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Individual Non Business</fullName>
+        <default>false</default>
+        <label>Individual Non Business</label>
+    </customValue>
+    <customValue>
+        <fullName>Exempt Foreign Employment</fullName>
+        <default>false</default>
+        <label>Exempt Foreign Employment</label>
+    </customValue>
+    <customValue>
+        <fullName>Voluntary Agreement</fullName>
+        <default>false</default>
+        <label>Voluntary Agreement</label>
+    </customValue>
+    <customValue>
+        <fullName>Business and Personal Services</fullName>
+        <default>false</default>
+        <label>Business and Personal Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Joint Petroleum Development Area</fullName>
+        <default>false</default>
+        <label>Joint Petroleum Development Area</label>
+    </customValue>
+    <customValue>
+        <fullName>Foreign Employment</fullName>
+        <default>false</default>
+        <label>Foreign Employment</label>
+    </customValue>
+    <customValue>
+        <fullName>Other Specified</fullName>
+        <default>false</default>
+        <label>Other Specified</label>
+    </customValue>
+    <customValue>
+        <fullName>Working Holiday Maker</fullName>
+        <default>false</default>
+        <label>Working Holiday Maker</label>
+    </customValue>
+    <customValue>
+        <fullName>Not Reportable</fullName>
+        <default>false</default>
+        <label>Not Reportable</label>
+    </customValue>
+    <customValue>
+        <fullName>Closely Held Payees</fullName>
+        <default>false</default>
+        <label>Closely Held Payees</label>
+    </customValue>
+    <customValue>
+        <fullName>Inbound Assignee to Australia</fullName>
+        <default>false</default>
+        <label>Inbound Assignee to Australia</label>
+    </customValue>
+    <customValue>
+        <fullName>Seasonal Worker Programme</fullName>
+        <default>false</default>
+        <label>Seasonal Worker Programme</label>
+    </customValue>
+    <customValue>
+        <fullName>Death Beneficiary</fullName>
+        <default>false</default>
+        <label>Death Beneficiary</label>
+    </customValue>
+    <customValue>
+        <fullName>Non-Employee</fullName>
+        <default>false</default>
+        <label>Non-Employee</label>
+    </customValue>
+    <customValue>
+        <fullName>Community Development Employment Project</fullName>
+        <default>false</default>
+        <label>Community Development Employment Project</label>
+    </customValue>
+    <description>Reportable ATO Income Classifications</description>
+    <masterLabel>ATO Income Classification</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

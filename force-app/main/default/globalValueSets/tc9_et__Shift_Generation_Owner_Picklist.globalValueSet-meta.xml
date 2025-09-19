@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Time2Pay</fullName>
+        <default>false</default>
+        <label>Time2Pay</label>
+    </customValue>
+    <description>To be used for Shift Generation Owner picklists</description>
+    <masterLabel>Shift Generation Owner Picklist</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

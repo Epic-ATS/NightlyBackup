@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customObject>true</customObject>
+    <description>A master object that holds details of Pay and Invoice Rates Calculations. The Rate Calculator holds header information and groups Rate Calculator Lines, Employment Costs, Mark Up / Margin Rates and Rate Records so that they can be used in calculations</description>
+    <motif>Custom28: Cell phone</motif>
+</CustomTab>

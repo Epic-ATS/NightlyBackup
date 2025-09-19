@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__International_Bank_Receiving_Currency__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The currency that the payment into the International Bank Account will be made with. This value is pulled from the related Payment Details record.</description>
+    <inlineHelpText>The currency that the payment into the International Bank Account will be made with. This value is pulled from the related Payment Details record.</inlineHelpText>
+    <label>International Bank Receiving Currency</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AED - U.A.E. Dirham</fullName>
+                <default>false</default>
+                <label>AED - U.A.E. Dirham</label>
+            </value>
+            <value>
+                <fullName>AUD - Australian Dollar</fullName>
+                <default>false</default>
+                <label>AUD - Australian Dollar</label>
+            </value>
+            <value>
+                <fullName>BND - Brunei Dollar</fullName>
+                <default>false</default>
+                <label>BND - Brunei Dollar</label>
+            </value>
+            <value>
+                <fullName>CAD - Canadian Dollar</fullName>
+                <default>false</default>
+                <label>CAD - Canadian Dollar</label>
+            </value>
+            <value>
+                <fullName>CHF - Swiss Franc</fullName>
+                <default>false</default>
+                <label>CHF - Swiss Franc</label>
+            </value>
+            <value>
+                <fullName>CNY - Chinese Yuan Renminbi</fullName>
+                <default>false</default>
+                <label>CNY - Chinese Yuan Renminbi</label>
+            </value>
+            <value>
+                <fullName>CZK - Czech Koruna</fullName>
+                <default>false</default>
+                <label>CZK - Czech Koruna</label>
+            </value>
+            <value>
+                <fullName>DKK - Danish Kroner</fullName>
+                <default>false</default>
+                <label>DKK - Danish Kroner</label>
+            </value>
+            <value>
+                <fullName>EUR - Euro</fullName>
+                <default>false</default>
+                <label>EUR - Euro</label>
+            </value>
+            <value>
+                <fullName>FJD - Fijian Dollar</fullName>
+                <default>false</default>
+                <label>FJD - Fijian Dollar</label>
+            </value>
+            <value>
+                <fullName>GBP - Great British Pound</fullName>
+                <default>false</default>
+                <label>GBP - Great British Pound</label>
+            </value>
+            <value>
+                <fullName>HKD - Hong Kong Dollar</fullName>
+                <default>false</default>
+                <label>HKD - Hong Kong Dollar</label>
+            </value>
+            <value>
+                <fullName>HUF - Hungarian Forint</fullName>
+                <default>false</default>
+                <label>HUF - Hungarian Forint</label>
+            </value>
+            <value>
+                <fullName>IDR - Indonesian Rupiah</fullName>
+                <default>false</default>
+                <label>IDR - Indonesian Rupiah</label>
+            </value>
+            <value>
+                <fullName>ILS - Israeli New Shekel</fullName>
+                <default>false</default>
+                <label>ILS - Israeli New Shekel</label>
+            </value>
+            <value>
+                <fullName>INR - Indian Rupee</fullName>
+                <default>false</default>
+                <label>INR - Indian Rupee</label>
+            </value>
+            <value>
+                <fullName>JPY - Japanese Yen</fullName>
+                <default>false</default>
+                <label>JPY - Japanese Yen</label>
+            </value>
+            <value>
+                <fullName>KRW - South Korean Won</fullName>
+                <default>false</default>
+                <label>KRW - South Korean Won</label>
+            </value>
+            <value>
+                <fullName>KWD - Kuwaiti Dinar</fullName>
+                <default>false</default>
+                <label>KWD - Kuwaiti Dinar</label>
+            </value>
+            <value>
+                <fullName>LKR - Sri Lankan Rupee</fullName>
+                <default>false</default>
+                <label>LKR - Sri Lankan Rupee</label>
+            </value>
+            <value>
+                <fullName>MAD - Moroccan Dirham</fullName>
+                <default>false</default>
+                <label>MAD - Moroccan Dirham</label>
+            </value>
+            <value>
+                <fullName>MGA - Malagasy Ariary</fullName>
+                <default>false</default>
+                <label>MGA - Malagasy Ariary</label>
+            </value>
+            <value>
+                <fullName>MXN - Mexican Peso</fullName>
+                <default>false</default>
+                <label>MXN - Mexican Peso</label>
+            </value>
+            <value>
+                <fullName>MYR - Malaysian Ringgit</fullName>
+                <default>false</default>
+                <label>MYR - Malaysian Ringgit</label>
+            </value>
+            <value>
+                <fullName>NOK - Norwegian Kroner</fullName>
+                <default>false</default>
+                <label>NOK - Norwegian Kroner</label>
+            </value>
+            <value>
+                <fullName>NZD - New Zealand Dollar</fullName>
+                <default>false</default>
+                <label>NZD - New Zealand Dollar</label>
+            </value>
+            <value>
+                <fullName>OMR - Oman Rial</fullName>
+                <default>false</default>
+                <label>OMR - Oman Rial</label>
+            </value>
+            <value>
+                <fullName>PEN - Peruvian Nuevo Sol</fullName>
+                <default>false</default>
+                <label>PEN - Peruvian Nuevo Sol</label>
+            </value>
+            <value>
+                <fullName>PGK - P.N.G. Kina</fullName>
+                <default>false</default>
+                <label>PGK - P.N.G. Kina</label>
+            </value>
+            <value>
+                <fullName>PHP - Philippine Peso</fullName>
+                <default>false</default>
+                <label>PHP - Philippine Peso</label>
+            </value>
+            <value>
+                <fullName>PKR - Pakistan Rupee</fullName>
+                <default>false</default>
+                <label>PKR - Pakistan Rupee</label>
+            </value>
+            <value>
+                <fullName>PLN - Polish Zloty</fullName>
+                <default>false</default>
+                <label>PLN - Polish Zloty</label>
+            </value>
+            <value>
+                <fullName>SAR - Saudi Riyal</fullName>
+                <default>false</default>
+                <label>SAR - Saudi Riyal</label>
+            </value>
+            <value>
+                <fullName>SBD - Solomon Island Dollar</fullName>
+                <default>false</default>
+                <label>SBD - Solomon Island Dollar</label>
+            </value>
+            <value>
+                <fullName>SCR - Seychelles Rupee</fullName>
+                <default>false</default>
+                <label>SCR - Seychelles Rupee</label>
+            </value>
+            <value>
+                <fullName>SEK - Swedish Kronor</fullName>
+                <default>false</default>
+                <label>SEK - Swedish Kronor</label>
+            </value>
+            <value>
+                <fullName>SGD - Singapore Dollar</fullName>
+                <default>false</default>
+                <label>SGD - Singapore Dollar</label>
+            </value>
+            <value>
+                <fullName>THB - Thai Baht</fullName>
+                <default>false</default>
+                <label>THB - Thai Baht</label>
+            </value>
+            <value>
+                <fullName>TOP - Tongan Pa anga</fullName>
+                <default>false</default>
+                <label>TOP - Tongan Pa anga</label>
+            </value>
+            <value>
+                <fullName>TRY - Turkish Lira</fullName>
+                <default>false</default>
+                <label>TRY - Turkish Lira</label>
+            </value>
+            <value>
+                <fullName>TWD - Taiwanese Dollar</fullName>
+                <default>false</default>
+                <label>TWD - Taiwanese Dollar</label>
+            </value>
+            <value>
+                <fullName>USD - US Dollar</fullName>
+                <default>false</default>
+                <label>USD - US Dollar</label>
+            </value>
+            <value>
+                <fullName>VND - Vietnamese Dong</fullName>
+                <default>false</default>
+                <label>VND - Vietnamese Dong</label>
+            </value>
+            <value>
+                <fullName>VUV - Vanuatu Vatu</fullName>
+                <default>false</default>
+                <label>VUV - Vanuatu Vatu</label>
+            </value>
+            <value>
+                <fullName>WST - Samoan Talar</fullName>
+                <default>false</default>
+                <label>WST - Samoan Talar</label>
+            </value>
+            <value>
+                <fullName>XOF - CFA Franc</fullName>
+                <default>false</default>
+                <label>XOF - CFA Franc</label>
+            </value>
+            <value>
+                <fullName>XPF - New C/Tahiti Franc</fullName>
+                <default>false</default>
+                <label>XPF - New C/Tahiti Franc</label>
+            </value>
+            <value>
+                <fullName>ZAR - South African Rand</fullName>
+                <default>false</default>
+                <label>ZAR - South African Rand</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Enable_Project_Codes__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Defines if Project Codes are used within the Org. If True, Project Code fields will be available in the Timesheet Manager, Expense Claim Manager, Employee Portal, Approver Pages and Invoices</description>
+    <inlineHelpText>Defines if Project Codes are used within the Org. If True, Project Code fields will be available in the Timesheet Manager, Expense Claim Manager, Employee Portal, Approver Pages and Invoices</inlineHelpText>
+    <label>Enable Project Codes</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

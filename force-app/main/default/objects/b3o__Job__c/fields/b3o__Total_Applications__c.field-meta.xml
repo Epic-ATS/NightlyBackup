@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__Total_Applications__c</fullName>
+    <deprecated>false</deprecated>
+    <inlineHelpText>This is the number of applications attracted to this job</inlineHelpText>
+    <label>Total Applications</label>
+    <summaryForeignKey>b3o__Application__c.b3o__Job__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

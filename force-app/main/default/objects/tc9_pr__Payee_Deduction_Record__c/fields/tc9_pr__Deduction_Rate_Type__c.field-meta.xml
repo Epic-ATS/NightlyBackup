@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Deduction_Rate_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines if the value outlined in the Deduction Rate field should be treated as a fixed amount or as a percentage of the Payee&apos;s earnings</description>
+    <inlineHelpText>Defines if the value outlined in the Deduction Rate field should be treated as a fixed amount or as a percentage of the Payee&apos;s earnings</inlineHelpText>
+    <label>Deduction Rate Type</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Amount</fullName>
+                <default>false</default>
+                <label>Amount</label>
+            </value>
+            <value>
+                <fullName>Deduction Units x Deduction Rate</fullName>
+                <default>false</default>
+                <label>Deduction Units x Deduction Rate</label>
+            </value>
+            <value>
+                <fullName>Percentage of Gross</fullName>
+                <default>false</default>
+                <label>Percentage of Gross</label>
+            </value>
+            <value>
+                <fullName>Percentage of OTE</fullName>
+                <default>false</default>
+                <label>Percentage of OTE</label>
+            </value>
+            <value>
+                <fullName>Percentage of SGC Refund</fullName>
+                <default>false</default>
+                <label>Percentage of SGC Refund</label>
+            </value>
+            <value>
+                <fullName>Percentage of Taxable Gross</fullName>
+                <default>false</default>
+                <label>Percentage of Taxable Gross</label>
+            </value>
+            <value>
+                <fullName>Rate per Quantity Worked</fullName>
+                <default>false</default>
+                <label>Rate per Quantity Worked</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

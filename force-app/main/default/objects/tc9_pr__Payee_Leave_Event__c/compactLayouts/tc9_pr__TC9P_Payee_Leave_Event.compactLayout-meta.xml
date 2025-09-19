@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__TC9P_Payee_Leave_Event</fullName>
+    <fields>Name</fields>
+    <fields>tc9_pr__Payee_Leave_Rule__c</fields>
+    <fields>tc9_pr__Reason__c</fields>
+    <fields>tc9_pr__Approval_Status__c</fields>
+    <fields>tc9_pr__Start_Date__c</fields>
+    <fields>tc9_pr__End_Date__c</fields>
+    <fields>tc9_pr__Hours__c</fields>
+    <fields>tc9_pr__Processing_Status__c</fields>
+    <fields>tc9_pr__Void__c</fields>
+    <label>TC9P Payee Leave Event</label>
+</CompactLayout>

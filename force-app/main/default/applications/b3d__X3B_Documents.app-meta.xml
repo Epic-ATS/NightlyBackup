@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>b3d__Document_Trace_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>b3d__Document_Trace__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>b3d__Document_Trace_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>b3d__Document_Trace__c</pageOrSobjectType>
+    </actionOverrides>
+    <brand>
+        <headerColor>#00CA72</headerColor>
+        <logo>b3d__X3bdocssquare</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
+    </brand>
+    <description>Electronic Signatures &amp; Document Generation</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>3B Documents</label>
+    <navType>Standard</navType>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>b3d__Template__c</tabs>
+    <tabs>b3d__Value_Formatter__c</tabs>
+    <tabs>b3d__Function_Expression__c</tabs>
+    <tabs>b3d__Template_Style__c</tabs>
+    <tabs>b3d__Log_Entry__c</tabs>
+    <tabs>b3d__X3B_Docs_Admin</tabs>
+    <tabs>b3d__Support_Knowledge_Base</tabs>
+    <tabs>b3d__Sign</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>b3d__X3B_Documents_UtilityBar</utilityBar>
+</CustomApplication>

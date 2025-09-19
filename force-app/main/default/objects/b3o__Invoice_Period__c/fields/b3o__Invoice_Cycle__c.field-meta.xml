@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__Invoice_Cycle__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Invoice Cycle</label>
+    <referenceTo>b3o__Invoice_Cycle__c</referenceTo>
+    <relationshipLabel>Invoice Periods</relationshipLabel>
+    <relationshipName>Invoice_Periods</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

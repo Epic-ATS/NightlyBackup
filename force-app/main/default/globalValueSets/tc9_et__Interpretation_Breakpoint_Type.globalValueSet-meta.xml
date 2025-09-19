@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>7th Day Breakpoint</fullName>
+        <default>false</default>
+        <label>7th Day Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Allowance/Leave Junction</fullName>
+        <default>false</default>
+        <label>Allowance/Leave Junction</label>
+    </customValue>
+    <customValue>
+        <fullName>Allowance/Timesheet Activity Junction</fullName>
+        <default>false</default>
+        <label>Allowance/Timesheet Activity Junction</label>
+    </customValue>
+    <customValue>
+        <fullName>Allowance Breakpoint</fullName>
+        <default>false</default>
+        <label>Allowance Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Break Loading Overtime</fullName>
+        <default>false</default>
+        <label>Break Loading Overtime</label>
+    </customValue>
+    <customValue>
+        <fullName>Broken Shift Standard Hours</fullName>
+        <default>false</default>
+        <label>Broken Shift Standard Hours</label>
+    </customValue>
+    <customValue>
+        <fullName>Daily Allowance</fullName>
+        <default>false</default>
+        <label>Daily Allowance</label>
+    </customValue>
+    <customValue>
+        <fullName>Daily Breakpoint Above Ordinary Weekly</fullName>
+        <default>false</default>
+        <label>Daily Breakpoint Above Ordinary Weekly</label>
+    </customValue>
+    <customValue>
+        <fullName>Daily hours Breakpoint</fullName>
+        <default>false</default>
+        <label>Daily hours Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Daily Pay Code Cap</fullName>
+        <default>false</default>
+        <label>Daily Pay Code Cap</label>
+    </customValue>
+    <customValue>
+        <fullName>Daily Rate Breakpoint</fullName>
+        <default>false</default>
+        <label>Daily Rate Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Daily Start Time Breakpoint</fullName>
+        <default>false</default>
+        <label>Daily Start Time Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Daily time Breakpoint</fullName>
+        <default>false</default>
+        <label>Daily time Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Excursion</fullName>
+        <default>false</default>
+        <label>Excursion</label>
+    </customValue>
+    <customValue>
+        <fullName>Frequency Allowance</fullName>
+        <default>false</default>
+        <label>Frequency Allowance</label>
+    </customValue>
+    <customValue>
+        <fullName>Frequency Overtime Hours Breakpoint</fullName>
+        <default>false</default>
+        <label>Frequency Overtime Hours Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Frequency Pay Code Cap</fullName>
+        <default>false</default>
+        <label>Frequency Pay Code Cap</label>
+    </customValue>
+    <customValue>
+        <fullName>Frequency Standard Hours Breakpoint</fullName>
+        <default>false</default>
+        <label>Frequency Standard Hours Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Friday End Time Breakpoint</fullName>
+        <default>false</default>
+        <label>Friday End Time Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Friday Leave Shift End Loaded Leave</fullName>
+        <default>false</default>
+        <label>Friday Leave Shift End Loaded Leave</label>
+    </customValue>
+    <customValue>
+        <fullName>Friday Leave Shift Start Loaded Leave</fullName>
+        <default>false</default>
+        <label>Friday Leave Shift Start Loaded Leave</label>
+    </customValue>
+    <customValue>
+        <fullName>Friday Leave Standard Leave</fullName>
+        <default>false</default>
+        <label>Friday Leave Standard Leave</label>
+    </customValue>
+    <customValue>
+        <fullName>Friday Leave Standard Loading</fullName>
+        <default>false</default>
+        <label>Friday Leave Standard Loading</label>
+    </customValue>
+    <customValue>
+        <fullName>Friday Overtime Hours Breakpoint</fullName>
+        <default>false</default>
+        <label>Friday Overtime Hours Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Friday Standard Hours Breakpoint</fullName>
+        <default>false</default>
+        <label>Friday Standard Hours Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Friday Start Time Breakpoint</fullName>
+        <default>false</default>
+        <label>Friday Start Time Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Friday Time Breakpoint</fullName>
+        <default>false</default>
+        <label>Friday Time Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Hourly Allowance</fullName>
+        <default>false</default>
+        <label>Hourly Allowance</label>
+    </customValue>
+    <customValue>
+        <fullName>Leave Header</fullName>
+        <default>false</default>
+        <label>Leave Header</label>
+    </customValue>
+    <customValue>
+        <fullName>Meal Allowance</fullName>
+        <default>false</default>
+        <label>Meal Allowance</label>
+    </customValue>
+    <customValue>
+        <fullName>Minimum Rest</fullName>
+        <default>false</default>
+        <label>Minimum Rest</label>
+    </customValue>
+    <customValue>
+        <fullName>Monday End Time Breakpoint</fullName>
+        <default>false</default>
+        <label>Monday End Time Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Monday Leave Shift End Loaded Leave</fullName>
+        <default>false</default>
+        <label>Monday Leave Shift End Loaded Leave</label>
+    </customValue>
+    <customValue>
+        <fullName>Monday Leave Shift Start Loaded Leave</fullName>
+        <default>false</default>
+        <label>Monday Leave Shift Start Loaded Leave</label>
+    </customValue>
+    <customValue>
+        <fullName>Monday Leave Standard Leave</fullName>
+        <default>false</default>
+        <label>Monday Leave Standard Leave</label>
+    </customValue>
+    <customValue>
+        <fullName>Monday Leave Standard Loading</fullName>
+        <default>false</default>
+        <label>Monday Leave Standard Loading</label>
+    </customValue>
+    <customValue>
+        <fullName>Monday Overtime Hours Breakpoint</fullName>
+        <default>false</default>
+        <label>Monday Overtime Hours Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Monday Standard Hours Breakpoint</fullName>
+        <default>false</default>
+        <label>Monday Standard Hours Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Monday Start Time Breakpoint</fullName>
+        <default>false</default>
+        <label>Monday Start Time Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Monday Time Breakpoint</fullName>
+        <default>false</default>
+        <label>Monday Time Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Outside Public Holiday</fullName>
+        <default>false</default>
+        <label>Outside Public Holiday</label>
+    </customValue>
+    <customValue>
+        <fullName>Outside Saturday</fullName>
+        <default>false</default>
+        <label>Outside Saturday</label>
+    </customValue>
+    <customValue>
+        <fullName>Outside Sunday</fullName>
+        <default>false</default>
+        <label>Outside Sunday</label>
+    </customValue>
+    <customValue>
+        <fullName>Overtime Round Up Shift</fullName>
+        <default>false</default>
+        <label>Overtime Round Up Shift</label>
+    </customValue>
+    <customValue>
+        <fullName>Public Holiday</fullName>
+        <default>false</default>
+        <label>Public Holiday</label>
+    </customValue>
+    <customValue>
+        <fullName>Public Holiday End Time Breakpoint</fullName>
+        <default>false</default>
+        <label>Public Holiday End Time Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Public Holiday Hours Breakpoint</fullName>
+        <default>false</default>
+        <label>Public Holiday Hours Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Public Holiday Leave Shift End Loaded Leave</fullName>
+        <default>false</default>
+        <label>Public Holiday Leave Shift End Loaded Leave</label>
+    </customValue>
+    <customValue>
+        <fullName>Public Holiday Leave Shift Start Loaded Leave</fullName>
+        <default>false</default>
+        <label>Public Holiday Leave Shift Start Loaded Leave</label>
+    </customValue>
+    <customValue>
+        <fullName>Public Holiday Leave Standard Leave</fullName>
+        <default>false</default>
+        <label>Public Holiday Leave Standard Leave</label>
+    </customValue>
+    <customValue>
+        <fullName>Public Holiday Leave Standard Loading</fullName>
+        <default>false</default>
+        <label>Public Holiday Leave Standard Loading</label>
+    </customValue>
+    <customValue>
+        <fullName>Public Holiday Overtime Hours Breakpoint</fullName>
+        <default>false</default>
+        <label>Public Holiday Overtime Hours Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Public Holiday Standard Hours Breakpoint</fullName>
+        <default>false</default>
+        <label>Public Holiday Standard Hours Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Public Holiday Start Time Breakpoint</fullName>
+        <default>false</default>
+        <label>Public Holiday Start Time Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Public Holiday Time Breakpoint</fullName>
+        <default>false</default>
+        <label>Public Holiday Time Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Saturday</fullName>
+        <default>false</default>
+        <label>Saturday</label>
+    </customValue>
+    <customValue>
+        <fullName>Saturday End Time Breakpoint</fullName>
+        <default>false</default>
+        <label>Saturday End Time Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Saturday hours Breakpoint</fullName>
+        <default>false</default>
+        <label>Saturday hours Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Saturday Leave Shift End Loaded Leave</fullName>
+        <default>false</default>
+        <label>Saturday Leave Shift End Loaded Leave</label>
+    </customValue>
+    <customValue>
+        <fullName>Saturday Leave Shift Start Loaded Leave</fullName>
+        <default>false</default>
+        <label>Saturday Leave Shift Start Loaded Leave</label>
+    </customValue>
+    <customValue>
+        <fullName>Saturday Leave Standard Leave</fullName>
+        <default>false</default>
+        <label>Saturday Leave Standard Leave</label>
+    </customValue>
+    <customValue>
+        <fullName>Saturday Leave Standard Loading</fullName>
+        <default>false</default>
+        <label>Saturday Leave Standard Loading</label>
+    </customValue>
+    <customValue>
+        <fullName>Saturday Overtime Hours Breakpoint</fullName>
+        <default>false</default>
+        <label>Saturday Overtime Hours Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Saturday Standard Hours Breakpoint</fullName>
+        <default>false</default>
+        <label>Saturday Standard Hours Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Saturday Start Time Breakpoint</fullName>
+        <default>false</default>
+        <label>Saturday Start Time Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Saturday Time Breakpoint</fullName>
+        <default>false</default>
+        <label>Saturday Time Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Shift Allowance</fullName>
+        <default>false</default>
+        <label>Shift Allowance</label>
+    </customValue>
+    <customValue>
+        <fullName>Sleepover</fullName>
+        <default>false</default>
+        <label>Sleepover</label>
+    </customValue>
+    <customValue>
+        <fullName>Split/Broken Shift</fullName>
+        <default>false</default>
+        <label>Split/Broken Shift</label>
+    </customValue>
+    <customValue>
+        <fullName>Sunday</fullName>
+        <default>false</default>
+        <label>Sunday</label>
+    </customValue>
+    <customValue>
+        <fullName>Sunday End Time Breakpoint</fullName>
+        <default>false</default>
+        <label>Sunday End Time Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Sunday hours Breakpoint</fullName>
+        <default>false</default>
+        <label>Sunday hours Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Sunday Leave Shift End Loaded Leave</fullName>
+        <default>false</default>
+        <label>Sunday Leave Shift End Loaded Leave</label>
+    </customValue>
+    <customValue>
+        <fullName>Sunday Leave Shift Start Loaded Leave</fullName>
+        <default>false</default>
+        <label>Sunday Leave Shift Start Loaded Leave</label>
+    </customValue>
+    <customValue>
+        <fullName>Sunday Leave Standard Leave</fullName>
+        <default>false</default>
+        <label>Sunday Leave Standard Leave</label>
+    </customValue>
+    <customValue>
+        <fullName>Sunday Leave Standard Loading</fullName>
+        <default>false</default>
+        <label>Sunday Leave Standard Loading</label>
+    </customValue>
+    <customValue>
+        <fullName>Sunday Overtime Hours Breakpoint</fullName>
+        <default>false</default>
+        <label>Sunday Overtime Hours Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Sunday Standard Hours Breakpoint</fullName>
+        <default>false</default>
+        <label>Sunday Standard Hours Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Sunday Start Time Breakpoint</fullName>
+        <default>false</default>
+        <label>Sunday Start Time Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Sunday Time Breakpoint</fullName>
+        <default>false</default>
+        <label>Sunday Time Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Thursday End Time Breakpoint</fullName>
+        <default>false</default>
+        <label>Thursday End Time Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Thursday Leave Shift End Loaded Leave</fullName>
+        <default>false</default>
+        <label>Thursday Leave Shift End Loaded Leave</label>
+    </customValue>
+    <customValue>
+        <fullName>Thursday Leave Shift Start Loaded Leave</fullName>
+        <default>false</default>
+        <label>Thursday Leave Shift Start Loaded Leave</label>
+    </customValue>
+    <customValue>
+        <fullName>Thursday Leave Standard Leave</fullName>
+        <default>false</default>
+        <label>Thursday Leave Standard Leave</label>
+    </customValue>
+    <customValue>
+        <fullName>Thursday Leave Standard Loading</fullName>
+        <default>false</default>
+        <label>Thursday Leave Standard Loading</label>
+    </customValue>
+    <customValue>
+        <fullName>Thursday Overtime Hours Breakpoint</fullName>
+        <default>false</default>
+        <label>Thursday Overtime Hours Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Thursday Standard Hours Breakpoint</fullName>
+        <default>false</default>
+        <label>Thursday Standard Hours Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Thursday Start Time Breakpoint</fullName>
+        <default>false</default>
+        <label>Thursday Start Time Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Thursday Time Breakpoint</fullName>
+        <default>false</default>
+        <label>Thursday Time Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Tuesday End Time Breakpoint</fullName>
+        <default>false</default>
+        <label>Tuesday End Time Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Tuesday Leave Shift End Loaded Leave</fullName>
+        <default>false</default>
+        <label>Tuesday Leave Shift End Loaded Leave</label>
+    </customValue>
+    <customValue>
+        <fullName>Tuesday Leave Shift Start Loaded Leave</fullName>
+        <default>false</default>
+        <label>Tuesday Leave Shift Start Loaded Leave</label>
+    </customValue>
+    <customValue>
+        <fullName>Tuesday Leave Standard Leave</fullName>
+        <default>false</default>
+        <label>Tuesday Leave Standard Leave</label>
+    </customValue>
+    <customValue>
+        <fullName>Tuesday Leave Standard Loading</fullName>
+        <default>false</default>
+        <label>Tuesday Leave Standard Loading</label>
+    </customValue>
+    <customValue>
+        <fullName>Tuesday Overtime Hours Breakpoint</fullName>
+        <default>false</default>
+        <label>Tuesday Overtime Hours Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Tuesday Standard Hours Breakpoint</fullName>
+        <default>false</default>
+        <label>Tuesday Standard Hours Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Tuesday Start Time Breakpoint</fullName>
+        <default>false</default>
+        <label>Tuesday Start Time Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Tuesday Time Breakpoint</fullName>
+        <default>false</default>
+        <label>Tuesday Time Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Wake Up</fullName>
+        <default>false</default>
+        <label>Wake Up</label>
+    </customValue>
+    <customValue>
+        <fullName>Wednesday End Time Breakpoint</fullName>
+        <default>false</default>
+        <label>Wednesday End Time Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Wednesday Leave Shift End Loaded Leave</fullName>
+        <default>false</default>
+        <label>Wednesday Leave Shift End Loaded Leave</label>
+    </customValue>
+    <customValue>
+        <fullName>Wednesday Leave Shift Start Loaded Leave</fullName>
+        <default>false</default>
+        <label>Wednesday Leave Shift Start Loaded Leave</label>
+    </customValue>
+    <customValue>
+        <fullName>Wednesday Leave Standard Leave</fullName>
+        <default>false</default>
+        <label>Wednesday Leave Standard Leave</label>
+    </customValue>
+    <customValue>
+        <fullName>Wednesday Leave Standard Loading</fullName>
+        <default>false</default>
+        <label>Wednesday Leave Standard Loading</label>
+    </customValue>
+    <customValue>
+        <fullName>Wednesday Overtime Hours Breakpoint</fullName>
+        <default>false</default>
+        <label>Wednesday Overtime Hours Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Wednesday Standard Hours Breakpoint</fullName>
+        <default>false</default>
+        <label>Wednesday Standard Hours Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Wednesday Start Time Breakpoint</fullName>
+        <default>false</default>
+        <label>Wednesday Start Time Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Wednesday Time Breakpoint</fullName>
+        <default>false</default>
+        <label>Wednesday Time Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Weekday End Time Breakpoint</fullName>
+        <default>false</default>
+        <label>Weekday End Time Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Weekday Overtime Hours Breakpoint</fullName>
+        <default>false</default>
+        <label>Weekday Overtime Hours Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Weekday Standard Hours Breakpoint</fullName>
+        <default>false</default>
+        <label>Weekday Standard Hours Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Weekday Start Time Breakpoint</fullName>
+        <default>false</default>
+        <label>Weekday Start Time Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Weekday Time Breakpoint</fullName>
+        <default>false</default>
+        <label>Weekday Time Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Weekly Allowance</fullName>
+        <default>false</default>
+        <label>Weekly Allowance</label>
+    </customValue>
+    <customValue>
+        <fullName>Weekly Breakpoint</fullName>
+        <default>false</default>
+        <label>Weekly Breakpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Work Day</fullName>
+        <default>false</default>
+        <label>Work Day</label>
+    </customValue>
+    <masterLabel>Interpretation Breakpoint Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_edc__Mapping_Component_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Mapping Component Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Annual Leave All Dates</fullName>
+                <default>true</default>
+                <label>Annual Leave All Dates</label>
+            </value>
+            <value>
+                <fullName>Annual Leave Pre78</fullName>
+                <default>false</default>
+                <label>Annual Leave Pre78</label>
+            </value>
+            <value>
+                <fullName>Annual Leave Pre93</fullName>
+                <default>false</default>
+                <label>Annual Leave Pre93</label>
+            </value>
+            <value>
+                <fullName>Annual Leave Post93</fullName>
+                <default>false</default>
+                <label>Annual Leave Post93</label>
+            </value>
+            <value>
+                <fullName>Leave Loading All Dates</fullName>
+                <default>false</default>
+                <label>Leave Loading All Dates</label>
+            </value>
+            <value>
+                <fullName>Leave Loading Pre93</fullName>
+                <default>false</default>
+                <label>Leave Loading Pre93</label>
+            </value>
+            <value>
+                <fullName>Leave Loading Post93</fullName>
+                <default>false</default>
+                <label>Leave Loading Post93</label>
+            </value>
+            <value>
+                <fullName>Long Service Leave All Dates</fullName>
+                <default>false</default>
+                <label>Long Service Leave All Dates</label>
+            </value>
+            <value>
+                <fullName>Long Service Leave Pre78</fullName>
+                <default>false</default>
+                <label>Long Service Leave Pre78</label>
+            </value>
+            <value>
+                <fullName>Long Service Leave Pre93</fullName>
+                <default>false</default>
+                <label>Long Service Leave Pre93</label>
+            </value>
+            <value>
+                <fullName>Long Service Leave Post93</fullName>
+                <default>false</default>
+                <label>Long Service Leave Post93</label>
+            </value>
+            <value>
+                <fullName>Taxable ETP</fullName>
+                <default>false</default>
+                <label>Taxable ETP</label>
+            </value>
+            <value>
+                <fullName>Tax Free ETP</fullName>
+                <default>false</default>
+                <label>Tax Free ETP</label>
+            </value>
+            <value>
+                <fullName>Lump Sum D</fullName>
+                <default>false</default>
+                <label>Lump Sum D</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

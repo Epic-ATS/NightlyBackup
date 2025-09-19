@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Reduce_Auto_Pay_Units__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates whether this leave rule should automatically reduce from a Payee&apos;s auto pay payment</description>
+    <inlineHelpText>Indicates whether this leave rule should automatically reduce from a Payee&apos;s auto pay payment</inlineHelpText>
+    <label>Reduce Auto Pay Units</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_pr__Yes_No_Picklists</valueSetName>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Hours</fullName>
+        <default>false</default>
+        <label>Hours</label>
+    </customValue>
+    <customValue>
+        <fullName>Units</fullName>
+        <default>false</default>
+        <label>Units</label>
+    </customValue>
+    <masterLabel>Quantity Type Picklists</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

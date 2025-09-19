@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Manually Created</fullName>
+        <default>true</default>
+        <label>Manually Created</label>
+    </customValue>
+    <customValue>
+        <fullName>Generate Timesheet button</fullName>
+        <default>false</default>
+        <label>Generate Timesheet button</label>
+    </customValue>
+    <customValue>
+        <fullName>Auto Generate Timesheet</fullName>
+        <default>false</default>
+        <label>Auto Generate Timesheet</label>
+    </customValue>
+    <customValue>
+        <fullName>Timesheet Manager Add</fullName>
+        <default>false</default>
+        <label>Timesheet Manager Add</label>
+    </customValue>
+    <customValue>
+        <fullName>Candidate Page Add</fullName>
+        <default>false</default>
+        <label>Candidate Page Add</label>
+    </customValue>
+    <masterLabel>Timesheet Entry Method Created Picklists</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

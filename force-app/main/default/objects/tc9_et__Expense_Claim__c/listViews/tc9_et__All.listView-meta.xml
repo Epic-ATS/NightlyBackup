@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__All</fullName>
+    <columns>NAME</columns>
+    <columns>tc9_et__Expense_Claim_Manager__c</columns>
+    <columns>tc9_et__Approval_Status_Colour__c</columns>
+    <columns>tc9_et__Transaction_Creation_Status_Colour__c</columns>
+    <columns>tc9_et__Claim_Date__c</columns>
+    <columns>tc9_et__Payee__c</columns>
+    <columns>tc9_et__Employee__c</columns>
+    <columns>tc9_et__Expense_Claim_Description__c</columns>
+    <columns>tc9_et__Total_Expenses__c</columns>
+    <columns>tc9_et__Expense_Claim_Total_Inc_Tax__c</columns>
+    <columns>tc9_et__Submitted_Date__c</columns>
+    <columns>tc9_et__Approved_Date__c</columns>
+    <columns>tc9_et__Transaction_Creation_Status__c</columns>
+    <columns>tc9_et__Transaction_Creation_Stage__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

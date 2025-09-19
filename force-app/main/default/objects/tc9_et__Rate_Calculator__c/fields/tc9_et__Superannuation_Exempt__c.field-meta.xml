@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Superannuation_Exempt__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines if Rate Calculators not assigned to Assignments are Superannuation Exempt. Those assigned to Assignments will derive exception details based on Employee Cost Exceptions for the Client and Assignment as well as the Payee Withholding and Pay Code</description>
+    <inlineHelpText>Defines if Rate Calculators not assigned to Assignments are Superannuation Exempt. Those assigned to Assignments will derive exception details based on Employee Cost Exceptions for the Client and Assignment as well as the Payee Withholding and Pay Code</inlineHelpText>
+    <label>Superannuation Exempt</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_pr__Yes_No_Picklists</valueSetName>
+    </valueSet>
+</CustomField>

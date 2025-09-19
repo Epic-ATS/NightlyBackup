@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Loading_Pay_Code__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The pay code that will be used in the creation of leave loading transactions when a payee uses this leave rule</description>
+    <inlineHelpText>The pay code that will be used in the creation of leave loading transactions when a payee uses this leave rule</inlineHelpText>
+    <label>Loading Pay Code</label>
+    <referenceTo>tc9_pr__Pay_Code__c</referenceTo>
+    <relationshipLabel>Leave Rules (Loading Pay Code)</relationshipLabel>
+    <relationshipName>Leave_Rules4</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

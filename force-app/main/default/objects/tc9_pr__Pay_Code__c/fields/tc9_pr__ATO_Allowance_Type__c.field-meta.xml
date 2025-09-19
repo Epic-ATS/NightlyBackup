@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__ATO_Allowance_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates how this allowance pay code will be reported during STP.  Where the allowance should be added to the gross pay and not reported separately please select &apos;Gross&apos;.</description>
+    <inlineHelpText>Indicates how this allowance pay code will be reported during STP.  Where the allowance should be added to the gross pay and not reported separately please select &apos;Gross&apos;.</inlineHelpText>
+    <label>ATO Allowance Type</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_pr__ATO_Allowance_Type_Picklists</valueSetName>
+    </valueSet>
+</CustomField>

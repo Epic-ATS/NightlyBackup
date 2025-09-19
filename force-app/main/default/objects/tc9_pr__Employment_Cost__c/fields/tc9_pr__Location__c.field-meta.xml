@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Location__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The Location associated with the Employment Cost. If a Parent Location is selected, the Employment Cost will apply to all the Locations child records</description>
+    <inlineHelpText>The Location associated with the Employment Cost. If a Parent Location is selected, the Employment Cost will apply to all the Locations child records</inlineHelpText>
+    <label>Location</label>
+    <referenceTo>tc9_pr__Location__c</referenceTo>
+    <relationshipLabel>Employment Costs</relationshipLabel>
+    <relationshipName>Employment_Costs</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

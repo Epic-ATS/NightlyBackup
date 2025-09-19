@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__Message_Sender_Initials__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>if(ispickval(b3o__Type__c, &apos;Inbound&apos;), if(b3o__Contact__r.FirstName != null, LEFT(b3o__Contact__r.FirstName, 1),&apos;&apos;) &amp; if(b3o__Contact__r.LastName != null, LEFT(b3o__Contact__r.LastName, 1),&apos;&apos;), if(CreatedBy.FirstName != null, LEFT(CreatedBy.FirstName, 1),&apos;&apos;) &amp; if(CreatedBy.LastName != null, LEFT(CreatedBy.LastName, 1),&apos;&apos;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Message Sender Initials</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

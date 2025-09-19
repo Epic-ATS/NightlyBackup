@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Quantity_by_Leave_Multiplier__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Quantity based on Leave Rate Multiplier</description>
+    <externalId>false</externalId>
+    <formula>tc9_pr__Quantity__c * If(ISBLANK(tc9_pr__Leave_Rate_Multiplier__c),1,tc9_pr__Leave_Rate_Multiplier__c)</formula>
+    <inlineHelpText>Quantity based on Leave Rate Multiplier</inlineHelpText>
+    <label>Quantity by Leave Multiplier</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

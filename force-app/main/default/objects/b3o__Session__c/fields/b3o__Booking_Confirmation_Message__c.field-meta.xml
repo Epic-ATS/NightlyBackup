@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__Booking_Confirmation_Message__c</fullName>
+    <deprecated>false</deprecated>
+    <inlineHelpText>This is visible to the invited person after they have successfully booked for a session</inlineHelpText>
+    <label>Booking Confirmation Message</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

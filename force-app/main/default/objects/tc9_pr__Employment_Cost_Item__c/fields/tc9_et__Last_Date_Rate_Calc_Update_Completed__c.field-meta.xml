@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Last_Date_Rate_Calc_Update_Completed__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The last date/time the Employment Cost Item was applied to a Rate Calculator from the ECM.</description>
+    <inlineHelpText>The last date/time the Employment Cost Item was applied to a Rate Calculator from the ECM.</inlineHelpText>
+    <label>Last Date Rate Calc Update Completed</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

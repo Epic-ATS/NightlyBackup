@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Withholding_Superannuation</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>tc9_pr__Pay_Transaction_Distribution_Compact_Layout</compactLayoutAssignment>
+    <label>Withholding - Superannuation</label>
+</RecordType>

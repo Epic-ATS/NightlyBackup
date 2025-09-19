@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Data_Loaded_Transaction__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When a transaction is loaded via external means (ie data loader) this checkbox should be set to TRUE so it is identified as an external transaction.</description>
+    <inlineHelpText>When a transaction is loaded via external means (ie data loader) this checkbox should be set to TRUE so it is identified as an external transaction.</inlineHelpText>
+    <label>Data Loaded Transaction</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

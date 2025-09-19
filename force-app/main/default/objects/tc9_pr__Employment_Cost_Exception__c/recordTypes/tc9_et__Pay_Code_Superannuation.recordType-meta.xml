@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Pay_Code_Superannuation</fullName>
+    <active>true</active>
+    <description>To be used for Pay Code level Employment Cost Exceptions associated with Superannuation</description>
+    <label>Pay Code Superannuation</label>
+    <picklistValues>
+        <picklist>tc9_pr__Employment_Cost_Exempt__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

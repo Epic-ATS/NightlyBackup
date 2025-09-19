@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This is the standard email template to be used when sending a notification to a Primary Approver that a Timesheet has been submitted and is awaiting approval</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>tc9_et__SampleLetterhead</letterhead>
+    <name>Standard Email - Timesheet - Primary Approver - Approval Request</name>
+    <style>freeForm</style>
+    <subject>IMPORTANT: {!tc9_et__Timesheet__c.tc9_et__Payment_Entity__c} Timesheets to Approve</subject>
+    <textOnly>Dear {!tc9_et__Timesheet__c.tc9_et__Primary_Approver_First_Name__c},
+
+This is a notification that the following timesheet has been submitted for approval.
+
+Timesheet: {!tc9_et__Timesheet__c.Name}
+Start Date: {!tc9_et__Timesheet__c.tc9_et__Start_Date__c}
+End Date: {!tc9_et__Timesheet__c.tc9_et__End_Date__c}
+Employee: {!tc9_et__Timesheet__c.tc9_et__Employee_Full_Name__c}
+
+The cut off for timesheet approval is 5.30pm Monday.
+
+We asks that you please ensure the above timesheet is approved/rejected by this time to prevent our employee’s pay being delayed.
+
+Please click below to view and approve/reject all outstanding timesheets for employees who worked last week.
+
+{!tc9_et__Timesheet__c.tc9_et__Primary_Approver_Current_Link_Token__c}
+
+If you require any assistance, please contact your {!tc9_et__Timesheet__c.tc9_et__Payment_Entity__c} Consultant or {!tc9_et__Timesheet__c.tc9_et__Timesheet_Support__c} on {!tc9_et__Timesheet__c.tc9_et__Timesheet_Support_Contact__c}.
+
+Yours Sincerely,
+
+{!tc9_et__Timesheet__c.tc9_et__Payment_Entity__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

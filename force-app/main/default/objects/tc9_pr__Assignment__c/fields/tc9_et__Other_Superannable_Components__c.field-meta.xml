@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Other_Superannable_Components__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates the total of other Salary Components that will incur Superannuation that are not included in other fields. This field can be used for ad-hoc salary components instead of requiring an individual field</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates the total of other Salary Components that will incur Superannuation that are not included in other fields.</inlineHelpText>
+    <label>Other Superannable Components</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

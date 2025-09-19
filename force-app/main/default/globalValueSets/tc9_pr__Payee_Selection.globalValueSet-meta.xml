@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>All</fullName>
+        <default>false</default>
+        <label>All</label>
+    </customValue>
+    <customValue>
+        <fullName>Transaction Only</fullName>
+        <default>false</default>
+        <label>Transaction Only</label>
+    </customValue>
+    <masterLabel>Payee Selection</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

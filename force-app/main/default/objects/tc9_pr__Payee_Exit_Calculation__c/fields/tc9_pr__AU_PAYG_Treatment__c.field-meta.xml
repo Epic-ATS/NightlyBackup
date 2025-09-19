@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__AU_PAYG_Treatment__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates how this Payee Exit Calculation Result will be considered during Pay Batch calculation.</description>
+    <inlineHelpText>Indicates how this Payee Exit Calculation Result will be considered during Pay Batch calculation.</inlineHelpText>
+    <label>AU PAYG Treatment</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Wages</fullName>
+                <default>false</default>
+                <label>Wages</label>
+            </value>
+            <value>
+                <fullName>Marginal</fullName>
+                <default>false</default>
+                <label>Marginal</label>
+            </value>
+            <value>
+                <fullName>Lump Sum A</fullName>
+                <default>false</default>
+                <label>Lump Sum A</label>
+            </value>
+            <value>
+                <fullName>Lump Sum B</fullName>
+                <default>false</default>
+                <label>Lump Sum B</label>
+            </value>
+            <value>
+                <fullName>Lump Sum D</fullName>
+                <default>false</default>
+                <label>Lump Sum D</label>
+            </value>
+            <value>
+                <fullName>Tax Free ETP</fullName>
+                <default>false</default>
+                <label>Tax Free ETP</label>
+            </value>
+            <value>
+                <fullName>Taxable ETP</fullName>
+                <default>false</default>
+                <label>Taxable ETP</label>
+            </value>
+            <value>
+                <fullName>Exempt</fullName>
+                <default>false</default>
+                <label>Exempt</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Taxable_Average_Earnings_Adjustment__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The average taxable regular earnings determined for the purpose of marginal tax calculation</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The average taxable regular earnings determined for the purpose of marginal tax calculation</inlineHelpText>
+    <label>Taxable Average Earnings Adjustment</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3f__System_Details__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>b3f__Browser__c &amp; &quot; - &quot; &amp; b3f__Browser_Version__c &amp; &quot; - &quot; &amp; b3f__Operating_System__c &amp; &quot; - &quot; &amp; b3f__Screen_Size__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>System Details</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

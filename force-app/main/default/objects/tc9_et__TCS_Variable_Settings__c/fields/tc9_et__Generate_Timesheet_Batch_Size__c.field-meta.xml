@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Generate_Timesheet_Batch_Size__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Allows the apex batch size to be lowered for Timesheet creation. The batch size defines how many Assignments will have their Timesheets created per batch. When left blank the batch size of 15 will be used.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Allows the apex batch size to be lowered for Timesheet creation. The batch size defines how many Assignments will have their Timesheets created per batch. When left blank the batch size of 15 will be used.</inlineHelpText>
+    <label>Generate Timesheet Batch Size</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>InvoicePayrollItemsAUS</fullName>
+        <default>false</default>
+        <label>InvoicePayrollItemsAUS</label>
+    </customValue>
+    <customValue>
+        <fullName>InvoiceInvoiceableFeesAUS</fullName>
+        <default>false</default>
+        <label>InvoiceInvoiceableFeesAUS</label>
+    </customValue>
+    <customValue>
+        <fullName>InvoicePayrollItemsNZ</fullName>
+        <default>false</default>
+        <label>InvoicePayrollItemsNZ</label>
+    </customValue>
+    <customValue>
+        <fullName>InvoiceInvoiceableFeesNZ</fullName>
+        <default>false</default>
+        <label>InvoiceInvoiceableFeesNZ</label>
+    </customValue>
+    <customValue>
+        <fullName>InvoiceCreditPayrollItemsAUS</fullName>
+        <default>false</default>
+        <label>InvoiceCreditPayrollItemsAUS</label>
+    </customValue>
+    <customValue>
+        <fullName>InvoiceCreditInvoiceableFeesAUS</fullName>
+        <default>false</default>
+        <label>InvoiceCreditInvoiceableFeesAUS</label>
+    </customValue>
+    <customValue>
+        <fullName>InvoiceCreditPayrollItemsNZ</fullName>
+        <default>false</default>
+        <label>InvoiceCreditPayrollItemsNZ</label>
+    </customValue>
+    <customValue>
+        <fullName>InvoiceCreditInvoiceableFeesNZ</fullName>
+        <default>false</default>
+        <label>InvoiceCreditInvoiceableFeesNZ</label>
+    </customValue>
+    <description>To be used for Invoice Visualforce Page picklists</description>
+    <masterLabel>Invoice Visualforce Page Picklists</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

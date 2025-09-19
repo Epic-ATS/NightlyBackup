@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Adjustment_Transaction__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Identifies if the Pay Transaction has been created through a manual/adjustment process</description>
+    <inlineHelpText>Identifies if the Pay Transaction has been created through a manual/adjustment process</inlineHelpText>
+    <label>Adjustment Transaction</label>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

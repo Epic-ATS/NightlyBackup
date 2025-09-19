@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This is the standard Time2Pay Email Template to be used when sending invoice emails with a single PDF Invoice attached - AUS</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>tc9_et__SampleLetterhead</letterhead>
+    <name>Standard Email - Invoice Single PDF - AUS</name>
+    <style>freeForm</style>
+    <subject>Invoice from {!tc9_et__Invoice__c.tc9_et__Invoice_Entity__c}</subject>
+    <textOnly>Dear {!tc9_et__Invoice__c.tc9_et__Invoice_To_Contact_First_Name__c}
+
+Please find attached Invoice {!tc9_et__Invoice__c.tc9_et__Invoice_No__c} from {!tc9_et__Invoice__c.tc9_et__Invoice_Entity__c}.
+
+Please remit payment to:
+Bank Account Name: {!tc9_et__Invoice__c.tc9_et__Remit_To_Bank_Account_Name__c}
+Branch (BSB): {!tc9_et__Invoice__c.tc9_et__Remit_To_Bank_Branch_Code__c}
+Account Number: {!tc9_et__Invoice__c.tc9_et__Remit_To_Bank_Account_Number__c}
+
+Remittance advice can be emailed to {!tc9_et__Invoice__c.tc9_et__Remittance_Email__c}
+
+If you would like to discuss this invoice, or have any problems opening the attachment, please contact {!tc9_et__Invoice__c.tc9_et__Contact_for_Invoice_Queries_Name__c} on {!tc9_et__Invoice__c.tc9_et__Contact_for_Invoice_Queries_Phone__c}.
+
+Regards,
+{!tc9_et__Invoice__c.tc9_et__Invoice_Entity__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

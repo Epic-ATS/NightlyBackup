@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Payee_Selection__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Default data selection that will be applied during pay batch creation. Transactions Only = payees with Pay Transactions meeting the criteria will be considered. All = considers other source records such a payee leave rules, payee deductions etc.</description>
+    <inlineHelpText>Default data selection that will be applied during pay batch creation. Transactions Only = payees with Pay Transactions meeting the criteria will be considered. All = considers other source records such a payee leave rules, payee deductions etc.</inlineHelpText>
+    <label>Payee Selection</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_pr__Payee_Selection</valueSetName>
+    </valueSet>
+</CustomField>

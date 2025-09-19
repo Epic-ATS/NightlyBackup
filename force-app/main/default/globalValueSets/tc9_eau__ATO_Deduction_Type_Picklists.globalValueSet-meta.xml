@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Gross</fullName>
+        <default>false</default>
+        <label>Gross</label>
+    </customValue>
+    <customValue>
+        <fullName>Fees</fullName>
+        <default>false</default>
+        <label>Fees</label>
+    </customValue>
+    <customValue>
+        <fullName>Workplace Giving</fullName>
+        <default>false</default>
+        <label>Workplace Giving</label>
+    </customValue>
+    <description>To be used for all ATO Deduction Type based picklist fields</description>
+    <masterLabel>ATO Deduction Type Picklists</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

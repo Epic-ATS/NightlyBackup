@@ -1,0 +1,11 @@
+Hi,
+
+Your Single Touch Payroll lodgement {!tc9_eau__Lodgement_AU__c.Name} has been CANCELLED by the ATO and will not be processed.  Details of this lodgement are listed below.
+
+Payer Name: {!tc9_eau__Lodgement_AU__c.tc9_eau__Payer_Organisation_Name__c}
+Event Type: {!tc9_eau__Lodgement_AU__c.tc9_eau__Event_Type__c}
+Period Gross: {!tc9_eau__Lodgement_AU__c.tc9_eau__Payer_Total_Gross__c}
+Period PAYG: {!tc9_eau__Lodgement_AU__c.tc9_eau__Payer_Total_PAYGW__c}
+
+Regards,
+2cloudnine Payroll

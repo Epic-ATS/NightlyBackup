@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3f__Duplicate_Error_Message__c</fullName>
+    <defaultValue>&quot;Looks like we found a duplicate record on our system. Please contact an Administrator.&quot;</defaultValue>
+    <deprecated>false</deprecated>
+    <label>Duplicate Error Message</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

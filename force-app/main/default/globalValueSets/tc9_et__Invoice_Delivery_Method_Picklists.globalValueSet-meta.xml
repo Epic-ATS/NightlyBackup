@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Email with URL Online Link</fullName>
+        <default>false</default>
+        <label>Email with URL Online Link</label>
+    </customValue>
+    <customValue>
+        <fullName>Email with PDF Attachment</fullName>
+        <default>false</default>
+        <label>Email with PDF Attachment</label>
+    </customValue>
+    <customValue>
+        <fullName>Paper</fullName>
+        <default>false</default>
+        <label>Paper</label>
+    </customValue>
+    <description>To be used for Invoice Delivery Method picklists</description>
+    <masterLabel>Invoice Delivery Method Picklists</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

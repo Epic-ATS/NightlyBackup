@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Send_Invoice_Emails_Setting__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines where the email address that will be used as the from / reply to email when emailing consolidated invoices will be taken from.</description>
+    <inlineHelpText>Defines where the email address that will be used as the from / reply to email when emailing consolidated invoices will be taken from.</inlineHelpText>
+    <label>Send Invoice Emails Setting</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_et__Send_Invoice_Emails_Setting_Picklists</valueSetName>
+    </valueSet>
+</CustomField>

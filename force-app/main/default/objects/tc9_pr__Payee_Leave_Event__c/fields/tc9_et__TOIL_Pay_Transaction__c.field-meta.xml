@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__TOIL_Pay_Transaction__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>To populate with the related TOIL pay transaction</description>
+    <inlineHelpText>To populate with the related TOIL pay transaction</inlineHelpText>
+    <label>TOIL Pay Transaction</label>
+    <referenceTo>tc9_pr__Pay_Transaction__c</referenceTo>
+    <relationshipLabel>Payee Leave Events</relationshipLabel>
+    <relationshipName>Payee_Leave_Events</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Country_of_Visa_Work__c</fullName>
+    <deprecated>false</deprecated>
+    <description>If blank, Australia will be used in downstream processes.</description>
+    <inlineHelpText>If blank, Australia will be used in downstream processes.</inlineHelpText>
+    <label>Country of Visa/Work</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_pr__STP2_Country_Picklists</valueSetName>
+    </valueSet>
+</CustomField>

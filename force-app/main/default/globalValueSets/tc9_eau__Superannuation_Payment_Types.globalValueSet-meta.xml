@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Direct Debit</fullName>
+        <default>false</default>
+        <label>Direct Debit</label>
+    </customValue>
+    <customValue>
+        <fullName>Direct Credit</fullName>
+        <default>false</default>
+        <label>Direct Credit</label>
+    </customValue>
+    <customValue>
+        <fullName>Data Only</fullName>
+        <default>false</default>
+        <label>Data Only</label>
+    </customValue>
+    <description>The method by which superannuation contributions will be paid to the clearing house.</description>
+    <masterLabel>Superannuation Payment Types</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

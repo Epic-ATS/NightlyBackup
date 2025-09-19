@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Updated_in_Timesheet_Manager__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates that a User has updated the Transaction via the Timesheet Manager</description>
+    <inlineHelpText>Indicates that a User has updated the Transaction via the Timesheet Manager</inlineHelpText>
+    <label>Updated in Timesheet Manager</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

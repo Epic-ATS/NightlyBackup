@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Advance_Pay_Start_Calendar_Period__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The first payroll calendar period of an advance pay Payee Leave Event.</description>
+    <inlineHelpText>The first payroll calendar period of an advance pay Payee Leave Event.</inlineHelpText>
+    <label>Advance Pay Start Calendar Period</label>
+    <referenceTo>tc9_pr__Calendar_Period__c</referenceTo>
+    <relationshipLabel>Payee Leave Events (Advance Pay Start Calendar Period)</relationshipLabel>
+    <relationshipName>Payee_Leave_Events2</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

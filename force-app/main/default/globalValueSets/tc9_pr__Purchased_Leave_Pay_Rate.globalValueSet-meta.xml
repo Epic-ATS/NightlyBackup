@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Average Pay Rate</fullName>
+        <default>false</default>
+        <label>Average Pay Rate</label>
+    </customValue>
+    <customValue>
+        <fullName>Current Pay Rate</fullName>
+        <default>false</default>
+        <label>Current Pay Rate</label>
+    </customValue>
+    <description>Defines which pay rate the payee will receive when their take purchased leave which is related to a payee deduction record. Either the average pay rate based on the total amount deducted, or, or the pay rate they are on when they take the leave.</description>
+    <masterLabel>Purchased Leave Pay Rate</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

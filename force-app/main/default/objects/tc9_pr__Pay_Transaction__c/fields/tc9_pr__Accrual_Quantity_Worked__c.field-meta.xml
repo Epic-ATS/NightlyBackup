@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Accrual_Quantity_Worked__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Where the Accrual Type is Units per Hour Worked this field indicates the quantity worked value which was used to calculate the accrual.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Where the Accrual Type is Units per Hour Worked this field indicates the quantity worked value which was used to calculate the accrual.</inlineHelpText>
+    <label>Accrual Quantity Worked</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Percentage__c</fullName>
+    <deprecated>false</deprecated>
+    <description>For Payee&apos;s, when the Distribution Type is &quot;Percentage&apos; this field defines the percentage to be distributed to the Payment Detail after any Fixed Amount distributions are taken.</description>
+    <inlineHelpText>For Payee&apos;s, when the Distribution Type is &quot;Percentage&apos; this field defines the percentage to be distributed to the Payment Detail after any Fixed Amount distributions are taken.</inlineHelpText>
+    <label>Percentage</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

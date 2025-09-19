@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_eau__Payer_Declaration_Identifier__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Declarer Identifier of the payment entity</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Declarer Identifier of the payment entity</inlineHelpText>
+    <label>Payer Declaration Identifier</label>
+    <length>200</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

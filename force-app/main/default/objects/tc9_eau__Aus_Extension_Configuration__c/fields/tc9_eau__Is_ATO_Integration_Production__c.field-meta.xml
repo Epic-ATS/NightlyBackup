@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_eau__Is_ATO_Integration_Production__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This is used to identify if a sandBox or Production ATO configuration is to be pulled in from the custom meta data type - ATO_Integration_Settings__mdt</description>
+    <label>Is ATO Integration Production?</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

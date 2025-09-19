@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Time2Pay_Client_to_Rate_Calculator_Junction</fullName>
+    <fields>Name</fields>
+    <fields>tc9_et__Client__c</fields>
+    <fields>tc9_et__Rate_Calculator__c</fields>
+    <label>Time2Pay Client to Rate Calculator Junction</label>
+</CompactLayout>

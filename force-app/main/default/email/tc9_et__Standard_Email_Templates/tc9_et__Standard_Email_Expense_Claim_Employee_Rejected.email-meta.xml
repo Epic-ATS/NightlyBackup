@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This is the standard email template to be used when sending notifications to employees that their Expense Claim has been rejected</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>tc9_et__SampleLetterhead</letterhead>
+    <name>Standard Email - Expense Claim - Employee - Rejected</name>
+    <style>freeForm</style>
+    <subject>IMPORTANT: {!tc9_et__Expense_Claim__c.tc9_et__Payment_Entity__c} Expense Claim Rejected</subject>
+    <textOnly>Dear {!tc9_et__Expense_Claim__c.tc9_et__Employee_First_Name__c},
+
+This is a notification that the following expense claim has been rejected by your approver.
+
+Expense Claim: {!tc9_et__Expense_Claim__c.Name}
+Client: {!tc9_et__Expense_Claim__c.tc9_et__Client_Name__c}
+Assignment: {!tc9_et__Expense_Claim__c.tc9_et__Assignment_Name__c}
+Claim Date: {!tc9_et__Expense_Claim__c.tc9_et__Claim_Date__c}
+
+The reason provided for the rejected expense claim is:
+{!tc9_et__Expense_Claim__c.tc9_et__Rejection_Comments__c}
+
+Please login to the Employee Portal to amend the relevant expense claim soon as possible, and then resubmit for approval.
+
+If you require any assistance, please contact your {!tc9_et__Expense_Claim__c.tc9_et__Payment_Entity__c} Consultant or {!tc9_et__Expense_Claim__c.tc9_et__Expense_Claim_Support__c} on {!tc9_et__Expense_Claim__c.tc9_et__Expense_Claim_Support_Contact__c}.
+
+Yours Sincerely,
+
+{!tc9_et__Expense_Claim__c.tc9_et__Payment_Entity__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

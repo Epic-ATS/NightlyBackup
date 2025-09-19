@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__Booking_End_Time__c</fullName>
+    <deprecated>false</deprecated>
+    <formula>if(isblank(b3o__Session_Schedule__c), b3o__End_Time__c , b3o__Session_Schedule__r.b3o__End_Time__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>This is the absolute booking end time</inlineHelpText>
+    <label>Booking End Time</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

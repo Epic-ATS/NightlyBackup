@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__Disable_Cascade_Delete_Doc_Assignments__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <inlineHelpText>If checked, we will not cascade-delete document submissions when document assignments are deleted.</inlineHelpText>
+    <label>Disable Cascade Delete Doc Assignments</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

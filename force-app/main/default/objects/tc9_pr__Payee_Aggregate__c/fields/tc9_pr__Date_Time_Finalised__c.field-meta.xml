@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Date_Time_Finalised__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The Date Time Finalised on the related Pay Batch.</description>
+    <formula>tc9_pr__Pay_Batch__r.tc9_pr__Date_Time_Finalised__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>The Date Time Finalised on the related Pay Batch.</inlineHelpText>
+    <label>Date Time Finalised</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

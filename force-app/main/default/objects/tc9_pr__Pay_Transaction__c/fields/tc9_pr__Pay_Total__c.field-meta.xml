@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Pay_Total__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The calculated Pay Total (Number) for the Pay Transaction</description>
+    <externalId>false</externalId>
+    <formula>If (ISBLANK (tc9_pr__Pay_Rate__c), 0 ,tc9_pr__Pay_Rate__c) * IF (ISBLANK( tc9_pr__Pay_Multiplier__c ), 1 ,tc9_pr__Pay_Multiplier__c) * If ( ISBLANK(tc9_pr__Quantity__c),  1, tc9_pr__Quantity__c ) * If (OR(ISBLANK(tc9_pr__Leave_Rate_Multiplier__c), tc9_pr__Leave_Rate_Multiplier__c = 0), 1, tc9_pr__Leave_Rate_Multiplier__c )</formula>
+    <inlineHelpText>The calculated Pay Total (Number) for the Pay Transaction</inlineHelpText>
+    <label>Pay Total</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>4</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

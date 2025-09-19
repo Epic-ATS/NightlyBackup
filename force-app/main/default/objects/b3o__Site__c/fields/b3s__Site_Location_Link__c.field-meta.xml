@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3s__Site_Location_Link__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(&quot;https://www.google.com/maps/dir/&quot; 
+    &amp; IF((b3o__Coordinates__Latitude__s &gt; -1 &amp;&amp; b3o__Coordinates__Latitude__s &lt; 0), (&quot;-0&quot; &amp; TRIM(right(TEXT(b3o__Coordinates__Latitude__s) , (LEN( TEXT(b3o__Coordinates__Latitude__s)) - 1)))), IF((b3o__Coordinates__Latitude__s &lt; 1 &amp;&amp; b3o__Coordinates__Latitude__s &gt; 0), (&quot;0&quot; &amp; TEXT(b3o__Coordinates__Latitude__s)), TEXT(b3o__Coordinates__Latitude__s))) &amp; &quot;,&quot; 
+    &amp; IF((b3o__Coordinates__Longitude__s &gt; -1 &amp;&amp; b3o__Coordinates__Longitude__s &lt; 0), (&quot;-0&quot; &amp; TRIM(right(TEXT(b3o__Coordinates__Longitude__s) , (LEN( TEXT(b3o__Coordinates__Longitude__s)) - 1)))), IF((b3o__Coordinates__Longitude__s &lt; 1 &amp;&amp; b3o__Coordinates__Longitude__s &gt; 0), (&quot;0&quot; &amp; TEXT(b3o__Coordinates__Longitude__s)), TEXT(b3o__Coordinates__Longitude__s))), &quot;View&quot;, &quot;_blank&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Site Location Link</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

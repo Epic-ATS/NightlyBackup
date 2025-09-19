@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Balance_Last_Transferred_To__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Payee Leave Rule a balance was last transferred to</description>
+    <inlineHelpText>Payee Leave Rule a balance was last transferred to</inlineHelpText>
+    <label>Balance Last Transferred To</label>
+    <referenceTo>tc9_pr__Payee_Leave_Rule__c</referenceTo>
+    <relationshipLabel>Payee Leave Rules</relationshipLabel>
+    <relationshipName>Payee_Leave_Rules</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

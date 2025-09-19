@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Finalise_Based_On__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Finalise Month, Quarter and Year to Dates based on period end dates being derived from the Pay Batch Maximum Payroll Date or Pay Batch Payment Date</description>
+    <inlineHelpText>Finalise Month, Quarter and Year to Dates based on period end dates being derived from the Pay Batch Maximum Payroll Date or Pay Batch Payment Date</inlineHelpText>
+    <label>Finalise Based On</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Maximum Payroll Date</fullName>
+                <default>false</default>
+                <label>Maximum Payroll Date</label>
+            </value>
+            <value>
+                <fullName>Payment Date</fullName>
+                <default>false</default>
+                <label>Payment Date</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

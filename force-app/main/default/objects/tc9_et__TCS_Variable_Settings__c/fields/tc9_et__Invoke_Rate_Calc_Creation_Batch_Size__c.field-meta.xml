@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Invoke_Rate_Calc_Creation_Batch_Size__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Sets the maximum number of Assignment ids allowed to be passed in via the global invocable class Invoke_RateCalcCreation so as to control the apex batch size for creation of employee specific rate calculators. If left blank a default batch size of 5 will be applied.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Sets the maximum number of Assignment ids allowed to be passed in via the global invocable class Invoke_RateCalcCreation so as to control the apex batch size for creation of employee specific rate calculators. If left blank a default batch size of 5 will be applied.</inlineHelpText>
+    <label>Invoke Rate Calc Creation Batch Size</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Leave_Rate_Multiplier__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates the multiplier required as indicated on the Payee Leave Event i.e. Half Pay Rate = 0.5, Standard Pay Rate = 1, Double Pay Rate = 2</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates the multiplier required as indicated on the Payee Leave Event i.e. Half Pay Rate = 0.5, Standard Pay Rate = 1, Double Pay Rate = 2</inlineHelpText>
+    <label>Leave Rate Multiplier</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

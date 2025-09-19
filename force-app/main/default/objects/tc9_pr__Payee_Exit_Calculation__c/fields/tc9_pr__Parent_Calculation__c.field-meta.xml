@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Parent_Calculation__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Deprecated.</description>
+    <inlineHelpText>Deprecated.</inlineHelpText>
+    <label>Parent Calculation</label>
+    <referenceTo>tc9_pr__Payee_Exit_Calculation__c</referenceTo>
+    <relationshipLabel>Payee Exit Calculations (Parent Calculation)</relationshipLabel>
+    <relationshipName>Payee_Exit_Calculations1</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

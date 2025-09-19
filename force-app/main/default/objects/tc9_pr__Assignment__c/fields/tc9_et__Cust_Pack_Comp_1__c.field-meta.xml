@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Cust_Pack_Comp_1__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines the Custom Salary Component 1 the Employee will receive when placed in the Assignment. This field can be relabelled and help text updated  to cater for common  salary component types within the Org</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Defines the Custom Salary Component 1 the Employee will receive when placed in the Assignment.</inlineHelpText>
+    <label>Custom Package Component 1</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

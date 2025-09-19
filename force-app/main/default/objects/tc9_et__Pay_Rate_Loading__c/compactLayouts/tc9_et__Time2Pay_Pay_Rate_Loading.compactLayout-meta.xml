@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Time2Pay_Pay_Rate_Loading</fullName>
+    <fields>Name</fields>
+    <fields>RecordTypeId</fields>
+    <fields>tc9_et__Interpretation_Rule__c</fields>
+    <fields>tc9_et__Effective_Date__c</fields>
+    <fields>tc9_et__Expiry_Date__c</fields>
+    <label>Time2Pay Pay Rate Loading</label>
+</CompactLayout>

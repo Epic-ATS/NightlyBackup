@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Pay_Batch__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Related Pay Batch record.</description>
+    <inlineHelpText>Related Pay Batch record.</inlineHelpText>
+    <label>Pay Batch</label>
+    <referenceTo>tc9_pr__Pay_Batch__c</referenceTo>
+    <relationshipLabel>Pay Advices</relationshipLabel>
+    <relationshipName>Pay_Advices</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

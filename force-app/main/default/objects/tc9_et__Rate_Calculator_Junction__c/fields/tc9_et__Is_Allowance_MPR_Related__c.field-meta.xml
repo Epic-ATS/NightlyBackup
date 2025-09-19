@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Is_Allowance_MPR_Related__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates if the junction created is related to MPR with allowance pay code/Project code</description>
+    <inlineHelpText>Indicates if the junction created is related to MPR with allowance pay code/Project code</inlineHelpText>
+    <label>Is Allowance MPR Related?</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

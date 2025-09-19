@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Tax_Variation_Percentage__c</fullName>
+    <deprecated>false</deprecated>
+    <description>To be populated when the employer has received notification from the ATO that PAYG withholding should be calculated on a percentage basis</description>
+    <inlineHelpText>To be populated when the employer has received notification from the ATO that PAYG withholding should be calculated on a percentage basis</inlineHelpText>
+    <label>Tax Variation Percentage</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

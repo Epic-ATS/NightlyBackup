@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>% of Base Pay Rate</fullName>
+        <default>false</default>
+        <label>% of Base Pay Rate</label>
+    </customValue>
+    <customValue>
+        <fullName>% of Multiplied Pay Rate</fullName>
+        <default>false</default>
+        <label>% of Multiplied Pay Rate</label>
+    </customValue>
+    <customValue>
+        <fullName>% of Loaded Pay Rate</fullName>
+        <default>false</default>
+        <label>% of Loaded Pay Rate</label>
+    </customValue>
+    <customValue>
+        <fullName>% of Total Pay Rate</fullName>
+        <default>false</default>
+        <label>% of Total Pay Rate</label>
+    </customValue>
+    <customValue>
+        <fullName>% of Total Pay Rate + Costs</fullName>
+        <default>false</default>
+        <label>% of Total Pay Rate + Costs</label>
+    </customValue>
+    <customValue>
+        <fullName>% of Total Cost + Mark Up/Margin</fullName>
+        <default>false</default>
+        <label>% of Total Cost + Mark Up/Margin</label>
+    </customValue>
+    <customValue>
+        <fullName>Fixed Amount</fullName>
+        <default>false</default>
+        <label>Fixed Amount</label>
+    </customValue>
+    <description>To be used for Invoiceable Calculated Based On picklist fields</description>
+    <masterLabel>Invoiceable Calculated Based On Picklist</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

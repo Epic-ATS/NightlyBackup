@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__Customer_Logo__c</fullName>
+    <deprecated>false</deprecated>
+    <description>https://3bo-dev-ed.my.salesforce-sites.com/onboarding/resource/b3o__Demo_Logo</description>
+    <inlineHelpText>Must be in a static resource and surfaced from a guest site. E.g. https://domain.my.salesforce-sites.com/onboarding/resource/Customer_Logo</inlineHelpText>
+    <label>Customer Logo</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>

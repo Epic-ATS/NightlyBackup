@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3o__Client_Side_User_View_URL__c</fullName>
+    <defaultValue>&quot;https://api.yoti.com/idverify/v1/web/index.html?sessionID={0}&amp;sessionToken={1}&quot;</defaultValue>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Client capture user view url. Param {0} = session_id, Param {1} = client_session_token</inlineHelpText>
+    <label>Client Side User View URL</label>
+    <length>255</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

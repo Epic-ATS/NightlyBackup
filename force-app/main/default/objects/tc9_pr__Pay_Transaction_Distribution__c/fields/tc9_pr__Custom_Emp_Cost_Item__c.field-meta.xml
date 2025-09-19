@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Custom_Emp_Cost_Item__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The Employment Cost Item record selected for the calculation of this Custom Cost</description>
+    <inlineHelpText>The Employment Cost Item record selected for the calculation of this Custom Cost</inlineHelpText>
+    <label>Custom Emp Cost Item</label>
+    <referenceTo>tc9_pr__Employment_Cost_Item__c</referenceTo>
+    <relationshipLabel>Pay Transaction Distributions (Custom Emp Cost Item)</relationshipLabel>
+    <relationshipName>Pay_Transaction_Distributions2</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

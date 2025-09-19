@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3p__Load_Immediately__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>If checked, this component will be loaded under priority. Useful for loading libraries, shared code or global functions.</inlineHelpText>
+    <label>Load Immediately</label>
+    <type>Checkbox</type>
+</CustomField>

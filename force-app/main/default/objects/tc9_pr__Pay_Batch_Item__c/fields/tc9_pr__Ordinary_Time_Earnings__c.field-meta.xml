@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Ordinary_Time_Earnings__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The total value of related pay transactions which contribute to Ordinary Time Earnings.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The total value of related pay transactions which contribute to Ordinary Time Earnings.</inlineHelpText>
+    <label>Ordinary Time Earnings</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

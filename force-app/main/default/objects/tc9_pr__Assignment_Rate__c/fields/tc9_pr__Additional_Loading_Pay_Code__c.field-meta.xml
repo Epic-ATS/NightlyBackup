@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Additional_Loading_Pay_Code__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>pay code to be used for automatic creation of additional loading transactions i.e. casual loading</description>
+    <inlineHelpText>pay code to be used for automatic creation of additional loading transactions i.e. casual loading</inlineHelpText>
+    <label>Additional Loading Pay Code</label>
+    <referenceTo>tc9_pr__Pay_Code__c</referenceTo>
+    <relationshipLabel>Assignment Rates (Additional Loading Pay Code)</relationshipLabel>
+    <relationshipName>Assignment_Rates1</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Permission_Sets__c</fullName>
+    <defaultValue>&quot;tc9_ec__Employee_Community_Permission_Set&quot;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Defines the API name of the Permission Set(s) that will be assigned when Users are created automatically for the Community. Multiple permission sets can be defined when separated by a comma (,)</description>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Defines the API name of the Permission Set(s) that will be assigned when Users are created automatically for the Community. Multiple permission sets can be defined when separated by a comma (,)</inlineHelpText>
+    <label>Permission Sets</label>
+    <length>1000</length>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

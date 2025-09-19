@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Is_Rolled_Over_Withheld__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Identifies if the Pay Transaction is relating to the withholding of a previously rolled over deduction amount that could not be withheld</description>
+    <inlineHelpText>Identifies if the Pay Transaction is relating to the withholding of a previously rolled over deduction amount that could not be withheld</inlineHelpText>
+    <label>Is Rolled Over Withheld?</label>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

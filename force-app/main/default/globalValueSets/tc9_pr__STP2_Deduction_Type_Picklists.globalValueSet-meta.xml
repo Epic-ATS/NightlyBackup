@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Child Support Deduction</fullName>
+        <default>false</default>
+        <label>Child Support Deduction</label>
+    </customValue>
+    <customValue>
+        <fullName>Child Support Garnishee</fullName>
+        <default>false</default>
+        <label>Child Support Garnishee</label>
+    </customValue>
+    <customValue>
+        <fullName>Fees</fullName>
+        <default>false</default>
+        <label>Fees</label>
+    </customValue>
+    <customValue>
+        <fullName>Not Applicable</fullName>
+        <default>false</default>
+        <label>Not Applicable</label>
+    </customValue>
+    <customValue>
+        <fullName>Salary Sacrifice Other</fullName>
+        <default>false</default>
+        <label>Salary Sacrifice Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Salary Sacrifice Superannuation</fullName>
+        <default>false</default>
+        <label>Salary Sacrifice Superannuation</label>
+    </customValue>
+    <customValue>
+        <fullName>Workplace Giving</fullName>
+        <default>false</default>
+        <label>Workplace Giving</label>
+    </customValue>
+    <description>Deduction Types permissible for STP Phase 2 reporting</description>
+    <masterLabel>STP2 Deduction Type Picklists</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

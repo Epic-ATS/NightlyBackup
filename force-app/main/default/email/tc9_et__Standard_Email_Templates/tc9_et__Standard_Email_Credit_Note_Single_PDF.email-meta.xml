@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This is the standard Time2Pay Email Template to be used when sending invoice emails with a single PDF Credit Note attached</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>tc9_et__SampleLetterhead</letterhead>
+    <name>Standard Email - Credit Note Single PDF</name>
+    <style>freeForm</style>
+    <subject>Credit Note from {!tc9_et__Invoice__c.tc9_et__Invoice_Entity__c}</subject>
+    <textOnly>Dear {!tc9_et__Invoice__c.tc9_et__Invoice_To_Contact_First_Name__c}
+
+Please find attached Credit Note {!tc9_et__Invoice__c.tc9_et__Invoice_No__c} from {!tc9_et__Invoice__c.tc9_et__Invoice_Entity__c}.
+
+This credit note will be applied against Invoice {!tc9_et__Invoice__c.tc9_et__Original_Invoice_No__c}. If you would like the credit note applied against a different outstanding Invoice, please advise by emailing {!tc9_et__Invoice__c.tc9_et__Remittance_Email__c} .
+
+If you would like to discuss this credit note, or have any problems opening the attachment, please contact {!tc9_et__Invoice__c.tc9_et__Contact_for_Invoice_Queries_Name__c} on {!tc9_et__Invoice__c.tc9_et__Contact_for_Invoice_Queries_Phone__c}.
+
+Regards,
+{!tc9_et__Invoice__c.tc9_et__Invoice_Entity__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

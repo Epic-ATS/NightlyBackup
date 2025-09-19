@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__All</fullName>
+    <columns>NAME</columns>
+    <columns>tc9_pr__Leave_Rule__c</columns>
+    <columns>tc9_pr__Accrual_Type__c</columns>
+    <columns>tc9_pr__Service_Starts_At__c</columns>
+    <columns>tc9_pr__Service_Ends_At__c</columns>
+    <columns>tc9_pr__Service_Units__c</columns>
+    <columns>tc9_pr__Accrual_Rate__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

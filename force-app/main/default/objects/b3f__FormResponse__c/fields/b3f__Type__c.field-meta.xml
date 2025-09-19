@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3f__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Type</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>COMPLETE</fullName>
+                <default>false</default>
+                <label>COMPLETE</label>
+            </value>
+            <value>
+                <fullName>DRAFT</fullName>
+                <default>false</default>
+                <label>DRAFT</label>
+            </value>
+            <value>
+                <fullName>AUTOSAVE</fullName>
+                <default>false</default>
+                <label>AUTOSAVE</label>
+            </value>
+            <value>
+                <fullName>FAILED</fullName>
+                <default>false</default>
+                <label>FAILED</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
