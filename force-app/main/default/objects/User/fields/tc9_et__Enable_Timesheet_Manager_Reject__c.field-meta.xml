@@ -7,5 +7,6 @@
     <inlineHelpText>When set to TRUE, if the &apos;Hide Timesheet Manager Reject&apos; setting within the TimeCards Config custom setting is set to TRUE, the user will be able to use the &quot;Reject&quot; button</inlineHelpText>
     <label>Enable Timesheet Manager Reject</label>
     <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
     <type>Checkbox</type>
 </CustomField>

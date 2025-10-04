@@ -7,5 +7,6 @@
     <inlineHelpText>When set to TRUE, if the &apos;Hide Timesheet Manager Revert&apos; setting within the TimeCards Config custom setting is set to TRUE, the user will be able to use the &quot;Revert To New&quot; button</inlineHelpText>
     <label>Enable Timesheet Manager Revert</label>
     <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
     <type>Checkbox</type>
 </CustomField>

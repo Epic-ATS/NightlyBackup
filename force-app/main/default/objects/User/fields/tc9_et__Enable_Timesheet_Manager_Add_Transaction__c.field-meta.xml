@@ -7,5 +7,6 @@
     <inlineHelpText>When set to TRUE, if the &apos;Hide Timesheet Manager Add Transaction&apos; setting within the TimeCards Config custom setting is set to TRUE, the user will be able to use the Add button to add transactions to a Timesheet</inlineHelpText>
     <label>Enable Timesheet Manager Add Transaction</label>
     <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
     <type>Checkbox</type>
 </CustomField>

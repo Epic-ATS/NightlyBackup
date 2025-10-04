@@ -7,5 +7,6 @@
     <inlineHelpText>When set to TRUE, if the &apos;Hide Timesheet Manager Approve&apos; setting within the TimeCards Config custom setting is set to TRUE, the user will be able to use the &quot;Approve On Behalf&quot; button</inlineHelpText>
     <label>Enable Timesheet Manager Approve</label>
     <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
     <type>Checkbox</type>
 </CustomField>
