@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Validate a Work Schedule</description>
+    <fieldOverrides>
+        <field>tc9_pr__Work_Schedule_Generation_Status__c</field>
+        <literalValue>Pending</literalValue>
+    </fieldOverrides>
+    <label>Validate</label>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <quickActionLayout>
+        <layoutSectionStyle>TwoColumnsLeftToRight</layoutSectionStyle>
+        <quickActionLayoutColumns>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>tc9_pr__Work_Schedule_Generation_Status__c</field>
+                <uiBehavior>Readonly</uiBehavior>
+            </quickActionLayoutItems>
+        </quickActionLayoutColumns>
+        <quickActionLayoutColumns/>
+    </quickActionLayout>
+    <successMessage>Work Schedule Validation is in progress.</successMessage>
+    <type>Update</type>
+</QuickAction>

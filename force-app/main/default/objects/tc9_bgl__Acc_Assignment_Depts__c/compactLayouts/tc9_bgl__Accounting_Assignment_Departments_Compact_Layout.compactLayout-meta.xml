@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_bgl__Accounting_Assignment_Departments_Compact_Layout</fullName>
+    <fields>Name</fields>
+    <fields>tc9_bgl__Accounting_System__c</fields>
+    <fields>tc9_bgl__Assignment__c</fields>
+    <fields>tc9_bgl__Department__c</fields>
+    <fields>tc9_bgl__Percentage_Split__c</fields>
+    <fields>tc9_bgl__Distribution_Type__c</fields>
+    <label>Accounting Assignment Departments Compact Layout</label>
+</CompactLayout>

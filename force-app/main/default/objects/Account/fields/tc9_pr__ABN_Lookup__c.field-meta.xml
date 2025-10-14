@@ -8,6 +8,7 @@
     <inlineHelpText>View this ABN in the Australian Business Register ABN lookup site.</inlineHelpText>
     <label>ABN Lookup</label>
     <required>false</required>
+    <trackHistory>false</trackHistory>
     <type>Text</type>
     <unique>false</unique>
 </CustomField>

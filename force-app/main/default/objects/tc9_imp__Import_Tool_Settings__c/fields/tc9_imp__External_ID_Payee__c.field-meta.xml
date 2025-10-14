@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_imp__External_ID_Payee__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The field defines the method to set the external ID string. Valid options are: &quot;From Contact External ID&quot; OR &quot;From Payee Name&quot;</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The field defines the method to set the external ID string. Valid options are: &quot;From Contact External ID&quot; OR &quot;From Payee Name&quot;</inlineHelpText>
+    <label>External ID Payee</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

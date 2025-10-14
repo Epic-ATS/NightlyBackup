@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_imp__Total_Hours_Calculated__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(tc9_imp__Total_Time_in_hours__c),((tc9_imp__End_Time__c  - tc9_imp__Start_Time__c)- IF(AND(ISBLANK(tc9_imp__Break_1_End_Time__c),ISBLANK(tc9_imp__Break_1_Start_Time__c)),0,( tc9_imp__Break_1_End_Time__c - tc9_imp__Break_1_Start_Time__c ))-IF(AND(ISBLANK(tc9_imp__Break_2_End_Time__c),ISBLANK(tc9_imp__Break_2_Start_Time__c)),0,( tc9_imp__Break_2_End_Time__c - tc9_imp__Break_2_Start_Time__c ))) / 3600000 ,(VALUE(tc9_imp__Total_Time_in_hours__c ) + VALUE(tc9_imp__Total_Time_in_mins__c)/60 - (IF(ISBLANK(tc9_imp__Break_1_Total__c) ,0, VALUE(tc9_imp__Break_1_Total__c)/60) + IF(ISBLANK(tc9_imp__Break_2_Total__c) ,0, VALUE(tc9_imp__Break_2_Total__c)/60))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Hours Calculated</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

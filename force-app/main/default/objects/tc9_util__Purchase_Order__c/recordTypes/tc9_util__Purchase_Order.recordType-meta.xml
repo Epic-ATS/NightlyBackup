@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_util__Purchase_Order</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>tc9_util__PO_CompactLayout</compactLayoutAssignment>
+    <label>Purchase Order</label>
+    <picklistValues>
+        <picklist>tc9_util__Allocation_Type__c</picklist>
+        <values>
+            <fullName>Allowances</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expenses</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payments</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_util__Purchase_Order_Depletion_Rule__c</picklist>
+        <values>
+            <fullName>Hold off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Invoice without PO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Overspend</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Source next PO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Split Transaction</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_util__Status__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inactive</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

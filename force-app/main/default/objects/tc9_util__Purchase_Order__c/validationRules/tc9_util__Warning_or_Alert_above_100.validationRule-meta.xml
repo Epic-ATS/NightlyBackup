@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_util__Warning_or_Alert_above_100</fullName>
+    <active>true</active>
+    <description>Ensures a user does not set the Warning or Alert percent values above 100.</description>
+    <errorConditionFormula>OR(
+tc9_util__Last_Warning__c  &gt; 100,
+tc9_util__First_Alert__c &gt; 100
+)</errorConditionFormula>
+    <errorMessage>Warning or Alert can only be a maximum of 100%.</errorMessage>
+</ValidationRule>

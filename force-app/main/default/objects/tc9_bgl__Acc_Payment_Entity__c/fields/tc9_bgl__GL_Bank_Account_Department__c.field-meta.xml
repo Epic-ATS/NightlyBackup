@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_bgl__GL_Bank_Account_Department__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <label>GL Bank Account Department</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Please enter a valid Bank Account Number</errorMessage>
+        <filterItems>
+            <field>tc9_bgl__Acc_Segments__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Assignment Department</value>
+        </filterItems>
+        <filterItems>
+            <field>$Source.tc9_bgl__Accounting_System__c</field>
+            <operation>equals</operation>
+            <valueField>tc9_bgl__Acc_Segments__c.tc9_bgl__Accounting_System__c</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>tc9_bgl__Acc_Segments__c</referenceTo>
+    <relationshipLabel>Accounting Payment Entity Defaults (GL Bank Account Department)</relationshipLabel>
+    <relationshipName>Accounting_Payment_Entity_Defaults2</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

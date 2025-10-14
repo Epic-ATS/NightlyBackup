@@ -1,0 +1,5 @@
+<messaging:emailTemplate subject="Timesheet Email Approval - {! relatedTo.Name }" relatedToType="tc9_et__Timesheet__c" recipientType="User" >
+<messaging:htmlEmailBody >
+ <c:TimesheetEmailApproval timesheet="{! relatedTo}" recId="{!relatedTo.Id}" ></c:TimesheetEmailApproval>
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

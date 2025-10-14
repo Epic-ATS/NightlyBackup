@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_imp__External_ID_Jobs_To_Run__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines which scheduled jobs run to set the external id string when the ImportTool_ExternalIdController is invoked. Values are to be comma-separated. 
+
+The following values are supported: 
+Assignment
+Payee
+Payee Allowance
+Payee Leave Rule
+Project Code
+Timesheet
+Timesheet Entry</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Defines which scheduled jobs run to set the external id string when the ImportTool_ExternalIdController is invoked. Values are to be comma-separated. 
+
+The following values are supported: 
+Assignment
+Payee
+Payee Allowance
+Payee Leave Rule
+Project Code
+Timesheet
+Timesheet Entry</inlineHelpText>
+    <label>External ID Jobs To Run</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

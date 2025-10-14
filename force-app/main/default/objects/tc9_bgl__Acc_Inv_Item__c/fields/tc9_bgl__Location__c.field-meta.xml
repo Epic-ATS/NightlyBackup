@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_bgl__Location__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Location dimension</description>
+    <inlineHelpText>Location dimension defaulted in from the Invoice Entity</inlineHelpText>
+    <label>Location</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>tc9_bgl__Acc_Segments__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Location</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>tc9_bgl__Acc_Segments__c</referenceTo>
+    <relationshipLabel>Accounting Invoice Items (Location)</relationshipLabel>
+    <relationshipName>Accounting_Invoice_Items3</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

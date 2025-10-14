@@ -9,6 +9,7 @@
     <inlineHelpText>Defines the phone number for Clients of the User who will be detailed as a Invoice Entity&apos;s Invoice Contact.</inlineHelpText>
     <label>Contact for Invoice Queries Phone</label>
     <required>false</required>
+    <trackHistory>false</trackHistory>
     <type>Text</type>
     <unique>false</unique>
 </CustomField>

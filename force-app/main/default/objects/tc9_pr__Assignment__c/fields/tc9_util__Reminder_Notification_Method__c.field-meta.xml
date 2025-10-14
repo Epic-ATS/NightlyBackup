@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_util__Reminder_Notification_Method__c</fullName>
+    <deprecated>false</deprecated>
+    <inlineHelpText>Determines how reminder emails are sent for this Assignment.
+
+Single – Sends a separate reminder for each individual record (e.g. one email per Timesheet), allowing more detailed content such as daily breakdowns.
+
+Consolidated – Groups all eligible records into a single summary email per Approver, with a simplified table of records.</inlineHelpText>
+    <label>Reminder Notification Method</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Single</fullName>
+                <default>false</default>
+                <label>Single</label>
+            </value>
+            <value>
+                <fullName>Consolidated</fullName>
+                <default>false</default>
+                <label>Consolidated</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

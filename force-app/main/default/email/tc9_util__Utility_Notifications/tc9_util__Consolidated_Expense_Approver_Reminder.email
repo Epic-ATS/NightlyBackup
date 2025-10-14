@@ -1,0 +1,7 @@
+<messaging:emailTemplate subject="REMINDER:Expense Claims to approve" recipientType="Contact" relatedToType="Contact">
+   <messaging:htmlEmailBody >
+
+
+         <c:ConsolidatedExpenseReminderApproval contId="{!relatedTo.Id}"></c:ConsolidatedExpenseReminderApproval>
+   </messaging:htmlEmailBody>
+</messaging:emailTemplate>

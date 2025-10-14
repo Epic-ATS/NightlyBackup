@@ -83,4 +83,26 @@
             <default>true</default>
         </values>
     </picklistValues>
+    <picklistValues>
+        <picklist>tc9_util__Community_Time_Entry_Required__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_util__Enable_Time_Entry_in_Community__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
 </RecordType>

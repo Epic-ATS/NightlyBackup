@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_imp__Status__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Status</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New</fullName>
+                <default>false</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>No Validation Errors</fullName>
+                <default>false</default>
+                <label>No Validation Errors</label>
+            </value>
+            <value>
+                <fullName>Validation Errors Exist</fullName>
+                <default>false</default>
+                <label>Validation Errors Exist</label>
+            </value>
+            <value>
+                <fullName>Ready To Be Processed</fullName>
+                <default>false</default>
+                <label>Ready To Be Processed</label>
+            </value>
+            <value>
+                <fullName>Failed</fullName>
+                <default>false</default>
+                <label>Failed</label>
+            </value>
+            <value>
+                <fullName>Import In Progress</fullName>
+                <default>false</default>
+                <label>Import In Progress</label>
+            </value>
+            <value>
+                <fullName>Processed Successfully</fullName>
+                <default>false</default>
+                <label>Processed Successfully</label>
+            </value>
+            <value>
+                <fullName>Processed With Errors</fullName>
+                <default>false</default>
+                <label>Processed With Errors</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Payments</fullName>
+        <default>false</default>
+        <label>Payments</label>
+    </customValue>
+    <customValue>
+        <fullName>Expenses</fullName>
+        <default>false</default>
+        <label>Expenses</label>
+    </customValue>
+    <customValue>
+        <fullName>Allowances</fullName>
+        <default>false</default>
+        <label>Allowances</label>
+    </customValue>
+    <description>Used by the PO Management process to assign Pay Codes to Purchase Order Types.</description>
+    <masterLabel>PO Allocation Types</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

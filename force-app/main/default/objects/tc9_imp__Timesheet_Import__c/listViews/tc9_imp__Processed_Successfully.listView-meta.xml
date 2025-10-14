@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_imp__Processed_Successfully</fullName>
+    <columns>NAME</columns>
+    <columns>tc9_imp__Status__c</columns>
+    <columns>tc9_imp__Records_Attempted__c</columns>
+    <columns>tc9_imp__Successful_Records__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>tc9_imp__Status__c</field>
+        <operation>equals</operation>
+        <value>Processed Successfully</value>
+    </filters>
+    <label>Processed Successfully</label>
+</ListView>

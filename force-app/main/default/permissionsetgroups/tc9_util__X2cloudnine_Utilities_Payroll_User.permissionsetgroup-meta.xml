@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Provides payroll users with all necessary permissions from the Utilities package.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>2cloudnine Utilities Payroll User</label>
+    <permissionSets>tc9_util__X2cloudnine_ATO_Kilometres</permissionSets>
+    <permissionSets>tc9_util__X2cloudnine_PO_Management</permissionSets>
+    <permissionSets>tc9_util__X2cloudnine_Timesheet_Adjustments</permissionSets>
+    <permissionSets>tc9_util__X2cloudnine_Utilities_Payroll_Permissions</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_util__Approver_Leave_Reminder__c</fullName>
+    <deprecated>false</deprecated>
+    <description>If TRUE, reminder emails to approve or reject the Payee Leave Request will be sent to the primary and/or alternative approver, based on the configured notification preference.</description>
+    <formula>AND(
+    ISPICKVAL(tc9_pr__Approval_Status__c, &quot;Submitted&quot;),
+    DATEVALUE(tc9_pr__Last_Primary_Approver_Request_Sent__c) != TODAY(),
+    IF(
+        ISPICKVAL(tc9_pr__Assignment__r.tc9_util__Send_Leave_Reminders_To__c, &quot;Notify Primary Approver&quot;),
+        AND(
+            tc9_pr__Exclude_From_Primary_Approver_Remin_List__c != TRUE,
+            OR(
+                DATEVALUE(tc9_pr__Last_Primary_Approver_Reminder_Sent__c) != TODAY(),
+                ISBLANK(DATEVALUE(tc9_pr__Last_Primary_Approver_Reminder_Sent__c))
+            )
+        ),
+        IF(
+            ISPICKVAL(tc9_pr__Assignment__r.tc9_util__Send_Leave_Reminders_To__c, &quot;Notify Alternative Approver&quot;),
+            AND(
+                tc9_pr__Exclude_From_Alternative_Appr_Remin_List__c != TRUE,
+                OR(
+                    DATEVALUE(tc9_pr__Last_Alternative_Approver_Reminder_Sent__c) != TODAY(),
+                    ISBLANK(DATEVALUE(tc9_pr__Last_Alternative_Approver_Reminder_Sent__c))
+                )
+            ),
+            IF(
+                ISPICKVAL(tc9_pr__Assignment__r.tc9_util__Send_Leave_Reminders_To__c, &quot;Notify Primary and Alternative Approver&quot;),
+                OR(
+                    AND(
+                        DATEVALUE(tc9_pr__Last_Primary_Approver_Reminder_Sent__c) != TODAY(),
+                        DATEVALUE(tc9_pr__Last_Alternative_Approver_Reminder_Sent__c) != TODAY()
+                    ),
+                    ISBLANK(DATEVALUE(tc9_pr__Last_Primary_Approver_Reminder_Sent__c)),
+                    ISBLANK(DATEVALUE(tc9_pr__Last_Alternative_Approver_Reminder_Sent__c))
+                ),
+                FALSE
+            )
+        )
+    )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>If TRUE, reminder emails to approve or reject the Payee Leave Request will be sent to the primary and/or alternative approver, based on the configured notification preference.</inlineHelpText>
+    <label>Approver Leave Reminder</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

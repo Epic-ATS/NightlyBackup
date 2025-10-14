@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_imp__Check_for_Manual_Timesheet_Update__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, a trigger will run on the timesheet entry to ensure manually updated records do not get updated via the import process.</description>
+    <inlineHelpText>If checked, a trigger will run on the timesheet entry to ensure manually updated records do not get updated via the import process.</inlineHelpText>
+    <label>Check for Manual Timesheet Update</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

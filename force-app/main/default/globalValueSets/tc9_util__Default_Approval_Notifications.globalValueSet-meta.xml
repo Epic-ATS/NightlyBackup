@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Notify Primary Approver</fullName>
+        <default>false</default>
+        <label>Notify Primary Approver</label>
+    </customValue>
+    <customValue>
+        <fullName>Notify Alternative Approver</fullName>
+        <default>false</default>
+        <label>Notify Alternative Approver</label>
+    </customValue>
+    <customValue>
+        <fullName>Notify Primary and Alternative Approver</fullName>
+        <default>false</default>
+        <label>Notify Primary and Alternative Approver</label>
+    </customValue>
+    <masterLabel>Default Approval Notifications</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

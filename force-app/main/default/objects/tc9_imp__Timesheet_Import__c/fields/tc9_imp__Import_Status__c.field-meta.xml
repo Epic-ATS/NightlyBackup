@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_imp__Import_Status__c</fullName>
+    <deprecated>false</deprecated>
+    <description>To differentiate status of the import with coloured labels</description>
+    <externalId>false</externalId>
+    <formula>Case(
+Text(tc9_imp__Status__c),
+
+&quot;Processed Successfully&quot;,
+(IMAGE(LEFT($Api.Partner_Server_URL_260,FIND(&apos;/services&apos;,$Api.Partner_Server_URL_260))+&quot;resource/tc9_imp__ts_import_images/ts_import_images/wordProcessed.png&quot;,&quot;Processed Successfully&quot;,20,88)),
+
+&quot;Processed With Errors&quot;,
+(IMAGE(LEFT($Api.Partner_Server_URL_260,FIND(&apos;/services&apos;,$Api.Partner_Server_URL_260))+&quot;resource/tc9_imp__ts_import_images/ts_import_images/wordError.png&quot;,&quot;Processed With Errors&quot;,20,88)),
+
+&quot;Validation Errors Exist&quot;,
+(IMAGE(LEFT($Api.Partner_Server_URL_260,FIND(&apos;/services&apos;,$Api.Partner_Server_URL_260))+&quot;resource/tc9_imp__ts_import_images/ts_import_images/valFailed.png&quot;,&quot;Validation Errors Exist&quot;,20,88)),
+
+&quot;No Validation Errors&quot;,
+(IMAGE(LEFT($Api.Partner_Server_URL_260,FIND(&apos;/services&apos;,$Api.Partner_Server_URL_260))+&quot;resource/tc9_imp__ts_import_images/ts_import_images/ValSuccess.png&quot;,&quot;No Validation Errors&quot;,20,88)),
+
+&quot;New&quot;,
+(IMAGE(LEFT($Api.Partner_Server_URL_260,FIND(&apos;/services&apos;,$Api.Partner_Server_URL_260))+&quot;resource/tc9_imp__ts_import_images/ts_import_images/WordNew.png&quot;,&quot;New&quot;,20,88)),
+
+&quot;Failed&quot;,
+(IMAGE(LEFT($Api.Partner_Server_URL_260,FIND(&apos;/services&apos;,$Api.Partner_Server_URL_260))+&quot;resource/tc9_imp__ts_import_images/ts_import_images/WordFailed.png&quot;,&quot;New&quot;,20,88)),
+
+
+
+Text(tc9_imp__Status__c)
+)</formula>
+    <label>Import Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

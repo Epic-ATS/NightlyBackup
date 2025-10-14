@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>tc9_pr__Leave_Rule__c.tc9_bgl__Accounting_Default_Accounts__r$tc9_bgl__Accounting_System__c</field>
+    </columns>
+    <columns>
+        <field>tc9_pr__Leave_Rule__c.tc9_bgl__Accounting_Default_Accounts__r$tc9_bgl__Leave_Liability_Account__c</field>
+    </columns>
+    <columns>
+        <field>tc9_pr__Leave_Rule__c.tc9_bgl__Accounting_Default_Accounts__r$tc9_bgl__Leave_Accrual_Account__c</field>
+    </columns>
+    <columns>
+        <field>tc9_pr__Leave_Rule__c.tc9_bgl__Accounting_Default_Accounts__r$Name</field>
+    </columns>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>tc9_pr__Leave_Rule__c$RecordType</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>tc9_pr__Leave_Rule__c$Name</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Leave rules with or without posting accs</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>tc9_bgl__Leave_Rules_with_or_without_default_posting_accs__c</reportType>
+    <scope>user</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>false</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>tc9_pr__Leave_Rule__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CURRENT</interval>
+    </timeFrameFilter>
+</Report>

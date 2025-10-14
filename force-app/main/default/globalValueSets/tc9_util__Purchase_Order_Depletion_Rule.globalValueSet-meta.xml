@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Overspend</fullName>
+        <default>true</default>
+        <label>Overspend</label>
+    </customValue>
+    <customValue>
+        <fullName>Hold off</fullName>
+        <default>false</default>
+        <label>Hold off</label>
+    </customValue>
+    <customValue>
+        <fullName>Split Transaction</fullName>
+        <default>false</default>
+        <label>Split Transaction</label>
+    </customValue>
+    <customValue>
+        <fullName>Invoice without PO</fullName>
+        <default>false</default>
+        <label>Invoice without PO</label>
+    </customValue>
+    <customValue>
+        <fullName>Source next PO</fullName>
+        <default>false</default>
+        <label>Source next PO</label>
+    </customValue>
+    <masterLabel>Purchase Order Depletion Rule</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

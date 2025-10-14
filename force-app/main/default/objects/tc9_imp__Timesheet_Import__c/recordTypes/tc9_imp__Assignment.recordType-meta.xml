@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_imp__Assignment</fullName>
+    <active>true</active>
+    <label>Assignment</label>
+    <picklistValues>
+        <picklist>tc9_imp__Import_Type__c</picklist>
+        <values>
+            <fullName>Standard</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_imp__Override_Pay_Multipliers__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_imp__Status__c</picklist>
+        <values>
+            <fullName>Failed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Import In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>No Validation Errors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Processed Successfully</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Processed With Errors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ready To Be Processed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Validation Errors Exist</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

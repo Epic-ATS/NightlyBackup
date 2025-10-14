@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <customValue>
+        <fullName>ats-middleoffice@epicstaffinggroup.com</fullName>
+        <default>false</default>
+        <label>ats-middleoffice@epicstaffinggroup.com</label>
+    </customValue>
+    <customValue>
+        <fullName>ats-noreply@epicstaffinggroup.com</fullName>
+        <default>false</default>
+        <label>ats-noreply@epicstaffinggroup.com</label>
+    </customValue>
+    <customValue>
         <fullName>Deactivate_This_Value@2cloudnine.com</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Deactivate_This_Value@2cloudnine.com</label>
     </customValue>
     <description>To be used for Send Invoice Emails From Email picklist fields</description>

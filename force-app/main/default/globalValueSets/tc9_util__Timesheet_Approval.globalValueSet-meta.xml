@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Standard</fullName>
+        <default>false</default>
+        <label>Standard</label>
+    </customValue>
+    <customValue>
+        <fullName>Email Single</fullName>
+        <default>false</default>
+        <label>Email Single</label>
+    </customValue>
+    <customValue>
+        <fullName>Signature</fullName>
+        <default>false</default>
+        <label>Signature</label>
+    </customValue>
+    <customValue>
+        <fullName>Pin</fullName>
+        <default>false</default>
+        <label>Pin</label>
+    </customValue>
+    <masterLabel>Timesheet Approval</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

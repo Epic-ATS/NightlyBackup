@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_bgl__GL_Bank_Account_Number__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <label>GL Bank Account Number</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Please select a valid Account Number</errorMessage>
+        <filterItems>
+            <field>tc9_bgl__Acc_Segments__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Natural Account</value>
+        </filterItems>
+        <filterItems>
+            <field>$Source.tc9_bgl__Accounting_System__c</field>
+            <operation>equals</operation>
+            <valueField>tc9_bgl__Acc_Segments__c.tc9_bgl__Accounting_System__c</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>tc9_bgl__Acc_Segments__c</referenceTo>
+    <relationshipLabel>Accounting Payment Entity Defaults (GL Bank Account Number)</relationshipLabel>
+    <relationshipName>Accounting_Payment_Entity_Defaults1</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

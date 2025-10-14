@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_bgl__Payment_Entity</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>tc9_bgl__TC9GBL_Accounting_Segments</compactLayoutAssignment>
+    <label>Payment Entity</label>
+</RecordType>

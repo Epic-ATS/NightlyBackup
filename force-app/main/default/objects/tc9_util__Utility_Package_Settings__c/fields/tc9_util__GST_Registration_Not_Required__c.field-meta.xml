@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_util__GST_Registration_Not_Required__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Selecting this option allows an employee who indicates they are not GST registered to proceed with creating a payee withholding in the &apos;2c9 Utilities - Community Capture GST&apos; screenflow.</description>
+    <inlineHelpText>Selecting this option allows an employee who indicates they are not GST registered to proceed with creating a payee withholding in the &apos;2c9 Utilities - Community Capture GST&apos; screenflow.</inlineHelpText>
+    <label>GST Registration Not Required</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

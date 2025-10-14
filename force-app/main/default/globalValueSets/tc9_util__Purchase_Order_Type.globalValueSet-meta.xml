@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>All</fullName>
+        <default>true</default>
+        <label>All</label>
+    </customValue>
+    <customValue>
+        <fullName>Allowance</fullName>
+        <default>false</default>
+        <label>Allowance</label>
+    </customValue>
+    <customValue>
+        <fullName>Client Paid Expense</fullName>
+        <default>false</default>
+        <label>Client Paid Expense</label>
+    </customValue>
+    <customValue>
+        <fullName>Expense</fullName>
+        <default>false</default>
+        <label>Expense</label>
+    </customValue>
+    <customValue>
+        <fullName>FEE</fullName>
+        <default>false</default>
+        <label>FEE</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Payment</fullName>
+        <default>false</default>
+        <label>Payment</label>
+    </customValue>
+    <customValue>
+        <fullName>Payroll Services Fee</fullName>
+        <default>false</default>
+        <label>Payroll Services Fee</label>
+    </customValue>
+    <customValue>
+        <fullName>Perm Fee</fullName>
+        <default>false</default>
+        <label>Perm Fee</label>
+    </customValue>
+    <customValue>
+        <fullName>Project Services Fee</fullName>
+        <default>false</default>
+        <label>Project Services Fee</label>
+    </customValue>
+    <customValue>
+        <fullName>Retainer Fee</fullName>
+        <default>false</default>
+        <label>Retainer Fee</label>
+    </customValue>
+    <customValue>
+        <fullName>Temp To Perm Fee</fullName>
+        <default>false</default>
+        <label>Temp To Perm Fee</label>
+    </customValue>
+    <masterLabel>Purchase Order Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

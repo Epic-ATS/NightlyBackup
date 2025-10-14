@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_util__Warning_Threshold_Met__c</fullName>
+    <deprecated>false</deprecated>
+    <formula>AND(
+    NOT(ISBLANK(tc9_util__Current_Spend__c)),
+    tc9_util__Remaining_Spend_Percentage__c &lt;= tc9_util__Last_Warning__c
+)</formula>
+    <label>Warning Threshold Met</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

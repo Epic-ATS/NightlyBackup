@@ -239,7 +239,11 @@
     <picklistValues>
         <picklist>tc9_et__Send_Invoice_Emails_From_Email__c</picklist>
         <values>
-            <fullName>Deactivate_This_Value%402cloudnine%2Ecom</fullName>
+            <fullName>ats-middleoffice%40epicstaffinggroup%2Ecom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ats-noreply%40epicstaffinggroup%2Ecom</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -297,6 +301,17 @@
     </picklistValues>
     <picklistValues>
         <picklist>tc9_et__Timesheet_Attachments_with_Invoice__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_util__Include_PO_in_Invoice_Grouping__c</picklist>
         <values>
             <fullName>No</fullName>
             <default>false</default>

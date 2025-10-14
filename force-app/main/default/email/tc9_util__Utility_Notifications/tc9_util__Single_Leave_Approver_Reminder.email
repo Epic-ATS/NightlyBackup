@@ -1,0 +1,6 @@
+<messaging:emailTemplate subject="REMINDER: Leave to approve" recipientType="Contact" relatedToType="tc9_pr__Payee_Leave_Event__c">
+<messaging:htmlEmailBody >
+
+         <c:ConsolidatedLeaveReminderApproval pleId="{!relatedTo.Id}" contId="{!recipient.Id}"></c:ConsolidatedLeaveReminderApproval>
+</messaging:htmlEmailBody> 
+</messaging:emailTemplate>

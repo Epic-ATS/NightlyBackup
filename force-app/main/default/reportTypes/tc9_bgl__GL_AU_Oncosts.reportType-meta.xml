@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <baseObject>tc9_pr__Pay_Transaction_Distribution__c</baseObject>
+    <category>other</category>
+    <deployed>true</deployed>
+    <description>Report type that provides access to all data required for reporting on Payroll Tax and Workcover transactional data.</description>
+    <label>GL - AU Oncosts</label>
+    <sections>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>tc9_pr__Assignment__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>tc9_pr__AU_Payroll_Oncosts__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>tc9_bgl__Cost_Code__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CreatedBy</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CreatedDate</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>tc9_pr__Custom_Assignment_Cost__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>tc9_pr__Custom_Emp_Cost_Item__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>tc9_pr__Custom_Rate__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>tc9_pr__Custom_Total_Cost__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>tc9_pr__Distribution_Amount__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>tc9_pr__Distribution_Percentage__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>LastActivityDate</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>LastModifiedBy</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>LastModifiedDate</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>tc9_pr__Leave_Liability_Value__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Owner</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>tc9_pr__Pay_Batch__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>tc9_bgl__Payee_Leave_Rule__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>tc9_pr__Payee_Pay_Batch__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>tc9_pr__Payroll_Tax_Assignment_Cost__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>tc9_pr__Payroll_Tax_Emp_Cost_Item__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>tc9_pr__Payroll_Tax_on_Earnings__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>tc9_pr__Payroll_Tax_on_Super__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>tc9_pr__Payroll_Tax_Rate__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>tc9_pr__Payroll_Tax_Total_Cost__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>tc9_pr__Pay_Transaction__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Id</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <field>Name</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>RecordType</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>tc9_pr__Superannuation_Value__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>tc9_pr__WorkCover_Assignment_Cost__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>tc9_pr__WorkCover_Emp_Cost_Item__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>tc9_pr__WorkCover_on_Earnings__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>tc9_pr__WorkCover_on_Super__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>tc9_pr__WorkCover_Rate__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>tc9_pr__WorkCover_Total_Cost__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>tc9_pr__Payroll_Tax_Total__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>tc9_pr__WorkCover_Total__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <masterLabel>Pay Transaction Distributions</masterLabel>
+    </sections>
+    <sections>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Pay Total</displayNameOverride>
+            <field>tc9_pr__Pay_Transaction__c.tc9_pr__Pay_Total__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Pay Code</displayNameOverride>
+            <field>tc9_pr__Pay_Transaction__c.tc9_pr__Pay_Code__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Pay Transaction Record Type</displayNameOverride>
+            <field>tc9_pr__Pay_Transaction__c.tc9_et__Record_Type_Formula__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <masterLabel>Source Pay Transaction</masterLabel>
+    </sections>
+    <sections>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Superannuation Value</displayNameOverride>
+            <field>tc9_pr__AU_Payroll_Oncosts__c.tc9_pr__Superannuation_Value__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <masterLabel>Super Pay Transaction Distribution</masterLabel>
+    </sections>
+    <sections>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Pay Code: WorkCover Reportable?</displayNameOverride>
+            <field>tc9_pr__Pay_Transaction__c.tc9_pr__Pay_Code__c.tc9_pr__WorkCover_Reportable__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Pay Code: AU Payroll Tax Reportable?</displayNameOverride>
+            <field>tc9_pr__Pay_Transaction__c.tc9_pr__Pay_Code__c.tc9_pr__AU_Payroll_Tax_Reportable__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <masterLabel>Related Pay Code</masterLabel>
+    </sections>
+    <sections>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Assignment: Employment Cost Template Group</displayNameOverride>
+            <field>tc9_pr__Assignment__c.tc9_pr__Employment_Cost_Template_Group__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Assignment: Industry</displayNameOverride>
+            <field>tc9_pr__Assignment__c.tc9_pr__Industry__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Assignment: Location</displayNameOverride>
+            <field>tc9_pr__Assignment__c.tc9_pr__Location__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <masterLabel>Related Assignment</masterLabel>
+    </sections>
+    <sections>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Payroll Tax Emp Cost Item: Status</displayNameOverride>
+            <field>tc9_pr__Payroll_Tax_Emp_Cost_Item__c.tc9_pr__Status__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Payroll Tax Emp Cost Item: Effective Date</displayNameOverride>
+            <field>tc9_pr__Payroll_Tax_Emp_Cost_Item__c.tc9_pr__Effective_Date__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Payroll Tax Emp Cost Item: Expiry Date</displayNameOverride>
+            <field>tc9_pr__Payroll_Tax_Emp_Cost_Item__c.tc9_pr__Expiry_Date__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Payroll Tax Emp Cost Item: Industry</displayNameOverride>
+            <field>tc9_pr__Payroll_Tax_Emp_Cost_Item__c.tc9_pr__Industry__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Payroll Tax Emp Cost Item: Location</displayNameOverride>
+            <field>tc9_pr__Payroll_Tax_Emp_Cost_Item__c.tc9_pr__Location__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Payroll Tax Emp Cost Item: Payable Calculation Rate</displayNameOverride>
+            <field>tc9_pr__Payroll_Tax_Emp_Cost_Item__c.tc9_pr__Payable_Calculation_Rate__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Payroll Tax Emp Cost Item: Payable Calculated Based On</displayNameOverride>
+            <field>tc9_pr__Payroll_Tax_Emp_Cost_Item__c.tc9_pr__Payable_Calculated_Based_On__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Payroll Tax Emp Cost Item: Employment Cost</displayNameOverride>
+            <field>tc9_pr__Payroll_Tax_Emp_Cost_Item__c.tc9_pr__Employment_Cost__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <masterLabel>Payroll Tax Employment Cost Item </masterLabel>
+    </sections>
+    <sections>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>WorkCover Emp Cost Item: Status</displayNameOverride>
+            <field>tc9_pr__WorkCover_Emp_Cost_Item__c.tc9_pr__Status__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>WorkCover Emp Cost Item: Effective Date</displayNameOverride>
+            <field>tc9_pr__WorkCover_Emp_Cost_Item__c.tc9_pr__Effective_Date__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>WorkCover Emp Cost Item: Expiry Date</displayNameOverride>
+            <field>tc9_pr__WorkCover_Emp_Cost_Item__c.tc9_pr__Expiry_Date__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>WorkCover Emp Cost Item: Industry</displayNameOverride>
+            <field>tc9_pr__WorkCover_Emp_Cost_Item__c.tc9_pr__Industry__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>WorkCover Emp Cost Item: Location</displayNameOverride>
+            <field>tc9_pr__WorkCover_Emp_Cost_Item__c.tc9_pr__Location__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>WorkCover Emp Cost Item: Payable Calculation Rate</displayNameOverride>
+            <field>tc9_pr__WorkCover_Emp_Cost_Item__c.tc9_pr__Payable_Calculation_Rate__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>WorkCover Emp Cost Item: Payable Calculated Based On</displayNameOverride>
+            <field>tc9_pr__WorkCover_Emp_Cost_Item__c.tc9_pr__Payable_Calculated_Based_On__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>WorkCover Emp Cost Item: Employment Cost</displayNameOverride>
+            <field>tc9_pr__WorkCover_Emp_Cost_Item__c.tc9_pr__Employment_Cost__c</field>
+            <table>tc9_pr__Pay_Transaction_Distribution__c</table>
+        </columns>
+        <masterLabel>Workcover Employment Cost Item</masterLabel>
+    </sections>
+</ReportType>

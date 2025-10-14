@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_bgl__TC9GBL_Accounting_Segments</fullName>
+    <fields>Name</fields>
+    <fields>tc9_bgl__Segment_Description__c</fields>
+    <fields>RecordTypeId</fields>
+    <fields>tc9_bgl__Accounting_System__c</fields>
+    <fields>tc9_bgl__Accounting_System_Reference__c</fields>
+    <fields>tc9_bgl__Active_Inactive__c</fields>
+    <label>TC9GBL Accounting Segments</label>
+</CompactLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_util__Last_Warning__c</fullName>
+    <defaultValue>(0.15)</defaultValue>
+    <deprecated>false</deprecated>
+    <inlineHelpText>The “LAST WARNING” is reached when the REMAINING SPEND falls BELOW this percentage threshold amount.  For example, if the PO is 100 units and the LAST WARNING is 10%. If the remaining balance balance falls from say 12% to 8%, it will cross the 10% threshold and flag.</inlineHelpText>
+    <label>Last Warning</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

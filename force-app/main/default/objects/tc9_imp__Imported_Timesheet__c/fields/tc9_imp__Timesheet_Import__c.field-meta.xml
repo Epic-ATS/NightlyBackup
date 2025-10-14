@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_imp__Timesheet_Import__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <label>Timesheet Import</label>
+    <referenceTo>tc9_imp__Timesheet_Import__c</referenceTo>
+    <relationshipLabel>Imported Timesheets</relationshipLabel>
+    <relationshipName>Imported_Timesheets</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

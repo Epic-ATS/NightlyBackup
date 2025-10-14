@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_util__Send_Employee_Timesheet_Reminders__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Timesheet reminder emails will be sent to the employee linked to this assignment if their timesheet has not been submitted, reminding them to complete it before payroll to avoid delayed payment.</description>
+    <inlineHelpText>Timesheet reminder emails will be sent to the employee linked to this assignment if their timesheet has not been submitted, reminding them to complete it before payroll to avoid delayed payment.</inlineHelpText>
+    <label>Send Employee Timesheet Reminders</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_pr__Yes_No_Picklists</valueSetName>
+    </valueSet>
+</CustomField>

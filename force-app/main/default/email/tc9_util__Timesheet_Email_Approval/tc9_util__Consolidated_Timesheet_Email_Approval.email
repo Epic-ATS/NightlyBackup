@@ -1,0 +1,7 @@
+<messaging:emailTemplate subject="REMINDER: Timesheets to approve" recipientType="Contact" relatedToType="Contact">
+   <messaging:htmlEmailBody >
+
+         <c:ConsolidatedTimesheetEmailApproval contId="{!relatedTo.Id}"></c:ConsolidatedTimesheetEmailApproval>
+   
+   </messaging:htmlEmailBody>
+</messaging:emailTemplate>

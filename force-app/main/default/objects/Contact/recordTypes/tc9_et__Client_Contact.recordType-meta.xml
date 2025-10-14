@@ -202,6 +202,25 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>tc9_bgl__Sent_To_GL_Status__c</picklist>
+        <values>
+            <fullName>Failed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sent</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>tc9_eau__Gender__c</picklist>
         <values>
             <fullName>Female</fullName>
@@ -330,6 +349,13 @@
         <values>
             <fullName>Primary</fullName>
             <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_util__Approver_Community_Language__c</picklist>
+        <values>
+            <fullName>English</fullName>
+            <default>true</default>
         </values>
     </picklistValues>
 </RecordType>

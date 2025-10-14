@@ -1353,4 +1353,15 @@
             <default>false</default>
         </values>
     </picklistValues>
+    <picklistValues>
+        <picklist>tc9_util__Adjustment_Reason__c</picklist>
+        <values>
+            <fullName>Incorrect Quantity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incorrect Rate</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
 </RecordType>

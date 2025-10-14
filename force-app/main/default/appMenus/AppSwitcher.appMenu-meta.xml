@@ -176,4 +176,12 @@
         <name>Copado_DevOps_N_A</name>
         <type>ConnectedApp</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>tc9_bgl__Base_Accounting_System</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>tc9_imp__TC9IMP_Timesheet_Import_Tool</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>

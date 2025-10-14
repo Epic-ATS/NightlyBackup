@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_util__Employee_TS_Reminder__c</fullName>
+    <deprecated>false</deprecated>
+    <description>If set to TRUE, a reminder will be sent for this Timesheet during the next scheduled batch run.</description>
+    <formula>AND(
+    ISPICKVAL(tc9_et__Approval_Status__c, &apos;New&apos;),
+    tc9_et__End_Date__c &lt; Today(),
+    tc9_et__Exclude_From_Employee_Reminder_List__c != TRUE,
+    OR(
+       DATEVALUE(tc9_et__Last_Employee_Reminder_Sent__c) != Today(),
+       ISBLANK(DATEVALUE((tc9_et__Last_Employee_Reminder_Sent__c)))
+       )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>If set to TRUE, a reminder will be sent for this Timesheet during the next scheduled batch run.</inlineHelpText>
+    <label>Employee TS Reminder</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

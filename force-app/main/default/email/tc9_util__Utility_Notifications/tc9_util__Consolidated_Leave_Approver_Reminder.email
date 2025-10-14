@@ -1,0 +1,7 @@
+<messaging:emailTemplate subject="REMINDER:Leave to approve"  recipientType="Contact" relatedToType="Contact">
+   <messaging:htmlEmailBody >
+
+
+         <c:ConsolidatedLeaveReminderApproval contId="{!relatedTo.Id}"></c:ConsolidatedLeaveReminderApproval>
+   </messaging:htmlEmailBody>
+</messaging:emailTemplate>

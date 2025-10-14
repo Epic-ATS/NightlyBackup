@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_util__Purchase_Order__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Used for Purchase Order allocation to specific Project Codes.</description>
+    <inlineHelpText>Used for Purchase Order allocation to specific Project Codes.</inlineHelpText>
+    <label>Purchase Order</label>
+    <referenceTo>tc9_util__Purchase_Order__c</referenceTo>
+    <relationshipLabel>Project Codes</relationshipLabel>
+    <relationshipName>Project_Codes</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

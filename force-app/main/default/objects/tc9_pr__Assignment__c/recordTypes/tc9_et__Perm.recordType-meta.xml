@@ -317,4 +317,78 @@
             <default>true</default>
         </values>
     </picklistValues>
+    <picklistValues>
+        <picklist>tc9_util__Reminder_Notification_Method__c</picklist>
+        <values>
+            <fullName>Consolidated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Single</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_util__Send_Employee_Timesheet_Reminders__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_util__Send_Expense_Claim_Reminders_To__c</picklist>
+        <values>
+            <fullName>Notify Alternative Approver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Notify Primary Approver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Notify Primary and Alternative Approver</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_util__Send_Leave_Reminders_To__c</picklist>
+        <values>
+            <fullName>Notify Alternative Approver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Notify Primary Approver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Notify Primary and Alternative Approver</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_util__Send_Timesheet_Reminders_To__c</picklist>
+        <values>
+            <fullName>Notify Alternative Approver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Notify Primary Approver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Notify Primary and Alternative Approver</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_util__Timesheet_Email_Template__c</picklist>
+        <values>
+            <fullName>Option 1</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
 </RecordType>

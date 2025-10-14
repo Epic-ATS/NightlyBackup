@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_imp__Disable_ProjectCode_ExtId_Validation__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Check this box to disable the validation rule that checks for special characters in the Project Code External_Id_it__c field.</description>
+    <inlineHelpText>This checkbox controls whether the &apos;External ID No Special Characters&apos; validation rule fires on the Project Code External_Id_it__c field. When checked, the system will not enforce the rule that prevents special characters from being added.</inlineHelpText>
+    <label>Disable ProjectCode ExtId Validation</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

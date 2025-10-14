@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_util__First_Alert__c</fullName>
+    <defaultValue>(0.25)</defaultValue>
+    <deprecated>false</deprecated>
+    <inlineHelpText>The “FIRST ALERT” is reached when the REMAINING SPEND falls BELOW this threshold percentage amount. For example, if the PO is 100 units and the FIRST ALERT warning is 25%. If the remaining balance goes from 40 to 20, it will fall below the 25% threshold and flag.</inlineHelpText>
+    <label>First Alert</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

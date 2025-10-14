@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_bgl__Invoice_Item__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Invoice Item</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Allowance</fullName>
+                <default>false</default>
+                <label>Allowance</label>
+            </value>
+            <value>
+                <fullName>Client Paid Expense</fullName>
+                <default>false</default>
+                <label>Client Paid Expense</label>
+            </value>
+            <value>
+                <fullName>Expense</fullName>
+                <default>false</default>
+                <label>Expense</label>
+            </value>
+            <value>
+                <fullName>Payment</fullName>
+                <default>false</default>
+                <label>Payment</label>
+            </value>
+            <value>
+                <fullName>Payroll Services Fee</fullName>
+                <default>false</default>
+                <label>Payroll Services Fee</label>
+            </value>
+            <value>
+                <fullName>Perm Fee</fullName>
+                <default>false</default>
+                <label>Perm Fee</label>
+            </value>
+            <value>
+                <fullName>Project Services Fee</fullName>
+                <default>false</default>
+                <label>Project Services Fee</label>
+            </value>
+            <value>
+                <fullName>Retainer Fee</fullName>
+                <default>false</default>
+                <label>Retainer Fee</label>
+            </value>
+            <value>
+                <fullName>Temp To Perm Fee</fullName>
+                <default>false</default>
+                <label>Temp To Perm Fee</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -40,6 +40,16 @@
                 <default>false</default>
                 <label>2024 July 1</label>
             </value>
+            <value>
+                <fullName>2025 July 1</fullName>
+                <default>false</default>
+                <label>2025 July 1</label>
+            </value>
+            <value>
+                <fullName>2025 September 24</fullName>
+                <default>false</default>
+                <label>2025 September 24</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

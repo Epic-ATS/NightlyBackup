@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_imp__Package_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This field is invoked when &apos;Override_Standard_Import_Process__c&apos; is set to true, indicating an override of the standard import process. It can accept one of two specific values: &apos;Managed&apos; or &apos;Unmanaged&apos;.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field is invoked when &apos;Override_Standard_Import_Process__c&apos; is set to true, indicating an override of the standard import process. It can accept one of two specific values: &apos;Managed&apos; or &apos;Unmanaged&apos;.</inlineHelpText>
+    <label>Package Type</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

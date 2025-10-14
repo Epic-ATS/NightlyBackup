@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_util__CSS__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>CASE(TEXT(tc9_et__Approval_Status__c),
+&quot;New&quot;,&quot;slds-text-heading_medium slds-text-color_tone slds-text-title_caps&quot;,
+&quot;Submitted&quot;,&quot;slds-text-heading_medium slds-text-color_default slds-text-title_caps&quot;,
+&quot;Approved&quot;,&quot;slds-text-heading_medium slds-text-color_success slds-text-title_caps&quot;,
+&quot;slds-text-heading_medium slds-text-color_destructive slds-text-title_caps&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>CSS</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

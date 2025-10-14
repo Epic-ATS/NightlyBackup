@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionSubtype>ScreenAction</actionSubtype>
+    <description>Initiates the timesheet creation process for the Assignment. If no Timesheets exist, they will be created for the length of the Assignment. If Timesheets already exist, creation will be the period between the last Timesheet and the Assignment end date.</description>
+    <label>Create Timesheets</label>
+    <lightningWebComponent>tc9_et__createTimesheets</lightningWebComponent>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <type>LightningWebComponent</type>
+</QuickAction>

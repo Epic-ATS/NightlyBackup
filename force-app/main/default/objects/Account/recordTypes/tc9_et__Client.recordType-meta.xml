@@ -193,6 +193,25 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>tc9_bgl__Sent_To_GL_Status__c</picklist>
+        <values>
+            <fullName>Failed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sent</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>tc9_eau__Superannuation_Payment_Type__c</picklist>
         <values>
             <fullName>Data Only</fullName>
@@ -297,7 +316,11 @@
     <picklistValues>
         <picklist>tc9_et__Send_Invoice_Emails_From_Email__c</picklist>
         <values>
-            <fullName>Deactivate_This_Value%402cloudnine%2Ecom</fullName>
+            <fullName>ats-middleoffice%40epicstaffinggroup%2Ecom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ats-noreply%40epicstaffinggroup%2Ecom</fullName>
             <default>false</default>
         </values>
     </picklistValues>

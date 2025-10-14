@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_util__Number_of_Delete_Approver_action_Days__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This field is referenced by the Apex Scheduled Job: SkieGuestApproverActionDeleteSchedule to delete Approval Actions records. If the field (n) is &quot;blank&quot; the Approval Action records will be deleted after 30days; Otherwise the age of records to be deleted is based on TODAY - (n).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Defines the age (number of days) of Approver Actions records for scheduled deletion; Where &quot;blank&quot;, the default is 30 days old.</inlineHelpText>
+    <label>Number of Delete Approver action (Days)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_util__Community_Time_Entry_Required__c</fullName>
+    <deprecated>false</deprecated>
+    <description>If &apos;Enable Time Entry in Community&apos; is set to &apos;Yes&apos; on this record, enabling this option will require community users to enter time. If left as &apos;No&apos; or blank, time entry will remain optional.</description>
+    <inlineHelpText>If &apos;Enable Time Entry in Community&apos; is set to &apos;Yes&apos; on this record, enabling this option will require community users to enter time. If left as &apos;No&apos; or blank, time entry will remain optional.</inlineHelpText>
+    <label>Community Time Entry Required</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_pr__Yes_No_Picklists</valueSetName>
+    </valueSet>
+</CustomField>
