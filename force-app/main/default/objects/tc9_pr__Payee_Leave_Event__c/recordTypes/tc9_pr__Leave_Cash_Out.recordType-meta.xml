@@ -2,6 +2,7 @@
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>tc9_pr__Leave_Cash_Out</fullName>
     <active>true</active>
+    <compactLayoutAssignment>tc9_pr__TC9P_Payee_Leave_Event</compactLayoutAssignment>
     <description>Used to process a pay out of leave and reduce the leave balance even though leave is not taken</description>
     <label>Leave Cash Out</label>
     <picklistValues>

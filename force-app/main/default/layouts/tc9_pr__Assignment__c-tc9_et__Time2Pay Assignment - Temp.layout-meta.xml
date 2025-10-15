@@ -4,6 +4,7 @@
     <customButtons>tc9_et__Add_Project_Codes</customButtons>
     <excludeButtons>ChangeOwnerOne</excludeButtons>
     <excludeButtons>ChangeRecordType</excludeButtons>
+    <excludeButtons>OpenSlackRecordChannel</excludeButtons>
     <excludeButtons>PrintableView</excludeButtons>
     <excludeButtons>Share</excludeButtons>
     <excludeButtons>Submit</excludeButtons>
@@ -144,6 +145,14 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>tc9_pr__Assignment_Rate_Template_Group__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>tc9_et__Assignment_Rate_Template_Group_Inv_Rate__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>tc9_et__Assignment_Rate_Template_Group_Pay_Rate__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -432,66 +441,97 @@
     <platformActionList>
         <actionListContext>Record</actionListContext>
         <platformActionListItems>
-            <actionName>tc9_pr__Assignment__c.tc9_et__Create_Timesheets</actionName>
-            <actionType>QuickAction</actionType>
-            <sortOrder>1</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>tc9_pr__Assignment__c.tc9_et__Bulk_Delete_Timesheets_and_Related_Records</actionName>
-            <actionType>QuickAction</actionType>
-            <sortOrder>2</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>tc9_et__Create_New_Expense_Claim</actionName>
+            <actionName>tc9_et__Create_Timesheets</actionName>
             <actionType>CustomButton</actionType>
-            <sortOrder>3</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>tc9_pr__Assignment__c.tc9_et__Create_Invoiceable_Fee</actionName>
-            <actionType>QuickAction</actionType>
-            <sortOrder>4</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>tc9_et__Add_Project_Codes</actionName>
-            <actionType>CustomButton</actionType>
-            <sortOrder>5</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>tc9_pr__Assignment__c.tc9_et__Apply_New_Rate_Calculator</actionName>
-            <actionType>QuickAction</actionType>
-            <sortOrder>6</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>tc9_et__Calculate_Back_Pay</actionName>
-            <actionType>CustomButton</actionType>
-            <sortOrder>7</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>tc9_et__Delete_Back_Pay</actionName>
-            <actionType>CustomButton</actionType>
-            <sortOrder>8</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>Edit</actionName>
-            <actionType>StandardButton</actionType>
-            <sortOrder>9</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>Clone</actionName>
-            <actionType>StandardButton</actionType>
-            <sortOrder>10</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>Delete</actionName>
-            <actionType>StandardButton</actionType>
-            <sortOrder>11</sortOrder>
+            <sortOrder>0</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
             <actionName>tc9_pr__Assignment__c.tc9_et__Create_Assignment_Rates_LWC</actionName>
             <actionType>QuickAction</actionType>
-            <sortOrder>0</sortOrder>
+            <sortOrder>1</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>tc9_pr__Assignment__c.tc9_et__Create_Timesheets</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>2</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>tc9_pr__Assignment__c.tc9_et__Bulk_Delete_Timesheets_and_Related_Records</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>3</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>tc9_et__Create_New_Expense_Claim</actionName>
+            <actionType>CustomButton</actionType>
+            <sortOrder>4</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>tc9_pr__Assignment__c.tc9_et__Create_Invoiceable_Fee</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>5</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>tc9_et__Add_Project_Codes</actionName>
+            <actionType>CustomButton</actionType>
+            <sortOrder>6</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>tc9_pr__Assignment__c.tc9_et__Apply_New_Rate_Calculator</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>7</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>tc9_et__Calculate_Back_Pay</actionName>
+            <actionType>CustomButton</actionType>
+            <sortOrder>8</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>tc9_et__Delete_Back_Pay</actionName>
+            <actionType>CustomButton</actionType>
+            <sortOrder>9</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>Edit</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>10</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>Clone</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>11</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>Delete</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>12</sortOrder>
         </platformActionListItems>
     </platformActionList>
+    <quickActionList>
+        <quickActionListItems>
+            <quickActionName>FeedItem.TextPost</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>FeedItem.ContentPost</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>FeedItem.MobileSmartActions</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>FeedItem.RypplePost</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>FeedItem.LinkPost</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>FeedItem.PollPost</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>FeedItem.QuestionPost</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>FeedItem.ContentNote</quickActionName>
+        </quickActionListItems>
+    </quickActionList>
     <relatedLists>
         <fields>NAME</fields>
         <fields>tc9_pr__Public_Holiday_Calendar__c</fields>
@@ -699,7 +739,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h2v00000qDBzf</masterLabel>
+        <masterLabel>00hd3000000Vs6b</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

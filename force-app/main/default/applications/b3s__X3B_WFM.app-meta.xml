@@ -24,6 +24,7 @@
     <tabs>b3p__Page__c</tabs>
     <tabs>b3s__Scheduler</tabs>
     <tabs>b3s__Group__c</tabs>
+    <tabs>b3s__Break__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>b3s__X3B_WFM_UtilityBar</utilityBar>
 </CustomApplication>

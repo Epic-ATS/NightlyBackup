@@ -4,6 +4,7 @@
     <excludeButtons>ChangeRecordType</excludeButtons>
     <excludeButtons>Clone</excludeButtons>
     <excludeButtons>Delete</excludeButtons>
+    <excludeButtons>OpenSlackRecordChannel</excludeButtons>
     <excludeButtons>PrintableView</excludeButtons>
     <excludeButtons>Share</excludeButtons>
     <excludeButtons>Submit</excludeButtons>
@@ -13,6 +14,10 @@
         <editHeading>true</editHeading>
         <label>Information</label>
         <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>tc9_et__Account__c</field>
+            </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>Name</field>
@@ -97,6 +102,26 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>tc9_et__Previewed_From__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>tc9_et__Previous_Assignment_Award_Level__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>tc9_et__Previous_Assignment_Industry__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>tc9_et__Previous_Assignment_Rate_Calculator_ID__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>tc9_et__Previous_Assignment_Location__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>tc9_et__Previous_Assignment_Risk_Classification__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -446,7 +471,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h6F00000llkGW</masterLabel>
+        <masterLabel>00hd3000000Vs6W</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

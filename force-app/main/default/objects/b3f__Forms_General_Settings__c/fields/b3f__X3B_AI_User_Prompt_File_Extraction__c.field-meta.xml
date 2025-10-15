@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3f__X3B_AI_User_Prompt_File_Extraction__c</fullName>
+    <deprecated>false</deprecated>
+    <inlineHelpText>Not required. Only add a user prompt if needed.</inlineHelpText>
+    <label>3B AI User Prompt (File Extraction)</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

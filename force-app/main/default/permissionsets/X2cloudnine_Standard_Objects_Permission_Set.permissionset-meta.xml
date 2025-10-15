@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Provides access to the standard Salesforce objects which are unable to be included in the 2cloudnine packaged Permission Sets.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>2cloudnine Standard Objects Permission Set</label>
+</PermissionSet>

@@ -175,10 +175,13 @@
         <customTabListAdditionalFields>tc9_et__Invoice_Total_Tax__c</customTabListAdditionalFields>
         <customTabListAdditionalFields>tc9_et__Invoice_Total_Inc_Tax__c</customTabListAdditionalFields>
         <excludedStandardButtons>New</excludedStandardButtons>
-        <excludedStandardButtons>MassChangeOwner</excludedStandardButtons>
-        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
-        <excludedStandardButtons>Accept</excludedStandardButtons>
         <excludedStandardButtons>OpenListInQuip</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>MassChangeOwner</excludedStandardButtons>
+        <listViewButtons>tc9_et__Create_Invoice_PDF</listViewButtons>
+        <listViewButtons>tc9_et__Delete_Invoices</listViewButtons>
+        <listViewButtons>tc9_et__Send_Invoice_Email_LIST_BUTTON</listViewButtons>
         <lookupDialogsAdditionalFields>tc9_et__Invoice_PDF__c</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>tc9_et__Invoice_Date__c</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>RECORDTYPE</lookupDialogsAdditionalFields>
@@ -215,6 +218,9 @@
         <searchResultsAdditionalFields>tc9_et__Invoice_Total_Ex_Tax__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>tc9_et__Invoice_Total_Tax__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>tc9_et__Invoice_Total_Inc_Tax__c</searchResultsAdditionalFields>
+        <searchResultsCustomButtons>tc9_et__Create_Invoice_PDF</searchResultsCustomButtons>
+        <searchResultsCustomButtons>tc9_et__Delete_Invoices</searchResultsCustomButtons>
+        <searchResultsCustomButtons>tc9_et__Send_Invoice_Email_LIST_BUTTON</searchResultsCustomButtons>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <startsWith>Vowel</startsWith>

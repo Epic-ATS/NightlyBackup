@@ -178,6 +178,8 @@
         <excludedStandardButtons>Accept</excludedStandardButtons>
         <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
         <excludedStandardButtons>MassChangeOwner</excludedStandardButtons>
+        <listViewButtons>tc9_et__Notification_Manager</listViewButtons>
+        <listViewButtons>tc9_et__Update_Failed_to_Ready_LIST_BUTTON</listViewButtons>
         <lookupDialogsAdditionalFields>tc9_et__Timesheet_Manager__c</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>tc9_et__Assignment__c</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>tc9_et__Payee__c</lookupDialogsAdditionalFields>
@@ -215,6 +217,8 @@
         <searchResultsAdditionalFields>tc9_et__Approval_Status_Colour__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>tc9_et__Transaction_Creation_Status_Colour__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>tc9_et__Flagged_For_Review__c</searchResultsAdditionalFields>
+        <searchResultsCustomButtons>tc9_et__Notification_Manager</searchResultsCustomButtons>
+        <searchResultsCustomButtons>tc9_et__Update_Failed_to_Ready_LIST_BUTTON</searchResultsCustomButtons>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

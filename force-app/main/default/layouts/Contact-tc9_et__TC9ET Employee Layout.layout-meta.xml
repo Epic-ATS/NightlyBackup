@@ -3,9 +3,8 @@
     <excludeButtons>ContactHierarchy</excludeButtons>
     <excludeButtons>CreateCallList</excludeButtons>
     <excludeButtons>CreateSurveyInvitation</excludeButtons>
-    <excludeButtons>DataDotComClean</excludeButtons>
+    <excludeButtons>OpenSlackRecordChannel</excludeButtons>
     <excludeButtons>PrintableView</excludeButtons>
-    <excludeButtons>RequestUseSfdc</excludeButtons>
     <excludeButtons>Share</excludeButtons>
     <excludeButtons>StartOutboundConversation</excludeButtons>
     <excludeButtons>Submit</excludeButtons>
@@ -37,6 +36,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>AccountId</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>tc9_pr__Primary_Payee_Record__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -247,7 +250,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h2v00000qDGRU</masterLabel>
+        <masterLabel>00hd3000000Vs6E</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

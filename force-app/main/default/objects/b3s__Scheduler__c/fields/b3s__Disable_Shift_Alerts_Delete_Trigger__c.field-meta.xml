@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3s__Disable_Shift_Alerts_Delete_Trigger__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <inlineHelpText>If checked, the trigger that deletes Event Alerts on update will be disabled</inlineHelpText>
+    <label>Disable Shift Alerts Delete Trigger</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

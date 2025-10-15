@@ -164,6 +164,7 @@
     <pluralLabel>Minimum Pay Rates</pluralLabel>
     <searchLayouts>
         <listViewButtons>tc9_et__Update_Rates_List</listViewButtons>
+        <searchResultsCustomButtons>tc9_et__Update_Rates_List</searchResultsCustomButtons>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

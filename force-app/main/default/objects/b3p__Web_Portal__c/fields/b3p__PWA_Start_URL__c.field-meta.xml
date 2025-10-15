@@ -4,7 +4,7 @@
     <defaultValue>&quot;/b3p__Portal#Index&quot;</defaultValue>
     <deprecated>false</deprecated>
     <externalId>false</externalId>
-    <label>DEPRECATED</label>
+    <label>PWA: Start URL</label>
     <length>255</length>
     <required>false</required>
     <trackTrending>false</trackTrending>

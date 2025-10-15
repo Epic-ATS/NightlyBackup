@@ -165,6 +165,7 @@
     <pluralLabel>Employment Cost Items</pluralLabel>
     <recordTypeTrackHistory>true</recordTypeTrackHistory>
     <searchLayouts>
+        <excludedStandardButtons>New</excludedStandardButtons>
         <excludedStandardButtons>OpenListInQuip</excludedStandardButtons>
         <excludedStandardButtons>Accept</excludedStandardButtons>
         <excludedStandardButtons>ChangeOwner</excludedStandardButtons>

@@ -741,6 +741,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>b3f__FeatureManagement_test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>b3f__FormAttachmentWebService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -777,6 +781,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>b3f__FormServices</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>b3f__FormSubmissionController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -786,6 +794,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__FormViewController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>b3f__FormsLinkManager</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>b3f__FormsLinkManager_Test</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -850,6 +866,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__QueryUtils</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>b3f__QueryUtilsWithSharing</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>b3f__QueryUtilsWithoutSharing</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -945,6 +969,14 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>b3f__Shared</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>b3f__Shared_test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>b3f__SiteUtils</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -1001,18 +1033,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>b3o__AppComponentsCommiter</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>b3o__AppFilesManager</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>b3o__AppFilesManager_test</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>b3o__ApplicationStageManager</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -1021,23 +1041,19 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>b3o__Application_Stage_Trigger_Helper</apexClass>
+        <apexClass>b3o__Application_Helper</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>b3o__Application_Stage_Trigger_Helper_Test</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>b3o__Application_Trigger_Helper</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>b3o__Application_Trigger_Helper_Test</apexClass>
+        <apexClass>b3o__Application_Helper_Test</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__AuthorizationService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>b3o__AuthorizationService_Test</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -1109,14 +1125,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>b3o__ChartBuilderController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>b3o__ChartBuilderControllerTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>b3o__ChartDataProvider</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -1130,14 +1138,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__ChatComponent_test</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>b3o__ChatterMessengerController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>b3o__ChatterMessengerController_test</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -1205,27 +1205,11 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>b3o__CustomDataProviderDataSourceProvider</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>b3o__CustomDataProviderDataSourceProviderTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>b3o__CustomValueEvaluate</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__CustomValueEvaluate_test</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>b3o__CyclePeriodSelector</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>b3o__CyclePeriodSelector_test</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -1285,6 +1269,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>b3o__ErrorHandling_Test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>b3o__ErrorResponse</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -1341,14 +1329,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>b3o__GeneralUtils</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>b3o__GeneralUtils_test</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>b3o__GlobalRemotingInterface</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -1373,51 +1353,7 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>b3o__IV_Yoti_Client_Base</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>b3o__IV_Yoti_Client_test</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>b3o__IV_Yoti_HelperComponent</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>b3o__IV_Yoti_HelperComponent_test</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>b3o__IdentityVerification_test</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>b3o__InterviewManagement</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>b3o__InterviewManagement_Base</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>b3o__InterviewManagement_test</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>b3o__InterviewQuestion</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>b3o__InterviewQuestionManager</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>b3o__InterviewQuestionManager_Test</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>b3o__InterviewQuestions_Utils</apexClass>
+        <apexClass>b3o__IdentityVerificationHelper_Test</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -1437,35 +1373,11 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>b3o__Invoicing_Configuration</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>b3o__Invoicing_Configuration_test</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>b3o__JobBoardList</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__JobBoardList_Test</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>b3o__JobPostingManager</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>b3o__JobPostingManager_test</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>b3o__LREngine</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>b3o__LREngine_Test</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -1478,10 +1390,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__LogicMelonIntegration</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>b3o__LookupAuraService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -1565,22 +1473,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>b3o__QuestionsBuilder</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>b3o__QuestionsBuilder_test</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>b3o__RecordDataLoader</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>b3o__RecordDataLoader_test</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>b3o__RecordFormController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -1610,6 +1502,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__RelatedRecordGapsController_Test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>b3o__RemoteChatController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>b3o__RemoteChatController_Test</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -1681,10 +1581,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>b3o__RemoteSelfBookController_test</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>b3o__RemoteUtils</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -1733,14 +1629,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>b3o__SOQLDataProvider</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>b3o__SOQLDataProviderTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>b3o__SaveRecordError</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -1770,22 +1658,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__SchemaUtils_test</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>b3o__ScorecardManager</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>b3o__ScorecardManager_Test</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>b3o__SearchMatchComponent</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>b3o__SearchMatchEngine</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -1830,6 +1702,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__Session_test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>b3o__Shared</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>b3o__Shared_test</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -2077,6 +1957,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>b3p__Records</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>b3p__RemoteRecordsManager</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -2106,6 +1990,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__SchemaUtils_test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>b3p__Shared</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>b3p__Shared_test</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -26830,6 +26722,10 @@
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
+        <flow>b3o__Onboarding_Chat_Message_Platform_Event</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
         <flow>tc9_bgl__GL_Create_Cost_of_Payroll_Journal</flow>
     </flowAccesses>
     <flowAccesses>
@@ -27016,16 +26912,16 @@
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Account-tc9_eau__TC9EAU Account - Payment Entity</layout>
+        <recordType>Account.tc9_pr__Payment_Entity</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Account-tc9_et__Time2Pay Client</layout>
         <recordType>Account.tc9_et__Client</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Account-tc9_et__Time2Pay Invoice Entity</layout>
         <recordType>Account.tc9_et__Invoice_Entity</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Account-tc9_pr__Account - Payment Entity</layout>
-        <recordType>Account.tc9_pr__Payment_Entity</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>AccountBrand-Account Brand Layout</layout>
@@ -27087,12 +26983,12 @@
         <recordType>Contact.tc9_et__Client_Contact</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Contact-tc9_pr__TC9PR Emergency Contact Layout</layout>
-        <recordType>Contact.tc9_pr__Emergency_Contact</recordType>
+        <layout>Contact-tc9_et__TC9ET Employee Layout</layout>
+        <recordType>Contact.tc9_pr__Employee</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Contact-tc9_pr__TC9PR Employee Layout</layout>
-        <recordType>Contact.tc9_pr__Employee</recordType>
+        <layout>Contact-tc9_pr__TC9PR Emergency Contact Layout</layout>
+        <recordType>Contact.tc9_pr__Emergency_Contact</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ContactPointAddress-Contact Point Address Layout</layout>
@@ -27504,7 +27400,7 @@
         <layout>tc9_et__Client_to_Rate_Calculator_Junction__c-tc9_et__Time2Pay Client to Rate Calculator Junction</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>tc9_et__Expense_Claim__c-tc9_et__Time2Pay Expense Claim</layout>
+        <layout>tc9_et__Expense_Claim__c-tc9_ec__TC9EC Expense Claim</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_et__Expense__c-tc9_et__Time2Pay Expense - Timesheet</layout>
@@ -27992,11 +27888,91 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Assignment Employment Cost Layout</layout>
+        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Assignment_Custom_Cost_1</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Assignment Employment Cost Layout</layout>
+        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Assignment_Custom_Cost_2</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Assignment Employment Cost Layout</layout>
+        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Assignment_Custom_Cost_3</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Assignment Employment Cost Layout</layout>
+        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Assignment_Custom_Cost_4</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Assignment Employment Cost Layout</layout>
+        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Assignment_Insurance</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Assignment Employment Cost Layout</layout>
+        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Assignment_Post_Custom_Cost_1</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Assignment Employment Cost Layout</layout>
+        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Assignment_Post_Custom_Cost_2</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Assignment Employment Cost Layout</layout>
+        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Assignment_Post_Custom_Cost_3</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Assignment Employment Cost Layout</layout>
+        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Assignment_Post_Custom_Cost_4</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Assignment Employment Cost Layout</layout>
+        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Assignment_WHS</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Assignment Employment Cost Layout</layout>
         <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_pr__Assignment_Payroll_Tax</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Assignment Employment Cost Layout</layout>
         <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_pr__Assignment_WorkCover</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Client Employment Cost Exception Layout</layout>
+        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Client_Custom_Cost_1</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Client Employment Cost Exception Layout</layout>
+        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Client_Custom_Cost_2</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Client Employment Cost Exception Layout</layout>
+        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Client_Custom_Cost_3</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Client Employment Cost Exception Layout</layout>
+        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Client_Custom_Cost_4</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Client Employment Cost Exception Layout</layout>
+        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Client_Custom_Post_Cost_1</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Client Employment Cost Exception Layout</layout>
+        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Client_Custom_Post_Cost_2</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Client Employment Cost Exception Layout</layout>
+        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Client_Custom_Post_Cost_3</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Client Employment Cost Exception Layout</layout>
+        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Client_Custom_Post_Cost_4</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Client Employment Cost Exception Layout</layout>
+        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Client_Insurance</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Client Employment Cost Exception Layout</layout>
+        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Client_WHS</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Client Employment Cost Exception Layout</layout>
@@ -28008,6 +27984,50 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Pay Code Employment Cost Layout</layout>
+        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Pay_Code_Custom_Cost_1</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Pay Code Employment Cost Layout</layout>
+        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Pay_Code_Custom_Cost_2</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Pay Code Employment Cost Layout</layout>
+        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Pay_Code_Custom_Cost_3</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Pay Code Employment Cost Layout</layout>
+        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Pay_Code_Custom_Cost_4</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Pay Code Employment Cost Layout</layout>
+        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Pay_Code_Insurance</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Pay Code Employment Cost Layout</layout>
+        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Pay_Code_Post_Custom_Cost_1</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Pay Code Employment Cost Layout</layout>
+        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Pay_Code_Post_Custom_Cost_2</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Pay Code Employment Cost Layout</layout>
+        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Pay_Code_Post_Custom_Cost_3</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Pay Code Employment Cost Layout</layout>
+        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Pay_Code_Post_Custom_Cost_4</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Pay Code Employment Cost Layout</layout>
+        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Pay_Code_Superannuation</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Pay Code Employment Cost Layout</layout>
+        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Pay_Code_WHS</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Pay Code Employment Cost Layout</layout>
         <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_pr__Pay_Code_Payroll_Tax</recordType>
     </layoutAssignments>
     <layoutAssignments>
@@ -28016,130 +28036,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Payee Employment Cost Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Payee Employment Cost Layout</layout>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Assignment_Custom_Cost_1</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Payee Employment Cost Layout</layout>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Assignment_Custom_Cost_2</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Payee Employment Cost Layout</layout>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Assignment_Custom_Cost_3</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Payee Employment Cost Layout</layout>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Assignment_Custom_Cost_4</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Payee Employment Cost Layout</layout>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Assignment_Insurance</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Payee Employment Cost Layout</layout>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Assignment_Post_Custom_Cost_1</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Payee Employment Cost Layout</layout>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Assignment_Post_Custom_Cost_2</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Payee Employment Cost Layout</layout>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Assignment_Post_Custom_Cost_3</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Payee Employment Cost Layout</layout>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Assignment_Post_Custom_Cost_4</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Payee Employment Cost Layout</layout>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Assignment_WHS</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Payee Employment Cost Layout</layout>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Client_Custom_Cost_1</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Payee Employment Cost Layout</layout>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Client_Custom_Cost_2</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Payee Employment Cost Layout</layout>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Client_Custom_Cost_3</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Payee Employment Cost Layout</layout>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Client_Custom_Cost_4</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Payee Employment Cost Layout</layout>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Client_Custom_Post_Cost_1</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Payee Employment Cost Layout</layout>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Client_Custom_Post_Cost_2</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Payee Employment Cost Layout</layout>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Client_Custom_Post_Cost_3</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Payee Employment Cost Layout</layout>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Client_Custom_Post_Cost_4</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Payee Employment Cost Layout</layout>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Client_Insurance</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Payee Employment Cost Layout</layout>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Client_WHS</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Payee Employment Cost Layout</layout>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Pay_Code_Custom_Cost_1</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Payee Employment Cost Layout</layout>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Pay_Code_Custom_Cost_2</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Payee Employment Cost Layout</layout>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Pay_Code_Custom_Cost_3</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Payee Employment Cost Layout</layout>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Pay_Code_Custom_Cost_4</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Payee Employment Cost Layout</layout>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Pay_Code_Insurance</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Payee Employment Cost Layout</layout>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Pay_Code_Post_Custom_Cost_1</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Payee Employment Cost Layout</layout>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Pay_Code_Post_Custom_Cost_2</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Payee Employment Cost Layout</layout>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Pay_Code_Post_Custom_Cost_3</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Payee Employment Cost Layout</layout>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Pay_Code_Post_Custom_Cost_4</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Payee Employment Cost Layout</layout>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Pay_Code_Superannuation</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Payee Employment Cost Layout</layout>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Pay_Code_WHS</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Payee Employment Cost Layout</layout>
@@ -28234,15 +28130,15 @@
         <recordType>tc9_pr__Employment_Cost_Item__c.tc9_et__WHS</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>tc9_pr__Employment_Cost_Item__c-tc9_pr__Employment Cost Item Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Employment_Cost_Item__c-tc9_pr__Employment Cost Item Layout</layout>
+        <layout>tc9_pr__Employment_Cost_Item__c-tc9_et__Time2Pay Employment Cost Item</layout>
         <recordType>tc9_pr__Employment_Cost_Item__c.tc9_pr__Payroll_Tax</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>tc9_pr__Employment_Cost_Item__c-tc9_pr__Employment Cost Item Layout</layout>
+        <layout>tc9_pr__Employment_Cost_Item__c-tc9_et__Time2Pay Employment Cost Item</layout>
         <recordType>tc9_pr__Employment_Cost_Item__c.tc9_pr__WorkCover</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Employment_Cost_Item__c-tc9_pr__Employment Cost Item Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_pr__Employment_Cost__c-tc9_et__Time2Pay Employment Cost - Non Superannuation</layout>
@@ -28285,19 +28181,19 @@
         <recordType>tc9_pr__Employment_Cost__c.tc9_et__WHS</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>tc9_pr__Employment_Cost__c-tc9_et__Time2Pay Employment Cost - Non Superannuation</layout>
+        <recordType>tc9_pr__Employment_Cost__c.tc9_pr__Payroll_Tax</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Employment_Cost__c-tc9_et__Time2Pay Employment Cost - Non Superannuation</layout>
+        <recordType>tc9_pr__Employment_Cost__c.tc9_pr__WorkCover</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>tc9_pr__Employment_Cost__c-tc9_et__Time2Pay Employment Cost - Superannuation</layout>
         <recordType>tc9_pr__Employment_Cost__c.tc9_et__Superannuation</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_pr__Employment_Cost__c-tc9_pr__Employment Cost Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Employment_Cost__c-tc9_pr__Employment Cost Layout</layout>
-        <recordType>tc9_pr__Employment_Cost__c.tc9_pr__Payroll_Tax</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Employment_Cost__c-tc9_pr__Employment Cost Layout</layout>
-        <recordType>tc9_pr__Employment_Cost__c.tc9_pr__WorkCover</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_pr__Leave_Rule_Item__c-tc9_pr__TC9PR Leave Rule Item Layout</layout>
@@ -28380,15 +28276,15 @@
         <layout>tc9_pr__Pay_Advice_Template__c-tc9_pr__TC9PR Pay Advice Template Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>tc9_pr__Pay_Advice__c-tc9_pr__TC9PR Pay Advice Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Pay_Advice__c-tc9_pr__TC9PR Pay Advice Layout</layout>
+        <layout>tc9_pr__Pay_Advice__c-tc9_ec__TC9EC Pay Advice Layout</layout>
         <recordType>tc9_pr__Pay_Advice__c.tc9_pr__Contractor_Invoice</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>tc9_pr__Pay_Advice__c-tc9_pr__TC9PR Pay Advice Layout</layout>
+        <layout>tc9_pr__Pay_Advice__c-tc9_ec__TC9EC Pay Advice Layout</layout>
         <recordType>tc9_pr__Pay_Advice__c.tc9_pr__Pay_Advice</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Pay_Advice__c-tc9_pr__TC9PR Pay Advice Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_pr__Pay_Batch_Event__c-tc9_pr__TC9PR Pay Batch Event Layout</layout>
@@ -28442,35 +28338,35 @@
         <recordType>tc9_pr__Pay_Code_Junction__c.tc9_pr__Leave_Accrual</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>tc9_pr__Pay_Code__c-tc9_pr__TC9PR Pay Code Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Pay_Code__c-tc9_pr__TC9PR Pay Code Layout</layout>
+        <layout>tc9_pr__Pay_Code__c-tc9_et__Time2Pay Pay Code - Allowance</layout>
         <recordType>tc9_pr__Pay_Code__c.tc9_pr__Allowance</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>tc9_pr__Pay_Code__c-tc9_pr__TC9PR Pay Code Layout</layout>
+        <layout>tc9_pr__Pay_Code__c-tc9_et__Time2Pay Pay Code - Deduction</layout>
         <recordType>tc9_pr__Pay_Code__c.tc9_pr__Deduction</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>tc9_pr__Pay_Code__c-tc9_pr__TC9PR Pay Code Layout</layout>
+        <layout>tc9_pr__Pay_Code__c-tc9_et__Time2Pay Pay Code - ETP</layout>
         <recordType>tc9_pr__Pay_Code__c.tc9_pr__ETP</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>tc9_pr__Pay_Code__c-tc9_pr__TC9PR Pay Code Layout</layout>
+        <layout>tc9_pr__Pay_Code__c-tc9_et__Time2Pay Pay Code - Expense</layout>
         <recordType>tc9_pr__Pay_Code__c.tc9_pr__Expense</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>tc9_pr__Pay_Code__c-tc9_pr__TC9PR Pay Code Layout</layout>
+        <layout>tc9_pr__Pay_Code__c-tc9_et__Time2Pay Pay Code - FBT</layout>
         <recordType>tc9_pr__Pay_Code__c.tc9_pr__FBT</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>tc9_pr__Pay_Code__c-tc9_pr__TC9PR Pay Code Layout</layout>
+        <layout>tc9_pr__Pay_Code__c-tc9_et__Time2Pay Pay Code - Lump Sum</layout>
         <recordType>tc9_pr__Pay_Code__c.tc9_pr__Lump_Sum</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>tc9_pr__Pay_Code__c-tc9_pr__TC9PR Pay Code Layout</layout>
+        <layout>tc9_pr__Pay_Code__c-tc9_et__Time2Pay Pay Code - Payment</layout>
         <recordType>tc9_pr__Pay_Code__c.tc9_pr__Payment</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Pay_Code__c-tc9_pr__TC9PR Pay Code Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_pr__Pay_Payment_File_Item__c-tc9_pr__Pay Payment File Item Layout</layout>
@@ -28511,6 +28407,14 @@
         <recordType>tc9_pr__Pay_Transaction_Distribution__c.tc9_pr__Custom_Cost_4</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>tc9_pr__Pay_Transaction__c-tc9_et__Time2Pay Pay Transaction - Deduction</layout>
+        <recordType>tc9_pr__Pay_Transaction__c.tc9_pr__Deduction</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Pay_Transaction__c-tc9_et__Time2Pay Pay Transaction - Expense</layout>
+        <recordType>tc9_pr__Pay_Transaction__c.tc9_pr__Expense</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>tc9_pr__Pay_Transaction__c-tc9_et__Time2Pay Pay Transaction - Invoiceable Fee - Other Fees</layout>
         <recordType>tc9_pr__Pay_Transaction__c.tc9_et__Client_Paid_Expense</recordType>
     </layoutAssignments>
@@ -28535,39 +28439,59 @@
         <recordType>tc9_pr__Pay_Transaction__c.tc9_et__Temp_To_Perm_Fee</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>tc9_pr__Pay_Transaction__c-tc9_pr__TC9PR Pay Transaction Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Pay_Transaction__c-tc9_pr__TC9PR Pay Transaction Layout</layout>
-        <recordType>tc9_pr__Pay_Transaction__c.tc9_pr__Allowance</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Pay_Transaction__c-tc9_pr__TC9PR Pay Transaction Layout</layout>
-        <recordType>tc9_pr__Pay_Transaction__c.tc9_pr__Deduction</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Pay_Transaction__c-tc9_pr__TC9PR Pay Transaction Layout</layout>
-        <recordType>tc9_pr__Pay_Transaction__c.tc9_pr__ETP</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Pay_Transaction__c-tc9_pr__TC9PR Pay Transaction Layout</layout>
-        <recordType>tc9_pr__Pay_Transaction__c.tc9_pr__Expense</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Pay_Transaction__c-tc9_pr__TC9PR Pay Transaction Layout</layout>
-        <recordType>tc9_pr__Pay_Transaction__c.tc9_pr__FBT</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Pay_Transaction__c-tc9_pr__TC9PR Pay Transaction Layout</layout>
+        <layout>tc9_pr__Pay_Transaction__c-tc9_et__Time2Pay Pay Transaction - Invoiceable Fee - Perm and Temp To Perm Fees</layout>
         <recordType>tc9_pr__Pay_Transaction__c.tc9_pr__FEE</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>tc9_pr__Pay_Transaction__c-tc9_pr__TC9PR Pay Transaction Layout</layout>
+        <layout>tc9_pr__Pay_Transaction__c-tc9_et__Time2Pay Pay Transaction - Leave Accrual</layout>
         <recordType>tc9_pr__Pay_Transaction__c.tc9_pr__Leave_Accrual</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>tc9_pr__Pay_Transaction__c-tc9_pr__TC9PR Pay Transaction Layout</layout>
+        <layout>tc9_pr__Pay_Transaction__c-tc9_et__Time2Pay Pay Transaction - Lump Sum%2C ETP and FBT</layout>
+        <recordType>tc9_pr__Pay_Transaction__c.tc9_pr__ETP</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Pay_Transaction__c-tc9_et__Time2Pay Pay Transaction - Lump Sum%2C ETP and FBT</layout>
+        <recordType>tc9_pr__Pay_Transaction__c.tc9_pr__FBT</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Pay_Transaction__c-tc9_et__Time2Pay Pay Transaction - Lump Sum%2C ETP and FBT</layout>
         <recordType>tc9_pr__Pay_Transaction__c.tc9_pr__Lump_Sum</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Pay_Transaction__c-tc9_et__Time2Pay Pay Transaction - Payment</layout>
+        <recordType>tc9_pr__Pay_Transaction__c.tc9_pr__Allowance</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Pay_Transaction__c-tc9_et__Time2Pay Pay Transaction - Payment</layout>
+        <recordType>tc9_pr__Pay_Transaction__c.tc9_pr__Payment</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Pay_Transaction__c-tc9_et__Time2Pay Pay Transaction - Payment</layout>
+        <recordType>tc9_pr__Pay_Transaction__c.tc9_pr__Timesheet_Entry</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Pay_Transaction__c-tc9_et__Time2Pay Pay Transaction - Withholding - PAYG%2C ETP PAYG%2C  HELP and SFSS</layout>
+        <recordType>tc9_pr__Pay_Transaction__c.tc9_pr__Withholding_ETP_PAYG</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Pay_Transaction__c-tc9_et__Time2Pay Pay Transaction - Withholding - PAYG%2C ETP PAYG%2C  HELP and SFSS</layout>
+        <recordType>tc9_pr__Pay_Transaction__c.tc9_pr__Withholding_GST</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Pay_Transaction__c-tc9_et__Time2Pay Pay Transaction - Withholding - PAYG%2C ETP PAYG%2C  HELP and SFSS</layout>
+        <recordType>tc9_pr__Pay_Transaction__c.tc9_pr__Withholding_PAYG</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Pay_Transaction__c-tc9_et__Time2Pay Pay Transaction - Withholding - PAYG%2C ETP PAYG%2C  HELP and SFSS</layout>
+        <recordType>tc9_pr__Pay_Transaction__c.tc9_pr__Withholding_STSL</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Pay_Transaction__c-tc9_et__Time2Pay Pay Transaction - Withholding - Superannuation</layout>
+        <recordType>tc9_pr__Pay_Transaction__c.tc9_pr__Withholding_Superannuation</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Pay_Transaction__c-tc9_pr__TC9PR Pay Transaction Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_pr__Pay_Transaction__c-tc9_pr__TC9PR Pay Transaction Layout</layout>
@@ -28575,23 +28499,7 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_pr__Pay_Transaction__c-tc9_pr__TC9PR Pay Transaction Layout</layout>
-        <recordType>tc9_pr__Pay_Transaction__c.tc9_pr__Payment</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Pay_Transaction__c-tc9_pr__TC9PR Pay Transaction Layout</layout>
         <recordType>tc9_pr__Pay_Transaction__c.tc9_pr__System_Marker</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Pay_Transaction__c-tc9_pr__TC9PR Pay Transaction Layout</layout>
-        <recordType>tc9_pr__Pay_Transaction__c.tc9_pr__Timesheet_Entry</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Pay_Transaction__c-tc9_pr__TC9PR Pay Transaction Layout</layout>
-        <recordType>tc9_pr__Pay_Transaction__c.tc9_pr__Withholding_ETP_PAYG</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Pay_Transaction__c-tc9_pr__TC9PR Pay Transaction Layout</layout>
-        <recordType>tc9_pr__Pay_Transaction__c.tc9_pr__Withholding_GST</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_pr__Pay_Transaction__c-tc9_pr__TC9PR Pay Transaction Layout</layout>
@@ -28599,19 +28507,7 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_pr__Pay_Transaction__c-tc9_pr__TC9PR Pay Transaction Layout</layout>
-        <recordType>tc9_pr__Pay_Transaction__c.tc9_pr__Withholding_PAYG</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Pay_Transaction__c-tc9_pr__TC9PR Pay Transaction Layout</layout>
         <recordType>tc9_pr__Pay_Transaction__c.tc9_pr__Withholding_SFSS</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Pay_Transaction__c-tc9_pr__TC9PR Pay Transaction Layout</layout>
-        <recordType>tc9_pr__Pay_Transaction__c.tc9_pr__Withholding_STSL</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Pay_Transaction__c-tc9_pr__TC9PR Pay Transaction Layout</layout>
-        <recordType>tc9_pr__Pay_Transaction__c.tc9_pr__Withholding_Superannuation</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_pr__Payee_Aggregate__c-tc9_pr__TC9PR Payee Aggregate Layout</layout>
@@ -28748,19 +28644,19 @@
         <recordType>tc9_pr__Payee_Exit_Calculation__c.tc9_pr__Australia_Result</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>tc9_pr__Payee_Leave_Event__c-tc9_pr__TC9PR Payee Leave Event Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Payee_Leave_Event__c-tc9_pr__TC9PR Payee Leave Event Layout</layout>
+        <layout>tc9_pr__Payee_Leave_Event__c-tc9_ec__TC9EC Payee Leave Event Layout</layout>
         <recordType>tc9_pr__Payee_Leave_Event__c.tc9_pr__Leave_Cash_Out</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>tc9_pr__Payee_Leave_Event__c-tc9_pr__TC9PR Payee Leave Event Layout</layout>
+        <layout>tc9_pr__Payee_Leave_Event__c-tc9_ec__TC9EC Payee Leave Event Layout</layout>
         <recordType>tc9_pr__Payee_Leave_Event__c.tc9_pr__Leave_Credit</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>tc9_pr__Payee_Leave_Event__c-tc9_pr__TC9PR Payee Leave Event Layout</layout>
+        <layout>tc9_pr__Payee_Leave_Event__c-tc9_ec__TC9EC Payee Leave Event Layout</layout>
         <recordType>tc9_pr__Payee_Leave_Event__c.tc9_pr__Leave_Take</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Payee_Leave_Event__c-tc9_pr__TC9PR Payee Leave Event Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_pr__Payee_Leave_Rule__c-tc9_pr__TC9PR Payee Leave Rule Layout</layout>
@@ -28829,26 +28725,42 @@
         <recordType>tc9_pr__Payee_Opening_Balance__c.tc9_pr__Withholding_Superannuation</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>tc9_pr__Payee_Withholding__c-tc9_pr__TC9PR AU GST Payee Withholding Layout</layout>
+        <layout>tc9_pr__Payee_Withholding__c-tc9_ec__TC9EC AU GST Payee Withholding Layout</layout>
         <recordType>tc9_pr__Payee_Withholding__c.tc9_pr__AU_GST</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>tc9_pr__Payee_Withholding__c-tc9_pr__TC9PR AU PAYG Payee Withholding Layout</layout>
+        <layout>tc9_pr__Payee_Withholding__c-tc9_ec__TC9EC AU PAYG Payee Withholding Layout</layout>
+        <recordType>tc9_pr__Payee_Withholding__c.tc9_pr__AU_PAYG</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Payee_Withholding__c-tc9_ec__TC9EC AU SUPER Payee Withholding Layout</layout>
+        <recordType>tc9_pr__Payee_Withholding__c.tc9_pr__AU_SUPER</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_pr__Payee_Withholding__c-tc9_pr__TC9PR AU PAYG Payee Withholding Layout</layout>
-        <recordType>tc9_pr__Payee_Withholding__c.tc9_pr__AU_PAYG</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_pr__Payee_Withholding__c-tc9_pr__TC9PR AU PAYROLL TAX Payee Withholding Layout</layout>
         <recordType>tc9_pr__Payee_Withholding__c.tc9_pr__AU_Payroll_Tax</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>tc9_pr__Payee_Withholding__c-tc9_pr__TC9PR AU SUPER Payee Withholding Layout</layout>
-        <recordType>tc9_pr__Payee_Withholding__c.tc9_pr__AU_SUPER</recordType>
+        <layout>tc9_pr__Payee__c-tc9_pr__TC9PR Payee Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>tc9_pr__Payee__c-tc9_pr__TC9PR Payee Layout</layout>
+        <layout>tc9_pr__Payment_Detail__c-tc9_ec__TC9EC Payment Detail Payee AUS Bank Layout</layout>
+        <recordType>tc9_pr__Payment_Detail__c.tc9_pr__Payee_Australian_Bank</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Payment_Detail__c-tc9_ec__TC9EC Payment Detail Payee Cash Layout</layout>
+        <recordType>tc9_pr__Payment_Detail__c.tc9_pr__Payee_Cash</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Payment_Detail__c-tc9_ec__TC9EC Payment Detail Payee Cheque Layout</layout>
+        <recordType>tc9_pr__Payment_Detail__c.tc9_pr__Payee_Cheque</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Payment_Detail__c-tc9_ec__TC9EC Payment Detail Payee INTL Bank Layout</layout>
+        <recordType>tc9_pr__Payment_Detail__c.tc9_pr__Payee_International_Bank</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_pr__Payment_Detail__c-tc9_pr__TC9PR Payment Detail Payee AUS Bank Layout</layout>
@@ -28856,22 +28768,6 @@
     <layoutAssignments>
         <layout>tc9_pr__Payment_Detail__c-tc9_pr__TC9PR Payment Detail Payee AUS Bank Layout</layout>
         <recordType>tc9_pr__Payment_Detail__c.tc9_eau__Super_Fund</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Payment_Detail__c-tc9_pr__TC9PR Payment Detail Payee AUS Bank Layout</layout>
-        <recordType>tc9_pr__Payment_Detail__c.tc9_pr__Payee_Australian_Bank</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Payment_Detail__c-tc9_pr__TC9PR Payment Detail Payee Cash Layout</layout>
-        <recordType>tc9_pr__Payment_Detail__c.tc9_pr__Payee_Cash</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Payment_Detail__c-tc9_pr__TC9PR Payment Detail Payee Cheque Layout</layout>
-        <recordType>tc9_pr__Payment_Detail__c.tc9_pr__Payee_Cheque</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Payment_Detail__c-tc9_pr__TC9PR Payment Detail Payee INTL Bank Layout</layout>
-        <recordType>tc9_pr__Payment_Detail__c.tc9_pr__Payee_International_Bank</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_pr__Payment_Detail__c-tc9_pr__TC9PR Payment Detail Payment Entity Layout</layout>
@@ -28952,22 +28848,26 @@
         <recordType>tc9_pr__Schedule__c.tc9_et__Invoice_Schedule</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>tc9_pr__Schedule__c-tc9_pr__TC9PR Pay Schedule Layout</layout>
+        <layout>tc9_pr__Schedule__c-tc9_et__TC9ET Pay Schedule Layout</layout>
+        <recordType>tc9_pr__Schedule__c.tc9_pr__Pay_Schedule</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_pr__Schedule__c-tc9_pr__TC9PR Pay Schedule Layout</layout>
-        <recordType>tc9_pr__Schedule__c.tc9_pr__Pay_Schedule</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_pr__Schedule__c-tc9_pr__TC9PR Work Schedule Layout</layout>
         <recordType>tc9_pr__Schedule__c.tc9_pr__Work_Schedule</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>tc9_pr__Superannuation_Fund__c-tc9_pr__TC9PR APRA and RSA Fund Layout</layout>
+        <layout>tc9_pr__Superannuation_Fund__c-tc9_ec__TC9EC APRA and RSA Fund Layout</layout>
+        <recordType>tc9_pr__Superannuation_Fund__c.tc9_pr__APRA_and_RSA_Funds</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Superannuation_Fund__c-tc9_ec__TC9EC Self Managed Superannuation Fund Layout</layout>
+        <recordType>tc9_pr__Superannuation_Fund__c.tc9_pr__Self_Managed</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_pr__Superannuation_Fund__c-tc9_pr__TC9PR APRA and RSA Fund Layout</layout>
-        <recordType>tc9_pr__Superannuation_Fund__c.tc9_pr__APRA_and_RSA_Funds</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_pr__Superannuation_Fund__c-tc9_pr__TC9PR Default Fund</layout>
@@ -28976,10 +28876,6 @@
     <layoutAssignments>
         <layout>tc9_pr__Superannuation_Fund__c-tc9_pr__TC9PR Employer Id Junction</layout>
         <recordType>tc9_pr__Superannuation_Fund__c.tc9_pr__Employer_Id_Junction</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Superannuation_Fund__c-tc9_pr__TC9PR Self Managed Superannuation Fund Layout</layout>
-        <recordType>tc9_pr__Superannuation_Fund__c.tc9_pr__Self_Managed</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_pr__Suspension__c-tc9_pr__Suspension Layout</layout>
@@ -28997,6 +28893,10 @@
         <recordType>tc9_pr__Template_Group__c.tc9_et__Payee_Timesheet_Allowance</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>tc9_pr__Template_Group__c-tc9_et__Time2Pay Template Group - Timesheet Assignment Rates Templates</layout>
+        <recordType>tc9_pr__Template_Group__c.tc9_pr__Assignment_Rates</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>tc9_pr__Template_Group__c-tc9_pr__TC9PR Template Group Layout - Remuneration Templates</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -29006,10 +28906,6 @@
     <layoutAssignments>
         <layout>tc9_pr__Template_Group__c-tc9_pr__TC9PR Template Group Layout - Remuneration Templates</layout>
         <recordType>tc9_pr__Template_Group__c.tc9_et__Rate_Calculator_Template</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>tc9_pr__Template_Group__c-tc9_pr__TC9PR Template Group Layout - Remuneration Templates</layout>
-        <recordType>tc9_pr__Template_Group__c.tc9_pr__Assignment_Rates</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_pr__Template_Group__c-tc9_pr__TC9PR Template Group Layout - Remuneration Templates</layout>
@@ -31707,6 +31603,14 @@
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
+        <apexPage>b3o__AIChatComponent</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>b3o__AIFormComponent</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
         <apexPage>b3o__ApplicationStageManager</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
@@ -31800,6 +31704,10 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3s__Scheduler</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>b3s__ShiftActions</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>

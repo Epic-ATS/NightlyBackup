@@ -24,6 +24,7 @@
     <tabs>b3s__Shift__c</tabs>
     <tabs>b3o__Placement__c</tabs>
     <tabs>b3s__Group__c</tabs>
+    <tabs>b3s__Break__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>b3s__Scheduling_UtilityBar</utilityBar>
 </CustomApplication>

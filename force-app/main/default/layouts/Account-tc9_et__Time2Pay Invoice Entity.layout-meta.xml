@@ -4,9 +4,13 @@
     <excludeButtons>ChangeOwnerOne</excludeButtons>
     <excludeButtons>ChangeRecordType</excludeButtons>
     <excludeButtons>CreateSurveyInvitation</excludeButtons>
+    <excludeButtons>DataDotComAccountInsights</excludeButtons>
+    <excludeButtons>DataDotComClean</excludeButtons>
+    <excludeButtons>DataDotComCompanyHierarchy</excludeButtons>
     <excludeButtons>DisableCustomerPortalAccount</excludeButtons>
     <excludeButtons>DisablePartnerPortalAccount</excludeButtons>
     <excludeButtons>IncludeOffline</excludeButtons>
+    <excludeButtons>OpenSlackRecordChannel</excludeButtons>
     <excludeButtons>PartnerScorecard</excludeButtons>
     <excludeButtons>PrintableView</excludeButtons>
     <excludeButtons>Share</excludeButtons>
@@ -142,6 +146,10 @@
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>tc9_pr__ABN_Lookup__c</field>
+            </layoutItems>
+            <layoutItems>
                 <behavior>Edit</behavior>
                 <field>tc9_et__Remittance_Email__c</field>
             </layoutItems>
@@ -229,7 +237,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h2v00000qDBzJ</masterLabel>
+        <masterLabel>00hd3000000Vs6C</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>
