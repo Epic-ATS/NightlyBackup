@@ -120,6 +120,21 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>b3_Profession__c</picklist>
+        <values>
+            <fullName>Clinician</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Physician</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Radiologist</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>b3o__Citizenship__c</picklist>
         <values>
             <fullName>A citizen of the United States</fullName>

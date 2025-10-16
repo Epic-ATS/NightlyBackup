@@ -184,4 +184,8 @@
         <name>tc9_imp__TC9IMP_Timesheet_Import_Tool</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>Epic Customer Portal</name>
+        <type>Network</type>
+    </appMenuItems>
 </AppMenu>

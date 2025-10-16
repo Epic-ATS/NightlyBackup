@@ -4,7 +4,7 @@
     <deferSharingRules>false</deferSharingRules>
     <enableAccountRoleOptimization>true</enableAccountRoleOptimization>
     <enableAssetSharing>true</enableAssetSharing>
-    <enableCommunityUserVisibility>false</enableCommunityUserVisibility>
+    <enableCommunityUserVisibility>true</enableCommunityUserVisibility>
     <enableExternalSharingModel>true</enableExternalSharingModel>
     <enableManagerGroups>false</enableManagerGroups>
     <enableManualUserRecordSharing>false</enableManualUserRecordSharing>

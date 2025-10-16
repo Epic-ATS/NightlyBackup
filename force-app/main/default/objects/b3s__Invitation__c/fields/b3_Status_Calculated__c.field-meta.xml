@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3_Status_Calculated__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(b3s__Shift__r.b3s__Scheduled_Start_Time__c &lt; Now() &amp;&amp; TEXT(b3s__Status__c) = &apos;New&apos;, &apos;No Longer Available&apos;, TEXT(b3s__Status__c))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Status Calculated</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
