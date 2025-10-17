@@ -4,7 +4,6 @@
     <customButtons>tc9_et__Add_Project_Codes</customButtons>
     <excludeButtons>ChangeOwnerOne</excludeButtons>
     <excludeButtons>ChangeRecordType</excludeButtons>
-    <excludeButtons>OpenSlackRecordChannel</excludeButtons>
     <excludeButtons>PrintableView</excludeButtons>
     <excludeButtons>Share</excludeButtons>
     <excludeButtons>Submit</excludeButtons>
@@ -89,6 +88,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>tc9_et__Purchase_Order_Number__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>tc9_util__Requires_Purchase_Order__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -654,6 +657,10 @@
         <relatedList>tc9_pr__Payee_Leave_Event__c.tc9_pr__Assignment__c</relatedList>
         <sortField>tc9_pr__Start_Date__c</sortField>
         <sortOrder>Asc</sortOrder>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>tc9_util__Purchase_Order_Junction__c.tc9_util__Assignment__c</relatedList>
     </relatedLists>
     <relatedLists>
         <excludeButtons>MassChangeOwner</excludeButtons>

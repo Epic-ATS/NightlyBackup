@@ -70,6 +70,10 @@
                 <behavior>Edit</behavior>
                 <field>tc9_pr__Payrun_Variance_Threshold__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>tc9_pr__Payroll_Jurisdiction__c</field>
+            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
