@@ -188,4 +188,8 @@
         <name>Epic Customer Portal</name>
         <type>Network</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>Epic_2c9_Payroll</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>

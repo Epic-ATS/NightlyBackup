@@ -226,6 +226,10 @@
                 <behavior>Edit</behavior>
                 <field>tc9_pr__Employment_Cost_Template_Group__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>tc9_util__Create_Rate_Calculator__c</field>
+            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
     </layoutSections>
