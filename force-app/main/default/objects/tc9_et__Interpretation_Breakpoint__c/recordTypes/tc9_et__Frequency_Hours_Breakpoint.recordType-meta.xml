@@ -134,5 +134,9 @@
             <fullName>24hr Care Shift</fullName>
             <default>false</default>
         </values>
+        <values>
+            <fullName>7th Day</fullName>
+            <default>false</default>
+        </values>
     </picklistValues>
 </RecordType>

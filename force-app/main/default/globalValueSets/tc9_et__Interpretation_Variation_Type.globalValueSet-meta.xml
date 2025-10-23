@@ -10,6 +10,11 @@
         <default>false</default>
         <label>Assignment</label>
     </customValue>
+    <customValue>
+        <fullName>7th Day</fullName>
+        <default>false</default>
+        <label>7th Day</label>
+    </customValue>
     <description>Used on the Interpretation Breakpoint and Timesheet Activity to identify the variation type for interpretation</description>
     <masterLabel>Interpretation Variation Type</masterLabel>
     <sorted>false</sorted>

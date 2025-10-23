@@ -72,6 +72,10 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>7th Day</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Assignment</fullName>
             <default>false</default>
         </values>
