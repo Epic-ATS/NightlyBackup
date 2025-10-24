@@ -192,4 +192,12 @@
         <name>Epic_2c9_Payroll</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>dlrs__DeclarativeLookupRollupSummaries</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>dlrs__DeclarativeLookupRollupSummaries2</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>

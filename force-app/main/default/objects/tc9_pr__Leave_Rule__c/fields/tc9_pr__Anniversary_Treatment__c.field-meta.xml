@@ -23,6 +23,21 @@
                 <default>false</default>
                 <label>Reset Balance</label>
             </value>
+            <value>
+                <fullName>Reset - Hire Date</fullName>
+                <default>false</default>
+                <label>Reset - Hire Date</label>
+            </value>
+            <value>
+                <fullName>Reset - Calendar Year</fullName>
+                <default>false</default>
+                <label>Reset - Calendar Year</label>
+            </value>
+            <value>
+                <fullName>Reset - Initial leave date</fullName>
+                <default>false</default>
+                <label>Reset - Initial leave date</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

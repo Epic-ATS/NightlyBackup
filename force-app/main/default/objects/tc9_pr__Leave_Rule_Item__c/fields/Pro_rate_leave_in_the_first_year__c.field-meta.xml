@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pro_rate_leave_in_the_first_year__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Pro-rate leave in the first year based on the employee&apos;s hire month</inlineHelpText>
+    <label>Pro-rate leave in the first year</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

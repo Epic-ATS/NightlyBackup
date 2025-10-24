@@ -5,6 +5,36 @@
     <compactLayoutAssignment>tc9_pr__Leave_Rule_Compact_Layout</compactLayoutAssignment>
     <label>Long Service Leave</label>
     <picklistValues>
+        <picklist>Carryover_After_Reset__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reinstatement_After_Period__c</picklist>
+        <values>
+            <fullName>Days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Months</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weeks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Years</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>tc9_pr__Allow_Leave_Cash_Out__c</picklist>
         <values>
             <fullName>No</fullName>
@@ -52,6 +82,18 @@
         <picklist>tc9_pr__Anniversary_Treatment__c</picklist>
         <values>
             <fullName>Continue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reset - Calendar Year</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reset - Hire Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reset - Initial leave date</fullName>
             <default>false</default>
         </values>
         <values>

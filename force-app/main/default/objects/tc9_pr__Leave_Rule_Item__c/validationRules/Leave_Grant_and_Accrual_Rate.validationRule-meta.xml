@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Leave_Grant_and_Accrual_Rate</fullName>
+    <active>true</active>
+    <description>This prevents users from entering a value in Leave Grant in Days and a non-zero Accrual Rate.</description>
+    <errorConditionFormula>AND(
+  NOT(ISBLANK( Leave_Grant_in_days__c )),
+   tc9_pr__Accrual_Rate__c  &lt;&gt; 0
+)</errorConditionFormula>
+    <errorMessage>Use either Leave Grant (in days) or Accrual Rate ( in hours), not both. Leave Grant is for salaried employees with front-loaded balances in days</errorMessage>
+</ValidationRule>

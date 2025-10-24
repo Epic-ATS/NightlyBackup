@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reinstate_Leave_Balance__c</fullName>
+    <formula>tc9_pr__Leave_Rule__r.Rehire_Reinstatement_Required__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Checked when &apos;Rehire Reinstatement Required?&apos; is checked on leave rule</inlineHelpText>
+    <label>Reinstate Leave Balance</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
