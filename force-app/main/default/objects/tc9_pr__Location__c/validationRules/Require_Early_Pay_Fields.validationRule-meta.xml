@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_Early_Pay_Fields</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(
+    ISPICKVAL(Termination_Pay_Type__c, &quot;Early&quot;),
+    OR(
+        ISBLANK(Early_Pay_Quantity__c),
+        ISBLANK(TEXT(Early_Pay_Type__c))
+    )
+)</errorConditionFormula>
+    <errorMessage>Early Pay Type and Early Pay Quantity are required when Termination Pay Type is &apos;Early&apos;.</errorMessage>
+</ValidationRule>

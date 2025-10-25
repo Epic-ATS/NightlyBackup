@@ -42,6 +42,13 @@
                 <elementReference>$Record.tc9_pr__Leave_Rule__r.tc9_pr__Anniversary_Treatment__c</elementReference>
             </value>
         </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.FMLA_STD__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.tc9_pr__Leave_Rule__r.FMLA_STD__c</elementReference>
+            </value>
+        </assignmentItems>
     </assignments>
     <environments>Default</environments>
     <interviewLabel>United States - Update Accruals, Usage and Carryover from Leave Rule to PLR {!$Flow.CurrentDateTime}</interviewLabel>

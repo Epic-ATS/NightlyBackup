@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apply_7th_day_OT_rule__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Should be checked when the 7th day overtime rule applies i.e. if an employee works seven consecutive days, the 7th day must be paid at an overtime rate</inlineHelpText>
+    <label>Apply 7th day OT rule?</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

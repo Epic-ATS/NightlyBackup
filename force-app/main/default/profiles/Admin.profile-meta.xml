@@ -14501,6 +14501,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>tc9_et__Interpretation_Rule__c.Apply_7th_day_OT_rule__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>tc9_et__Interpretation_Rule__c.X7th_Consecutive_Day_Work_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>tc9_et__Interpretation_Rule__c.tc9_edc__External_ID_Data_Creation__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -21851,6 +21861,36 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>tc9_pr__Location__c.Early_Pay_Quantity__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>tc9_pr__Location__c.Early_Pay_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>tc9_pr__Location__c.Resignation_Duration_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>tc9_pr__Location__c.Resignation_Pay_Quantity__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>tc9_pr__Location__c.Resignation_Pay_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>tc9_pr__Location__c.Termination_Pay_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>tc9_pr__Location__c.tc9_imp__External_Id_it__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -26846,6 +26886,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>tc9_pr__Payee__c.Termination_Pay_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>tc9_pr__Payee__c.tc9_ec__Available_Payment_Methods__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -28508,7 +28553,15 @@
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
+        <flow>United_States_Create_Default_Payment_Detail</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
         <flow>United_States_Leave</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>United_States_Leave_Pay_out_Date</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>

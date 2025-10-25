@@ -13,6 +13,16 @@
     </availableFields>
     <description>Used to define custom fields to add to the Interpretation Rule Configuration Visualforce Page. Fields will be displayed in the Header section.</description>
     <displayedFields>
+        <field>Apply_7th_day_OT_rule__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>X7th_Consecutive_Day_Work_Type__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <displayedFields>
         <field>LastModifiedById</field>
         <isFieldManaged>false</isFieldManaged>
         <isRequired>false</isRequired>

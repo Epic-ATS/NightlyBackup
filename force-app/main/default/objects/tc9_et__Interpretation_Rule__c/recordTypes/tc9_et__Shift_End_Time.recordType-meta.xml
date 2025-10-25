@@ -5,6 +5,17 @@
     <description>Used when candidates are to be paid based on shift end time</description>
     <label>Shift End Time</label>
     <picklistValues>
+        <picklist>X7th_Consecutive_Day_Work_Type__c</picklist>
+        <values>
+            <fullName>All hours at 2x</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>First 2 hours at 1%2E5x%2C rest at 2x</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>tc9_et__Apply_4_Week_Frequency__c</picklist>
         <values>
             <fullName>No</fullName>
