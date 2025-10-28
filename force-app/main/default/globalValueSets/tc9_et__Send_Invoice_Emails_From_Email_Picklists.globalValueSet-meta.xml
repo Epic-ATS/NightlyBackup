@@ -13,7 +13,6 @@
     <customValue>
         <fullName>Deactivate_This_Value@2cloudnine.com</fullName>
         <default>false</default>
-        <isActive>false</isActive>
         <label>Deactivate_This_Value@2cloudnine.com</label>
     </customValue>
     <description>To be used for Send Invoice Emails From Email picklist fields</description>
