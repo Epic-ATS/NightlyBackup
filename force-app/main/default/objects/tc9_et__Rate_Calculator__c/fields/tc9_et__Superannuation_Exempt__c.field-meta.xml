@@ -3,7 +3,7 @@
     <fullName>tc9_et__Superannuation_Exempt__c</fullName>
     <deprecated>false</deprecated>
     <description>Defines if Rate Calculators not assigned to Assignments are Superannuation Exempt. Those assigned to Assignments will derive exception details based on Employee Cost Exceptions for the Client and Assignment as well as the Payee Withholding and Pay Code</description>
-    <inlineHelpText>Defines if Rate Calculators not assigned to Assignments are Superannuation Exempt. Those assigned to Assignments will derive exception details based on Employee Cost Exceptions for the Client and Assignment as well as the Payee Withholding and Pay Code</inlineHelpText>
+    <inlineHelpText>Defines if Rate Calculators not assigned to Assignments are 401k Exempt. Those assigned to Assignments will derive exception details based on Employee Cost Exceptions for the Client and Assignment as well as the Payee Withholding and Pay Code</inlineHelpText>
     <label>Superannuation Exempt</label>
     <required>false</required>
     <trackHistory>false</trackHistory>

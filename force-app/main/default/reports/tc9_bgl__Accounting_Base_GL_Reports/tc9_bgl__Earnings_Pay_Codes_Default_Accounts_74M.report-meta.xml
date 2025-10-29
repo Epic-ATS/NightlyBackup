@@ -20,6 +20,7 @@
             <operator>equals</operator>
             <value>tc9_pr__Pay_Code__c.tc9_pr__ETP,tc9_pr__Pay_Code__c.tc9_pr__Lump_Sum,tc9_pr__Pay_Code__c.tc9_pr__Payment</value>
         </criteriaItems>
+        <language>en_US</language>
     </filter>
     <format>Summary</format>
     <groupingsDown>

@@ -4,7 +4,7 @@
     <deleteConstraint>Restrict</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Defines the WorkCover Employment Cost that applies to the Rate Calculator</description>
-    <inlineHelpText>Defines the WorkCover Employment Cost that applies to the Rate Calculator</inlineHelpText>
+    <inlineHelpText>Defines the Worker&apos;s Compensation Employment Cost that applies to the Rate Calculator</inlineHelpText>
     <label>WorkCover Employment Cost</label>
     <referenceTo>tc9_pr__Employment_Cost__c</referenceTo>
     <relationshipLabel>Rate Calculators with WorkCover Employment Cost</relationshipLabel>

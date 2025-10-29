@@ -56,6 +56,7 @@
             <operator>notEqual</operator>
             <value>tc9_pr__Pay_Transaction__c.tc9_pr__Leave_Accrual,tc9_pr__Pay_Transaction__c.tc9_pr__System_Marker</value>
         </criteriaItems>
+        <language>en_US</language>
     </filter>
     <format>Summary</format>
     <groupingsDown>

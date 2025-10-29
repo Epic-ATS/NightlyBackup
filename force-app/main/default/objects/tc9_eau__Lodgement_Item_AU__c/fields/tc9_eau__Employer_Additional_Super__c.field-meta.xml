@@ -4,7 +4,7 @@
     <deprecated>false</deprecated>
     <description>Employer additional super contributions which were employee influenced</description>
     <externalId>false</externalId>
-    <inlineHelpText>Employer additional super contributions which were employee influenced</inlineHelpText>
+    <inlineHelpText>Employer additional 401k contributions which were employee influenced</inlineHelpText>
     <label>Employer Additional Super</label>
     <precision>18</precision>
     <required>false</required>

@@ -4,7 +4,7 @@
     <deprecated>false</deprecated>
     <description>ABN of the related Payee</description>
     <externalId>false</externalId>
-    <inlineHelpText>ABN of the related Payee</inlineHelpText>
+    <inlineHelpText>EIN of the related Payee</inlineHelpText>
     <label>Contractor ABN</label>
     <length>11</length>
     <required>false</required>

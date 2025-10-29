@@ -4,7 +4,7 @@
     <deprecated>false</deprecated>
     <description>Overrides the calculated Superannuation Invoiceable Amount that applies to the Rate Calculator Line</description>
     <externalId>false</externalId>
-    <inlineHelpText>Overrides the calculated Superannuation Invoiceable Amount that applies to the Rate Calculator Line</inlineHelpText>
+    <inlineHelpText>Overrides the calculated 401k Invoiceable Amount that applies to the Rate Calculator Line</inlineHelpText>
     <label>Superannuation Invoiceable Override</label>
     <precision>18</precision>
     <required>false</required>

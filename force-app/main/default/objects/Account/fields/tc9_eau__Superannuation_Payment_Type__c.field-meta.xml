@@ -3,7 +3,7 @@
     <fullName>tc9_eau__Superannuation_Payment_Type__c</fullName>
     <deprecated>false</deprecated>
     <description>The method by which superannuation contributions will be paid - included in SuperChoice Contributions API.</description>
-    <inlineHelpText>The method by which superannuation contributions will be paid - included in SuperChoice Contributions API.</inlineHelpText>
+    <inlineHelpText>The method by which 401k contributions will be paid - included in 401kChoice Contributions API.</inlineHelpText>
     <label>Superannuation Payment Type</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

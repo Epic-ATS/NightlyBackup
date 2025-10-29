@@ -40,6 +40,7 @@
             <operator>notEqual</operator>
             <value>tc9_pr__Pay_Transaction__c.tc9_pr__Withholding_GST,tc9_pr__Pay_Transaction__c.tc9_pr__Withholding_STSL,tc9_pr__Pay_Transaction__c.tc9_pr__Withholding_PAYG</value>
         </criteriaItems>
+        <language>en_US</language>
     </filter>
     <format>Summary</format>
     <groupingsDown>

@@ -6,7 +6,7 @@
     <externalId>false</externalId>
     <formula>tc9_eau__Child_Contribution__c  +  tc9_eau__Personal_Contribution__c  +  tc9_eau__Spouse_Contribution__c  +  tc9_eau__Third_Party_Contribution__c + tc9_eau__Super_Guarantee__c + tc9_eau__Award_or_Productivity__c + tc9_eau__Voluntary_Additional__c + tc9_eau__Salary_Sacrifice__c +  tc9_eau__Employer_Additional_Super__c</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <inlineHelpText>Total Superannuation contribution</inlineHelpText>
+    <inlineHelpText>Total 401k contribution</inlineHelpText>
     <label>Total Contributions</label>
     <precision>18</precision>
     <required>false</required>

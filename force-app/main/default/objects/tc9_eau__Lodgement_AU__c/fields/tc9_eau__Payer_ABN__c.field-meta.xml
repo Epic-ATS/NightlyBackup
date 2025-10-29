@@ -4,7 +4,7 @@
     <deprecated>false</deprecated>
     <description>The ABN of the payment entity</description>
     <externalId>false</externalId>
-    <inlineHelpText>The ABN of the payment entity</inlineHelpText>
+    <inlineHelpText>The EIN of the payment entity</inlineHelpText>
     <label>Payer ABN</label>
     <length>11</length>
     <required>false</required>

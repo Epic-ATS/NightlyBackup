@@ -4,7 +4,7 @@
     <deprecated>false</deprecated>
     <description>Total FEI PAYGW YTD</description>
     <externalId>false</externalId>
-    <inlineHelpText>Total FEI PAYGW YTD</inlineHelpText>
+    <inlineHelpText>Total FEI W2W YTD</inlineHelpText>
     <label>Payee Total FEI PAYGW Amount</label>
     <precision>13</precision>
     <required>false</required>

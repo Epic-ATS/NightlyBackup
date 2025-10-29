@@ -312,6 +312,10 @@
     <picklistValues>
         <picklist>tc9_et__Send_Invoice_Emails_From_Email__c</picklist>
         <values>
+            <fullName>accountsreceivable%40bcforward%2Ecom</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>ats-middleoffice%40epicstaffinggroup%2Ecom</fullName>
             <default>false</default>
         </values>

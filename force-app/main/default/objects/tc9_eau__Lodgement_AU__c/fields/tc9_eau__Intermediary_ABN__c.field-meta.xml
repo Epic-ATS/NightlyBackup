@@ -4,7 +4,7 @@
     <deprecated>false</deprecated>
     <description>The ABN of the lodgement intermediary</description>
     <externalId>false</externalId>
-    <inlineHelpText>The ABN of the lodgement intermediary</inlineHelpText>
+    <inlineHelpText>The EIN of the lodgement intermediary</inlineHelpText>
     <label>Intermediary ABN</label>
     <length>11</length>
     <required>false</required>

@@ -4,7 +4,7 @@
     <deprecated>false</deprecated>
     <description>Total value of all superannuation contributions in this lodgement</description>
     <externalId>false</externalId>
-    <inlineHelpText>Total value of all superannuation contributions in this lodgement</inlineHelpText>
+    <inlineHelpText>Total value of all 401k contributions in this lodgement</inlineHelpText>
     <label>Total Contributions</label>
     <precision>14</precision>
     <required>false</required>

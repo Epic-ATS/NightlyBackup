@@ -4,7 +4,7 @@
     <deprecated>false</deprecated>
     <description>Total JPDA PAYGW YTD</description>
     <externalId>false</externalId>
-    <inlineHelpText>Total JPDA PAYGW YTD</inlineHelpText>
+    <inlineHelpText>Total JPDA W2W YTD</inlineHelpText>
     <label>Payee Total FEI JPDA PAYGW Amount</label>
     <precision>13</precision>
     <required>false</required>

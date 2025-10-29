@@ -4,7 +4,7 @@
     <deprecated>false</deprecated>
     <description>The total amount of PAYG whilst categorised as a working holiday maker</description>
     <externalId>false</externalId>
-    <inlineHelpText>The total amount of PAYG whilst categorised as a working holiday maker</inlineHelpText>
+    <inlineHelpText>The total amount of W2 whilst categorised as a working holiday maker</inlineHelpText>
     <label>Payee Working Holiday Maker PAYGW Amount</label>
     <precision>13</precision>
     <required>false</required>

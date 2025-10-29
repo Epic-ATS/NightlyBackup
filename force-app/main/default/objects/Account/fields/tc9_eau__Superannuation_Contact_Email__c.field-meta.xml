@@ -4,7 +4,7 @@
     <deprecated>false</deprecated>
     <description>Email address of appointed Superannuation Contact.</description>
     <externalId>false</externalId>
-    <inlineHelpText>Email address of appointed Superannuation Contact.</inlineHelpText>
+    <inlineHelpText>Email address of appointed 401k Contact.</inlineHelpText>
     <label>Superannuation Contact Email</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

@@ -4,7 +4,7 @@
     <deprecated>false</deprecated>
     <description>Defines what the Amount calculated as the WorkCover Invoiceable is based on</description>
     <externalId>false</externalId>
-    <inlineHelpText>Defines what the Amount calculated as the WorkCover Invoiceable is based on</inlineHelpText>
+    <inlineHelpText>Defines what the Amount calculated as the Worker&apos;s Compensation Invoiceable is based on</inlineHelpText>
     <label>WorkCover Invoiceable Based On</label>
     <length>150</length>
     <required>false</required>

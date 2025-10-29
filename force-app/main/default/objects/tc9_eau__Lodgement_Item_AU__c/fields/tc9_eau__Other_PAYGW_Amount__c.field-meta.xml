@@ -4,7 +4,7 @@
     <deprecated>false</deprecated>
     <description>Total Other PAYGW YTD</description>
     <externalId>false</externalId>
-    <inlineHelpText>Total Other PAYGW YTD</inlineHelpText>
+    <inlineHelpText>Total Other W2W YTD</inlineHelpText>
     <label>Payee Other Specified Payments PAYGW Amo</label>
     <precision>13</precision>
     <required>false</required>

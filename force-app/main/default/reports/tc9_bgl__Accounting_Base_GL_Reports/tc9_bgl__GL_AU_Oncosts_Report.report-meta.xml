@@ -122,6 +122,7 @@
             <operator>equals</operator>
             <value>tc9_pr__Pay_Transaction_Distribution__c.tc9_pr__AU_Payroll_Costs</value>
         </criteriaItems>
+        <language>en_US</language>
     </filter>
     <format>Summary</format>
     <groupingsDown>

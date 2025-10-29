@@ -4,7 +4,7 @@
     <deprecated>false</deprecated>
     <description>The payee cessation reason code.</description>
     <externalId>false</externalId>
-    <inlineHelpText>The payee cessation reason code.</inlineHelpText>
+    <inlineHelpText>The payee Termination reason code.</inlineHelpText>
     <label>Cessation Reason Code</label>
     <length>100</length>
     <required>false</required>

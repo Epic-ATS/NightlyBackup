@@ -58,6 +58,7 @@
             <operator>equals</operator>
             <value>tc9_pr__Pay_Transaction__c.tc9_pr__Allowance</value>
         </criteriaItems>
+        <language>en_US</language>
     </filter>
     <format>Summary</format>
     <groupingsDown>

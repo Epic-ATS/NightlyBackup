@@ -4,7 +4,7 @@
     <deprecated>false</deprecated>
     <description>Defines what the Amount calculated as the Superannuation Invoiceable is based on</description>
     <externalId>false</externalId>
-    <inlineHelpText>Defines what the Amount calculated as the Superannuation Invoiceable is based on</inlineHelpText>
+    <inlineHelpText>Defines what the Amount calculated as the 401k Invoiceable is based on</inlineHelpText>
     <label>Superannuation Invoiceable Based On</label>
     <length>150</length>
     <required>false</required>

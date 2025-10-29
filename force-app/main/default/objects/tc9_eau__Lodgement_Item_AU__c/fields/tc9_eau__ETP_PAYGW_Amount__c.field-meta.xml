@@ -4,7 +4,7 @@
     <deprecated>false</deprecated>
     <description>The total amount of PAYG attributed to ETPs</description>
     <externalId>false</externalId>
-    <inlineHelpText>The total amount of PAYG attributed to ETPs</inlineHelpText>
+    <inlineHelpText>The total amount of W2 attributed to ETPs</inlineHelpText>
     <label>Payee Total ETP PAYGW Amount</label>
     <precision>13</precision>
     <required>false</required>

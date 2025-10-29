@@ -42,6 +42,7 @@
             <operator>equals</operator>
             <value>tc9_pr__Pay_Transaction__c.tc9_pr__ETP,tc9_pr__Pay_Transaction__c.tc9_pr__Withholding_ETP_PAYG</value>
         </criteriaItems>
+        <language>en_US</language>
     </filter>
     <format>Summary</format>
     <groupingsDown>

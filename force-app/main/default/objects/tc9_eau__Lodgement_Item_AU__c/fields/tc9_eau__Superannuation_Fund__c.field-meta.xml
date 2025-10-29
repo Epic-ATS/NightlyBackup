@@ -4,7 +4,7 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Superannuation fund that the contributions will be submitted to</description>
-    <inlineHelpText>Superannuation fund that the contributions will be submitted to</inlineHelpText>
+    <inlineHelpText>401k fund that the contributions will be submitted to</inlineHelpText>
     <label>Superannuation Fund</label>
     <referenceTo>tc9_pr__Superannuation_Fund__c</referenceTo>
     <relationshipLabel>Lodgement Items AU</relationshipLabel>

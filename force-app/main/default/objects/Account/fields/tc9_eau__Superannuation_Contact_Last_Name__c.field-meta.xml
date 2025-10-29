@@ -4,7 +4,7 @@
     <deprecated>false</deprecated>
     <description>Last Name of appointed Superannuation Contact.</description>
     <externalId>false</externalId>
-    <inlineHelpText>Last Name of appointed Superannuation Contact.</inlineHelpText>
+    <inlineHelpText>Last Name of appointed 401k Contact.</inlineHelpText>
     <label>Superannuation Contact Last Name</label>
     <length>50</length>
     <required>false</required>

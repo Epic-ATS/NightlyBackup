@@ -4,7 +4,7 @@
     <deprecated>false</deprecated>
     <description>Employer Superannuation</description>
     <externalId>false</externalId>
-    <inlineHelpText>Employer Superannuation</inlineHelpText>
+    <inlineHelpText>Employer 401k</inlineHelpText>
     <label>Super Liability Amount</label>
     <precision>13</precision>
     <required>false</required>

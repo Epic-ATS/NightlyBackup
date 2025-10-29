@@ -4,7 +4,7 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>Defines if WorkCover Employment Cost is enabled for the Rate Calculator. If False, fields relating to the cost will not be visible on the Rate Calculator and its related components</description>
-    <inlineHelpText>Defines if WorkCover Employment Cost is enabled for the Rate Calculator. If False, fields relating to the cost will not be visible on the Rate Calculator and its related components</inlineHelpText>
+    <inlineHelpText>Defines if Worker&apos;s Compensation Employment Cost is enabled for the Rate Calculator. If False, fields relating to the cost will not be visible on the Rate Calculator and its related components</inlineHelpText>
     <label>Enable WorkCover Employment Cost</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

@@ -4,7 +4,7 @@
     <deprecated>false</deprecated>
     <description>The superannuation fund membership number of the payee</description>
     <externalId>false</externalId>
-    <inlineHelpText>The superannuation fund membership number of the payee</inlineHelpText>
+    <inlineHelpText>The 401k fund membership number of the payee</inlineHelpText>
     <label>Super Member Number</label>
     <length>100</length>
     <required>false</required>

@@ -8,7 +8,7 @@
 tc9_eau__Other_PAYGW_Amount__c + tc9_eau__ETP_PAYGW_Amount__c + tc9_eau__JPDA_FEI_PAYGW_Amount__c + tc9_eau__FE_Total_PAYGW_Amount__c + tc9_eau__Total_INB_PAYGW_Amount__c + tc9_eau__LHire_PAYGW_Amount__c + tc9_eau__VA_PAYGW_Amount__c + tc9_eau__WHM_PAYGW_Amount__c ,
 tc9_eau__Payee_PAYGW_Amount__c + tc9_eau__FE_Total_PAYGW_Amount__c + tc9_eau__ETP_PAYGW_Amount__c )</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <inlineHelpText>Payee YTD PAYG Withheld</inlineHelpText>
+    <inlineHelpText>Payee YTD W2 Withheld</inlineHelpText>
     <label>Payee Total PAYGW</label>
     <precision>18</precision>
     <required>false</required>

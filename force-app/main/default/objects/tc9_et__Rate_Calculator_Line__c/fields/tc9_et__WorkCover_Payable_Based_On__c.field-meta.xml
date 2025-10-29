@@ -4,7 +4,7 @@
     <deprecated>false</deprecated>
     <description>Defines what the Amount calculated as the WorkCover Payable is based on</description>
     <externalId>false</externalId>
-    <inlineHelpText>Defines what the Amount calculated as the WorkCover Payable is based on</inlineHelpText>
+    <inlineHelpText>Defines what the Amount calculated as the Worker&apos;s Compensation Payable is based on</inlineHelpText>
     <label>WorkCover Payable Based On</label>
     <length>150</length>
     <required>false</required>

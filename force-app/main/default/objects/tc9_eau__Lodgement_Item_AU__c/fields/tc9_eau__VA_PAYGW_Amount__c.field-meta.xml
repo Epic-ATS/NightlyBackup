@@ -4,7 +4,7 @@
     <deprecated>false</deprecated>
     <description>Total VolA PAYGW YTD</description>
     <externalId>false</externalId>
-    <inlineHelpText>Total VolA PAYGW YTD</inlineHelpText>
+    <inlineHelpText>Total VolA W2W YTD</inlineHelpText>
     <label>Payee Total Voluntary Agreement PAYGW Am</label>
     <precision>13</precision>
     <required>false</required>

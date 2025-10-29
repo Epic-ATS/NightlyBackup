@@ -4,7 +4,7 @@
     <deprecated>false</deprecated>
     <description>The corresponding Employer Id for this combination of Superannuation Fund and Payment Entity.</description>
     <externalId>false</externalId>
-    <inlineHelpText>The corresponding Employer Id for this combination of Superannuation Fund and Payment Entity.</inlineHelpText>
+    <inlineHelpText>The corresponding Employer Id for this combination of 401k Fund and Payment Entity.</inlineHelpText>
     <label>Super Employer Id</label>
     <length>40</length>
     <required>false</required>

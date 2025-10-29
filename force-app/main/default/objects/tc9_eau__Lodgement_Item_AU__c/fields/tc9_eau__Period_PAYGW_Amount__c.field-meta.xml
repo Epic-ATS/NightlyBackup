@@ -4,7 +4,7 @@
     <deprecated>false</deprecated>
     <description>Period PAYG Amount</description>
     <externalId>false</externalId>
-    <inlineHelpText>Period PAYG Amount</inlineHelpText>
+    <inlineHelpText>Period W2 Amount</inlineHelpText>
     <label>Period PAYGW Amount</label>
     <precision>13</precision>
     <required>false</required>

@@ -4,7 +4,7 @@
     <deprecated>false</deprecated>
     <description>TFN of the related Payee</description>
     <externalId>false</externalId>
-    <inlineHelpText>TFN of the related Payee</inlineHelpText>
+    <inlineHelpText>SSN of the related Payee</inlineHelpText>
     <label>Payee TFN</label>
     <length>9</length>
     <required>false</required>

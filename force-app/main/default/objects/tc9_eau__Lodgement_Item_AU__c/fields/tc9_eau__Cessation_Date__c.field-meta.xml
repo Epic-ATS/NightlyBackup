@@ -3,7 +3,7 @@
     <fullName>tc9_eau__Cessation_Date__c</fullName>
     <deprecated>false</deprecated>
     <description>Cessation Date of the related Payee</description>
-    <inlineHelpText>Cessation Date of the related Payee</inlineHelpText>
+    <inlineHelpText>Termination Date of the related Payee</inlineHelpText>
     <label>Payee Cessation Date</label>
     <required>false</required>
     <trackHistory>false</trackHistory>

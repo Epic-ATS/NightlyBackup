@@ -5,7 +5,7 @@
     <description>View this ABN in the Australian Business Register ABN lookup site.</description>
     <externalId>false</externalId>
     <formula>If ( tc9_pr__ABN__c != null , HYPERLINK( $Label.tc9_pr__AU_ABN_Lookup + SUBSTITUTE ( tc9_pr__ABN__c , &apos; &apos; , &apos;&apos; ), &apos;ABN Lookup&apos; , &apos;_blank&apos;) , &apos;No ABN Provided&apos; )</formula>
-    <inlineHelpText>View this ABN in the Australian Business Register ABN lookup site.</inlineHelpText>
+    <inlineHelpText>View this EIN in the IRS EIN lookup site.</inlineHelpText>
     <label>ABN Lookup</label>
     <required>false</required>
     <trackHistory>false</trackHistory>

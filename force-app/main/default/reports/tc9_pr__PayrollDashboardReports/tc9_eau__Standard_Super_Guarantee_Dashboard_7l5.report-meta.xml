@@ -93,6 +93,7 @@
             <operator>equals</operator>
             <value>tc9_eau__Lodgement_AU__c.tc9_eau__SuperStream</value>
         </criteriaItems>
+        <language>en_US</language>
     </filter>
     <format>Summary</format>
     <groupingsDown>

@@ -3,7 +3,7 @@
     <fullName>tc9_et__WorkCover_Exempt__c</fullName>
     <deprecated>false</deprecated>
     <description>Defines if Rate Calculators not assigned to Assignments are WorkCover Exempt. Those assigned to Assignments will derive exception details based on Employee Cost Exceptions for the Payee, Client and Assignment as well as the Pay Code</description>
-    <inlineHelpText>Defines if Rate Calculators not assigned to Assignments are WorkCover Exempt. Those assigned to Assignments will derive exception details based on Employee Cost Exceptions for the Payee, Client and Assignment as well as the Pay Code</inlineHelpText>
+    <inlineHelpText>Defines if Rate Calculators not assigned to Assignments are Worker&apos;s Compensation Exempt. Those assigned to Assignments will derive exception details based on Employee Cost Exceptions for the Payee, Client and Assignment as well as the Pay Code</inlineHelpText>
     <label>WorkCover Exempt</label>
     <required>false</required>
     <trackHistory>false</trackHistory>

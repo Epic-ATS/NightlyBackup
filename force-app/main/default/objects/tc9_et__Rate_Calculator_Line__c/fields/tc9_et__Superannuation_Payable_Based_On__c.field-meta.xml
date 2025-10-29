@@ -4,7 +4,7 @@
     <deprecated>false</deprecated>
     <description>Defines what the Amount calculated as the Superannuation Payable is based on</description>
     <externalId>false</externalId>
-    <inlineHelpText>Defines what the Amount calculated as the Superannuation Payable is based on</inlineHelpText>
+    <inlineHelpText>Defines what the Amount calculated as the 401k Payable is based on</inlineHelpText>
     <label>Superannuation Payable Based On</label>
     <length>150</length>
     <required>false</required>

@@ -4,7 +4,7 @@
     <deprecated>false</deprecated>
     <description>Overrides the calculated Superannuation Payable Amount that applies to the Rate Calculator Line</description>
     <externalId>false</externalId>
-    <inlineHelpText>Overrides the calculated Superannuation Payable Amount that applies to the Rate Calculator Line</inlineHelpText>
+    <inlineHelpText>Overrides the calculated 401k Payable Amount that applies to the Rate Calculator Line</inlineHelpText>
     <label>Superannuation Payable Override</label>
     <precision>18</precision>
     <required>false</required>

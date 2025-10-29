@@ -17,6 +17,7 @@
             <operator>equals</operator>
             <value>tc9_pr__Pay_Code__c.tc9_pr__Deduction</value>
         </criteriaItems>
+        <language>en_US</language>
     </filter>
     <format>Summary</format>
     <groupingsDown>
