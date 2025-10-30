@@ -4,13 +4,9 @@
     <excludeButtons>ChangeOwnerOne</excludeButtons>
     <excludeButtons>ChangeRecordType</excludeButtons>
     <excludeButtons>CreateSurveyInvitation</excludeButtons>
-    <excludeButtons>DataDotComAccountInsights</excludeButtons>
-    <excludeButtons>DataDotComClean</excludeButtons>
-    <excludeButtons>DataDotComCompanyHierarchy</excludeButtons>
     <excludeButtons>DisableCustomerPortalAccount</excludeButtons>
     <excludeButtons>DisablePartnerPortalAccount</excludeButtons>
     <excludeButtons>IncludeOffline</excludeButtons>
-    <excludeButtons>OpenSlackRecordChannel</excludeButtons>
     <excludeButtons>PartnerScorecard</excludeButtons>
     <excludeButtons>PrintableView</excludeButtons>
     <excludeButtons>Share</excludeButtons>
@@ -101,10 +97,6 @@
                 <behavior>Edit</behavior>
                 <field>tc9_pr__ABN__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>tc9_et__GST_Reg_Number__c</field>
-            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
     </layoutSections>
@@ -194,7 +186,6 @@
         <fields>tc9_et__Default_Invoice_Taxable__c</fields>
         <fields>tc9_et__Contact_for_Invoice_Queries__c</fields>
         <fields>tc9_pr__ABN__c</fields>
-        <fields>tc9_et__GST_Reg_Number__c</fields>
     </miniLayout>
     <quickActionList>
         <quickActionListItems>

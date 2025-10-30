@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <excludeButtons>OpenSlackRecordChannel</excludeButtons>
     <excludeButtons>Submit</excludeButtons>
     <layoutSections>
         <customLabel>false</customLabel>
@@ -17,15 +18,11 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>tc9_pr__Assignment_Start_Date__c</field>
+                <field>tc9_pr__Client__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>tc9_pr__Assignment_End_Date__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>tc9_pr__Status__c</field>
+                <field>tc9_et__Client_Hiring_Manager__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -39,6 +36,14 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
+                <field>tc9_et__Has_Assignment_Rate__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>tc9_pr__Status__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
                 <field>tc9_pr__Exclude_From_Auto_Update__c</field>
             </layoutItems>
         </layoutColumns>
@@ -48,7 +53,7 @@
         <customLabel>true</customLabel>
         <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
-        <label>Assignment Controls</label>
+        <label>Role Details</label>
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -60,7 +65,33 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>tc9_pr__Client__c</field>
+                <field>tc9_pr__Assignment_Start_Date__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>tc9_pr__Assignment_End_Date__c</field>
+            </layoutItems>
+        </layoutColumns>
+        <layoutColumns/>
+        <style>TwoColumnsLeftToRight</style>
+    </layoutSections>
+    <layoutSections>
+        <customLabel>true</customLabel>
+        <detailHeading>true</detailHeading>
+        <editHeading>true</editHeading>
+        <label>Approver Details</label>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>tc9_et__Timesheet_Approver__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>tc9_et__Expense_Claim_Approver__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>tc9_pr__Leave_Approver__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
@@ -70,19 +101,11 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>tc9_pr__Payment_Entity__c</field>
+                <field>tc9_et__Alternative_TimeSheet_Approver__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>tc9_pr__Schedule__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>tc9_et__Public_Holiday_Calendar__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>tc9_pr__Leave_Approver__c</field>
+                <field>tc9_et__Alternative_Expense_Claim_Approver__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -95,17 +118,37 @@
         <customLabel>true</customLabel>
         <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
-        <label>Annualised Salary</label>
+        <label>Minimum Pay Rate Settings</label>
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>tc9_pr__Annualised_Salary_Arrangement__c</field>
+                <field>tc9_pr__Assignment_Rate_Template_Group__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>tc9_et__Interpretation_Rule_Template_Group__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>tc9_et__Award_Classification__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>tc9_et__Award_Level__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>tc9_pr__Annualised_Assignment__c</field>
+                <field>tc9_et__Has_Pending_Min_Pay_Rate__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>tc9_et__Has_Pending_Assignment_Rate_Temp_Group__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>tc9_et__Has_Pending_Payee_Allowance_Temp_Group__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
@@ -114,11 +157,85 @@
         <customLabel>true</customLabel>
         <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
-        <label>Minimum Pay Rate</label>
+        <label>Rate Calculator/  On-Costs Settings</label>
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>tc9_pr__Assignment_Rate_Template_Group__c</field>
+                <field>tc9_et__Rate_Calculator__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>tc9_pr__Location__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>tc9_pr__Industry__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>tc9_et__Risk_Classification__c</field>
+            </layoutItems>
+        </layoutColumns>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>tc9_et__Rate_Calculator_Template__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>tc9_et__Inherit_Rate_Calculator_Values_From__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>tc9_util__Create_Rate_Calculator__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>tc9_pr__Employment_Cost_Template_Group__c</field>
+            </layoutItems>
+        </layoutColumns>
+        <style>TwoColumnsLeftToRight</style>
+    </layoutSections>
+    <layoutSections>
+        <customLabel>true</customLabel>
+        <detailHeading>true</detailHeading>
+        <editHeading>true</editHeading>
+        <label>Payroll Settings</label>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>tc9_pr__Payment_Entity__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>tc9_pr__Schedule__c</field>
+            </layoutItems>
+        </layoutColumns>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>tc9_et__Public_Holiday_Calendar__c</field>
+            </layoutItems>
+        </layoutColumns>
+        <style>TwoColumnsLeftToRight</style>
+    </layoutSections>
+    <layoutSections>
+        <customLabel>true</customLabel>
+        <detailHeading>true</detailHeading>
+        <editHeading>true</editHeading>
+        <label>Expense Claim Settings</label>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>tc9_et__Does_Not_Use_Online_Expense_Claims__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>tc9_et__Expense_Claim_Funding_Requirement__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>tc9_et__Expense_Claim_Receipts_Mandatory__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns/>
@@ -128,25 +245,45 @@
         <customLabel>true</customLabel>
         <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
-        <label>On-Costs</label>
+        <label>Invoice Settings</label>
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>tc9_pr__Location__c</field>
+                <field>tc9_et__Invoice_To_Account__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>tc9_pr__Industry__c</field>
+                <field>tc9_et__Invoice_To_Contact__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>tc9_et__Invoice_Schedule__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>tc9_et__Invoice_Email_CC__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>tc9_pr__Employment_Cost_Template_Group__c</field>
+                <field>tc9_et__Invoice_Taxable__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>tc9_et__Invoice_Tax_Rate__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>tc9_et__Expense_Claim_Receipts_Mandatory__c</field>
+                <field>tc9_et__Invoice_Tax_ID__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>tc9_et__Invoice_Settings_Template_Group__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>tc9_et__Custom_Invoice_Group_By_Id__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
@@ -155,13 +292,8 @@
         <customLabel>true</customLabel>
         <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
-        <label>Other</label>
-        <layoutColumns>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>tc9_pr__Back_Pay_Calculation_Status__c</field>
-            </layoutItems>
-        </layoutColumns>
+        <label>Accounts Payable</label>
+        <layoutColumns/>
         <layoutColumns/>
         <style>TwoColumnsLeftToRight</style>
     </layoutSections>

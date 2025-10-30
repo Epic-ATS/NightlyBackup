@@ -4,6 +4,7 @@
     <customButtons>tc9_et__Add_Project_Codes</customButtons>
     <excludeButtons>ChangeOwnerOne</excludeButtons>
     <excludeButtons>ChangeRecordType</excludeButtons>
+    <excludeButtons>OpenSlackRecordChannel</excludeButtons>
     <excludeButtons>PrintableView</excludeButtons>
     <excludeButtons>Share</excludeButtons>
     <excludeButtons>Submit</excludeButtons>
@@ -28,10 +29,6 @@
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>tc9_et__Client_Hiring_Manager__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>tc9_pr__Annualised_Salary_Arrangement__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -225,10 +222,6 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>tc9_et__Inherit_Rate_Calculator_Values_From__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>tc9_pr__Employment_Cost_Template_Group__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>

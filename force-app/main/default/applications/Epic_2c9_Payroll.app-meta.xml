@@ -12,6 +12,42 @@
     <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
     <label>Epic 2c9 Payroll</label>
     <navType>Standard</navType>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Time2Pay_Assignment_Temp1</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>tc9_pr__Assignment__c</pageOrSobjectType>
+        <recordType>tc9_pr__Assignment__c.tc9_et__Temp</recordType>
+        <type>Flexipage</type>
+        <profile>2cloudnine Payroll User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Time2Pay_Assignment_Temp1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>tc9_pr__Assignment__c</pageOrSobjectType>
+        <recordType>tc9_pr__Assignment__c.tc9_et__Temp</recordType>
+        <type>Flexipage</type>
+        <profile>2cloudnine Payroll User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Time2Pay_Assignment_Temp1</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>tc9_pr__Assignment__c</pageOrSobjectType>
+        <recordType>tc9_pr__Assignment__c.tc9_et__Temp</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Time2Pay_Assignment_Temp1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>tc9_pr__Assignment__c</pageOrSobjectType>
+        <recordType>tc9_pr__Assignment__c.tc9_et__Temp</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
     <tabs>standard-home</tabs>
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
