@@ -14,6 +14,24 @@
     <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
     <label>2C9 Payroll</label>
     <navType>Standard</navType>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Template_Group_Lighting_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>tc9_pr__Template_Group__c</pageOrSobjectType>
+        <recordType>tc9_pr__Template_Group__c.tc9_et__Invoice_Settings</recordType>
+        <type>Flexipage</type>
+        <profile>2cloudnine Payroll User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Template_Group_Lighting_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>tc9_pr__Template_Group__c</pageOrSobjectType>
+        <recordType>tc9_pr__Template_Group__c.tc9_et__Invoice_Settings</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
     <tabs>standard-home</tabs>
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>

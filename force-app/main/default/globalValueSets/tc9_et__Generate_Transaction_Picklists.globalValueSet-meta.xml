@@ -20,6 +20,11 @@
         <default>false</default>
         <label>4</label>
     </customValue>
+    <customValue>
+        <fullName>5</fullName>
+        <default>false</default>
+        <label>5</label>
+    </customValue>
     <description>To be used for Generate Transaction picklist fields</description>
     <masterLabel>Generate Transaction Picklists</masterLabel>
     <sorted>false</sorted>

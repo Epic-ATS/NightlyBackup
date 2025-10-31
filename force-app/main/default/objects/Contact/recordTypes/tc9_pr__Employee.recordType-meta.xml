@@ -2,7 +2,6 @@
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>tc9_pr__Employee</fullName>
     <active>true</active>
-    <compactLayoutAssignment>tc9_pr__TC9PR_Employee_Layout</compactLayoutAssignment>
     <description>Employee</description>
     <label>Employee</label>
     <picklistValues>

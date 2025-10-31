@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>61.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <decisions>
+        <name>Transaction_Stage</name>
+        <label>Transaction Stage</label>
+        <locationX>182</locationX>
+        <locationY>276</locationY>
+        <defaultConnectorLabel>New</defaultConnectorLabel>
+        <rules>
+            <name>Ready</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.tc9_et__Transaction_Creation_Stage__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>2</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Timesheet</targetReference>
+            </connector>
+            <label>Ready</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Transaction_Stage1</name>
+        <label>Transaction Stage</label>
+        <locationX>710</locationX>
+        <locationY>276</locationY>
+        <defaultConnector>
+            <targetReference>Delete_Timesheet_Entries</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>New</defaultConnectorLabel>
+        <rules>
+            <name>Ready1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.tc9_et__Transaction_Creation_Stage__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>2</stringValue>
+                </rightValue>
+            </conditions>
+            <label>Ready</label>
+        </rules>
+    </decisions>
+    <description>Updates the Timesheet status to support cross-assignment interpretation.</description>
+    <environments>Default</environments>
+    <interviewLabel>2c9 - Update Timesheet for Cross Assignment {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>2c9 - Update Timesheet for Cross Assignment</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordDeletes>
+        <name>Delete_Timesheet_Entries</name>
+        <label>Delete Timesheet Entries</label>
+        <locationX>842</locationX>
+        <locationY>384</locationY>
+        <connector>
+            <targetReference>Update_Timesheet_New</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>tc9_et__Timesheet__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>x2c9_Cross_Assignment_Timesheet_Entry__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <object>tc9_et__Timesheet_Entry__c</object>
+    </recordDeletes>
+    <recordUpdates>
+        <name>Update_Timesheet</name>
+        <label>Update Timesheet</label>
+        <locationX>50</locationX>
+        <locationY>384</locationY>
+        <inputAssignments>
+            <field>tc9_et__Transaction_Creation_Stage__c</field>
+            <value>
+                <stringValue>5</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>x2c9_Cross_Assignment_Status__c</field>
+            <value>
+                <stringValue>Pending Insert</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Timesheet_New</name>
+        <label>Update Timesheet - New</label>
+        <locationX>842</locationX>
+        <locationY>492</locationY>
+        <inputAssignments>
+            <field>x2c9_Cross_Assignment_Details__c</field>
+        </inputAssignments>
+        <inputAssignments>
+            <field>x2c9_Cross_Assignment_Status__c</field>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>320</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Transaction_Stage</targetReference>
+        </connector>
+        <filterFormula>OR(
+    AND(
+        ISPICKVAL({!$Record.tc9_et__Transaction_Creation_Stage__c}, &quot;2&quot;),
+        NOT(ISBLANK({!$Record.tc9_et__Assignment__r.x2c9_Cross_Assignment_Group_By_ID__c})),
+        NOT(ISPICKVAL({!$Record.x2c9_Cross_Assignment_Status__c}, &quot;Pending Delete&quot;))
+    ),
+    AND(
+        ISPICKVAL({!$Record.tc9_et__Transaction_Creation_Stage__c}, &quot;1&quot;),
+        NOT(ISBLANK({!$Record.tc9_et__Assignment__r.x2c9_Cross_Assignment_Group_By_ID__c})),
+        ISPICKVAL({!$Record.x2c9_Cross_Assignment_Status__c}, &quot;Pending Delete&quot;)
+    )
+)</filterFormula>
+        <object>tc9_et__Timesheet__c</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <scheduledPaths>
+            <name>Delay_Delete</name>
+            <connector>
+                <targetReference>Transaction_Stage1</targetReference>
+            </connector>
+            <label>Delay Delete</label>
+            <offsetNumber>1</offsetNumber>
+            <offsetUnit>Minutes</offsetUnit>
+            <recordField>LastModifiedDate</recordField>
+            <timeSource>RecordField</timeSource>
+        </scheduledPaths>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Draft</status>
+</Flow>
