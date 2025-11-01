@@ -67,6 +67,12 @@
                 <identifier>Recordtc9_et_Client_Hiring_Manager_cField</identifier>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldItem>Record.Allow_Cross_Assignment_Interpretation__c</fieldItem>
+                <identifier>RecordAllow_Cross_Assignment_Interpretation__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-17fb1d3d-c573-4e03-b7ff-80fd6f5f4b5f</name>
         <type>Facet</type>
     </flexiPageRegions>

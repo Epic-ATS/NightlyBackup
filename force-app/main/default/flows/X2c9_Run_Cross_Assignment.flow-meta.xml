@@ -832,7 +832,7 @@ Includes options to update the related Assignment for cross assignment and visib
             <targetReference>Get_Timesheet</targetReference>
         </connector>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <variables>
         <name>SetCrossAssignmentGroupText</name>
         <dataType>String</dataType>
