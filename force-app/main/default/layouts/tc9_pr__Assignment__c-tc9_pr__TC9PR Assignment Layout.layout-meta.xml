@@ -24,6 +24,10 @@
                 <behavior>Edit</behavior>
                 <field>tc9_et__Client_Hiring_Manager__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Allow_Cross_Assignment_Interpretation__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Audience xmlns="http://soap.sforce.com/2006/04/metadata">
+    <audienceName>EPS</audienceName>
+    <container>Epic Customer Portal</container>
+    <criteria>
+        <criterion>
+            <criteriaNumber>1</criteriaNumber>
+            <criterionValue>
+                <profile>customer community user</profile>
+            </criterionValue>
+            <operator>Equal</operator>
+            <type>Profile</type>
+        </criterion>
+    </criteria>
+    <formulaFilterType>AllCriteriaMatch</formulaFilterType>
+    <isDefaultAudience>false</isDefaultAudience>
+    <targets>
+        <target>
+            <groupName>9b6f9f86-d891-4c0b-9e56-0ca0d07b7d10$#$7233b35a-69c8-4535-a3ef-26ff11346fb1</groupName>
+            <priority>1</priority>
+            <targetType>ExperienceVariation</targetType>
+            <targetValue>Home_Theme_Navigation_Menu_Component_Properties</targetValue>
+        </target>
+        <target>
+            <groupName>130c0a53-eab0-4255-af4b-2ace8b6fbcf3$#$Branding</groupName>
+            <priority>1</priority>
+            <targetType>ExperienceVariation</targetType>
+            <targetValue>Jepson_EPS_Branding</targetValue>
+        </target>
+    </targets>
+</Audience>
