@@ -154,13 +154,13 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <label>Comment Thread</label>
+    <label>Thread</label>
     <nameField>
         <displayFormat>THREAD-{0}</displayFormat>
-        <label>Comment Thread Name</label>
+        <label>Thread Name</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Comment Threads</pluralLabel>
+    <pluralLabel>Threads</pluralLabel>
     <searchLayouts></searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>

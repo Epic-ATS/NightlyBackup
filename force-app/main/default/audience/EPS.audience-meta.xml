@@ -6,10 +6,12 @@
         <criterion>
             <criteriaNumber>1</criteriaNumber>
             <criterionValue>
-                <profile>customer community user</profile>
+                <entityField>CompanyName</entityField>
+                <entityType>User</entityType>
+                <fieldValue>EPIC EPS</fieldValue>
             </criterionValue>
             <operator>Equal</operator>
-            <type>Profile</type>
+            <type>FieldBased</type>
         </criterion>
     </criteria>
     <formulaFilterType>AllCriteriaMatch</formulaFilterType>

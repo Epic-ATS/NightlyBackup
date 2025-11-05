@@ -6,14 +6,14 @@
     <navigationMenuItem>
         <label>My EPIC Profile</label>
         <position>1</position>
-        <publiclyAvailable>false</publiclyAvailable>
+        <publiclyAvailable>true</publiclyAvailable>
         <target>/epic-expenses</target>
         <type>InternalLink</type>
     </navigationMenuItem>
     <navigationMenuItem>
         <label>EPIC Approvals</label>
         <position>2</position>
-        <publiclyAvailable>false</publiclyAvailable>
+        <publiclyAvailable>true</publiclyAvailable>
         <target>/epic-approvals</target>
         <type>InternalLink</type>
     </navigationMenuItem>

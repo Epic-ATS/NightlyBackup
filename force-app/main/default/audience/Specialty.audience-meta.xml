@@ -6,10 +6,12 @@
         <criterion>
             <criteriaNumber>1</criteriaNumber>
             <criterionValue>
-                <profile>admin</profile>
+                <entityField>CompanyName</entityField>
+                <entityType>User</entityType>
+                <fieldValue>EPIC Specialty</fieldValue>
             </criterionValue>
             <operator>Equal</operator>
-            <type>Profile</type>
+            <type>FieldBased</type>
         </criterion>
     </criteria>
     <formulaFilterType>AllCriteriaMatch</formulaFilterType>

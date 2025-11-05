@@ -736,6 +736,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>b3d__PortalAuthentication_test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>b3d__PostInstallScript</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -812,18 +816,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>b3d__SchemaComponent_Base</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>b3d__SchemaComponent_Base_test</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>b3d__SchemaComponent_test</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>b3d__SchemaUtils</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -837,6 +829,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__SecurityUtils_test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>b3d__Shared</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>b3d__Shared_test</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -1832,6 +1832,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>b3o__RemoteSelfBooking_test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>b3o__RemoteUtils</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -2280,6 +2284,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>b3s__BadPermissionsResponse</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>b3s__Encryption</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -2348,6 +2356,18 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>b3s__Query</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>b3s__Query_test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>b3s__Records</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>b3s__RemoteRecordsManager</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -2381,6 +2401,22 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__SchemaUtils_test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>b3s__Security</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>b3s__Security_test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>b3s__Shared</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>b3s__Shared_test</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -20181,14 +20217,14 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>tc9_pr__Assignment__c.Allow_Cross_Assignment_Interpretation__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>false</editable>
         <field>tc9_pr__Assignment__c.tc9_edc__Is_Test_Record__c</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>tc9_pr__Assignment__c.tc9_et_Allow_Cross_Assignment_Interpreta__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -33918,6 +33954,10 @@
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
+        <apexPage>b3s__BiometricEnrollment</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
         <apexPage>b3s__ClientShiftManager</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
@@ -33931,6 +33971,10 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3s__ShiftActions</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>b3s__Terminal</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>

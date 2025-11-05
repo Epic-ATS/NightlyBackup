@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Audience xmlns="http://soap.sforce.com/2006/04/metadata">
-    <audienceName>Epic Corporate</audienceName>
+    <audienceName>Epic Staffing Group</audienceName>
     <container>Epic Customer Portal</container>
     <criteria>
         <criterion>
             <criteriaNumber>1</criteriaNumber>
             <criterionValue>
-                <profile>standardaul</profile>
+                <entityField>CompanyName</entityField>
+                <entityType>User</entityType>
+                <fieldValue>Epic Staffing Group</fieldValue>
             </criterionValue>
             <operator>Equal</operator>
-            <type>Profile</type>
+            <type>FieldBased</type>
         </criterion>
     </criteria>
     <formulaFilterType>AllCriteriaMatch</formulaFilterType>

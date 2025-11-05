@@ -69,7 +69,7 @@
         </itemInstances>
         <itemInstances>
             <fieldInstance>
-                <fieldItem>Record.Allow_Cross_Assignment_Interpretation__c</fieldItem>
+                <fieldItem>Record.tc9_et_Allow_Cross_Assignment_Interpreta__c</fieldItem>
                 <identifier>RecordAllow_Cross_Assignment_Interpretation__cField</identifier>
             </fieldInstance>
         </itemInstances>

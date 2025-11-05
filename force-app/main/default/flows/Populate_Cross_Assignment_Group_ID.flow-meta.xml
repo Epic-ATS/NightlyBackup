@@ -114,7 +114,7 @@
             <targetReference>Allow_Cross_Assignment_Interpretation</targetReference>
         </connector>
         <filterFormula>AND(
-ISCHANGED({!$Record.Allow_Cross_Assignment_Interpretation__c}),
+ISCHANGED({!$Record.tc9_et_Allow_Cross_Assignment_Interpreta__c}),
    {!$Record.RecordType.DeveloperName} &lt;&gt; &quot;Employee&quot;,
    {!$Record.RecordType.DeveloperName} &lt;&gt; &quot;Template&quot;
 )</filterFormula>

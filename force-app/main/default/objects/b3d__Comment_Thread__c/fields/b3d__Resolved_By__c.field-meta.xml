@@ -5,7 +5,6 @@
     <deprecated>false</deprecated>
     <label>Resolved By</label>
     <referenceTo>b3d__Collaborator__c</referenceTo>
-    <relationshipLabel>Comment Threads (Resolved By)</relationshipLabel>
     <relationshipName>Comment_Threads1</relationshipName>
     <required>false</required>
     <trackTrending>false</trackTrending>

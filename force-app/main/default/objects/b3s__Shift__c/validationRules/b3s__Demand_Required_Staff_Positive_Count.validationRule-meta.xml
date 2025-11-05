@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3s__Demand_Required_Staff_Positive_Count</fullName>
+    <active>true</active>
+    <description>Ensure that the field Required Staff has a null or positive number</description>
+    <errorConditionFormula>b3s__Required_Staff__c &lt;= 0</errorConditionFormula>
+    <errorDisplayField>b3s__Required_Staff__c</errorDisplayField>
+    <errorMessage>Negative amount of required staff is not supported</errorMessage>
+</ValidationRule>

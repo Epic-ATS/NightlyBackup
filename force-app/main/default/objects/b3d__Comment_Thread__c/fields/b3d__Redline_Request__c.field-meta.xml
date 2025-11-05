@@ -4,7 +4,6 @@
     <deprecated>false</deprecated>
     <label>Redline Request</label>
     <referenceTo>b3d__Redline_Request__c</referenceTo>
-    <relationshipLabel>Comment Threads</relationshipLabel>
     <relationshipName>Comment_Threads</relationshipName>
     <relationshipOrder>0</relationshipOrder>
     <reparentableMasterDetail>false</reparentableMasterDetail>

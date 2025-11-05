@@ -33,7 +33,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Allow_Cross_Assignment_Interpretation__c</field>
+                <field>tc9_et_Allow_Cross_Assignment_Interpreta__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>

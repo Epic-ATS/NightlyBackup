@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3d__Thread_Status__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF(
+    NOT(ISBLANK(b3d__Removed_At__c)), 
+    &quot;Removed&quot;,
+    IF(
+        NOT(ISBLANK(b3d__Resolved_At__c)), 
+        &quot;Resolved&quot;,
+        IF(
+            NOT(ISBLANK(b3d__Unlinked_At__c)), 
+            &quot;Unlinked&quot;,
+            IF(
+	            NOT(ISBLANK(TEXT(b3d__Suggestion_State__c))), 
+	            TEXT(b3d__Suggestion_State__c),
+	            &quot;New&quot;
+	        )
+        )
+    )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Thread Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
