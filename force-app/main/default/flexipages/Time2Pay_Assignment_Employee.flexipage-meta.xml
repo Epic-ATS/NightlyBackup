@@ -69,6 +69,10 @@
         </itemInstances>
         <itemInstances>
             <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
                 <fieldItem>Record.tc9_et_Allow_Cross_Assignment_Interpreta__c</fieldItem>
                 <identifier>RecordAllow_Cross_Assignment_Interpretation__cField</identifier>
             </fieldInstance>
@@ -825,6 +829,88 @@
             <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.tc9_util__Reminder_Notification_Method__c</fieldItem>
+                <identifier>Recordtc9_util_Reminder_Notification_Method_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.tc9_util__Send_Employee_Timesheet_Reminders__c</fieldItem>
+                <identifier>Recordtc9_util_Send_Employee_Timesheet_Reminders_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <name>Facet-0232a410-a60c-4934-b494-15df5980c619</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.tc9_util__Send_Timesheet_Reminders_To__c</fieldItem>
+                <identifier>Recordtc9_util_Send_Timesheet_Reminders_To_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.tc9_util__Send_Expense_Claim_Reminders_To__c</fieldItem>
+                <identifier>Recordtc9_util_Send_Expense_Claim_Reminders_To_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.tc9_util__Send_Leave_Reminders_To__c</fieldItem>
+                <identifier>Recordtc9_util_Send_Leave_Reminders_To_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <name>Facet-6a956393-2a2e-4ef8-bf16-3e2bfcc1b15c</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>Facet-0232a410-a60c-4934-b494-15df5980c619</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:column</componentName>
+                <identifier>flexipage_column21</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>Facet-6a956393-2a2e-4ef8-bf16-3e2bfcc1b15c</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:column</componentName>
+                <identifier>flexipage_column22</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-3e16b268-354e-4058-8952-30dbf9f0f04f</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
                     <value>readonly</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.CreatedById</fieldItem>
@@ -1033,6 +1119,24 @@
                 </componentInstanceProperties>
                 <componentName>flexipage:fieldSection</componentName>
                 <identifier>flexipage_fieldSection9</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>columns</name>
+                    <value>Facet-3e16b268-354e-4058-8952-30dbf9f0f04f</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>horizontalAlignment</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>label</name>
+                    <value>Reminder Notifications</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:fieldSection</componentName>
+                <identifier>flexipage_fieldSection11</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>

@@ -200,4 +200,8 @@
         <name>dlrs__DeclarativeLookupRollupSummaries2</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>Guest Approver Community</name>
+        <type>Network</type>
+    </appMenuItems>
 </AppMenu>

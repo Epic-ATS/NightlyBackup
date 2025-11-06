@@ -84,6 +84,78 @@
         <type>Flexipage</type>
         <profile>Admin</profile>
     </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Tc9_Time2Pay_Invoice_Setting1</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>tc9_et__Invoice_Setting__c</pageOrSobjectType>
+        <recordType>tc9_et__Invoice_Setting__c.tc9_et__Invoiceable_Fees</recordType>
+        <type>Flexipage</type>
+        <profile>2cloudnine Payroll User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Tc9_Time2Pay_Invoice_Setting1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>tc9_et__Invoice_Setting__c</pageOrSobjectType>
+        <recordType>tc9_et__Invoice_Setting__c.tc9_et__Invoiceable_Fees</recordType>
+        <type>Flexipage</type>
+        <profile>2cloudnine Payroll User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Tc9_Time2Pay_Invoice_Setting1</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>tc9_et__Invoice_Setting__c</pageOrSobjectType>
+        <recordType>tc9_et__Invoice_Setting__c.tc9_et__Invoiceable_Fees</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Tc9_Time2Pay_Invoice_Setting1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>tc9_et__Invoice_Setting__c</pageOrSobjectType>
+        <recordType>tc9_et__Invoice_Setting__c.tc9_et__Invoiceable_Fees</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Time2Pay_Assignment_Temp2</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>tc9_pr__Assignment__c</pageOrSobjectType>
+        <recordType>tc9_pr__Assignment__c.tc9_et__Perm</recordType>
+        <type>Flexipage</type>
+        <profile>2cloudnine Payroll User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Time2Pay_Assignment_Temp2</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>tc9_pr__Assignment__c</pageOrSobjectType>
+        <recordType>tc9_pr__Assignment__c.tc9_et__Perm</recordType>
+        <type>Flexipage</type>
+        <profile>2cloudnine Payroll User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Time2Pay_Assignment_Temp2</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>tc9_pr__Assignment__c</pageOrSobjectType>
+        <recordType>tc9_pr__Assignment__c.tc9_et__Perm</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Time2Pay_Assignment_Temp2</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>tc9_pr__Assignment__c</pageOrSobjectType>
+        <recordType>tc9_pr__Assignment__c.tc9_et__Perm</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
     <tabs>standard-home</tabs>
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
