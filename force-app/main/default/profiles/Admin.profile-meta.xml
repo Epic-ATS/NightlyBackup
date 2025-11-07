@@ -2992,6 +2992,94 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>tc9_3bint__BatchErrorEmailNotificationAlert</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_3bint__BatchErrorEmailNotificationAlertTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_3bint__CostingEstimatedInterpretBaseSetupTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_3bint__CostingEstimatedInterpretationBatch</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_3bint__CostingEstimatedInterpretationTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_3bint__ShiftAssignmentBatch</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_3bint__ShiftAssignmentBatchTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_3bint__ShiftAssignmentCollectionHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_3bint__ShiftAssignmentHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_3bint__ShiftIntegrationAssembler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_3bint__ShiftTimesheetBatch</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_3bint__ShiftTimesheetBatchTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_3bint__ShiftTimesheetEntryBatch</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_3bint__ShiftTimesheetEntryCollectionHelper</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_3bint__ShiftTimesheetEntryDMLHelper</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_3bint__ShiftTimesheetEntryHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_3bint__ShiftTimesheetEntryPayeeAllowanceHelper</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_3bint__ShiftTimesheetEntryQuery</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_3bint__ShiftTimesheetEntryShiftItemHelper</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_3bint__ShiftTimesheetHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_3bint__ShiftTriggerHandlerService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_3bint__ShiftTriggerHandlerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>tc9_bgl__AccAsgnDept_Trigger_Handler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -6907,6 +6995,10 @@
     <customSettingAccesses>
         <enabled>true</enabled>
         <name>dlrs__DeclarativeLookupRollupSummaries__c</name>
+    </customSettingAccesses>
+    <customSettingAccesses>
+        <enabled>true</enabled>
+        <name>tc9_3bint__B3_Integration_Settings__c</name>
     </customSettingAccesses>
     <customSettingAccesses>
         <enabled>true</enabled>
@@ -10909,6 +11001,46 @@
         <editable>false</editable>
         <field>sObject_Trigger_Setting__mdt.TriggerRecord_Class_Name__c</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_3bint__B3_Costing__e.tc9_3bint__Record_ID__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>tc9_3bint__Shift_Item__c.tc9_3bint__Allowance__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>tc9_3bint__Shift_Item__c.tc9_3bint__Approval_Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>tc9_3bint__Shift_Item__c.tc9_3bint__Employee_Notes__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>tc9_3bint__Shift_Item__c.tc9_3bint__Quantity__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>tc9_3bint__Shift_Item__c.tc9_3bint__Sent_to_Payroll__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>tc9_3bint__Shift_Item__c.tc9_3bint__Shift_Item_Integration_Pending__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>tc9_3bint__Shift_Item__c.tc9_3bint__Timesheet_Item__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -18347,6 +18479,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>tc9_et__Timesheet_Entry__c.tc9_3bint__Shift_Public_Holiday__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>tc9_et__Timesheet_Entry__c.tc9_et__Applies_To_OT_And_Frequency_Breakpoint__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -18707,6 +18844,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>tc9_et__Timesheet_Item__c.tc9_3bint__Shift_Item__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>tc9_et__Timesheet_Item__c.tc9_bgl__Allowance_TSI_Record__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -18858,6 +19000,21 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>tc9_et__Timesheet__c.Reversal_Due_to_Leave__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>tc9_et__Timesheet__c.tc9_3bint__Adjustment_Pending__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>tc9_et__Timesheet__c.tc9_3bint__Costing_Job_Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>tc9_et__Timesheet__c.tc9_3bint__Last_Costed__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -20462,6 +20619,21 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>tc9_pr__Assignment__c.tc9_3bint__AssignmentString__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>tc9_pr__Assignment__c.tc9_3bint__Integration_Pending__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>tc9_pr__Assignment__c.tc9_3bint__Margin__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>tc9_pr__Assignment__c.tc9_edc__Is_Test_Record__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -21347,6 +21519,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>tc9_pr__Calendar_Period__c.tc9_3bint__ProcessinScheduledJob__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>tc9_pr__Calendar_Period__c.tc9_et__Invoice_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -21428,6 +21605,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>tc9_pr__Calendar_Period__c.tc9_pr__Year_Start_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>tc9_pr__Calendar__c.tc9_3bint__Day_of_Week__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>tc9_pr__Calendar__c.tc9_3bint__FirstPeriodDate__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -25343,6 +25530,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>tc9_pr__Payee_Aggregate__c.tc9_pr__YTD_Value__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>tc9_pr__Payee_Allowance_Record__c.tc9_3bint__External_ID__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -29527,6 +29719,9 @@
         <layout>sObject_Trigger_Setting__mdt-sObject Trigger Setting Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>tc9_3bint__Shift_Item__c-tc9_3bint__2c9 Shift Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>tc9_bgl__Acc_Assignment_Depts__c-tc9_bgl__TC9BGL Accounting Assignment Departments</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -33015,6 +33210,24 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>ers_datatableConfig__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>tc9_3bint__B3_Costing__e</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>tc9_3bint__Shift_Item__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -37007,6 +37220,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-report</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>tc9_3bint__Shift_Item__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

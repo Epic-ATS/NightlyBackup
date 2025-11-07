@@ -11,5 +11,10 @@
     <columns>tc9_pr__Expiry_Date__c</columns>
     <columns>tc9_pr__Effective_Date__c</columns>
     <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>tc9_pr__Calendar__c.tc9_et__Timesheet</value>
+    </filters>
     <label>All</label>
 </ListView>

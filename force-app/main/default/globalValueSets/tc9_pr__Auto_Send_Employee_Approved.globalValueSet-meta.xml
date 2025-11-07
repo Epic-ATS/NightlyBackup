@@ -10,6 +10,11 @@
         <default>false</default>
         <label>Send on Approval</label>
     </customValue>
+    <customValue>
+        <fullName>Custom Send</fullName>
+        <default>false</default>
+        <label>Custom Send</label>
+    </customValue>
     <description>To be used for Auto Send Employee Approved picklists</description>
     <masterLabel>Auto Send Employee Approved</masterLabel>
     <sorted>false</sorted>

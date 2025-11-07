@@ -141,6 +141,26 @@
                 <identifier>Recordtc9_et_Rate_Calculator_Template_cField</identifier>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.tc9_et__Invoice_Schedule__c</fieldItem>
+                <identifier>Recordtc9_et_Invoice_Schedule_cField2</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.tc9_pr__Schedule__c</fieldItem>
+                <identifier>Recordtc9_pr_Schedule_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-e9a4535f-ceed-4f9a-98fa-75a3505b9c20</name>
         <type>Facet</type>
     </flexiPageRegions>
@@ -671,6 +691,16 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.tc9_et__Invoice_Tax_Rate__c</fieldItem>
                 <identifier>Recordtc9_et_Invoice_Tax_Rate_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.tc9_et__Invoice_Settings_Template_Group__c</fieldItem>
+                <identifier>Recordtc9_et_Invoice_Settings_Template_Group_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-4ea2f850-85ba-4d4f-b94d-7752262784e1</name>

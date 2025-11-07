@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_3bint__Payroll_Time_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <inlineHelpText>Determines what date and time values from the Shift record will be sent to Payroll&apos;s Timesheet and Timesheet Entry. Leaving this field blank will default to using the Shifts Scheduled date and time fields for payroll.</inlineHelpText>
+    <label>Payroll Time Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_3bint__Payroll_Time_Type</valueSetName>
+    </valueSet>
+</CustomField>

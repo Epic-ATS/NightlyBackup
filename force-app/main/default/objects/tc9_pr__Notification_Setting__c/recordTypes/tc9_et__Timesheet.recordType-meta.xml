@@ -145,6 +145,10 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>Custom Send</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Don%E2%80%99t Send Automatically</fullName>
             <default>false</default>
         </values>
@@ -168,6 +172,10 @@
     <picklistValues>
         <picklist>tc9_pr__Auto_Send_Employee_Approved__c</picklist>
         <values>
+            <fullName>Custom Send</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Don%E2%80%99t Send Automatically</fullName>
             <default>false</default>
         </values>
@@ -178,6 +186,10 @@
     </picklistValues>
     <picklistValues>
         <picklist>tc9_pr__Auto_Send_Employee_Rejected__c</picklist>
+        <values>
+            <fullName>Custom Send</fullName>
+            <default>false</default>
+        </values>
         <values>
             <fullName>Don%E2%80%99t Send Automatically</fullName>
             <default>false</default>
@@ -264,6 +276,10 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>Custom Send</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Don%E2%80%99t Send Automatically</fullName>
             <default>false</default>
         </values>
@@ -287,6 +303,10 @@
     <picklistValues>
         <picklist>tc9_pr__Auto_Send_P_Approver_Approved_By_Other__c</picklist>
         <values>
+            <fullName>Custom Send</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Don%E2%80%99t Send Automatically</fullName>
             <default>false</default>
         </values>
@@ -297,6 +317,10 @@
     </picklistValues>
     <picklistValues>
         <picklist>tc9_pr__Auto_Send_P_Approver_Approved_On_Behalf__c</picklist>
+        <values>
+            <fullName>Custom Send</fullName>
+            <default>false</default>
+        </values>
         <values>
             <fullName>Don%E2%80%99t Send Automatically</fullName>
             <default>false</default>
@@ -309,6 +333,10 @@
     <picklistValues>
         <picklist>tc9_pr__Auto_Send_P_Approver_Rejected_By_Other__c</picklist>
         <values>
+            <fullName>Custom Send</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Don%E2%80%99t Send Automatically</fullName>
             <default>false</default>
         </values>
@@ -319,6 +347,10 @@
     </picklistValues>
     <picklistValues>
         <picklist>tc9_pr__Auto_Send_P_Approver_Rejected_On_Behalf__c</picklist>
+        <values>
+            <fullName>Custom Send</fullName>
+            <default>false</default>
+        </values>
         <values>
             <fullName>Don%E2%80%99t Send Automatically</fullName>
             <default>false</default>

@@ -40,6 +40,11 @@
         <default>false</default>
         <label># Days After Calendar Period End Date</label>
     </customValue>
+    <customValue>
+        <fullName>Custom Send</fullName>
+        <default>false</default>
+        <label>Custom Send</label>
+    </customValue>
     <description>To be used for Auto Send Primary Approver Approval Request picklists</description>
     <masterLabel>Auto Send P.Approver Approval Request</masterLabel>
     <sorted>false</sorted>

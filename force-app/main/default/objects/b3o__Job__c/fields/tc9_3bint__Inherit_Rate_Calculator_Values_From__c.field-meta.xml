@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_3bint__Inherit_Rate_Calculator_Values_From__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines where the Award Classification, Award Level, Location, Industry and Risk Classification set on the Employee Specific Rate Calculator are from. Leaving this blank will default to the Rate Calculator Template.</description>
+    <inlineHelpText>Defines where the Award Classification, Award Level, Location, Industry and Risk Classification set on the Employee Specific Rate Calculator are from. Leaving this blank will default to the Rate Calculator Template.</inlineHelpText>
+    <label>Inherit Rate Calculator Values From</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_et__Rate_Calculator_Inherit_Picklists</valueSetName>
+    </valueSet>
+</CustomField>

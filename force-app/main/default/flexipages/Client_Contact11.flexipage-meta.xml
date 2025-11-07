@@ -67,6 +67,16 @@
                 <identifier>RecordDescriptionField</identifier>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Is_Approver__c</fieldItem>
+                <identifier>RecordIs_Approver_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-0f650dfb-54d6-439f-82cd-cf4323df8dd4</name>
         <type>Facet</type>
     </flexiPageRegions>

@@ -10,6 +10,11 @@
         <default>false</default>
         <label>Send on Approval / Rejection</label>
     </customValue>
+    <customValue>
+        <fullName>Custom Send</fullName>
+        <default>false</default>
+        <label>Custom Send</label>
+    </customValue>
     <description>To be used for Auto Send Primary Approver Actioned By Other picklists</description>
     <masterLabel>Auto Send P.Approver Actioned By Other</masterLabel>
     <sorted>false</sorted>
