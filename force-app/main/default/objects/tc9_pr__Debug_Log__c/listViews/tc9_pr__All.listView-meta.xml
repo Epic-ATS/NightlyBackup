@@ -3,6 +3,7 @@
     <fullName>tc9_pr__All</fullName>
     <columns>NAME</columns>
     <columns>tc9_pr__Area__c</columns>
+    <columns>CREATED_DATE</columns>
     <columns>tc9_pr__Debug_Header__c</columns>
     <columns>tc9_pr__Description__c</columns>
     <columns>tc9_pr__Exception_Type__c</columns>

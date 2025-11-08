@@ -75,6 +75,10 @@
             <fullName>7th Day</fullName>
             <default>false</default>
         </values>
+        <values>
+            <fullName>Assignment</fullName>
+            <default>false</default>
+        </values>
     </picklistValues>
     <picklistValues>
         <picklist>tc9_pr__Status__c</picklist>

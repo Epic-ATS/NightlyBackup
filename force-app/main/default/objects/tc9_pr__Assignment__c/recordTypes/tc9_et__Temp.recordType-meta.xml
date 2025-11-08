@@ -212,6 +212,10 @@
     <picklistValues>
         <picklist>tc9_et__Risk_Classification__c</picklist>
         <values>
+            <fullName>All</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Extreme</fullName>
             <default>false</default>
         </values>
