@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_core__Agreement_Cost</fullName>
+    <active>true</active>
+    <description>To be used for Employment Cost Exceptions associated with Agreement Costs.</description>
+    <label>Agreement Cost</label>
+    <picklistValues>
+        <picklist>tc9_core__Exception_Type__c</picklist>
+        <values>
+            <fullName>Pay Code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Worker Type</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_core__Worker_Type__c</picklist>
+        <values>
+            <fullName>All</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contractor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_pr__Employment_Cost_Exempt__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

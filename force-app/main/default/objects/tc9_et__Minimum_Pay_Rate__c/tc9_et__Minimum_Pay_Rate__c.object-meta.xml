@@ -162,6 +162,7 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Minimum Pay Rates</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
     <searchLayouts>
         <listViewButtons>tc9_et__Update_Rates_List</listViewButtons>
         <searchResultsCustomButtons>tc9_et__Update_Rates_List</searchResultsCustomButtons>

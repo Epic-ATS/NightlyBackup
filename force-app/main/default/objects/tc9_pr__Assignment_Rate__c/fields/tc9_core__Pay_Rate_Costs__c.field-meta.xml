@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_core__Pay_Rate_Costs__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Stores the summed Pay Rate plus Employment Cost Invoice Amounts 1–20.</description>
+    <externalId>false</externalId>
+    <formula>tc9_pr__Pay_Rate__c + 	 	 
+tc9_core__Employment_Cost_1_Invoice_Amount__c +
+tc9_core__Employment_Cost_2_Invoice_Amount__c +
+tc9_core__Employment_Cost_3_Invoice_Amount__c +
+tc9_core__Employment_Cost_4_Invoice_Amount__c +
+tc9_core__Employment_Cost_5_Invoice_Amount__c +
+tc9_core__Employment_Cost_6_Invoice_Amount__c +
+tc9_core__Employment_Cost_7_Invoice_Amount__c +
+tc9_core__Employment_Cost_8_Invoice_Amount__c +
+tc9_core__Employment_Cost_9_Invoice_Amount__c +
+tc9_core__Employment_Cost_10_Invoice_Amount__c +
+tc9_core__Employment_Cost_11_Invoice_Amount__c +
+tc9_core__Employment_Cost_12_Invoice_Amount__c +
+tc9_core__Employment_Cost_13_Invoice_Amount__c +
+tc9_core__Employment_Cost_14_Invoice_Amount__c +
+tc9_core__Employment_Cost_15_Invoice_Amount__c +
+tc9_core__Employment_Cost_16_Invoice_Amount__c +
+tc9_core__Employment_Cost_17_Invoice_Amount__c +
+tc9_core__Employment_Cost_18_Invoice_Amount__c +
+tc9_core__Employment_Cost_19_Invoice_Amount__c +
+tc9_core__Employment_Cost_20_Invoice_Amount__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Stores the summed Pay Rate plus Employment Cost Invoice Amounts 1–20.</inlineHelpText>
+    <label>Pay Rate + Costs</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

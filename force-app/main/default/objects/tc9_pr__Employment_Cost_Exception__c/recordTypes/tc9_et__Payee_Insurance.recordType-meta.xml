@@ -5,6 +5,32 @@
     <description>To be used for Payee level Employment Cost Exceptions associated with Insurance</description>
     <label>Payee Insurance</label>
     <picklistValues>
+        <picklist>tc9_core__Exception_Type__c</picklist>
+        <values>
+            <fullName>Pay Code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Worker Type</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_core__Worker_Type__c</picklist>
+        <values>
+            <fullName>All</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contractor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>tc9_pr__Employment_Cost_Exempt__c</picklist>
         <values>
             <fullName>No</fullName>

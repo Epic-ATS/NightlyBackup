@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_core__Assignment_Rate_Mapping__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Specifies which Assignment Rate field the Employment Cost maps to during calculation, ensuring the cost is stored on the correct Assignment Rate record.</description>
+    <inlineHelpText>Specifies which Assignment Rate field the Employment Cost maps to during calculation, ensuring the cost is stored on the correct Assignment Rate record.</inlineHelpText>
+    <label>Assignment Rate Mapping</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_core__Assignment_Rate_Mapping</valueSetName>
+    </valueSet>
+</CustomField>

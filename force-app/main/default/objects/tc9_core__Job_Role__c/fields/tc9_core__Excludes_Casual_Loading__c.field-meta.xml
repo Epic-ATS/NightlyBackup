@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_core__Excludes_Casual_Loading__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If selected, casual loading will be excluded from this Job Role when calculating Agreement rates. This override applies even if the associated Pay Rate Loading template includes casual loading.</description>
+    <inlineHelpText>If selected, casual loading will be excluded from this Job Role when calculating Agreement rates. This override applies even if the associated Pay Rate Loading template includes casual loading.</inlineHelpText>
+    <label>Excludes Casual Loading</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

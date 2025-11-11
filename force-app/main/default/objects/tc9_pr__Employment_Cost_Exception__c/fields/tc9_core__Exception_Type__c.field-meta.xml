@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_core__Exception_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines how the exception is applied:
+Pay Code — excludes based on the related Pay Code for the Employment Cost.
+Worker Type — excludes based on the Worker Type of the Job Role for the Employment Cost.</description>
+    <inlineHelpText>Defines how the exception is applied:
+Pay Code — excludes based on the related Pay Code for the Employment Cost.
+Worker Type — excludes based on the Worker Type of the Job Role for the Employment Cost.</inlineHelpText>
+    <label>Exception Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pay Code</fullName>
+                <default>false</default>
+                <label>Pay Code</label>
+            </value>
+            <value>
+                <fullName>Worker Type</fullName>
+                <default>false</default>
+                <label>Worker Type</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_core__Last_Assignment_Rate_Creation_Date__c</fullName>
+    <deprecated>false</deprecated>
+    <description>To identify when the Assignment Rate creation process was last completed for the Agreement.</description>
+    <inlineHelpText>To identify when the Assignment Rate creation process was last completed for the Agreement.</inlineHelpText>
+    <label>Last Assignment Rate Creation Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

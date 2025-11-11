@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>The main custom setting used to configure 2cloudnine Agreements Management.</description>
+    <enableFeeds>false</enableFeeds>
+    <label>2c9 Agreement Settings</label>
+    <visibility>Public</visibility>
+</CustomObject>

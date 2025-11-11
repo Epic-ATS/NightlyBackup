@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_core__Location__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Relates the Agreement to the Location.
+This value is used by the Agreements Rates Calculator.</description>
+    <inlineHelpText>Relates the Agreement to the Location.
+This value is used by the Agreements Rates Calculator.</inlineHelpText>
+    <label>Location</label>
+    <referenceTo>tc9_pr__Location__c</referenceTo>
+    <relationshipLabel>Agreements</relationshipLabel>
+    <relationshipName>Agreements</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_core__Calculation_Value__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Value used by the Agreements Rates Calculator during rates calculation. Combined with the calculation method, it determines the Margin/Markup Amount on the calculated Assignment Rate.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Value used by the Agreements Rates Calculator during rates calculation. Combined with the calculation method, it determines the Margin/Markup Amount on the calculated Assignment Rate.</inlineHelpText>
+    <label>Calculation Value</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

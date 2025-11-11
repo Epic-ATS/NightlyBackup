@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_core__MPR_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Formula which returns the MPR type based on the related Pay Code, Project Code, or Timesheet Activity.</description>
+    <externalId>false</externalId>
+    <formula>IF(
+    AND(
+        ISBLANK(tc9_et__Primary_Minimum_Pay_Rate__c),
+        ISBLANK(tc9_et__Allowance_Pay_Code__c)
+    ),
+    &quot;Base&quot;,
+    IF(
+        NOT(ISBLANK(tc9_et__Allowance_Pay_Code__c)),
+        &quot;&quot; + tc9_et__Allowance_Pay_Code__r.Name,
+        IF(
+            NOT(ISBLANK(tc9_et__Project_Code__c)),
+            &quot;Project Code: &quot; + tc9_et__Project_Code__r.Name,
+            &quot;Variation: &quot; + tc9_et__Timesheet_Activity__r.Name
+        )
+    )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Formula which returns the MPR type based on the related Pay Code, Project Code, or Timesheet Activity.</inlineHelpText>
+    <label>MPR Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

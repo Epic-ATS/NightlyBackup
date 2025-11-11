@@ -11300,6 +11300,171 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>tc9_core__Agreement__c.tc9_core__Agreement_Name__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_core__Agreement__c.tc9_core__Agreement_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_core__Agreement__c.tc9_core__Approved_Date_Time__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_core__Agreement__c.tc9_core__Assignment__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_core__Agreement__c.tc9_core__Calculate_by_Batch__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_core__Agreement__c.tc9_core__Calculation_Method_Override__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_core__Agreement__c.tc9_core__Calculation_Value_Override__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_core__Agreement__c.tc9_core__Client_Contact__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_core__Agreement__c.tc9_core__Client__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_core__Agreement__c.tc9_core__Default_Leave_Pay_Code__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_core__Agreement__c.tc9_core__Effective_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_core__Agreement__c.tc9_core__Employee__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_core__Agreement__c.tc9_core__Expiry_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_core__Agreement__c.tc9_core__Industry__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_core__Agreement__c.tc9_core__Interpretation_Rule__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_core__Agreement__c.tc9_core__Invoice_Tax_ID__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_core__Agreement__c.tc9_core__Invoice_Taxable__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_core__Agreement__c.tc9_core__Last_Assignment_Rate_Creation_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_core__Agreement__c.tc9_core__Location__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_core__Agreement__c.tc9_core__Pay_Rate_Loading_Template__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_core__Agreement__c.tc9_core__Rate_Template_Group__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_core__Agreement__c.tc9_core__Rates_Calculation_Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_core__Agreement__c.tc9_core__Risk_Classification__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_core__Agreement__c.tc9_core__Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_core__Job_Role__c.tc9_core__Agreement__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_core__Job_Role__c.tc9_core__Award_Classification__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_core__Job_Role__c.tc9_core__Award_Level__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_core__Job_Role__c.tc9_core__Excludes_Casual_Loading__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_core__Job_Role__c.tc9_core__Job_Role_Name__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_core__Job_Role__c.tc9_core__Parent_Job_Role__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_core__Job_Role__c.tc9_core__Rate_Template_Group__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_core__Job_Role__c.tc9_core__Rates_Calculation_Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_core__Job_Role__c.tc9_core__Worker_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>tc9_eau__ATO_Integration_Settings__mdt.tc9_eau__BMS_Name__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -16390,6 +16555,26 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>tc9_et__Minimum_Pay_Rate__c.tc9_core__Calculation_Value__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_et__Minimum_Pay_Rate__c.tc9_core__Carry_Over_Source__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_et__Minimum_Pay_Rate__c.tc9_core__Job_Role__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_et__Minimum_Pay_Rate__c.tc9_core__MPR_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>tc9_et__Minimum_Pay_Rate__c.tc9_et__Allowance_Pay_Code__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -20035,6 +20220,266 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Agreement__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Base_Pay_Rate__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Casual_Loaded_Pay_Rate__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Casual_Loading_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Employment_Cost_10_Invoice_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Employment_Cost_10_Pay_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Employment_Cost_11_Invoice_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Employment_Cost_11_Pay_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Employment_Cost_12_Invoice_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Employment_Cost_12_Pay_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Employment_Cost_13_Invoice_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Employment_Cost_13_Pay_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Employment_Cost_14_Invoice_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Employment_Cost_14_Pay_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Employment_Cost_15_Invoice_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Employment_Cost_15_Pay_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Employment_Cost_16_Invoice_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Employment_Cost_16_Pay_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Employment_Cost_17_Invoice_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Employment_Cost_17_Pay_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Employment_Cost_18_Invoice_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Employment_Cost_18_Pay_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Employment_Cost_19_Invoice_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Employment_Cost_19_Pay_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Employment_Cost_1_Invoice_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Employment_Cost_1_Pay_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Employment_Cost_20_Invoice_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Employment_Cost_20_Pay_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Employment_Cost_2_Invoice_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Employment_Cost_2_Pay_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Employment_Cost_3_Invoice_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Employment_Cost_3_Pay_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Employment_Cost_4_Invoice_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Employment_Cost_4_Pay_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Employment_Cost_5_Invoice_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Employment_Cost_5_Pay_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Employment_Cost_6_Invoice_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Employment_Cost_6_Pay_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Employment_Cost_7_Invoice_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Employment_Cost_7_Pay_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Employment_Cost_8_Invoice_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Employment_Cost_8_Pay_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Employment_Cost_9_Invoice_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Employment_Cost_9_Pay_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Job_Role__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Margin_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Multiplied_Base_Pay_Rate__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Pay_Rate_Costs__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Pay_Rate_Multiplier__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Shift_Loaded_Pay_Rate__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Shift_Loading_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Assignment_Rate__c.tc9_core__Total_Cost__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>tc9_pr__Assignment_Rate__c.tc9_edc__Is_Test_Record__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -21680,6 +22125,21 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>tc9_pr__Employment_Cost_Exception__c.tc9_core__Employment_Cost__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Employment_Cost_Exception__c.tc9_core__Exception_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Employment_Cost_Exception__c.tc9_core__Worker_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>tc9_pr__Employment_Cost_Exception__c.tc9_pr__Assignment__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -21706,6 +22166,21 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>tc9_pr__Employment_Cost_Exception__c.tc9_pr__Payee__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Employment_Cost_Item__c.tc9_core__Agreement__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Employment_Cost_Item__c.tc9_core__Employment_Cost_Selection__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Employment_Cost_Item__c.tc9_core__Job_Role__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -21771,6 +22246,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>tc9_pr__Employment_Cost_Item__c.tc9_pr__Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Employment_Cost__c.tc9_core__Assignment_Rate_Mapping__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -23781,6 +24261,16 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>tc9_pr__Pay_Batch__c.tc9_pr__Unique_Payees__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Code_Junction__c.tc9_core__Pay_Rate_Loading_Template_Group__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Code_Junction__c.tc9_core__Pay_Rate_Loading__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -28510,6 +29000,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>tc9_pr__Template_Group__c.tc9_core__Interpretation_Rule__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>tc9_pr__Template_Group__c.tc9_pr__Client__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -29552,6 +30047,12 @@
         <layout>tc9_bgl__Acc_System_Setup__c-tc9_bgl__TC9BGL Accounting System Setup</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>tc9_core__Agreement__c-tc9_core__Agreement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_core__Job_Role__c-tc9_core__Job Role Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>tc9_eau__ATO_Integration_Settings__mdt-tc9_eau__ATO Integration Setting Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -29931,6 +30432,10 @@
     <layoutAssignments>
         <layout>tc9_et__Mark_Up_Margin_Rate_Record__c-tc9_et__Time2Pay Mark Up %2F Margin Rate Record - No Employee</layout>
         <recordType>tc9_et__Mark_Up_Margin_Rate_Record__c.tc9_et__Template</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_et__Minimum_Pay_Rate__c-tc9_core__Agreement Layout</layout>
+        <recordType>tc9_et__Minimum_Pay_Rate__c.tc9_core__Agreement_Rate</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_et__Minimum_Pay_Rate__c-tc9_et__Time2pay Minimum Pay Rate Layout</layout>
@@ -30363,6 +30868,10 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Payee Employment Cost Layout</layout>
+        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_core__Agreement_Cost</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Employment_Cost_Exception__c-tc9_pr__Payee Employment Cost Layout</layout>
         <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Payee_Custom_Cost_1</recordType>
     </layoutAssignments>
     <layoutAssignments>
@@ -30465,6 +30974,10 @@
         <layout>tc9_pr__Employment_Cost_Item__c-tc9_pr__Employment Cost Item Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>tc9_pr__Employment_Cost_Item__c-tc9_pr__Employment Cost Item Layout</layout>
+        <recordType>tc9_pr__Employment_Cost_Item__c.tc9_core__Agreement_Cost</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>tc9_pr__Employment_Cost__c-tc9_et__Time2Pay Employment Cost - Non Superannuation</layout>
         <recordType>tc9_pr__Employment_Cost__c.tc9_et__Custom_Cost_1</recordType>
     </layoutAssignments>
@@ -30518,6 +31031,10 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_pr__Employment_Cost__c-tc9_pr__Employment Cost Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Employment_Cost__c-tc9_pr__Employment Cost Layout</layout>
+        <recordType>tc9_pr__Employment_Cost__c.tc9_core__Agreement_Cost</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_pr__Leave_Rule_Item__c-tc9_pr__TC9PR Leave Rule Item Layout</layout>
@@ -30656,6 +31173,10 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_pr__Pay_Code_Junction__c-tc9_pr__TC9PR PC Junction Leave Rule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Pay_Code_Junction__c-tc9_pr__TC9PR PC Junction Leave Rule Layout</layout>
+        <recordType>tc9_pr__Pay_Code_Junction__c.tc9_core__Pay_Rate_Loading</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_pr__Pay_Code_Junction__c-tc9_pr__TC9PR PC Junction Leave Rule Layout</layout>
@@ -31230,6 +31751,10 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_pr__Template_Group__c-tc9_pr__TC9PR Template Group Layout - Remuneration Templates</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Template_Group__c-tc9_pr__TC9PR Template Group Layout - Remuneration Templates</layout>
+        <recordType>tc9_pr__Template_Group__c.tc9_core__Pay_Rate_Loading</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_pr__Template_Group__c-tc9_pr__TC9PR Template Group Layout - Remuneration Templates</layout>
@@ -33021,6 +33546,24 @@
         <allowRead>false</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>tc9_bgl__Acc_System_Setup__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>tc9_core__Agreement__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>tc9_core__Job_Role__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -35093,6 +35636,11 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>tc9_et__Minimum_Pay_Rate__c.tc9_core__Agreement_Rate</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
         <default>true</default>
         <recordType>tc9_et__PayRate_Loading__c.tc9_et__Casual_Loading</recordType>
         <visible>true</visible>
@@ -35321,6 +35869,11 @@
         <default>true</default>
         <recordType>tc9_pr__Calendar__c.tc9_pr__Payroll</recordType>
         <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_core__Agreement_Cost</recordType>
+        <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
@@ -35569,6 +36122,11 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
+        <recordType>tc9_pr__Employment_Cost_Item__c.tc9_core__Agreement_Cost</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
         <recordType>tc9_pr__Employment_Cost_Item__c.tc9_et__Custom_Cost_1</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
@@ -35631,6 +36189,11 @@
         <default>false</default>
         <recordType>tc9_pr__Employment_Cost_Item__c.tc9_pr__WorkCover</recordType>
         <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>tc9_pr__Employment_Cost__c.tc9_core__Agreement_Cost</recordType>
+        <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
@@ -35815,6 +36378,11 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>tc9_pr__Pay_Batch_Lodgement__c.tc9_eau__SuperStream</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>tc9_pr__Pay_Code_Junction__c.tc9_core__Pay_Rate_Loading</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
@@ -36381,6 +36949,11 @@
         <default>true</default>
         <recordType>tc9_pr__Suspension__c.tc9_pr__Payee_Leave_Rule</recordType>
         <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>tc9_pr__Template_Group__c.tc9_core__Pay_Rate_Loading</recordType>
+        <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
@@ -36962,6 +37535,14 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>tc9_bgl__General_Ledger_Integration</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>tc9_core__Agreement__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>tc9_core__Job_Role__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>

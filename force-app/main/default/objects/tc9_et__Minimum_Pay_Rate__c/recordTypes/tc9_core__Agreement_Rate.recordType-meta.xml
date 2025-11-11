@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_core__Agreement_Rate</fullName>
+    <active>true</active>
+    <description>To be used for Minimum Pay Rates related to Agreements.</description>
+    <label>Agreement Rate</label>
+    <picklistValues>
+        <picklist>tc9_et__Annual_Rate_Change__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_et__Rate_Entered__c</picklist>
+        <values>
+            <fullName>Base Pay Rate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pay Rate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Total Pay Rate</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_et__Status__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inactive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Hold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
