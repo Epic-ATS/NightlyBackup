@@ -15,27 +15,12 @@
             <value>
                 <fullName>PAYG</fullName>
                 <default>false</default>
-                <label>PAYG</label>
-            </value>
-            <value>
-                <fullName>PTY / LTD</fullName>
-                <default>false</default>
-                <label>PTY / LTD</label>
+                <label>W2</label>
             </value>
             <value>
                 <fullName>Self employed</fullName>
                 <default>false</default>
-                <label>Self employed</label>
-            </value>
-            <value>
-                <fullName>Managed Company Contractor</fullName>
-                <default>false</default>
-                <label>Managed Company Contractor</label>
-            </value>
-            <value>
-                <fullName>PAYE</fullName>
-                <default>false</default>
-                <label>PAYE</label>
+                <label>1099</label>
             </value>
         </valueSetDefinition>
     </valueSet>
