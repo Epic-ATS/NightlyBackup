@@ -53,4 +53,12 @@
         <targetPreference>OpenExternalLinkInSameTab</targetPreference>
         <type>ExternalLink</type>
     </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Logout</label>
+        <position>8</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>https://epic-3b.my.site.com/EpicCustomerPortal/secur/logout.jsp</target>
+        <targetPreference>OpenExternalLinkInSameTab</targetPreference>
+        <type>ExternalLink</type>
+    </navigationMenuItem>
 </NavigationMenu>
