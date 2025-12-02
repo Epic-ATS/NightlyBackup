@@ -6,7 +6,7 @@
     <inlineHelpText>Indicates whether the Amount per Period should be generated automatically when a new Calendar Period is opened during Payrun processing</inlineHelpText>
     <label>Auto Pay</label>
     <required>false</required>
-    <trackHistory>true</trackHistory>
+    <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>

@@ -6,7 +6,7 @@
     <inlineHelpText>If yes, then the interpretation will apply break loading logic where if you exceed 5hrs without a 30 minute unpaid break the remaining hours are paid as overtime.</inlineHelpText>
     <label>Apply Break Loading Interpretation?</label>
     <required>false</required>
-    <trackHistory>true</trackHistory>
+    <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>

@@ -6,7 +6,7 @@
     <inlineHelpText>Indicates that Interpretation Variations are required for the Interpretation Rule</inlineHelpText>
     <label>Apply Interpretation Variations?</label>
     <required>false</required>
-    <trackHistory>true</trackHistory>
+    <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>

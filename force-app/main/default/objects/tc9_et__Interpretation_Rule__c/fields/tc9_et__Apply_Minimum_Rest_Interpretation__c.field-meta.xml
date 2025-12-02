@@ -6,7 +6,7 @@
     <inlineHelpText>If yes, minimum rest shift logic will be applied to this Interpretation Rule</inlineHelpText>
     <label>Apply Minimum Rest Interpretation?</label>
     <required>false</required>
-    <trackHistory>true</trackHistory>
+    <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>

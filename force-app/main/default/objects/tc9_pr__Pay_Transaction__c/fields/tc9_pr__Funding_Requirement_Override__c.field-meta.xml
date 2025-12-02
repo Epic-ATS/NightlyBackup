@@ -6,7 +6,7 @@
     <description>Indicates funding requirements have been overridden on the Pay Transaction to allow Employee payment</description>
     <inlineHelpText>Indicates funding requirements have been overridden on the Pay Transaction to allow Employee payment</inlineHelpText>
     <label>Funding Requirement Override</label>
-    <trackHistory>true</trackHistory>
+    <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>
 </CustomField>

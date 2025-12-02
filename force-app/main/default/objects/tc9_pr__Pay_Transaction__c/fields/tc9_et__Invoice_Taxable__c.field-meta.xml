@@ -5,7 +5,7 @@
     <description>Indicates the Pay Transaction should have tax applied to the invoice..</description>
     <label>Invoice Taxable</label>
     <required>false</required>
-    <trackHistory>false</trackHistory>
+    <trackHistory>true</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>

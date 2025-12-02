@@ -6,7 +6,7 @@
     <inlineHelpText>Defines how the Invoice Items related to the Pay Transaction will be grouped when Invoices are created</inlineHelpText>
     <label>Invoice Group By</label>
     <required>false</required>
-    <trackHistory>false</trackHistory>
+    <trackHistory>true</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>

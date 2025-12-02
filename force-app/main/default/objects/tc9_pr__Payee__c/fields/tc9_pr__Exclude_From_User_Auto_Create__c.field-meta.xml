@@ -6,7 +6,7 @@
     <description>Identifies if the Payee should be excluded from having a User automatically created</description>
     <inlineHelpText>Identifies if the Payee should be excluded from having a User automatically created</inlineHelpText>
     <label>Exclude From User Auto Create</label>
-    <trackHistory>true</trackHistory>
+    <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>
 </CustomField>

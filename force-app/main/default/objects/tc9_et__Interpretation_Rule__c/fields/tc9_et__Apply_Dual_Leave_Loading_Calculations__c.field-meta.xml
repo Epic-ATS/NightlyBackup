@@ -6,7 +6,7 @@
     <inlineHelpText>Indicates if during timesheet interpretation dual calculations are required for leave loading.</inlineHelpText>
     <label>Apply Dual Leave Loading Calculations</label>
     <required>false</required>
-    <trackHistory>true</trackHistory>
+    <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>

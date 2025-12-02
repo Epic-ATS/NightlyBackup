@@ -6,7 +6,7 @@
     <inlineHelpText>The original service date from which payee leave rules should accrue. Determines length of service for the purpose of accruing and displaying balances. This date can be overridden on individual Payee Leave Rules during/after their creation.</inlineHelpText>
     <label>Original Leave Service Date</label>
     <required>false</required>
-    <trackHistory>true</trackHistory>
+    <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Date</type>
 </CustomField>

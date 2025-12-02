@@ -6,7 +6,7 @@
     <description>Allows the user to override the system-calculated value in the Hourly Rate field</description>
     <inlineHelpText>Allows the user to override the system-calculated value in the Hourly Rate field</inlineHelpText>
     <label>Override Hourly Rate</label>
-    <trackHistory>true</trackHistory>
+    <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>
 </CustomField>

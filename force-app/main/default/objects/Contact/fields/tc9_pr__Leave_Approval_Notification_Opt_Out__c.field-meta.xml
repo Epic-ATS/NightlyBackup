@@ -7,5 +7,6 @@
     <inlineHelpText>Identifies if the Employee has opted out of having email notification advising of their Leaves approval sent. If True, emails will not be sent</inlineHelpText>
     <label>Leave Approval Notification Opt Out</label>
     <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
     <type>Checkbox</type>
 </CustomField>

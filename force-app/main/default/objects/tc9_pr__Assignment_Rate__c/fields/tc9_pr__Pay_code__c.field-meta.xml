@@ -10,7 +10,7 @@
     <relationshipLabel>Assignment Rates</relationshipLabel>
     <relationshipName>Assignment_Rates</relationshipName>
     <required>false</required>
-    <trackHistory>false</trackHistory>
+    <trackHistory>true</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Lookup</type>
 </CustomField>

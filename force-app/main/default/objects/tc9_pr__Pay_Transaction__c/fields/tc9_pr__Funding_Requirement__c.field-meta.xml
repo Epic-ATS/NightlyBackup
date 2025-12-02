@@ -6,7 +6,7 @@
     <inlineHelpText>Indicates funding requirements at a Pay Transaction level</inlineHelpText>
     <label>Funding_Requirement</label>
     <required>false</required>
-    <trackHistory>true</trackHistory>
+    <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>

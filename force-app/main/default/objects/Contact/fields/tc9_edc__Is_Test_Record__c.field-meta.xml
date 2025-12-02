@@ -7,5 +7,6 @@
     <inlineHelpText>This field is used to identify the test records created for volume testing during bulk data creation.</inlineHelpText>
     <label>Is Test Record</label>
     <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
     <type>Checkbox</type>
 </CustomField>

@@ -6,7 +6,7 @@
     <inlineHelpText>Indicates if any required invoices for the Pay Transaction have been raised</inlineHelpText>
     <label>Invoice Creation Status</label>
     <required>false</required>
-    <trackHistory>true</trackHistory>
+    <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>

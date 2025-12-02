@@ -6,7 +6,7 @@
     <inlineHelpText>If yes, then the interpretation will apply break Time logic to the before, after, standard and overtime interpretation.</inlineHelpText>
     <label>Apply Break Time Interpretation</label>
     <required>false</required>
-    <trackHistory>true</trackHistory>
+    <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>

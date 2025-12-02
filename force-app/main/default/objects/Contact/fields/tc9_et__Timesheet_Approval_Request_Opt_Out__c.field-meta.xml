@@ -6,5 +6,6 @@
     <description>Identifies if the Contact has opted out of having email notifications advising a Timesheet is submitted. If True, emails will not be sent. This does not include reminder emails.</description>
     <label>Timesheet Approval Request Opt Out</label>
     <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
     <type>Checkbox</type>
 </CustomField>

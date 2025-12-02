@@ -10,7 +10,7 @@
     <relationshipLabel>Pay Transactions</relationshipLabel>
     <relationshipName>Pay_Transactions</relationshipName>
     <required>false</required>
-    <trackHistory>true</trackHistory>
+    <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Lookup</type>
 </CustomField>

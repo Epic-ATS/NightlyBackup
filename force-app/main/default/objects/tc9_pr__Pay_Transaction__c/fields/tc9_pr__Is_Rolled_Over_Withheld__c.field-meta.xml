@@ -6,7 +6,7 @@
     <description>Identifies if the Pay Transaction is relating to the withholding of a previously rolled over deduction amount that could not be withheld</description>
     <inlineHelpText>Identifies if the Pay Transaction is relating to the withholding of a previously rolled over deduction amount that could not be withheld</inlineHelpText>
     <label>Is Rolled Over Withheld?</label>
-    <trackHistory>true</trackHistory>
+    <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>
 </CustomField>

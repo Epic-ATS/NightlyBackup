@@ -6,7 +6,7 @@
     <inlineHelpText>Indicates that the record is the primary rate of pay and will be used in the calculation of leave payments</inlineHelpText>
     <label>Default Pay Rate</label>
     <required>false</required>
-    <trackHistory>true</trackHistory>
+    <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>

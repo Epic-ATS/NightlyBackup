@@ -158,7 +158,7 @@
     <nameField>
         <displayFormat>Payee-{0000000000}</displayFormat>
         <label>Payee Name</label>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Payee</pluralLabel>

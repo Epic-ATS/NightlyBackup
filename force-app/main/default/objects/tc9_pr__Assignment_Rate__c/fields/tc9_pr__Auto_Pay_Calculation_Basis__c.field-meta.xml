@@ -6,7 +6,7 @@
     <inlineHelpText>Indicates how an auto pay assignment rate will be calculated.  ‘Assignment Rate’ will be based on the auto pay values in the assignment rate, ‘Work Schedule’ will use the actual pattern of work.</inlineHelpText>
     <label>Auto Pay Calculation Basis</label>
     <required>false</required>
-    <trackHistory>true</trackHistory>
+    <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>

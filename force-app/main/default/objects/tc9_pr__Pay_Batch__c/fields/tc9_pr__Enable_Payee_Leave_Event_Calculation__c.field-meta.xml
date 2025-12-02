@@ -6,7 +6,7 @@
     <inlineHelpText>Indicates whether the calculation of Payee Leave Events will occur in this pay batch</inlineHelpText>
     <label>Enable Payee Leave Event Calculation</label>
     <required>false</required>
-    <trackHistory>true</trackHistory>
+    <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>

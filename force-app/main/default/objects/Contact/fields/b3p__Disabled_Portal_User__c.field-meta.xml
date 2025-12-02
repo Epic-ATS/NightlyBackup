@@ -6,5 +6,6 @@
     <inlineHelpText>Check this and we will prevent portal logins for this user.</inlineHelpText>
     <label>Disabled Portal User</label>
     <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
     <type>Checkbox</type>
 </CustomField>

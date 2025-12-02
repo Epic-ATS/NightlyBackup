@@ -6,7 +6,7 @@
     <inlineHelpText>Defines the Industry that that applies to the Assignment.</inlineHelpText>
     <label>Industry</label>
     <required>false</required>
-    <trackHistory>true</trackHistory>
+    <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>

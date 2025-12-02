@@ -6,5 +6,6 @@
     <description>Identifies if the Employee has opted out of having email notification reminding them to submit their Leaves. If True, emails will not be sent</description>
     <label>Leave Reminder Notification Opt Out</label>
     <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
     <type>Checkbox</type>
 </CustomField>

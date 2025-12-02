@@ -7,5 +7,6 @@
     <inlineHelpText>Indicates if Invoices to be emailed to the Contact should be included in a single email (where invoice size permits). If unchecked each invoice will be sent as a separate email</inlineHelpText>
     <label>Merge Invoice Emails</label>
     <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
     <type>Checkbox</type>
 </CustomField>
