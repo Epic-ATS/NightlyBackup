@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Daily/Shift Overtime</fullName>
+        <default>false</default>
+        <label>Daily/Shift Overtime</label>
+    </customValue>
+    <customValue>
+        <fullName>Frequency Overtime</fullName>
+        <default>false</default>
+        <label>Frequency Overtime</label>
+    </customValue>
+    <customValue>
+        <fullName>Break Loading</fullName>
+        <default>false</default>
+        <label>Break Loading</label>
+    </customValue>
+    <customValue>
+        <fullName>Minimum Rest</fullName>
+        <default>false</default>
+        <label>Minimum Rest</label>
+    </customValue>
+    <customValue>
+        <fullName>Time Breakpoints</fullName>
+        <default>false</default>
+        <label>Time Breakpoints</label>
+    </customValue>
+    <masterLabel>Overtime Hours Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

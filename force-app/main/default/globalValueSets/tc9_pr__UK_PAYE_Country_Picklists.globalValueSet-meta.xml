@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>England</fullName>
+        <default>false</default>
+        <label>England</label>
+    </customValue>
+    <customValue>
+        <fullName>Northern Ireland</fullName>
+        <default>false</default>
+        <label>Northern Ireland</label>
+    </customValue>
+    <customValue>
+        <fullName>Scotland</fullName>
+        <default>false</default>
+        <label>Scotland</label>
+    </customValue>
+    <customValue>
+        <fullName>Wales</fullName>
+        <default>false</default>
+        <label>Wales</label>
+    </customValue>
+    <description>List of UK countries with the ability to govern their own PAYE rates and thresholds.</description>
+    <masterLabel>UK PAYE Country Picklists</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

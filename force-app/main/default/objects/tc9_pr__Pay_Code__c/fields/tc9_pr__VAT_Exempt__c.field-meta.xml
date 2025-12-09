@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__VAT_Exempt__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When set to true any transactions using this Pay Code will not attract VAt during applicable contractor payroll calculation.</description>
+    <inlineHelpText>When set to true any transactions using this Pay Code will not attract VAt during applicable contractor payroll calculation.</inlineHelpText>
+    <label>VAT Exempt</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

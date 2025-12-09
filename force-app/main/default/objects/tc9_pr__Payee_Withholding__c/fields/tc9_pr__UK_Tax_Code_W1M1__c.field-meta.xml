@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__UK_Tax_Code_W1M1__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Determines if the personal allowance &amp; tax payable is calculated as if earned in week 1/ month 1 (per pay period) or on a cumulative (YTD) basis.</description>
+    <inlineHelpText>Determines if the personal allowance &amp; tax payable is calculated as if earned in week 1/ month 1 (per pay period) or on a cumulative (YTD) basis.</inlineHelpText>
+    <label>UK Tax Code W1/M1?</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_pr__Yes_No_Picklists</valueSetName>
+    </valueSet>
+</CustomField>

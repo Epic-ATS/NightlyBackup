@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__UK_PAYE_Specific_Country__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Denotes, for a specific country, which rates and thresholds should be applied during the calculation of UK PAYE.</description>
+    <inlineHelpText>Denotes, for a specific country, which rates and thresholds should be applied during the calculation of UK PAYE.</inlineHelpText>
+    <label>UK PAYE Specific Country</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_pr__UK_PAYE_Country_Picklists</valueSetName>
+    </valueSet>
+</CustomField>

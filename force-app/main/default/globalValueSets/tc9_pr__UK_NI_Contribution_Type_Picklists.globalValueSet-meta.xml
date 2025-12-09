@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Employee</fullName>
+        <default>false</default>
+        <label>Employee</label>
+    </customValue>
+    <customValue>
+        <fullName>Employer</fullName>
+        <default>false</default>
+        <label>Employer</label>
+    </customValue>
+    <description>Indicates the contribution type for UK National Insurance.</description>
+    <masterLabel>UK NI Contribution Type Picklists</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

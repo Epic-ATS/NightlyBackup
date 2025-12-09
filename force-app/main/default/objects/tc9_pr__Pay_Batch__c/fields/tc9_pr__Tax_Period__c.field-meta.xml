@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Tax_Period__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates which period of the financial year the payment date falls within (UK only, currently).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates which period of the financial year the payment date falls within (UK only, currently).</inlineHelpText>
+    <label>Tax Period</label>
+    <precision>12</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

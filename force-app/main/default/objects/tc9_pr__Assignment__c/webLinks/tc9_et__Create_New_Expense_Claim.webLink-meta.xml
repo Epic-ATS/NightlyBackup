@@ -17,5 +17,5 @@
     <protected>false</protected>
     <showsLocation>false</showsLocation>
     <showsStatus>false</showsStatus>
-    <url>/lightning/cmp/tc9_et__ExpClaimManager?c__assId={!tc9_pr__Assignment__c.Id}</url>
+    <url>/lightning/cmp/ExpClaimManager?c__assId={!tc9_pr__Assignment__c.Id}</url>
 </WebLink>

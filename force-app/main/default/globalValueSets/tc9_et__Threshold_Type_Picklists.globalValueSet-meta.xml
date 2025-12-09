@@ -20,6 +20,11 @@
         <default>false</default>
         <label>Shift Gap</label>
     </customValue>
+    <customValue>
+        <fullName>Standard Hours</fullName>
+        <default>false</default>
+        <label>Standard Hours</label>
+    </customValue>
     <description>To be used for Threshold Type Picklists</description>
     <masterLabel>Threshold Type Picklists</masterLabel>
     <sorted>false</sorted>

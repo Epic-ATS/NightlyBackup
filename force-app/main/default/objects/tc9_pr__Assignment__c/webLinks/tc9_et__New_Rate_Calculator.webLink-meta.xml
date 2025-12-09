@@ -17,5 +17,5 @@
     <protected>false</protected>
     <showsLocation>false</showsLocation>
     <showsStatus>false</showsStatus>
-    <url>/apex/tc9_et__RateCalculator?jobid={!tc9_pr__Assignment__c.Id}</url>
+    <url>/apex/RateCalculator?jobid={!tc9_pr__Assignment__c.Id}</url>
 </WebLink>

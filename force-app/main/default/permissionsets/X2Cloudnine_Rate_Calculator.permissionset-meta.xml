@@ -4637,86 +4637,6 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Assignment_Custom_Cost_1</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Assignment_Custom_Cost_2</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Assignment_Custom_Cost_3</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Assignment_Custom_Cost_4</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Assignment_Insurance</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Assignment_Post_Custom_Cost_1</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Assignment_Post_Custom_Cost_2</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Assignment_Post_Custom_Cost_3</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Assignment_Post_Custom_Cost_4</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Assignment_WHS</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Client_Custom_Cost_1</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Client_Custom_Cost_2</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Client_Custom_Cost_3</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Client_Custom_Cost_4</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Client_Custom_Post_Cost_1</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Client_Custom_Post_Cost_2</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Client_Custom_Post_Cost_3</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Client_Custom_Post_Cost_4</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Client_Insurance</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Client_WHS</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
         <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Pay_Code_Custom_Cost_1</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
@@ -4761,62 +4681,6 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Payee_Custom_Cost_1</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Payee_Custom_Cost_2</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Payee_Custom_Cost_3</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Payee_Custom_Cost_4</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Payee_Custom_Post_Cost_1</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Payee_Custom_Post_Cost_2</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Payee_Custom_Post_Cost_3</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Payee_Custom_Post_Cost_4</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Payee_Insurance</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Payee_WHS</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_pr__Assignment_Payroll_Tax</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_pr__Assignment_WorkCover</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_pr__Client_Payroll_Tax</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_pr__Client_WorkCover</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
         <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_pr__Pay_Code_Payroll_Tax</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
@@ -4826,10 +4690,6 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_pr__Payee_Payroll_Tax</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_pr__Payee_WorkCover</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>

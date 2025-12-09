@@ -978,6 +978,17 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>tc9_et__Penalty_Based_on_Std_Time_End__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>tc9_et__Public_Holiday_Interpretation_Type__c</picklist>
         <values>
             <fullName>Shift Start Time</fullName>

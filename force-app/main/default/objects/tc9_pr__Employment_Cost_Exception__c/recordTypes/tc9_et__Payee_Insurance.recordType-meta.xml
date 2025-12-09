@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>tc9_et__Payee_Insurance</fullName>
-    <active>true</active>
+    <active>false</active>
     <description>To be used for Payee level Employment Cost Exceptions associated with Insurance</description>
     <label>Payee Insurance</label>
     <picklistValues>

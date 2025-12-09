@@ -392,6 +392,29 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>tc9_et__Overtime_Hours_Type__c</picklist>
+        <values>
+            <fullName>Break Loading</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Daily%2FShift Overtime</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Frequency Overtime</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Minimum Rest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Time Breakpoints</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>tc9_et__Pay_Partial_Quantity__c</picklist>
         <values>
             <fullName>No</fullName>

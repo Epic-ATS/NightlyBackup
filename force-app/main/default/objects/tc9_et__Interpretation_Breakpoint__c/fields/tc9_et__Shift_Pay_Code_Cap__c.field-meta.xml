@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Shift_Pay_Code_Cap__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If true, then the Daily Pay Code Cap will be considered a Shift Pay Code cap and be calculated on a Shift Basis</description>
+    <inlineHelpText>If true, then the Daily Pay Code Cap will be considered a Shift Pay Code cap and be calculated on a Shift Basis</inlineHelpText>
+    <label>Shift Pay Code Cap</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -17,5 +17,5 @@
     <protected>false</protected>
     <showsLocation>false</showsLocation>
     <showsStatus>false</showsStatus>
-    <url>/apex/tc9_et__CreateInvoiceableFee?id={! tc9_pr__Assignment__c.Id }&amp;rt=&apos;Perm_Fee&apos;&amp;target=&quot;_self&quot;</url>
+    <url>/apex/CreateInvoiceableFee?id={! tc9_pr__Assignment__c.Id }&amp;rt=&apos;Perm_Fee&apos;&amp;target=&quot;_self&quot;</url>
 </WebLink>

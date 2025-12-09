@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Timesheet_Entry_Creation_Status__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The status of the automated process that creates timesheet entries from this leave event.</description>
+    <label>Timesheet Entry Creation Status</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_pr__Record_Creation_Status</valueSetName>
+    </valueSet>
+</CustomField>

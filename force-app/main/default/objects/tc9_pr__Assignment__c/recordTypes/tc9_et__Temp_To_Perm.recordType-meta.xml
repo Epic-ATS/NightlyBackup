@@ -28,6 +28,21 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>tc9_et__Assignment_Rate_Matching_Mode__c</picklist>
+        <values>
+            <fullName>Allow no Assignment Rate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Default to Pay Code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exact Match</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>tc9_et__Back_Pay_Calculation_Status__c</picklist>
         <values>
             <fullName>Calculated</fullName>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Large_Pay_Batch_Org__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If true then this org will limit the Pay Batch Manager view to handle large Pay Batches as per the limit applied.</description>
+    <inlineHelpText>If true then this org will limit the Pay Batch Manager view to handle large Pay Batches as per the limit applied.</inlineHelpText>
+    <label>Large Pay Batch Org?</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -4,6 +4,7 @@
     <customButtons>tc9_et__Add_Project_Codes</customButtons>
     <excludeButtons>ChangeOwnerOne</excludeButtons>
     <excludeButtons>ChangeRecordType</excludeButtons>
+    <excludeButtons>OpenSlackRecordChannel</excludeButtons>
     <excludeButtons>PrintableView</excludeButtons>
     <excludeButtons>Share</excludeButtons>
     <excludeButtons>Submit</excludeButtons>
@@ -36,6 +37,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>tc9_et__Interpretation_Rule_Template_Group__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>tc9_et__Assignment_Rate_Matching_Mode__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>

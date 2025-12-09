@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Public_Holiday_Not_Worked_Leave_Rule__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>When a leave event created through the employee portal covers a public holiday, this leave rule will be used to update the timesheet entry leave type.</description>
+    <inlineHelpText>When a leave event created through the employee portal covers a public holiday, this leave rule will be used to update the timesheet entry leave type.</inlineHelpText>
+    <label>Public Holiday Not Worked Leave Rule</label>
+    <referenceTo>tc9_pr__Leave_Rule__c</referenceTo>
+    <relationshipLabel>Leave Rules</relationshipLabel>
+    <relationshipName>Leave_Rules</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -4296,6 +4296,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>tc9_et__InterpretationCalcHelper</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>tc9_et__InterpretationHelper</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -5388,6 +5392,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>tc9_pr__Batch_AutomatedPayBatch</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>tc9_pr__Batch_CreateAndSendPayAdviceEmail</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -5952,6 +5960,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>tc9_pr__Schedule_AutomatedPayBatchProcess</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>tc9_pr__Schedule_PaybatchCalculations</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -5993,6 +6005,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>tc9_pr__Test_ActionPoller</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_pr__Test_ApexLambda</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -6389,6 +6405,66 @@
     </classAccesses>
     <classAccesses>
         <apexClass>tc9_pr__WorkScheduleManagerController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_pr__aL_BinaryRelation</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_pr__aL_Collection</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_pr__aL_DecimalCollection</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_pr__aL_DoubleCollection</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_pr__aL_FieldMatchCondition</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_pr__aL_FieldsMatch</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_pr__aL_IncompleteFieldsMatch</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_pr__aL_Match</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_pr__aL_ObjectPredicate</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_pr__aL_ObjectPredicates</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_pr__aL_PrimitiveComparer</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_pr__aL_RecordMatch</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_pr__aL_SObjectFieldReader</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_pr__aL_SObjectPredicate</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_pr__aL_SObjectToSObjectFunction</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -14805,6 +14881,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>tc9_et__Interpretation_Breakpoint__c.tc9_et__Overtime_Hours_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>tc9_et__Interpretation_Breakpoint__c.tc9_et__Overtime_Pay_Code__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -14866,6 +14947,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>tc9_et__Interpretation_Breakpoint__c.tc9_et__Secondary_Interpretation_Breakpoint__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_et__Interpretation_Breakpoint__c.tc9_et__Shift_Pay_Code_Cap__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -15466,6 +15552,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>tc9_et__Interpretation_Rule__c.tc9_et__Pay_Code__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_et__Interpretation_Rule__c.tc9_et__Penalty_Based_on_Std_Time_End__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -18655,6 +18746,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>tc9_et__Timesheet_Entry__c.tc9_et__Public_Holiday_Calendar_Override__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>tc9_et__Timesheet_Entry__c.tc9_et__Public_Holiday_Calendar__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -18681,6 +18777,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>tc9_et__Timesheet_Entry__c.tc9_et__Shift_Start_Time__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_et__Timesheet_Entry__c.tc9_et__Source_Leave_Event__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -20865,6 +20966,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>tc9_pr__Assignment__c.tc9_et__Assignment_Rate_Matching_Mode__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>tc9_pr__Assignment__c.tc9_et__Assignment_Rate_Template_Group_Inv_Rate__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -21930,6 +22036,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>tc9_pr__Calendar__c.tc9_pr__Automated_Pay_Batch_Processing__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>tc9_pr__Calendar__c.tc9_pr__Calendar_Period_Creation_Failed__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -22596,6 +22707,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>tc9_pr__Leave_Rule__c.tc9_pr__Pay_Loading_by_Default__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Leave_Rule__c.tc9_pr__Public_Holiday_Not_Worked_Leave_Rule__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -23450,6 +23566,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__AEO_Stopped_Student_Loans__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__ATO_Income_Classification__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -23491,6 +23612,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__Country_of_Visa_Work__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__Date_Time_Finalised__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -23625,6 +23751,21 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__Finalise_Calendar_Period__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__Finalise_Year_End_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__Finalise_Year_Start_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__Flag_AUS_PAYG_Refund__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -23755,6 +23896,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__Maximum_Payroll_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__Net_Earning_Ex_Post_Tax_Deductions__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -23791,6 +23937,16 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__Ordinary_Time_Earnings__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__PAYE_YTD__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__PAYE__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -23860,7 +24016,27 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__Pay_Batch_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__Pay_Batch__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__Pay_Period_End_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__Pay_Period_Start_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__Pay_Schedule__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -23871,6 +24047,16 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__Payee__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__Payment_After_Leaving__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__Payment_Date__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -23950,6 +24136,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__Student_Loans__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__Superannuation_Month__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -23981,6 +24172,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__Taxable_ETPs__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__Taxable_Earnings_YTD__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -24026,6 +24222,101 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__Total_Tax_AUS__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__UK_EE_NI__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__UK_ER_NI__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__UK_Earnings_for_NI__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__UK_NI_Apply_Irregular_Earnings__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__UK_NI_Category__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__UK_NI_Earn_CUST_to_UST__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__UK_NI_Earn_LEL_to_PT__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__UK_NI_Earn_LEL_to_ST__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__UK_NI_Earn_Over_UEL__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__UK_NI_Earn_Over_UST__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__UK_NI_Earn_PT_to_UEL__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__UK_NI_Earn_ST_to_CUST__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__UK_NI_Earn_to_LEL__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__UK_PAYE_Personal_Allowance__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__UK_Student_Loan_Plans__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__UK_Tax_Code_W1M1__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__UK_Tax_Code__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__VAT_Contractor_Taxable_Expenses__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Batch_Item__c.tc9_pr__VAT__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -24160,6 +24451,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>tc9_pr__Pay_Batch__c.tc9_pr__Large_Pay_Batch_Limit__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>tc9_pr__Pay_Batch__c.tc9_pr__Maximum_Payroll_Date__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -24235,6 +24531,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>tc9_pr__Pay_Batch__c.tc9_pr__Tax_Period__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>tc9_pr__Pay_Batch__c.tc9_pr__Total_Employer_Superannuation__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -24256,6 +24557,21 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>tc9_pr__Pay_Batch__c.tc9_pr__Total_Taxes__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Batch__c.tc9_pr__Total_UK_EE_NI__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Batch__c.tc9_pr__Total_UK_ER_NI__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Batch__c.tc9_pr__Total_UK_NI__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -24445,6 +24761,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>tc9_pr__Pay_Code__c.tc9_pr__PAYE_Exempt__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>tc9_pr__Pay_Code__c.tc9_pr__PAYG_Marginal_Tax__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -24501,6 +24822,21 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>tc9_pr__Pay_Code__c.tc9_pr__STP_Payment_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Code__c.tc9_pr__UK_NI_Class_1_Exempt__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Code__c.tc9_pr__UK_NI_Contributes_to_Class_1A__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Code__c.tc9_pr__VAT_Exempt__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -25065,6 +25401,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>tc9_pr__Pay_Transaction__c.tc9_pr__Contractor_VAT__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>tc9_pr__Pay_Transaction__c.tc9_pr__Contributes_to_OTE__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -25251,6 +25592,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>tc9_pr__Pay_Transaction__c.tc9_pr__Override_ATO_Income_Classification__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Transaction__c.tc9_pr__PAYE__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -25461,6 +25807,21 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>tc9_pr__Pay_Transaction__c.tc9_pr__Transaction_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Transaction__c.tc9_pr__UK_NI_Category__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Transaction__c.tc9_pr__UK_NI_Contribution_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Pay_Transaction__c.tc9_pr__UK_Student_Loan_Plan__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -26785,6 +27146,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>tc9_pr__Payee_Leave_Event__c.tc9_pr__End_Time__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>tc9_pr__Payee_Leave_Event__c.tc9_pr__Exclude_From_Alternative_Appr_Remin_List__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -26960,7 +27326,27 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>tc9_pr__Payee_Leave_Event__c.tc9_pr__Source_Leave_Event__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>tc9_pr__Payee_Leave_Event__c.tc9_pr__Start_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Payee_Leave_Event__c.tc9_pr__Start_Time__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Payee_Leave_Event__c.tc9_pr__Timesheet_Entry_Creation_Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Payee_Leave_Event__c.tc9_pr__Timesheet_Entry_Last_Updated__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -27600,6 +27986,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>tc9_pr__Payee_Withholding__c.tc9_pr__Previous_Employment_PAYE__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Payee_Withholding__c.tc9_pr__Previous_Employment_TotalPay__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>tc9_pr__Payee_Withholding__c.tc9_pr__Reason_TFN_Not_Provided__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -27701,6 +28097,31 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>tc9_pr__Payee_Withholding__c.tc9_pr__Trading_Name__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Payee_Withholding__c.tc9_pr__UK_NI_Category__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Payee_Withholding__c.tc9_pr__UK_Student_Loan_Plans__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Payee_Withholding__c.tc9_pr__UK_Tax_Code_W1M1__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Payee_Withholding__c.tc9_pr__UK_Tax_Code__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Payee_Withholding__c.tc9_pr__VAT_Registration_Number__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -27810,6 +28231,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>tc9_pr__Payee__c.tc9_pr__P45_Generated_On__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>tc9_pr__Payee__c.tc9_pr__Pay_Advice_Delivery_Method__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -27896,6 +28322,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>tc9_pr__Payee__c.tc9_pr__Tax_File_Number__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Payee__c.tc9_pr__UK_NI_Number__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -28690,6 +29121,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>tc9_pr__Schedule__c.tc9_pr__Maximum_Earlier_Pay_Calendar_Periods__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>tc9_pr__Schedule__c.tc9_pr__Pay_Advice_Detail_Level__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -29015,6 +29451,36 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule_Item__c.tc9_pr__Additional_Rate_Max_Earnings__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule_Item__c.tc9_pr__Additional_Rate_Percent__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule_Item__c.tc9_pr__Advanced_Rate_Max_Earnings__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule_Item__c.tc9_pr__Advanced_Rate_Percent__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule_Item__c.tc9_pr__Basic_Rate_Max_Earnings__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule_Item__c.tc9_pr__Basic_Rate_Percent__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>tc9_pr__Withholding_Rule_Item__c.tc9_pr__Birth_Date__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -29051,6 +29517,31 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>tc9_pr__Withholding_Rule_Item__c.tc9_pr__GST_Rate__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule_Item__c.tc9_pr__Higher_Rate_Max_Earnings__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule_Item__c.tc9_pr__Higher_Rate_Percent__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule_Item__c.tc9_pr__Intermediate_Rate_Max_Earnings__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule_Item__c.tc9_pr__Intermediate_Rate_Percent__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule_Item__c.tc9_pr__Maximum_Rate_Percent__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -29100,7 +29591,102 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule_Item__c.tc9_pr__Starter_Rate_Max_Earnings__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule_Item__c.tc9_pr__Starter_Rate_Percent__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>tc9_pr__Withholding_Rule_Item__c.tc9_pr__Superannuation_Rate__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule_Item__c.tc9_pr__Top_Rate_Max_Earnings__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule_Item__c.tc9_pr__Top_Rate_Percent__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule_Item__c.tc9_pr__UK_EE_Rate_LEL_to_PT__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule_Item__c.tc9_pr__UK_EE_Rate_Over_UEL__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule_Item__c.tc9_pr__UK_EE_Rate_PT_to_UEL__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule_Item__c.tc9_pr__UK_EE_Rate_to_LEL__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule_Item__c.tc9_pr__UK_ER_Rate_CUST_to_UST__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule_Item__c.tc9_pr__UK_ER_Rate_LEL_to_ST__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule_Item__c.tc9_pr__UK_ER_Rate_Over_UST__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule_Item__c.tc9_pr__UK_ER_Rate_ST_to_CUST__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule_Item__c.tc9_pr__UK_ER_Rate_to_LEL__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule_Item__c.tc9_pr__UK_NI_Category_Description__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule_Item__c.tc9_pr__UK_NI_Category__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule_Item__c.tc9_pr__UK_Student_Loan_Annual_Threshold__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule_Item__c.tc9_pr__UK_Student_Loan_Plan__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule_Item__c.tc9_pr__UK_Student_Loan_Rate__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule_Item__c.tc9_pr__VAT_Rate__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -29181,6 +29767,156 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>tc9_pr__Withholding_Rule__c.tc9_pr__Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule__c.tc9_pr__UK_Default_Tax_Code__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule__c.tc9_pr__UK_NI_AUST_Annual__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule__c.tc9_pr__UK_NI_AUST_Monthly__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule__c.tc9_pr__UK_NI_Apprentice_Categories__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule__c.tc9_pr__UK_NI_Default_Category__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule__c.tc9_pr__UK_NI_FUST_Annual__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule__c.tc9_pr__UK_NI_FUST_Monthly__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule__c.tc9_pr__UK_NI_Freeport_Categories__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule__c.tc9_pr__UK_NI_IZUST_Annual__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule__c.tc9_pr__UK_NI_IZUST_Monthly__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule__c.tc9_pr__UK_NI_Investment_Zone_Categories__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule__c.tc9_pr__UK_NI_LEL_Annual__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule__c.tc9_pr__UK_NI_LEL_Monthly__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule__c.tc9_pr__UK_NI_Mariner_Categories__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule__c.tc9_pr__UK_NI_PT_Annual__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule__c.tc9_pr__UK_NI_PT_Monthly__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule__c.tc9_pr__UK_NI_ST_Annual__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule__c.tc9_pr__UK_NI_ST_Monthly__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule__c.tc9_pr__UK_NI_UEL_Annual__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule__c.tc9_pr__UK_NI_UEL_Monthly__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule__c.tc9_pr__UK_NI_UST_Annual__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule__c.tc9_pr__UK_NI_UST_Monthly__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule__c.tc9_pr__UK_NI_Under_21_Categories__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule__c.tc9_pr__UK_NI_VUST_Annual__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule__c.tc9_pr__UK_NI_VUST_Monthly__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule__c.tc9_pr__UK_NI_Veteran_Categories__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule__c.tc9_pr__UK_PAYE_Specific_Country__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule__c.tc9_pr__UK_Special_Tax_Codes__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule__c.tc9_pr__UK_Valid_Tax_Code_Prefixes__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tc9_pr__Withholding_Rule__c.tc9_pr__UK_Valid_Tax_Code_Suffixes__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -31352,10 +32088,38 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_pr__Pay_Transaction__c-tc9_pr__TC9PR Pay Transaction Layout</layout>
+        <recordType>tc9_pr__Pay_Transaction__c.tc9_pr__Withholding_NI</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Pay_Transaction__c-tc9_pr__TC9PR Pay Transaction Layout</layout>
+        <recordType>tc9_pr__Pay_Transaction__c.tc9_pr__Withholding_PAYE</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Pay_Transaction__c-tc9_pr__TC9PR Pay Transaction Layout</layout>
         <recordType>tc9_pr__Pay_Transaction__c.tc9_pr__Withholding_SFSS</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>tc9_pr__Pay_Transaction__c-tc9_pr__TC9PR Pay Transaction Layout</layout>
+        <recordType>tc9_pr__Pay_Transaction__c.tc9_pr__Withholding_Student_Loans</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Pay_Transaction__c-tc9_pr__TC9PR Pay Transaction Layout</layout>
+        <recordType>tc9_pr__Pay_Transaction__c.tc9_pr__Withholding_VAT</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>tc9_pr__Payee_Aggregate__c-tc9_pr__TC9PR Payee Aggregate Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Payee_Aggregate__c-tc9_pr__TC9PR Payee Aggregate Layout</layout>
+        <recordType>tc9_pr__Payee_Aggregate__c.tc9_pr__Withholding_PAYE</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Payee_Aggregate__c-tc9_pr__TC9PR Payee Aggregate Layout</layout>
+        <recordType>tc9_pr__Payee_Aggregate__c.tc9_pr__Withholding_Student_Loans</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Payee_Aggregate__c-tc9_pr__TC9PR Payee Aggregate Layout</layout>
+        <recordType>tc9_pr__Payee_Aggregate__c.tc9_pr__Withholding_VAT</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_pr__Payee_Aggregate__c-tc9_pr__TC9PR Payee Aggregate Leave Layout</layout>
@@ -31508,6 +32272,10 @@
         <recordType>tc9_pr__Payee_Leave_Event__c.Draft</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>tc9_pr__Payee_Leave_Event__c-tc9_pr__TC9PR Payee Leave Event Layout</layout>
+        <recordType>tc9_pr__Payee_Leave_Event__c.tc9_pr__Pre_Approval</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>tc9_pr__Payee_Leave_Rule__c-tc9_pr__TC9PR Payee Leave Rule Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -31520,6 +32288,18 @@
     <layoutAssignments>
         <layout>tc9_pr__Payee_Opening_Balance__c-tc9_pr__TC9PR Payee Opening Balance Layout</layout>
         <recordType>tc9_pr__Payee_Opening_Balance__c.tc9_pr__Withholding_SFSS</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Payee_Opening_Balance__c-tc9_pr__TC9PR Payee Opening Balance Layout</layout>
+        <recordType>tc9_pr__Payee_Opening_Balance__c.tc9_pr__Withholding_Student_Loans</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Payee_Opening_Balance__c-tc9_pr__TC9PR Payee Opening Balance Layout</layout>
+        <recordType>tc9_pr__Payee_Opening_Balance__c.tc9_pr__Withholding_UK_PAYE</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Payee_Opening_Balance__c-tc9_pr__TC9PR Payee Opening Balance Layout</layout>
+        <recordType>tc9_pr__Payee_Opening_Balance__c.tc9_pr__Withholding_VAT</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_pr__Payee_Opening_Balance__c-tc9_pr__TC9PR Payee Opening Balance Layout - Deduction</layout>
@@ -31587,6 +32367,14 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_pr__Payee_Withholding__c-tc9_pr__TC9PR AU PAYG Payee Withholding Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Payee_Withholding__c-tc9_pr__TC9PR AU PAYG Payee Withholding Layout</layout>
+        <recordType>tc9_pr__Payee_Withholding__c.tc9_pr__UK_PAYE_NI</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Payee_Withholding__c-tc9_pr__TC9PR AU PAYG Payee Withholding Layout</layout>
+        <recordType>tc9_pr__Payee_Withholding__c.tc9_pr__UK_VAT</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_pr__Payee_Withholding__c-tc9_pr__TC9PR AU PAYROLL TAX Payee Withholding Layout</layout>
@@ -31789,6 +32577,22 @@
     <layoutAssignments>
         <layout>tc9_pr__Withholding_Rule__c-tc9_pr__TC9PR Withholding Rule Layout</layout>
         <recordType>tc9_pr__Withholding_Rule__c.tc9_pr__NZ_PAYE</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Withholding_Rule__c-tc9_pr__TC9PR Withholding Rule Layout</layout>
+        <recordType>tc9_pr__Withholding_Rule__c.tc9_pr__UK_NI</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Withholding_Rule__c-tc9_pr__TC9PR Withholding Rule Layout</layout>
+        <recordType>tc9_pr__Withholding_Rule__c.tc9_pr__UK_PAYE</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Withholding_Rule__c-tc9_pr__TC9PR Withholding Rule Layout</layout>
+        <recordType>tc9_pr__Withholding_Rule__c.tc9_pr__UK_Student_Loans</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tc9_pr__Withholding_Rule__c-tc9_pr__TC9PR Withholding Rule Layout</layout>
+        <recordType>tc9_pr__Withholding_Rule__c.tc9_pr__UK_VAT</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>tc9_util__Approver_Action__c-tc9_util__Approver Action Layout</layout>
@@ -35884,106 +36688,6 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Assignment_Custom_Cost_1</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Assignment_Custom_Cost_2</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Assignment_Custom_Cost_3</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Assignment_Custom_Cost_4</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Assignment_Insurance</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Assignment_Post_Custom_Cost_1</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Assignment_Post_Custom_Cost_2</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Assignment_Post_Custom_Cost_3</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Assignment_Post_Custom_Cost_4</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Assignment_WHS</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Client_Custom_Cost_1</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Client_Custom_Cost_2</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Client_Custom_Cost_3</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Client_Custom_Cost_4</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Client_Custom_Post_Cost_1</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Client_Custom_Post_Cost_2</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Client_Custom_Post_Cost_3</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Client_Custom_Post_Cost_4</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Client_Insurance</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Client_WHS</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
         <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Pay_Code_Custom_Cost_1</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
@@ -36039,76 +36743,6 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Payee_Custom_Cost_1</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Payee_Custom_Cost_2</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Payee_Custom_Cost_3</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Payee_Custom_Cost_4</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Payee_Custom_Post_Cost_1</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Payee_Custom_Post_Cost_2</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Payee_Custom_Post_Cost_3</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Payee_Custom_Post_Cost_4</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Payee_Insurance</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_et__Payee_WHS</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_pr__Assignment_Payroll_Tax</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_pr__Assignment_WorkCover</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_pr__Client_Payroll_Tax</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_pr__Client_WorkCover</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
         <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_pr__Pay_Code_Payroll_Tax</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
@@ -36120,11 +36754,6 @@
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_pr__Payee_Payroll_Tax</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>tc9_pr__Employment_Cost_Exception__c.tc9_pr__Payee_WorkCover</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
@@ -36574,6 +37203,16 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
+        <recordType>tc9_pr__Pay_Transaction__c.tc9_pr__Withholding_NI</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>tc9_pr__Pay_Transaction__c.tc9_pr__Withholding_PAYE</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
         <recordType>tc9_pr__Pay_Transaction__c.tc9_pr__Withholding_PAYG</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
@@ -36584,8 +37223,18 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
+        <recordType>tc9_pr__Pay_Transaction__c.tc9_pr__Withholding_Student_Loans</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
         <recordType>tc9_pr__Pay_Transaction__c.tc9_pr__Withholding_Superannuation</recordType>
         <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>tc9_pr__Pay_Transaction__c.tc9_pr__Withholding_VAT</recordType>
+        <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
@@ -36644,6 +37293,11 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
+        <recordType>tc9_pr__Payee_Aggregate__c.tc9_pr__Withholding_PAYE</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
         <recordType>tc9_pr__Payee_Aggregate__c.tc9_pr__Withholding_PAYG</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
@@ -36654,8 +37308,18 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
+        <recordType>tc9_pr__Payee_Aggregate__c.tc9_pr__Withholding_Student_Loans</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
         <recordType>tc9_pr__Payee_Aggregate__c.tc9_pr__Withholding_Superannuation</recordType>
         <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>tc9_pr__Payee_Aggregate__c.tc9_pr__Withholding_VAT</recordType>
+        <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
@@ -36744,6 +37408,11 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
+        <recordType>tc9_pr__Payee_Leave_Event__c.tc9_pr__Pre_Approval</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
         <recordType>tc9_pr__Payee_Opening_Balance__c.tc9_pr__Allowance</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
@@ -36804,8 +37473,23 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
+        <recordType>tc9_pr__Payee_Opening_Balance__c.tc9_pr__Withholding_Student_Loans</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
         <recordType>tc9_pr__Payee_Opening_Balance__c.tc9_pr__Withholding_Superannuation</recordType>
         <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>tc9_pr__Payee_Opening_Balance__c.tc9_pr__Withholding_UK_PAYE</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>tc9_pr__Payee_Opening_Balance__c.tc9_pr__Withholding_VAT</recordType>
+        <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
@@ -36826,6 +37510,16 @@
         <default>false</default>
         <recordType>tc9_pr__Payee_Withholding__c.tc9_pr__AU_SUPER</recordType>
         <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>tc9_pr__Payee_Withholding__c.tc9_pr__UK_PAYE_NI</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>tc9_pr__Payee_Withholding__c.tc9_pr__UK_VAT</recordType>
+        <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
@@ -37016,6 +37710,26 @@
         <default>false</default>
         <recordType>tc9_pr__Withholding_Rule__c.tc9_pr__NZ_PAYE</recordType>
         <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>tc9_pr__Withholding_Rule__c.tc9_pr__UK_NI</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>tc9_pr__Withholding_Rule__c.tc9_pr__UK_PAYE</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>tc9_pr__Withholding_Rule__c.tc9_pr__UK_Student_Loans</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>tc9_pr__Withholding_Rule__c.tc9_pr__UK_VAT</recordType>
+        <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
@@ -37890,6 +38604,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>tc9_pr__Payment_File__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>tc9_pr__Process_Failure_Settings__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>

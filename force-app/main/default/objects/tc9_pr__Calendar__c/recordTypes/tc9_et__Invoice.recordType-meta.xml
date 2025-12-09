@@ -99,6 +99,17 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>tc9_pr__Automated_Pay_Batch_Processing__c</picklist>
+        <values>
+            <fullName>Create Only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Create and Calculate</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>tc9_pr__Default_Payee_Aggregate_Dates__c</picklist>
         <values>
             <fullName>Australia</fullName>

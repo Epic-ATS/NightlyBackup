@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Default_Fund_Junctions</fullName>
+    <columns>NAME</columns>
+    <columns>tc9_pr__Status__c</columns>
+    <columns>tc9_pr__Payment_Entity__c</columns>
+    <columns>tc9_pr__Default_Superannuation_Fund__c</columns>
+    <columns>tc9_pr__Default_Employer_Fund_Category__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>tc9_pr__Superannuation_Fund__c.tc9_pr__Default_Employer_Fund</value>
+    </filters>
+    <label>Default Fund Junctions</label>
+</ListView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__UK_ER_Rate_LEL_to_ST__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The UK NI Employer rate for earnings from the Lower Earnings Limit to the Secondary Threshold.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The UK NI Employer rate for earnings from the Lower Earnings Limit to the Secondary Threshold.</inlineHelpText>
+    <label>UK ER Rate - LEL to ST</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

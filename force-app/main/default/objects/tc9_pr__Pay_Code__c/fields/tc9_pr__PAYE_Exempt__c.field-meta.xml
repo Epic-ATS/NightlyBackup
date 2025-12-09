@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__PAYE_Exempt__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether Pay Transactions using this pay code will count toward the taxable earnings or the non-taxable earnings of the payee.</description>
+    <inlineHelpText>Indicates whether Pay Transactions using this pay code will count toward the taxable earnings or the non-taxable earnings of the payee.</inlineHelpText>
+    <label>PAYE Exempt</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Employer_Id_Junctions</fullName>
+    <columns>NAME</columns>
+    <columns>tc9_pr__Payment_Entity__c</columns>
+    <columns>tc9_pr__Parent_Superannuation_Fund__c</columns>
+    <columns>tc9_pr__Employer_ID__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>tc9_pr__Superannuation_Fund__c.tc9_pr__Employer_Id_Junction</value>
+    </filters>
+    <label>Employer Id Junctions</label>
+</ListView>

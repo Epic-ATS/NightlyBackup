@@ -16,5 +16,5 @@
     <protected>false</protected>
     <showsLocation>false</showsLocation>
     <showsStatus>false</showsStatus>
-    <url>/lightning/cmp/tc9_et__asyncJobContainer?c__processName=backPayCalculation&amp;c__recordId={!tc9_pr__Assignment__c.Id}</url>
+    <url>/lightning/cmp/c__asyncJobContainer?c__processName=backPayCalculation&amp;c__recordId={!tc9_pr__Assignment__c.Id}</url>
 </WebLink>

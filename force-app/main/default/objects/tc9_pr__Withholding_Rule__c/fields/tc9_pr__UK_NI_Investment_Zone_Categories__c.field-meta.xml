@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__UK_NI_Investment_Zone_Categories__c</fullName>
+    <deprecated>false</deprecated>
+    <description>A list of NI Categories that indicate the Payee is in an Investment Zone.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A list of NI Categories that indicate the Payee is in an Investment Zone.</inlineHelpText>
+    <label>UK NI Investment Zone Categories</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

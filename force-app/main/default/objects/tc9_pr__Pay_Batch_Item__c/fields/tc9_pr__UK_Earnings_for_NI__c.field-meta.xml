@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__UK_Earnings_for_NI__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The Payee earnings that are subject to National Insurance contributions.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Payee earnings that are subject to National Insurance contributions.</inlineHelpText>
+    <label>UK Earnings for NI</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

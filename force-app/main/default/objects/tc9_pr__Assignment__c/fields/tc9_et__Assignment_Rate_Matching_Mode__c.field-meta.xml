@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Assignment_Rate_Matching_Mode__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines how Assignment Rates are applied to Pay Transactions during timesheet interpretation by evaluating exact matches across Pay Code, Project Code, and Timesheet Activities.</description>
+    <inlineHelpText>Defines how Assignment Rates are applied to Pay Transactions during timesheet interpretation by evaluating exact matches across Pay Code, Project Code, and Timesheet Activities.</inlineHelpText>
+    <label>Assignment Rate Matching Mode</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Exact Match</fullName>
+                <default>false</default>
+                <label>Exact Match</label>
+            </value>
+            <value>
+                <fullName>Default to Pay Code</fullName>
+                <default>false</default>
+                <label>Default to Pay Code</label>
+            </value>
+            <value>
+                <fullName>Allow no Assignment Rate</fullName>
+                <default>false</default>
+                <label>Allow no Assignment Rate</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Start_Time__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This field is used to specify the start time for part-day leave requests and is populated by the employee during the application process. It is used to calculate the total hours for that part day.</description>
+    <inlineHelpText>This field is used to specify the start time for part-day leave requests and is populated by the employee during the application process. It is used to calculate the total hours for that part day.</inlineHelpText>
+    <label>Start Time</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Time</type>
+</CustomField>

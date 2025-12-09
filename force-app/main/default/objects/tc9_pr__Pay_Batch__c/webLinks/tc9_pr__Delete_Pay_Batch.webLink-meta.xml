@@ -9,5 +9,5 @@
     <masterLabel>Delete Pay Batch</masterLabel>
     <openType>sidebar</openType>
     <protected>false</protected>
-    <url>/lightning/cmp/tc9_pr__CustomDeleteCmp?c__recordId={!tc9_pr__Pay_Batch__c.Id}&amp;c__pbName={!tc9_pr__Pay_Batch__c.Name}</url>
+    <url>/lightning/cmp/c__CustomDeleteCmp?c__recordId={!tc9_pr__Pay_Batch__c.Id}&amp;c__pbName={!tc9_pr__Pay_Batch__c.Name}</url>
 </WebLink>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__P45_Generated_On__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The date and time that the P45 was generated for the Payee.</description>
+    <inlineHelpText>The date and time that the P45 was generated for the Payee.</inlineHelpText>
+    <label>P45 Generated On</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

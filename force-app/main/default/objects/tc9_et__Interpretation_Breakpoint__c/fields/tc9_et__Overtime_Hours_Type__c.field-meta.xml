@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Overtime_Hours_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines the Type of Overtime Hours that which the allowance will be calculated on when the Type field is “Overtime Hours”</description>
+    <inlineHelpText>Defines the Type of Overtime Hours that which the allowance will be calculated on when the Type field is “Overtime Hours”</inlineHelpText>
+    <label>Overtime Hours Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_et__Overtime_Hours_Type</valueSetName>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

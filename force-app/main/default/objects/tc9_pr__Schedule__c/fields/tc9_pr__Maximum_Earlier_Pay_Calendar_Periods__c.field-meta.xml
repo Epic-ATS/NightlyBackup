@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Maximum_Earlier_Pay_Calendar_Periods__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The maximum number of earlier Pay Calendar Periods that will be considered during Pay Batch creation. When a value has been entered in this field it will be considered in conjunction with the Earliest Payroll Calculation Date and the 2cloudnine Payroll maximum of one year. If this field is left blank it will not be considered during Pay Batch creation. You cannot enter a value in this field that will force Pay Batch creation to consider data that is more than one year prior to the Maximum Payroll Date.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The maximum number of earlier Pay Calendar Periods that will be considered during Pay Batch creation. When a value has been entered in this field it will be considered in conjunction with the Earliest Payroll Calculation Date and the 2cloudnine Payroll maximum of one year. If this field is left blank it will not be considered during Pay Batch creation. You cannot enter a value in this field that will force Pay Batch creation to consider data that is more than one year prior to the Maximum Payroll Date.</inlineHelpText>
+    <label>Maximum Earlier Pay Calendar Periods</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

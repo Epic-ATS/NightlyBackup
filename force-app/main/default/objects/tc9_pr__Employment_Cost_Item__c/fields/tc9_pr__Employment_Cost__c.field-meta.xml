@@ -7,6 +7,11 @@
     <label>Employment Cost</label>
     <lookupFilter>
         <active>false</active>
+        <filterItems>
+            <field>$Source.RecordTypeId</field>
+            <operation>equals</operation>
+            <valueField>tc9_pr__Employment_Cost__c.RecordTypeId</valueField>
+        </filterItems>
         <isOptional>true</isOptional>
     </lookupFilter>
     <referenceTo>tc9_pr__Employment_Cost__c</referenceTo>

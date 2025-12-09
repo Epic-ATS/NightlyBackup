@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Source_Leave_Event__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>This field is used for part-day leave requests that have been split from a multi-day request. It links the new, smaller leave events back to their original parent request.</description>
+    <inlineHelpText>Links a split leave event to the original, larger request from which it was created. This field is key for tracking the full lifecycle of a part-day leave application.</inlineHelpText>
+    <label>Source Leave Event</label>
+    <referenceTo>tc9_pr__Payee_Leave_Event__c</referenceTo>
+    <relationshipLabel>Payee Leave Events</relationshipLabel>
+    <relationshipName>Payee_Leave_Events</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

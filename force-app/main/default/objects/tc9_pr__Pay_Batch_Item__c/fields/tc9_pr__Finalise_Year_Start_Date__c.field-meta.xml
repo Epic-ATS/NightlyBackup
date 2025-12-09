@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Finalise_Year_Start_Date__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The Year Start Date of the Finalise Calendar Period. This indicates which financial year the Payee Pay Batch was included in.</description>
+    <formula>tc9_pr__Pay_Batch__r.tc9_pr__Finalise_Calendar_Period__r.tc9_pr__Year_Start_Date__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>The Year Start Date of the Finalise Calendar Period. This indicates which financial year the Payee Pay Batch was included in.</inlineHelpText>
+    <label>Finalise Year Start Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>
