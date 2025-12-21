@@ -240,8 +240,4 @@
         <name>standard__DigitalWallet</name>
         <type>CustomApplication</type>
     </appMenuItems>
-    <appMenuItems>
-        <name>standard__TrustedServicesPrivacyAgent</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
 </AppMenu>
