@@ -3,7 +3,7 @@
     <fullName>b3f__Enforce_Strict_Permissions__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <label>Enforce Strict Permissions</label>
+    <label>DEPRECATED</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>
 </CustomField>

@@ -4,7 +4,7 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <inlineHelpText>This will save attachments uploaded by forms as Salesforce Files</inlineHelpText>
-    <label>Save Attachments as Files</label>
+    <label>DEPRECATED</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>
 </CustomField>

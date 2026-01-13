@@ -3,7 +3,7 @@
     <fullName>b3f__Display_Full_Error_on_Form__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <label>Display Full Error on Form</label>
+    <label>DEPRECATED</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>
 </CustomField>
