@@ -4,7 +4,7 @@
     <defaultValue>&quot;https://app.3bdocs.com/api&quot;</defaultValue>
     <deprecated>false</deprecated>
     <inlineHelpText>Usually https://app.3bdocs.com/api</inlineHelpText>
-    <label>3B Sign API Endpint</label>
+    <label>DEPRECATED</label>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Url</type>

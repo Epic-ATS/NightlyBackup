@@ -4,7 +4,7 @@
     <defaultValue>&quot;https://app.3bdocs.com/s/&quot;</defaultValue>
     <deprecated>false</deprecated>
     <inlineHelpText>This is the endpoint in 3B Sign used for submitting document invitations</inlineHelpText>
-    <label>3B Sign Submit Endpoint</label>
+    <label>DEPRECATED</label>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Url</type>

@@ -3,7 +3,7 @@
     <fullName>b3d__X3B_Sign_Auth_Token__c</fullName>
     <deprecated>false</deprecated>
     <externalId>false</externalId>
-    <label>3B Sign Auth Token</label>
+    <label>DEPRECATED</label>
     <length>255</length>
     <required>false</required>
     <trackTrending>false</trackTrending>

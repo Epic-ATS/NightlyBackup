@@ -3,7 +3,7 @@
     <fullName>b3d__X3B_Sign_Generates_PDFs__c</fullName>
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
-    <label>3B Sign Generates PDFs</label>
+    <label>DEPRECATED</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>
 </CustomField>

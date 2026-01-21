@@ -3,7 +3,7 @@
     <fullName>b3d__X3B_Sign_Base_URL__c</fullName>
     <defaultValue>&quot;https://app.3bdocs.com&quot;</defaultValue>
     <deprecated>false</deprecated>
-    <label>3B Sign Base URL</label>
+    <label>DEPRECATED</label>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Url</type>
