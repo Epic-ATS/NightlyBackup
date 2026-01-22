@@ -3,7 +3,7 @@
     <fullName>b3o__Authorization_Session_Length__c</fullName>
     <deprecated>false</deprecated>
     <externalId>false</externalId>
-    <label>Authorization Session Length</label>
+    <label>DEPRECATED</label>
     <precision>18</precision>
     <required>false</required>
     <scale>0</scale>

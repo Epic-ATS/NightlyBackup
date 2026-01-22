@@ -2289,6 +2289,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>b3s__AuthorizationService_test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>b3s__BadPermissionsResponse</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -2373,6 +2377,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>b3s__Records_test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>b3s__RemoteRecordsManager</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -2390,6 +2398,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__RemoteUtils</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>b3s__RemoteUtils_test</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -7051,6 +7063,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Account.b3_Business_Unit__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.b3_Service_Line__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Account.tc9_bgl__Accounting_Invoice_Entity__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -8300,6 +8322,21 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.b3_Business_Unit__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.b3_MailingLatitude__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.b3_MailingLongitude__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contact.b3_Pre_Hire_Complete__c</field>
         <readable>true</readable>
@@ -8318,6 +8355,11 @@
         <editable>true</editable>
         <field>Contact.b3_Request_Availability__c</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.b3_Set_Address_Gelocation__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -10508,6 +10550,21 @@
         <editable>true</editable>
         <field>WorkOrderLineItem.UnitPrice</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>X3B_Platform_Event__e.Record_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>X3B_Platform_Event__e.Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>b3_Account_Credential__c.b3_Clinician__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -30185,6 +30242,42 @@
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
+        <flow>X3B_Candidate_App_Availability_Reminder</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>X3B_Change_Shift_Status_to_Pending</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>X3B_Confirmed_Shift_Cancelled_Push_Notification</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>X3B_Confirmed_Shift_Updated_Push_Notification</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>X3B_Internal_Mobile_App_Shift_Creation</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>X3B_Shift_Confirmed_Push_Notification</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>X3B_Shift_Invitation_Push_Notification</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>b3_3B_Set_Candidate_Address_Geolocation</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>b3_3B_Set_Job_Type_in_Shift</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
         <flow>b3d__X3B_CLM_Re_Generate_Redlining_PDF</flow>
     </flowAccesses>
     <flowAccesses>
@@ -30682,6 +30775,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>WorkThanks-Thanks Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>b3_Account_Credential__c-Account Credential Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>dlrs__LookupChild__c-dlrs__Lookup Child Layout</layout>
@@ -33352,6 +33448,24 @@
         <allowRead>false</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>WorkOrder</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>X3B_Platform_Event__e</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>b3_Account_Credential__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>

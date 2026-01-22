@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>65.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>Set_Job_Type1</name>
+        <label>Set Job Type</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.b3_Job_Type__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.b3s__Job__r.b3o__Job_Type__c</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <description>Sets the Job Type on Shift based on the related Job record.</description>
+    <environments>Default</environments>
+    <interviewLabel>3B - Set Job Type in Shift {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>3B - Set Job Type in Shift</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Set_Job_Type1</targetReference>
+        </connector>
+        <filterFormula>OR( AND(ISNEW() = true, ISNULL({!$Record.b3s__Job__c}) = false), ISCHANGED({!$Record.b3s__Job__c}))</filterFormula>
+        <object>b3s__Shift__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Draft</status>
+</Flow>

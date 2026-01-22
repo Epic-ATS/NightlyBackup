@@ -32,6 +32,11 @@
                 <default>false</default>
                 <label>el-GR</label>
             </value>
+            <value>
+                <fullName>en-US</fullName>
+                <default>false</default>
+                <label>en-US</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

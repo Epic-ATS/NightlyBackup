@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>CV / Hema</fullName>
+        <default>false</default>
+        <label>CV / Hema</label>
+    </customValue>
+    <customValue>
+        <fullName>D&amp;I</fullName>
+        <default>false</default>
+        <label>D&amp;I</label>
+    </customValue>
+    <customValue>
+        <fullName>EPS</fullName>
+        <default>false</default>
+        <label>EPS</label>
+    </customValue>
+    <masterLabel>Business Unit</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

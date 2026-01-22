@@ -159,6 +159,21 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>b3_Business_Unit__c</picklist>
+        <values>
+            <fullName>CV %2F Hema</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D%26I</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EPS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>b3_Profession__c</picklist>
         <values>
             <fullName>Clinician</fullName>

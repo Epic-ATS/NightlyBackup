@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtlClntAppConfigurablePolicies xmlns="http://soap.sforce.com/2006/04/metadata">
+    <externalClientApplication>X3B_Authentication_App</externalClientApplication>
+    <isEnabled>true</isEnabled>
+    <isOauthPluginEnabled>true</isOauthPluginEnabled>
+    <label>X3B_Authentication_App_plcy</label>
+    <startPage>Custom</startPage>
+    <startUrl>https://auth.3b4sf.com/</startUrl>
+</ExtlClntAppConfigurablePolicies>

@@ -25,6 +25,16 @@
                 <default>false</default>
                 <label>Clinician</label>
             </value>
+            <value>
+                <fullName>Perfusionist</fullName>
+                <default>false</default>
+                <label>Perfusionist</label>
+            </value>
+            <value>
+                <fullName>Cardiologist</fullName>
+                <default>false</default>
+                <label>Cardiologist</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

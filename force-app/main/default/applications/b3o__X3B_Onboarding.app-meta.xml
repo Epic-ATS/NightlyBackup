@@ -44,6 +44,7 @@
     <tabs>b3o__Log_Entry__c</tabs>
     <tabs>b3o__Agreement__c</tabs>
     <tabs>b3o__Marketplace</tabs>
+    <tabs>b3o__Application__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>b3o__X3B_Onboarding_UtilityBar</utilityBar>
 </CustomApplication>

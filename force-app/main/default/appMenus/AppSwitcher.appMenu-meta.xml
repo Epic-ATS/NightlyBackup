@@ -240,4 +240,8 @@
         <name>standard__DigitalWallet</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>X3B_Authentication_App</name>
+        <type>ExternalClientApplication</type>
+    </appMenuItems>
 </AppMenu>

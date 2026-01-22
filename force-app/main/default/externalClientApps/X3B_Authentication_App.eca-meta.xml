@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExternalClientApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>orgs+auth@3b4sf.com</contactEmail>
+    <distributionState>Local</distributionState>
+    <isProtected>false</isProtected>
+    <label>3B Authentication App</label>
+    <orgScopedExternalApp>00Dd300000274tl:X3B_Authentication_App</orgScopedExternalApp>
+</ExternalClientApplication>

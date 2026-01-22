@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Send_Push</name>
+        <label>Send Push</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <actionName>b3p__PushService</actionName>
+        <actionType>apex</actionType>
+        <flowTransactionModel>Automatic</flowTransactionModel>
+        <inputParameters>
+            <name>contactIds</name>
+            <value>
+                <elementReference>contactIds</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>link</name>
+            <value>
+                <stringValue>https://epic-3b--3bdev1.sandbox.my.salesforce-sites.com/onboarding/b3p__Portal#CandidateApp</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>pushBody</name>
+            <value>
+                <elementReference>body</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>pushTitle</name>
+            <value>
+                <elementReference>title</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>b3p__PushService</nameSegment>
+        <offset>0</offset>
+    </actionCalls>
+    <apiVersion>64.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>Set_contactIds_variable</name>
+        <label>Set contactIds variable</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignmentItems>
+            <assignToReference>contactIds</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>$Record.b3s__Contact__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Send_Push</targetReference>
+        </connector>
+    </assignments>
+    <environments>Default</environments>
+    <interviewLabel>3B - Shift Invitation - Push Notification {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>3B - Shift Invitation - Push Notification</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Set_contactIds_variable</targetReference>
+        </connector>
+        <object>b3s__Invitation__c</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Draft</status>
+    <textTemplates>
+        <name>body</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>JOB: {!$Record.b3s__Shift__r.b3s__Job__r.b3o__Job_Type__r.Name}
+FACILITY: {!$Record.b3s__Shift__r.b3s__Site__r.Name} {!$Record.b3s__Shift__r.b3s__Site__r.b3o__Full_Address__c}
+START TIME: {!$Record.b3s__Shift__r.b3s__Scheduled_Start_Time__c}
+END TIME: {!$Record.b3s__Shift__r.b3s__Scheduled_End_Time__c}
+Interested? Apply in app!</text>
+    </textTemplates>
+    <textTemplates>
+        <name>title</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>New Shift Offer</text>
+    </textTemplates>
+    <variables>
+        <name>contactIds</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>
