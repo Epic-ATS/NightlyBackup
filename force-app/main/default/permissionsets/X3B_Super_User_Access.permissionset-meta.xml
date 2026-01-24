@@ -3,6 +3,16 @@
     <description>Access to 3B/WFM functionalities and data</description>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.b3_Business_Unit__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.b3_Business_Unit__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>b3s__Expense__c.b3_Placement__c</field>
         <readable>true</readable>
     </fieldPermissions>
