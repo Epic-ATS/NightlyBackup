@@ -35,6 +35,21 @@
                 <default>false</default>
                 <label>Cardiologist</label>
             </value>
+            <value>
+                <fullName>Autotransfusionist</fullName>
+                <default>false</default>
+                <label>Autotransfusionist</label>
+            </value>
+            <value>
+                <fullName>ECMO</fullName>
+                <default>false</default>
+                <label>ECMO</label>
+            </value>
+            <value>
+                <fullName>Registered Respiratory Specialist</fullName>
+                <default>false</default>
+                <label>Registered Respiratory Specialist</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

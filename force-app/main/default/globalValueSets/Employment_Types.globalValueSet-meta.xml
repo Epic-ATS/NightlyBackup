@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Independent Contractor</fullName>
+        <default>false</default>
+        <label>Independent Contractor</label>
+    </customValue>
+    <customValue>
+        <fullName>W2</fullName>
+        <default>false</default>
+        <label>W2</label>
+    </customValue>
+    <masterLabel>Employment Types</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

@@ -40,6 +40,17 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>Employment_Type__c</picklist>
+        <values>
+            <fullName>Independent Contractor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>W2</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>GenderIdentity</picklist>
         <values>
             <fullName>Female</fullName>

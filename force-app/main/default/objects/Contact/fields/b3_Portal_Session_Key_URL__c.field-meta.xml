@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3_Portal_Session_Key_URL__c</fullName>
+    <externalId>false</externalId>
+    <formula>$Setup.b3o__Onboarding_Default_Settings__c.b3o__Site_URL__c &amp; &quot;/b3p__Portal#MyDocuments?sessionKey=&quot; &amp; b3_Session_Key__c &amp; &quot;&amp;userId=&quot; &amp; Id</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Portal Session Key URL</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

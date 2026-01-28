@@ -85,7 +85,7 @@
             <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
-                    <value>required</value>
+                    <value>none</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.b3s__Agreement__c</fieldItem>
                 <identifier>Recordb3s_Agreement_cField</identifier>
