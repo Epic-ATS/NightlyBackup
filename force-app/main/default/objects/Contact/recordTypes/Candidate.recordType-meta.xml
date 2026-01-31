@@ -187,7 +187,23 @@
     <picklistValues>
         <picklist>b3_Profession__c</picklist>
         <values>
+            <fullName>Autotransfusionist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cardiologist</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Clinician</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ECMO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Perfusionist</fullName>
             <default>false</default>
         </values>
         <values>
@@ -196,6 +212,10 @@
         </values>
         <values>
             <fullName>Radiologist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Registered Respiratory Specialist</fullName>
             <default>false</default>
         </values>
     </picklistValues>
