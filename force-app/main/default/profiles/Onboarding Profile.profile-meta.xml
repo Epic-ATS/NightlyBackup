@@ -514,7 +514,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__APICredentials</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__APICredentials_test</apexClass>
@@ -522,7 +522,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__APIPdfService</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__APIPdfService_test</apexClass>
@@ -530,11 +530,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__ApexCustomSharingInterface</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__AppComponentsCommiter</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__AppComponentsCommiter_test</apexClass>
@@ -542,7 +542,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__AppComponentsRetreiver</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__AppComponentsRetreiver_test</apexClass>
@@ -550,7 +550,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__AppFilesManager</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__AppFilesManager_test</apexClass>
@@ -558,15 +558,15 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__AuthenticationService</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__AuthorizationService</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__CloneTemplateService</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__CloneTemplateService_test</apexClass>
@@ -574,7 +574,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__CollaboratorSessionService</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__CollaboratorTrigger_test</apexClass>
@@ -582,15 +582,15 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__ContentVersionTriggerHandler</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__DocumentGeneratorController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__DocumentRouter</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__DocumentRouter_test</apexClass>
@@ -598,7 +598,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__DocumentTraceManager</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__DocumentTraceManager_test</apexClass>
@@ -606,7 +606,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__DocumentTraceTriggerHandler</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__DocumentTraceTriggerHandler_test</apexClass>
@@ -618,7 +618,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__Encryption</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__Encryption_test</apexClass>
@@ -626,7 +626,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__ErrorHandling</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__ErrorHandling_test</apexClass>
@@ -634,19 +634,19 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__ErrorResponse</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__ExecuteWithSharing</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__ExecuteWithoutSharing</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__FeatureManagement</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__FeatureManagement_test</apexClass>
@@ -654,7 +654,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__GeneralUtils</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__GeneralUtils_test</apexClass>
@@ -662,15 +662,15 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__GlobalDocumentUtils</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__GlobalRemotingInterface</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__GlobalRemotingRouter</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__GlobalRemotingRouter_test</apexClass>
@@ -678,7 +678,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__GuestUserAuthentication</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__GuestUserAuthentication_test</apexClass>
@@ -686,7 +686,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__LookupSearchController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__LookupSearchController_test</apexClass>
@@ -694,11 +694,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__LookupSearchResult</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__LookupUtils</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__LookupUtils_test</apexClass>
@@ -706,7 +706,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__MetadataValidationUtils</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__MetadataValidationUtils_test</apexClass>
@@ -714,11 +714,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__MockJSONCallOut</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__ObjectExplorerController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__ObjectExplorerController_test</apexClass>
@@ -726,11 +726,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__Option</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__PDFUtils</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__PDFUtils_test</apexClass>
@@ -738,7 +738,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__PortalAuthentication</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__PortalAuthentication_test</apexClass>
@@ -746,11 +746,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__PostInstallScript</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__Publisher</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__Publisher_Test</apexClass>
@@ -762,7 +762,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__QueryUtils</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__QueryUtils_test</apexClass>
@@ -770,7 +770,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__RecordsComponent</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__RecordsComponent_test</apexClass>
@@ -778,7 +778,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__Records_Base</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__Records_Base_test</apexClass>
@@ -786,7 +786,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__RedlineManager</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__RedlineManager_test</apexClass>
@@ -798,7 +798,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__RemoteRecordsManager</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__RemoteRecordsManager_test</apexClass>
@@ -806,23 +806,23 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__RemoteSchemaManager</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__RemoteUtils</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__Response</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__SchemaComponent</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__SchemaUtils</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__SchemaUtils_test</apexClass>
@@ -830,7 +830,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__SecurityUtils</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__SecurityUtils_test</apexClass>
@@ -838,7 +838,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__Shared</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__Shared_test</apexClass>
@@ -846,7 +846,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__SiteUtils</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__SiteUtils_test</apexClass>
@@ -854,19 +854,19 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__StandardFunctionsRouter</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__SubmissionRequest</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__Submitter</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__SubmitterField</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__SubmitterTrigger_test</apexClass>
@@ -874,19 +874,19 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__SuccessResponse</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__SystemObject</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__SystemObjectField</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__SystemRecordsRetreiver</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__SystemRecordsRetreiver_test</apexClass>
@@ -894,7 +894,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__TemplateEditorRouter</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__TemplateEditorRouter_test</apexClass>
@@ -902,7 +902,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__TemplateTriggerHandler</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__TemplateTriggerHandler_test</apexClass>
@@ -910,23 +910,23 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__TestDataFactory</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__TestMockResponse</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__ValidationResult</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3d__X3BSign_Webservice</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__AppComponentsCommiter</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__AppComponentsCommiter_test</apexClass>
@@ -934,7 +934,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__AppComponentsRetreiver</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__AppComponentsRetreiver_test</apexClass>
@@ -942,7 +942,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__AppFilesManager</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__AppFilesManager_test</apexClass>
@@ -950,19 +950,19 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__AuthenticationService</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__AuthorizationService</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__BadPermissionsResponse</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__BuilderManager</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__BuilderManager_test</apexClass>
@@ -974,7 +974,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__Encryption</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__Encryption_test</apexClass>
@@ -982,11 +982,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__ErrorResponse</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__Exceptions</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__Exceptions_test</apexClass>
@@ -994,7 +994,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__FeatureManagement</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__FeatureManagement_test</apexClass>
@@ -1002,11 +1002,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__FormAttachmentWebService</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__FormComplete</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__FormComplete_test</apexClass>
@@ -1014,15 +1014,15 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__FormFileUploadController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__FormResponseController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__FormResponseTriggerHandler</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__FormResponseTriggerHandler_test</apexClass>
@@ -1030,31 +1030,31 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__FormRuleController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__FormSecurity</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__FormServices</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__FormSubmissionController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__FormUtils</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__FormViewController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__FormsLinkManager</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__FormsLinkManager_Test</apexClass>
@@ -1062,11 +1062,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__FormsPostInstallScript</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__GeneralUtils</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__GeneralUtils_test</apexClass>
@@ -1074,15 +1074,15 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__GlobalRemotingInterface</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__GlobalRemotingRouter</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__GuestUserAuthentication</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__GuestUserAuthentication_test</apexClass>
@@ -1090,7 +1090,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__MetadataValidationUtils</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__MetadataValidationUtils_test</apexClass>
@@ -1098,15 +1098,15 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__MockJSONCallOut</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__PicklistInfo</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__PostInstallScript</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__PostInstallScript_test</apexClass>
@@ -1114,7 +1114,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__Publisher</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__Publisher_test</apexClass>
@@ -1122,15 +1122,15 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__QueryUtils</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__QueryUtilsWithSharing</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__QueryUtilsWithoutSharing</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__QueryUtils_test</apexClass>
@@ -1138,7 +1138,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__RecaptchaVerify</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__RecaptchaVerify_Test</apexClass>
@@ -1146,7 +1146,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__RecordDataLoader</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__RecordDataLoader_test</apexClass>
@@ -1154,7 +1154,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__RecordsComponent</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__RecordsComponent_test</apexClass>
@@ -1162,7 +1162,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__Records_Base</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__Records_Base_test</apexClass>
@@ -1170,7 +1170,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__RemoteRecordsManager</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__RemoteRecordsManager_test</apexClass>
@@ -1178,7 +1178,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__Response</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__Responses_test</apexClass>
@@ -1186,19 +1186,19 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__SaveRecordError</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__SaveRecordResult</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__SchemaComponent</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__SchemaComponent_Base</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__SchemaComponent_Base_test</apexClass>
@@ -1210,7 +1210,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__SchemaUtils</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__SchemaUtils_test</apexClass>
@@ -1218,7 +1218,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__SecurityUtils</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__SecurityUtils_test</apexClass>
@@ -1226,7 +1226,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__Shared</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__Shared_test</apexClass>
@@ -1234,7 +1234,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__SiteUtils</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__SiteUtils_test</apexClass>
@@ -1242,15 +1242,15 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__SuccessResponse</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__SystemObject</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__SystemObjectField</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__SystemObjectField_test</apexClass>
@@ -1262,19 +1262,19 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__TestDataFactory</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__ValidationResult</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3f__WarningResponse</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__AddDocumentsFromTemplates</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__AddDocumentsFromTemplates_test</apexClass>
@@ -1282,7 +1282,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__AddQuestionsFromTemplates</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__AddQuestionsFromTemplates_test</apexClass>
@@ -1290,7 +1290,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__ApplicationStageManager</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__ApplicationStageManager_Test</apexClass>
@@ -1298,7 +1298,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__Application_Helper</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__Application_Helper_Test</apexClass>
@@ -1306,7 +1306,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__AuthorizationService</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__AuthorizationService_Test</apexClass>
@@ -1314,11 +1314,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__BadPermissionsResponse</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__BooleanEvaluate</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__BooleanEvaluate_test</apexClass>
@@ -1326,7 +1326,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__BreadcrumbsController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__BreadcrumbsController_test</apexClass>
@@ -1334,7 +1334,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__BroadBeanIntegration</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__BroadBeanIntegration_test</apexClass>
@@ -1342,7 +1342,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__CandidateComplianceEvaluator</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__CandidateComplianceEvaluator_test</apexClass>
@@ -1350,7 +1350,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__CandidateDatabaseSearch</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__CandidateDatabaseSearch_test</apexClass>
@@ -1358,7 +1358,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__CandidateScorecardHelper</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__CandidateScorecardHelper_test</apexClass>
@@ -1370,7 +1370,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__CandidateSearchEngine</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__CandidateSearchEngine_test</apexClass>
@@ -1382,7 +1382,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__ChartDataProvider</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__ChartDataProviderTest</apexClass>
@@ -1390,7 +1390,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__ChatComponent</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__ChatComponent_test</apexClass>
@@ -1398,7 +1398,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__ComplianceComponent</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__ComplianceComponent_Test</apexClass>
@@ -1406,7 +1406,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__ComplianceEngine</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__ComplianceEngine_Test</apexClass>
@@ -1414,11 +1414,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__ComplianceKey</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__ComplianceProfile</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__ComplianceProfile_test</apexClass>
@@ -1426,7 +1426,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__ComplianceRuleManager</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__ComplianceRuleManager_Test</apexClass>
@@ -1434,7 +1434,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__ComplianceScreenController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__ComplianceScreenController_Test</apexClass>
@@ -1442,7 +1442,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__ComplianceTimelineItem</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__ComplianceTimelineItem_test</apexClass>
@@ -1450,11 +1450,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__ComplianceUtils</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__CreateSessionService</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__CreateSessionService_test</apexClass>
@@ -1462,7 +1462,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__CustomValueEvaluate</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__CustomValueEvaluate_test</apexClass>
@@ -1470,7 +1470,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__DocPackAssignmentComponent</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__DocPackAssignmentComponent_test</apexClass>
@@ -1486,7 +1486,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__DocumentPackIssuer</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__DocumentPackIssuer_test</apexClass>
@@ -1498,7 +1498,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__DocumentTraceHelper</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__DocumentTraceHelper_test</apexClass>
@@ -1506,7 +1506,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__DocumentsBuilder</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__DocumentsBuilder_test</apexClass>
@@ -1514,7 +1514,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__Encryption</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__Encryption_test</apexClass>
@@ -1522,7 +1522,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__ErrorHandling</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__ErrorHandling_Test</apexClass>
@@ -1530,19 +1530,19 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__ErrorResponse</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__EvaluationUtils</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__Exceptions</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__FeatureAnalytics</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__FeatureAnalytics_test</apexClass>
@@ -1550,7 +1550,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__FeatureManagement</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__FeatureManagement_test</apexClass>
@@ -1558,7 +1558,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__FieldPicker</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__FieldPicker_test</apexClass>
@@ -1566,7 +1566,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__FieldValueEvaluate</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__FieldValueEvaluate_Test</apexClass>
@@ -1574,11 +1574,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__FilterConditionDTO</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__FormResponseHelper</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__FormResponseHelper_test</apexClass>
@@ -1586,11 +1586,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__GlobalRemotingInterface</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__GlobalRemotingRouter</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__GlobalRemotingRouter_test</apexClass>
@@ -1598,7 +1598,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__GuestUserAuthentication</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__GuestUserAuthentication_test</apexClass>
@@ -1606,7 +1606,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__IV_Yoti_Client</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__IdentityVerificationHelper_Test</apexClass>
@@ -1614,7 +1614,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__InvitationsScheduler</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__InvitationsScheduler_test</apexClass>
@@ -1622,7 +1622,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__InviteSelectedComponent</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__InviteSelectedComponent_test</apexClass>
@@ -1630,7 +1630,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__JobBoardList</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__JobBoardList_Test</apexClass>
@@ -1638,7 +1638,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__LocalCandidateSearchComponent</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__LocalCandidateSearchComponent_test</apexClass>
@@ -1646,11 +1646,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__LogicMelonIntegration</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__MetadataValidationUtils</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__MetadataValidationUtils_test</apexClass>
@@ -1658,15 +1658,15 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__MockJSONCallOut</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__MyDocumentsController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__OnboardingPostInstallScript</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__OnboardingPostInstallScript_test</apexClass>
@@ -1674,7 +1674,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__OnboardingUtils</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__OnboardingUtils_Test</apexClass>
@@ -1682,11 +1682,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__Option</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__PortalAuthentication</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__PortalAuthentication_test</apexClass>
@@ -1694,7 +1694,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__Publisher</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__Publisher_test</apexClass>
@@ -1702,19 +1702,19 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__PushService</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__QueryUtils</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__QueryUtilsWithSharing</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__QueryUtilsWithoutSharing</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__QueryUtils_test</apexClass>
@@ -1722,7 +1722,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__QuestionOptionsBuilder</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__QuestionOptionsBuilder_test</apexClass>
@@ -1730,7 +1730,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__RecordFormController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__RecordFormController_test</apexClass>
@@ -1738,7 +1738,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__RecordsComponent</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__RecordsComponent_test</apexClass>
@@ -1746,7 +1746,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__Records_Base</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__Records_Base_test</apexClass>
@@ -1754,7 +1754,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__RelatedRecordGapsController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__RelatedRecordGapsController_Test</apexClass>
@@ -1762,7 +1762,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__RemoteChatController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__RemoteChatController_Test</apexClass>
@@ -1770,7 +1770,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__RemoteIdentityVeriCont</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__RemoteIdentityVeriCont_test</apexClass>
@@ -1778,7 +1778,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__RemoteJobBoardController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__RemoteJobBoardController_test</apexClass>
@@ -1786,7 +1786,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__RemoteJobMenuController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__RemoteJobMenuController_test</apexClass>
@@ -1794,7 +1794,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__RemoteJobPostController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__RemoteJobPostController_test</apexClass>
@@ -1802,7 +1802,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__RemoteJobVettingController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__RemoteJobVettingController_test</apexClass>
@@ -1810,7 +1810,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__RemoteMyDocumentsController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__RemoteMyDocumentsController_Test</apexClass>
@@ -1818,7 +1818,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__RemoteRecordsManager</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__RemoteRecordsManager_test</apexClass>
@@ -1826,7 +1826,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__RemoteSchemaManager</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__RemoteSchemaManager_test</apexClass>
@@ -1834,7 +1834,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__RemoteSelfBookController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__RemoteSelfBooking_test</apexClass>
@@ -1842,11 +1842,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__RemoteUtils</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__Response</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__Response_test</apexClass>
@@ -1854,11 +1854,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__Rule</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__RuleBuilderComponent</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__RuleBuilderComponent_tes</apexClass>
@@ -1866,19 +1866,19 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__RuleCondition</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__RuleConditionItem</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__RuleEngine</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__RuleEngine_Base</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__RuleEngine_test</apexClass>
@@ -1886,23 +1886,23 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__RuleGroup</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__SaveRecordError</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__SaveRecordResult</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__SchemaComponent</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__SchemaComponent_Base</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__SchemaComponent_Base_test</apexClass>
@@ -1914,7 +1914,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__SchemaUtils</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__SchemaUtils_test</apexClass>
@@ -1922,7 +1922,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__SearchObjectFields</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__SearchObjectFields_test</apexClass>
@@ -1930,7 +1930,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__SecurityUtils</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__SecurityUtils_test</apexClass>
@@ -1938,7 +1938,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__SessionInvitationHelper</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__SessionInvitationHelper_test</apexClass>
@@ -1946,7 +1946,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__SessionInvitation_Rollup_Helper</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__SessionInvitation_test</apexClass>
@@ -1954,7 +1954,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__SessionScheduler</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__SessionScheduler_test</apexClass>
@@ -1966,7 +1966,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__Shared</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__Shared_test</apexClass>
@@ -1974,7 +1974,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__ShortlistSelectedComponent</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__ShortlistSelectedComponent_test</apexClass>
@@ -1982,11 +1982,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__SiteUtils</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__SubmitterHelper</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__SubmitterHelper_test</apexClass>
@@ -1994,15 +1994,15 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__SuccessResponse</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__SystemObject</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__SystemObjectField</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__TestDataFactory</apexClass>
@@ -2010,11 +2010,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__ValidationResult</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__VisualEditorAssessments</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__VisualEditorAssessments_test</apexClass>
@@ -2022,7 +2022,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__VisualEditorForms</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__VisualEditorForms_test</apexClass>
@@ -2030,7 +2030,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__VisualEditorTemplates</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__VisualEditorTemplates_test</apexClass>
@@ -2038,11 +2038,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3o__WarningResponse</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__AuthorizationService</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__AuthorizationService_test</apexClass>
@@ -2050,7 +2050,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__ChartBuilderController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__ChartBuilderController_test</apexClass>
@@ -2058,7 +2058,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__ChartDataProvider</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__ChartDataProvider_test</apexClass>
@@ -2066,7 +2066,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__CreateSessionService</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__CreateSessionService_test</apexClass>
@@ -2074,7 +2074,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__Encryption</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__Encryption_test</apexClass>
@@ -2082,7 +2082,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__ErrorHandling</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__ErrorHandling_test</apexClass>
@@ -2090,7 +2090,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__ErrorResponse</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__ErrorResponse_test</apexClass>
@@ -2098,7 +2098,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__Exceptions</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__Exceptions_test</apexClass>
@@ -2106,7 +2106,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__FeatureManagement</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__FeatureManagement_test</apexClass>
@@ -2114,7 +2114,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__GeneralUtils</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__GeneralUtils_test</apexClass>
@@ -2122,11 +2122,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__GlobalRemotingInterface</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__GlobalRemotingRouter</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__GlobalRemotingRouter_test</apexClass>
@@ -2134,7 +2134,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__GuestUserAuthentication</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__GuestUserAuthentication_test</apexClass>
@@ -2142,7 +2142,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__MetadataValidationUtils</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__MetadataValidationUtils_test</apexClass>
@@ -2150,19 +2150,19 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__MockJSONCallOut</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__Option</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__Portal</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__PortalAuthentication</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__PortalAuthentication_test</apexClass>
@@ -2170,7 +2170,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__PortalBuilder</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__PortalBuilder_test</apexClass>
@@ -2182,7 +2182,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__Publisher</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__Publisher_test</apexClass>
@@ -2190,11 +2190,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__PushService</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__PushServiceBatch</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__PushServiceBatch_test</apexClass>
@@ -2202,7 +2202,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__PushService_Base</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__PushService_test</apexClass>
@@ -2210,7 +2210,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__RecordDataLoader</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__RecordDataLoader_test</apexClass>
@@ -2218,11 +2218,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__Records</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__RemoteRecordsManager</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__RemoteRecordsManager_test</apexClass>
@@ -2230,15 +2230,15 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__RemoteUtils</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__Response</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__SOQLDataProvider</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__SOQLDataProvider_test</apexClass>
@@ -2246,7 +2246,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__SchemaUtils</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__SchemaUtils_test</apexClass>
@@ -2254,7 +2254,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__Shared</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__Shared_test</apexClass>
@@ -2262,11 +2262,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__SiteUtils</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__SuccessResponse</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__SuccessResponse_test</apexClass>
@@ -2274,19 +2274,19 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__SystemObject</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__TestDataFactory</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3p__ValidationResult</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__AuthorizationService</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__AuthorizationService_test</apexClass>
@@ -2294,11 +2294,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__BadPermissionsResponse</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__Encryption</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__Encryption_test</apexClass>
@@ -2306,11 +2306,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__ErrorResponse</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__FeatureManagement</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__FeatureManagement_test</apexClass>
@@ -2318,7 +2318,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__GeneralUtils</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__GeneralUtils_test</apexClass>
@@ -2326,11 +2326,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__GlobalRemotingInterface</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__GlobalRemotingRouter</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__GlobalRemotingRouter_test</apexClass>
@@ -2338,7 +2338,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__GuestUserAuthentication</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__GuestUserAuthentication_test</apexClass>
@@ -2346,11 +2346,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__MockJSONCallOut</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__PortalAuthentication</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__PortalAuthentication_test</apexClass>
@@ -2358,7 +2358,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__PostInstallScript</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__PostInstallScript_test</apexClass>
@@ -2366,7 +2366,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__Query</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__Query_test</apexClass>
@@ -2374,7 +2374,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__Records</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__Records_test</apexClass>
@@ -2382,7 +2382,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__RemoteRecordsManager</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__RemoteRecordsManager_test</apexClass>
@@ -2390,7 +2390,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__RemoteSchemaManager</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__RemoteSchemaManager_test</apexClass>
@@ -2398,7 +2398,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__RemoteUtils</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__RemoteUtils_test</apexClass>
@@ -2406,7 +2406,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__Response</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__Response_test</apexClass>
@@ -2414,7 +2414,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__SchemaUtils</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__SchemaUtils_test</apexClass>
@@ -2422,7 +2422,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__Security</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__Security_test</apexClass>
@@ -2430,7 +2430,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__Shared</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__Shared_test</apexClass>
@@ -2442,11 +2442,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__SuccessResponse</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>b3s__TestDataFactory</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>dlrs__ApexClassesSelector</apexClass>
@@ -6948,7 +6948,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.AccountNumber</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -6988,12 +6988,12 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.Migration_ID__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.NetsuiteInternal_ID__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -7003,7 +7003,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.Ownership</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -7018,7 +7018,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.Rating</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -7028,7 +7028,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.Sic</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -7038,12 +7038,12 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.Site</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.TickerSymbol</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -7058,492 +7058,492 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.b3_Business_Unit__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.b3_Service_Line__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_bgl__Accounting_Invoice_Entity__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_bgl__Accounting_Segments__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_bgl__Date_sent_to_GL__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_bgl__GL_Customer_ID__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_bgl__GL_External_ID__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_bgl__GL_Location__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_bgl__Integration_Sync_Message__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_bgl__Sent_To_GL_Status__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_eau__Branch__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_eau__Previous_BMS_Id__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_eau__STP_Address_Line_1__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_eau__STP_Address_Line_2__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_eau__STP_Contact_Email__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_eau__STP_Contact_Name__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_eau__STP_Contact_Phone__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_eau__STP_Country__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_eau__STP_Declarer_Identifier__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_eau__STP_Postcode__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_eau__STP_State__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_eau__STP_Suburb__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_eau__Superannuation_Contact_Email__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_eau__Superannuation_Contact_First_Name__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_eau__Superannuation_Contact_Last_Name__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_eau__Superannuation_Contact_Phone__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_eau__Superannuation_Payment_Type__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_eau__Withholding_Payer_Number__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Bank_Account_Branch_Code__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Bank_Account_Name__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Bank_Account_Number__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Bank_Account_Suffix__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Client_Number__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Contact_for_Invoice_Queries_Phone__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Contact_for_Invoice_Queries__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Default_Invoice_Schedule__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Default_Invoice_Tax_ID__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Default_Invoice_Tax_Rate__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Default_Invoice_Taxable__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Exclude_Global_Rate_Calc_Templates__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Expense_Claim_Funding_Requirement__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Expense_Notification_Setting_Override__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__GST_Reg_Number__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Invoice_Contact__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Invoice_Email_CC__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Invoice_Group_By__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Invoice_Message__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Invoice_Split__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Rate_Calc_Template_Parent__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Remittance_Email__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Send_Invoice_Emails_From_Email__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Timesheet_Funding_Requirement__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Timesheet_Notification_Setting_Override__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Total_Client_Paid_Expense_Invoiced__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Total_Client_Paid_Expense_Not_Invoiced__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Total_Client_Paid_Expense_Scheduled__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Total_Payroll_Services_Fee_Invoiced__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Total_Payroll_Services_Fee_Not_Invoiced__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Total_Payroll_Services_Fee_Scheduled__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Total_Perm_Fee_Invoiced__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Total_Perm_Fee_Not_Invoiced__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Total_Perm_Fee_Scheduled__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Total_Project_Services_Fee_Invoiced__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Total_Project_Services_Fee_Not_Invoiced__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Total_Project_Services_Fee_Scheduled__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Total_Retainer_Fee_Invoiced__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Total_Retainer_Fee_Not_Invoiced__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Total_Retainer_Fee_Scheduled__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Total_Temp_To_Perm_Fee_Invoiced__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Total_Temp_To_Perm_Fee_Not_Invoiced__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_et__Total_Temp_To_Perm_Fee_Scheduled__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_imp__External_ID_V1__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_imp__External_Id_it__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_pr__ABN_Lookup__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_pr__ABN__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_pr__Active__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_pr__Auto_Create_Employee_Community_Users__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_pr__Available_Payment_Methods__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_pr__Branch__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_pr__CustomerPriority__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_pr__Default_Industry__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_pr__Default_Location__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_pr__Employee_Community__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_pr__External_ID__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_pr__Leave_Notification_Setting_Override__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_pr__Maximum_Payment_Distributions__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_pr__NumberofLocations__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_pr__Pay_Advice_Message__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_pr__Payment_Details_Complete__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_pr__Payment_Details_Incomplete_Reason__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_pr__Payment_Files_Require_Approval__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_pr__SLAExpirationDate__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_pr__SLASerialNumber__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_pr__SLA__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_pr__Schedule__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_pr__UpsellOpportunity__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_pr__Withholding_Payer_Number__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.tc9_util__TC_Timesheet_Days_in_future__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -8183,7 +8183,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.ADP_File_Number__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -8228,7 +8228,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.DoNotCall</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -8238,7 +8238,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.Employment_Type__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -8248,17 +8248,17 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.GenderIdentity</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.HasOptedOutOfEmail</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.HasOptedOutOfFax</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -8268,7 +8268,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.Is_Approver__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -8288,7 +8288,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.Migration_Id__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -8313,7 +8313,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.Pronouns</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -8333,247 +8333,247 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.b3_Business_Unit__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.b3_MailingLatitude__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.b3_MailingLongitude__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.b3_Portal_Session_Key_URL__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.b3_Pre_Hire_Complete__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.b3_Privileges_Granted__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.b3_Profession__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.b3_Request_Availability__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.b3_Session_Key__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.b3_Set_Address_Gelocation__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.tc9_bgl__Date_sent_to_GL__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.tc9_bgl__GL_External_ID__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.tc9_bgl__Sent_To_GL_Status__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.tc9_eau__Gender__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.tc9_eau__Other_Name__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.tc9_edc__Is_Test_Record__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.tc9_et__Exp_Claim_Approval_Notification_Opt_Out__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.tc9_et__Exp_Claim_Reminder_Notification_Opt_Out__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.tc9_et__Expense_Claim_Link_Token_Expiry__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.tc9_et__Expense_Claim_Link_Token__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.tc9_et__Expense_Claim_Notification_Email__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.tc9_et__Link_Token_Expense_Claim_Submission__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.tc9_et__Link_Token_Timesheet_Submission__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.tc9_et__Merge_Invoice_Emails__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.tc9_et__Timesheet_Approval_Request_Opt_Out__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.tc9_et__Timesheet_Link_Token_Expiry__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.tc9_et__Timesheet_Link_Token__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.tc9_et__Timesheet_Notification_Email__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.tc9_et__Timesheet_Reminder_Notification_Opt_Out__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.tc9_imp__External_ID_V1__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.tc9_imp__External_Id_it__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.tc9_pr__Alternative_Email__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.tc9_pr__Approver_Community__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.tc9_pr__Approver_Link_Token_Status__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.tc9_pr__Approver_Link_Token__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.tc9_pr__Emergency_Contact_Relationship__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.tc9_pr__Emergency_Contact_of_Employee__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.tc9_pr__External_ID__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.tc9_pr__Languages__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.tc9_pr__Leave_Approval_Notification_Opt_Out__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.tc9_pr__Leave_Notification_Email__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.tc9_pr__Leave_Reminder_Notification_Opt_Out__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.tc9_pr__Level__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.tc9_pr__Pay_Advice_Email_Address__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.tc9_pr__Previous_Family_Name__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.tc9_pr__Primary_Payee_Record__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.tc9_util__Approver_Community_Language__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.tc9_util__Consolidated_Timesheet_Ids__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.tc9_util__Token__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -30296,7 +30296,7 @@
         <flow>X3B_Confirmed_Shift_Updated_Push_Notification</flow>
     </flowAccesses>
     <flowAccesses>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
         <flow>X3B_Internal_Mobile_App_Shift_Creation</flow>
     </flowAccesses>
     <flowAccesses>
@@ -32763,9 +32763,10 @@
         <allowCreate>false</allowCreate>
         <allowDelete>false</allowDelete>
         <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
+        <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>Account</object>
+        <viewAllFields>true</viewAllFields>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -32970,9 +32971,10 @@
         <allowCreate>false</allowCreate>
         <allowDelete>false</allowDelete>
         <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
+        <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>Contact</object>
+        <viewAllFields>true</viewAllFields>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -35481,7 +35483,7 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3d__CloneTemplateOverride</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3d__Document</apexPage>
@@ -35489,179 +35491,179 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3d__DocumentBuilder</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3d__DocumentGeneratorPreview</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3d__Generate</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3d__GeneratedDocument</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3d__Preview</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3d__RecordFiles</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3d__Redline</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3d__Submit</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3d__TemplateEditor</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3d__TemplatePublisher</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3f__Builder</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3f__Form</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3f__PreviewForm</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3o__AIChatComponent</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3o__AIFormComponent</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3o__ApplicationStageManager</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3o__AssessmentManager</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3o__BBAddAdvert</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3o__BBGetApplicationDetails</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3o__BBRefreshJobApplications</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3o__FileEditor</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3o__FlowEmbeddedComponent</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3o__JobBoard</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3o__JobPost</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3o__LMAddAdvert</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3o__LMGetApplicationDetails</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3o__LMRefreshJobApplications</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3o__MyDocuments</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3o__Portal</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3o__PreviewAssessment</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3o__ResumeParser</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3o__SelfBookingConsole</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3o__SubmitAssessment</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3p__FlowEmbeddedComponent</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3p__Portal</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3p__PortalBuilder</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3s__BiometricEnrollment</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3s__ClientShiftManager</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3s__Clock</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3s__Scheduler</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3s__ShiftActions</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3s__Terminal</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3s__TimesheetApproval</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>b3s__TimesheetSubmission</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>dlrs__RollupSummaryView</apexPage>
@@ -37936,7 +37938,7 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-ApprovalSubmission</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-ApprovalSubmissionDetail</tab>
@@ -37956,19 +37958,19 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-AuthorizationForm</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-AuthorizationFormConsent</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-AuthorizationFormDataUse</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-AuthorizationFormText</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-BusinessBrand</tab>
@@ -38040,7 +38042,7 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-DataUseLegalBasis</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-DataUsePurpose</tab>
@@ -38056,7 +38058,7 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-DuplicateRecordSet</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-EngagementChannelType</tab>
@@ -38112,10 +38114,6 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-LicenseUtilization</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-LightningQuickText</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -38184,7 +38182,7 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-ProfileSkill</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Recognition</tab>
@@ -38241,10 +38239,6 @@
     <tabVisibilities>
         <tab>standard-StreamingChannel</tab>
         <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-UserDefinedLabel</tab>
-        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-UserProfile</tab>
