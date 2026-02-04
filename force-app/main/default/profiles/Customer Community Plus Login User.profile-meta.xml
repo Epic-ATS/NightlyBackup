@@ -10598,6 +10598,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>b3_Account_Credential__c.Credentialing_Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>b3_Account_Credential__c.Facility_Cleared_Date__c</field>
         <readable>false</readable>
     </fieldPermissions>

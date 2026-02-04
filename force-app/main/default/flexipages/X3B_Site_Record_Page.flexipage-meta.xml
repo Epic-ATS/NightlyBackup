@@ -81,6 +81,16 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
+                <fieldItem>Record.b3_Facility_Notes__c</fieldItem>
+                <identifier>Recordb3_Facility_Notes__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
                 <fieldItem>Record.b3o__Public_Name__c</fieldItem>
                 <identifier>Recordb3o_Public_Name_cField</identifier>
             </fieldInstance>
@@ -167,16 +177,6 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.b3o__Post_Code__c</fieldItem>
                 <identifier>Recordb3o_Post_Code_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.b3s__Site_Timezone__c</fieldItem>
-                <identifier>Recordb3s_Site_Timezone_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-875967a0-413d-4942-a529-56aec2d4e09d</name>

@@ -2002,6 +2002,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>b3_Account_Credential__c.Credentialing_Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>b3_Account_Credential__c.Facility_Cleared_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3168,6 +3173,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>b3o__Certificate_Type__c.b3o__Short_Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>b3o__Certificate__c.Credentialing_Status__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4893,6 +4903,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>b3s__Shift__c.b3_Ready_for_Pay_Bill__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>b3s__Shift__c.b3_Shift_Offer_Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
