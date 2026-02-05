@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b3_Contains_D_I__c</fullName>
+    <formula>INCLUDES(b3_Business_Unit__c, &quot;D&amp;I&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Shifts Require Facility</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -2,6 +2,11 @@
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Standard</fullName>
     <applicationVisibilities>
+        <application>CV</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
         <application>Epic_2c9_Payroll</application>
         <default>false</default>
         <visible>false</visible>
@@ -7078,6 +7083,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Account.b3_Contains_D_I__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Account.b3_Service_Line__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -8260,6 +8270,11 @@
         <editable>true</editable>
         <field>Contact.Fax</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.Full_Name__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -10284,6 +10299,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Trigger_Action__mdt.Required_Permission__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>User.Migration_Id__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -37953,6 +37973,10 @@
         <recordType>tc9_util__Purchase_Order__c.tc9_util__SOW</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>b3_Account_Credential__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>dlrs__LookupRollupCalculateJob__c</tab>
         <visibility>Hidden</visibility>

@@ -244,4 +244,8 @@
         <name>X3B_Authentication_App</name>
         <type>ExternalClientApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>CV</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>
