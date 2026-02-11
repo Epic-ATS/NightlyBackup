@@ -260,4 +260,24 @@
         <name>tbid_digital_salesforce_com</name>
         <type>ConnectedApp</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>dataloader_io_v2</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>TC9_Migration_Tool</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Salesforce_org_MetaDeploy</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Environment_Hub</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>ClickDeploy_io</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
 </AppMenu>
