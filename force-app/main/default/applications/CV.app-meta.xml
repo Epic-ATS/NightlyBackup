@@ -48,6 +48,76 @@
     <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
     <label>CV</label>
     <navType>Standard</navType>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>CV_WFM_Account</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>StandardAul</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>CV_WFM_Account</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>StandardAul</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>CV_WFM_Account</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.tc9_et__Client</recordType>
+        <type>Flexipage</type>
+        <profile>StandardAul</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>CV_WFM_Account</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.tc9_et__Client</recordType>
+        <type>Flexipage</type>
+        <profile>StandardAul</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>CV_WFM_Account</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.tc9_et__Invoice_Entity</recordType>
+        <type>Flexipage</type>
+        <profile>StandardAul</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>CV_WFM_Account</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.tc9_et__Invoice_Entity</recordType>
+        <type>Flexipage</type>
+        <profile>StandardAul</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>CV_WFM_Account</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.tc9_pr__Payment_Entity</recordType>
+        <type>Flexipage</type>
+        <profile>StandardAul</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>CV_WFM_Account</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.tc9_pr__Payment_Entity</recordType>
+        <type>Flexipage</type>
+        <profile>StandardAul</profile>
+    </profileActionOverrides>
     <tabs>standard-home</tabs>
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>

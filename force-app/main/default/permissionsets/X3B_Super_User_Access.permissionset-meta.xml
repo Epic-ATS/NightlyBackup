@@ -6600,6 +6600,10 @@
         <recordType>Contact.Candidate</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
+    <tabSettings>
+        <tab>b3o__Site__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
     <userPermissions>
         <enabled>true</enabled>
         <name>CanUseNewDashboardBuilder</name>
