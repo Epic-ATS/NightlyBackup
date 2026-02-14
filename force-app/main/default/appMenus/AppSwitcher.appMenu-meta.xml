@@ -177,6 +177,10 @@
         <type>ConnectedApp</type>
     </appMenuItems>
     <appMenuItems>
+        <name>standard__Shield</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
         <name>tc9_bgl__Base_Accounting_System</name>
         <type>CustomApplication</type>
     </appMenuItems>
