@@ -34873,6 +34873,10 @@
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
+        <flow>X3B_CV_Scheduler_Set_Client_from_Site</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
         <flow>X3B_Candidate_App_Availability_Reminder</flow>
     </flowAccesses>
     <flowAccesses>

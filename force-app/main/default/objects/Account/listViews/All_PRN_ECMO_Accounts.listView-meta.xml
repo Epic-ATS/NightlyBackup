@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_PRN_ECMO_Accounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <columns>b3_Business_Unit__c</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>b3_Service_Line__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.tc9_et__Client</value>
+    </filters>
+    <filters>
+        <field>b3_Service_Line__c</field>
+        <operation>includes</operation>
+        <value>ECMO,PRN,Long-term Perfusion</value>
+    </filters>
+    <label>All PRN / ECMO Accounts</label>
+</ListView>

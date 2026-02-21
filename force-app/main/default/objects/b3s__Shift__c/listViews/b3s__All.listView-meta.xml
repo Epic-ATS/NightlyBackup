@@ -3,6 +3,7 @@
     <fullName>b3s__All</fullName>
     <columns>NAME</columns>
     <columns>b3s__Contact__c</columns>
+    <columns>b3s__Status__c</columns>
     <columns>b3s__Site__c</columns>
     <columns>b3s__Job__c</columns>
     <columns>b3s__Scheduled_Start_Time__c</columns>
