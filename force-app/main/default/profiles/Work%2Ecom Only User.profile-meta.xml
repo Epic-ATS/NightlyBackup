@@ -14612,6 +14612,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>b3s__Shift__c.Confirm_Matching_Shifts__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>b3s__Shift__c.Shift_Offer_Type__c</field>
         <readable>true</readable>
     </fieldPermissions>

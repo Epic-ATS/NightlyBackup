@@ -1516,6 +1516,11 @@
             <field>b3s__Contact__c.b3s__Worker_Pin__c</field>
             <table>b3s__Shift__c</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Confirm_Matching_Shifts__c</field>
+            <table>b3s__Shift__c</table>
+        </columns>
         <masterLabel>Shifts</masterLabel>
     </sections>
 </ReportType>
