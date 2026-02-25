@@ -42,6 +42,13 @@
             <operator>equals</operator>
             <value>Confirmed,Pending</value>
         </criteriaItems>
+        <criteriaItems>
+            <column>b3s__Shift__c$b3_Client__c.b3_Service_Line__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>includes</operator>
+            <value>ATS</value>
+        </criteriaItems>
         <language>en_US</language>
     </filter>
     <format>Summary</format>
