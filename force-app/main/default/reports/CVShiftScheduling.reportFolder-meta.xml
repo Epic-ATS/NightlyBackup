@@ -5,5 +5,10 @@
         <sharedTo>forrest.kimball@epicstaffinggroup.com.epic</sharedTo>
         <sharedToType>User</sharedToType>
     </folderShares>
+    <folderShares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>kelly.cornish@epicstaffinggroup.com.prod</sharedTo>
+        <sharedToType>User</sharedToType>
+    </folderShares>
     <name>CV Shift Scheduling</name>
 </ReportFolder>
