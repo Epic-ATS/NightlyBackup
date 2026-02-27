@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DashboardFolder xmlns="http://soap.sforce.com/2006/04/metadata">
     <folderShares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>eva.fluker@epicstaffinggroup.com.prod</sharedTo>
+        <sharedToType>User</sharedToType>
+    </folderShares>
+    <folderShares>
         <accessLevel>Manage</accessLevel>
         <sharedTo>forrest.kimball@epicstaffinggroup.com.epic</sharedTo>
+        <sharedToType>User</sharedToType>
+    </folderShares>
+    <folderShares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>lorie.daniel@epicstaffinggroup.com.prod</sharedTo>
+        <sharedToType>User</sharedToType>
+    </folderShares>
+    <folderShares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>vanna.vue@epicstaffinggroup.com.3bprod</sharedTo>
         <sharedToType>User</sharedToType>
     </folderShares>
     <name>CV Shift Scheduling</name>

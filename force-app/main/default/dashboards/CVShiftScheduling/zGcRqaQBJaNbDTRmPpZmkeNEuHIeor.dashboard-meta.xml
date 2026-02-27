@@ -55,7 +55,7 @@
                 </flexComponentProperties>
                 <groupingSortProperties/>
                 <header>Shift Scheduling - FOS Daily Summary</header>
-                <report>CVShiftScheduling/Shift_Scheduling_FOS_Daily_Summary_fsJ</report>
+                <report>FOS/Shift_Scheduling_FOS_Daily_Summary_fsJ</report>
             </dashboardComponent>
             <rowIndex>0</rowIndex>
             <rowSpan>8</rowSpan>
@@ -107,7 +107,7 @@
                 </flexComponentProperties>
                 <groupingSortProperties/>
                 <header>Shift Scheduling - FOS Monthly Summary</header>
-                <report>CVShiftScheduling/Shift_Scheduling_FOS_Monthly_Summary_Anr</report>
+                <report>FOS/Shift_Scheduling_FOS_Monthly_Summary_Anr</report>
             </dashboardComponent>
             <rowIndex>0</rowIndex>
             <rowSpan>8</rowSpan>
@@ -159,7 +159,7 @@
                 </flexComponentProperties>
                 <groupingSortProperties/>
                 <header>Shift Scheduling - FOS Daily</header>
-                <report>CVShiftScheduling/Shift_Scheduling_FOS_Daily_1pb</report>
+                <report>FOS/Shift_Scheduling_FOS_Daily_1pb</report>
             </dashboardComponent>
             <rowIndex>8</rowIndex>
             <rowSpan>8</rowSpan>
@@ -211,7 +211,7 @@
                 </flexComponentProperties>
                 <groupingSortProperties/>
                 <header>Shift Scheduling - FOS Monthly</header>
-                <report>CVShiftScheduling/Shift_Scheduling_FOS_Monthly_0Je</report>
+                <report>FOS/Shift_Scheduling_FOS_Monthly_0Je</report>
             </dashboardComponent>
             <rowIndex>8</rowIndex>
             <rowSpan>8</rowSpan>
@@ -263,7 +263,7 @@
                 </flexComponentProperties>
                 <groupingSortProperties/>
                 <header>Shift Scheduling - FOS Daily Travel</header>
-                <report>CVShiftScheduling/Shift_Scheduling_FOS_Daily_Travel_X1X</report>
+                <report>FOS/Shift_Scheduling_FOS_Daily_Travel_X1X</report>
             </dashboardComponent>
             <rowIndex>16</rowIndex>
             <rowSpan>8</rowSpan>
@@ -315,7 +315,7 @@
                 </flexComponentProperties>
                 <groupingSortProperties/>
                 <header>Shift Scheduling - FOS Monthly Travel</header>
-                <report>CVShiftScheduling/Shift_Scheduling_FOS_Monthly_Travel_A2j</report>
+                <report>FOS/Shift_Scheduling_FOS_Monthly_Travel_A2j</report>
             </dashboardComponent>
             <rowIndex>16</rowIndex>
             <rowSpan>8</rowSpan>
@@ -367,7 +367,7 @@
                 </flexComponentProperties>
                 <groupingSortProperties/>
                 <header>Shifts Cancelled This Week</header>
-                <report>CVShiftScheduling/Shifts_Cancelled_This_Week_hNL</report>
+                <report>FOS/Shifts_Cancelled_This_Week_hNL</report>
             </dashboardComponent>
             <rowIndex>24</rowIndex>
             <rowSpan>8</rowSpan>
@@ -419,7 +419,7 @@
                 </flexComponentProperties>
                 <groupingSortProperties/>
                 <header>Shifts Cancelled This Month</header>
-                <report>CVShiftScheduling/Shifts_Cancelled_This_Month_bF1</report>
+                <report>FOS/Shifts_Cancelled_This_Month_bF1</report>
             </dashboardComponent>
             <rowIndex>24</rowIndex>
             <rowSpan>8</rowSpan>
