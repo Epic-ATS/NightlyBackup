@@ -20,5 +20,10 @@
         <sharedTo>vanna.vue@epicstaffinggroup.com.3bprod</sharedTo>
         <sharedToType>User</sharedToType>
     </folderShares>
+    <folderShares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>CV_Scheduling</sharedTo>
+        <sharedToType>Group</sharedToType>
+    </folderShares>
     <name>CV Shift Scheduling</name>
 </DashboardFolder>

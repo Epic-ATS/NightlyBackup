@@ -30,6 +30,25 @@
         </dashboardFilterOptions>
         <name>Scheduled Start Time</name>
     </dashboardFilters>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>ATS</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>ECMO</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>Long-term Perfusion</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>PRN</values>
+        </dashboardFilterOptions>
+        <name>Service Line</name>
+    </dashboardFilters>
     <dashboardGridLayout>
         <dashboardGridComponents>
             <colSpan>12</colSpan>
@@ -58,6 +77,9 @@
                 <componentType>Bar</componentType>
                 <dashboardFilterColumns>
                     <column>LAST_UPDATE</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Account.b3_Service_Line__c</column>
                 </dashboardFilterColumns>
                 <decimalPrecision>-1</decimalPrecision>
                 <displayUnits>Auto</displayUnits>
@@ -99,6 +121,9 @@
                 <dashboardFilterColumns>
                     <column>b3s__Shift__c.b3s__Scheduled_Start_Time__c</column>
                 </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>FK_$Account.b3_Service_Line__c</column>
+                </dashboardFilterColumns>
                 <decimalPrecision>-1</decimalPrecision>
                 <displayUnits>Auto</displayUnits>
                 <drillEnabled>false</drillEnabled>
@@ -138,6 +163,9 @@
                 <dashboardFilterColumns>
                     <column>b3s__Shift__c.b3s__Scheduled_Start_Time__c</column>
                 </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>FK_$Account.b3_Service_Line__c</column>
+                </dashboardFilterColumns>
                 <decimalPrecision>-1</decimalPrecision>
                 <displayUnits>Auto</displayUnits>
                 <groupingSortProperties/>
@@ -165,6 +193,9 @@
                 <dashboardFilterColumns>
                     <column>b3s__Shift__c.b3s__Scheduled_Start_Time__c</column>
                 </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>FK_$Account.b3_Service_Line__c</column>
+                </dashboardFilterColumns>
                 <decimalPrecision>-1</decimalPrecision>
                 <displayUnits>Auto</displayUnits>
                 <groupingSortProperties/>
@@ -188,6 +219,9 @@
                 <componentType>FlexTable</componentType>
                 <dashboardFilterColumns>
                     <column>b3s__Shift__c.b3s__Scheduled_Start_Time__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>FK_$Account.b3_Service_Line__c</column>
                 </dashboardFilterColumns>
                 <flexComponentProperties>
                     <decimalPrecision>-1</decimalPrecision>
@@ -249,6 +283,9 @@
                 <dashboardFilterColumns>
                     <column>b3s__Shift__c.b3s__Scheduled_Start_Time__c</column>
                 </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>FK_$Account.b3_Service_Line__c</column>
+                </dashboardFilterColumns>
                 <decimalPrecision>-1</decimalPrecision>
                 <displayUnits>Auto</displayUnits>
                 <drillEnabled>false</drillEnabled>
@@ -289,6 +326,9 @@
                 <componentType>BarGrouped</componentType>
                 <dashboardFilterColumns>
                     <column>b3s__Shift__c.b3s__Scheduled_Start_Time__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>FK_$Account.b3_Service_Line__c</column>
                 </dashboardFilterColumns>
                 <decimalPrecision>-1</decimalPrecision>
                 <displayUnits>Auto</displayUnits>
@@ -333,6 +373,9 @@
                 <componentType>BarGrouped</componentType>
                 <dashboardFilterColumns>
                     <column>b3s__Shift__c.b3s__Scheduled_Start_Time__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>FK_$Account.b3_Service_Line__c</column>
                 </dashboardFilterColumns>
                 <decimalPrecision>-1</decimalPrecision>
                 <displayUnits>Auto</displayUnits>
