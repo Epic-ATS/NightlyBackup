@@ -13,6 +13,7 @@
     <columns>b3s__Actual_Start_Time__c</columns>
     <columns>b3s__Actual_End_Time__c</columns>
     <columns>CREATED_DATE</columns>
+    <columns>CREATEDBY_USER</columns>
     <filterScope>Everything</filterScope>
     <label>All</label>
 </ListView>
