@@ -41,7 +41,7 @@
         <field>b3s__Shift__c$b3s__Scheduled_Start_Time__c</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
-    <name>ATS Weekly Schedule Export</name>
+    <name>ATS Daily Schedule Export</name>
     <params>
         <name>co</name>
         <value>1</value>
@@ -53,6 +53,6 @@
     <showSubTotals>true</showSubTotals>
     <timeFrameFilter>
         <dateColumn>b3s__Shift__c$b3s__Scheduled_Start_Time__c</dateColumn>
-        <interval>INTERVAL_NEXTWEEK</interval>
+        <interval>INTERVAL_TOMORROW</interval>
     </timeFrameFilter>
 </Report>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_ATS_Shifts_This_Week</fullName>
+    <columns>NAME</columns>
+    <columns>b3s__Contact__c</columns>
+    <columns>b3s__Status__c</columns>
+    <columns>b3s__Site__c</columns>
+    <columns>b3s__Job__c</columns>
+    <columns>b3s__Comments__c</columns>
+    <columns>b3s__Scheduled_Start_Time__c</columns>
+    <columns>b3s__Scheduled_End_Time__c</columns>
+    <columns>b3s__Absolute_Start_Time__c</columns>
+    <columns>b3s__Absolute_End_Time__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>CREATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>b3s__Scheduled_Start_Time__c</field>
+        <operation>equals</operation>
+        <value>THIS_WEEK</value>
+    </filters>
+    <filters>
+        <field>b3s__Job__c</field>
+        <operation>contains</operation>
+        <value>Autotransfusionist</value>
+    </filters>
+    <label>All ATS Shifts This Week</label>
+</ListView>
