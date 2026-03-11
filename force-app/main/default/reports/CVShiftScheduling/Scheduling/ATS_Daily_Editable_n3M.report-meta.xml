@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Report xmlns="http://soap.sforce.com/2006/04/metadata">
     <columns>
-        <field>b3s__Shift__c$b3s__Site__c</field>
-    </columns>
-    <columns>
-        <field>b3s__Shift__c$b3_Client__c.b3_Service_Line__c</field>
-    </columns>
-    <columns>
-        <field>b3s__Shift__c$Name</field>
-    </columns>
-    <columns>
         <field>b3s__Shift__c$b3s__Status__c</field>
-    </columns>
-    <columns>
-        <field>b3s__Shift__c$b3_Job_Type__c</field>
-    </columns>
-    <columns>
-        <field>b3s__Shift__c$b3s__Contact__c.Name</field>
-    </columns>
-    <columns>
-        <field>b3s__Shift__c$b3s__Contact__c.b3_Profession__c</field>
-    </columns>
-    <columns>
-        <field>b3s__Shift__c$b3s__Contact__c.Employment_Type__c</field>
-    </columns>
-    <columns>
-        <field>b3s__Shift__c$b3s__Contact__c.ADP_File_Number__c</field>
     </columns>
     <columns>
         <field>b3s__Shift__c$b3s__Comments__c</field>
@@ -45,19 +21,22 @@
             <value>ATS</value>
         </criteriaItems>
         <criteriaItems>
+            <column>b3s__Shift__c$b3s__Contact__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
             <column>b3s__Shift__c$b3s__Status__c</column>
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>equals</operator>
-            <value>,Confirmed,Pending</value>
+            <value>Confirmed,Pending</value>
         </criteriaItems>
         <language>en_US</language>
     </filter>
-    <format>Matrix</format>
-    <groupingsAcross>
-        <field>b3s__Shift__c$b3s__Scheduled_Start_Time__c</field>
-        <sortOrder>Asc</sortOrder>
-    </groupingsAcross>
+    <format>Summary</format>
     <groupingsDown>
         <dateGranularity>Day</dateGranularity>
         <field>b3s__Shift__c$b3_Client__c</field>
@@ -68,7 +47,11 @@
         <field>b3s__Shift__c$b3s__Contact__c</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
-    <name>Shift Scheduling - FOS Daily</name>
+    <groupingsDown>
+        <field>b3s__Shift__c$b3s__Scheduled_Start_Time__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>ATS Daily (Editable)</name>
     <params>
         <name>co</name>
         <value>1</value>
@@ -80,6 +63,6 @@
     <showSubTotals>true</showSubTotals>
     <timeFrameFilter>
         <dateColumn>b3s__Shift__c$b3s__Scheduled_Start_Time__c</dateColumn>
-        <interval>INTERVAL_THISWEEK</interval>
+        <interval>INTERVAL_TOMORROW</interval>
     </timeFrameFilter>
 </Report>
