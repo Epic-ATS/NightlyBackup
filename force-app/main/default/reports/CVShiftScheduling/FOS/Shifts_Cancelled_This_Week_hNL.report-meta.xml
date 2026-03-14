@@ -38,7 +38,6 @@
         <field>b3s__Shift__c$b3_Billable_Cancellation__c</field>
     </columns>
     <filter>
-        <booleanFilter>(1 AND 2) OR (3 AND 2)</booleanFilter>
         <criteriaItems>
             <column>b3s__Shift__c$b3s__Status__c</column>
             <columnToColumn>false</columnToColumn>
@@ -52,13 +51,6 @@
             <isUnlocked>true</isUnlocked>
             <operator>includes</operator>
             <value>ATS</value>
-        </criteriaItems>
-        <criteriaItems>
-            <column>b3s__Shift__c$b3_Billable_Cancellation__c</column>
-            <columnToColumn>false</columnToColumn>
-            <isUnlocked>true</isUnlocked>
-            <operator>equals</operator>
-            <value>0</value>
         </criteriaItems>
         <language>en_US</language>
     </filter>

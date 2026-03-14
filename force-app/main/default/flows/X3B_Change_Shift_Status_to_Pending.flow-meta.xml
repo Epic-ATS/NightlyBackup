@@ -70,6 +70,13 @@
                     <booleanValue>true</booleanValue>
                 </rightValue>
             </conditions>
+            <conditions>
+                <leftValueReference>$Record.b3s__Status__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Cancelled</stringValue>
+                </rightValue>
+            </conditions>
             <connector>
                 <targetReference>Set_Status_to_Blank</targetReference>
             </connector>
