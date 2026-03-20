@@ -15047,6 +15047,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>b3o__Site__c.b3_Is_DI_or_EPS_Facility__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>b3o__Site__c.b3_Name_And_Address__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -15779,6 +15784,11 @@
         <editable>false</editable>
         <field>b3s__Shift__c.b3_Job_Type__c</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>b3s__Shift__c.b3_Payable_Cancellation__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>

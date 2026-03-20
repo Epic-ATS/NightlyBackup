@@ -1521,6 +1521,11 @@
             <field>Confirm_Matching_Shifts__c</field>
             <table>b3s__Shift__c</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>b3_Payable_Cancellation__c</field>
+            <table>b3s__Shift__c</table>
+        </columns>
         <masterLabel>Shifts</masterLabel>
     </sections>
 </ReportType>
