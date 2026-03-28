@@ -28,12 +28,6 @@
             <operator>equals</operator>
             <value>Confirmed,Pending</value>
         </criteriaItems>
-        <criteriaItems>
-            <column>b3s__Scheduled_Start_Time__c</column>
-            <isUnlocked>false</isUnlocked>
-            <operator>equals</operator>
-            <value>THIS_QUARTER</value>
-        </criteriaItems>
         <operation>with</operation>
         <primaryTableColumn>CONTACT_ID</primaryTableColumn>
         <relatedTable>b3s__Shift__c</relatedTable>
@@ -49,8 +43,13 @@
         </criteriaItems>
         <language>en_US</language>
     </filter>
-    <format>Tabular</format>
-    <name>Total Clinicians Deployed this Qtr</name>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>CONTACT_RECORDTYPE</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Total Clinicians Deployed</name>
     <params>
         <name>co</name>
         <value>1</value>

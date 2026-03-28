@@ -40,7 +40,7 @@
         <field>b3s__Shift__c$b3_Job_Type__c</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
-    <name>Confirmed Client Shifts by Day</name>
+    <name>Confirmed Client Shifts</name>
     <params>
         <name>co</name>
         <value>1</value>
@@ -52,6 +52,6 @@
     <showSubTotals>true</showSubTotals>
     <timeFrameFilter>
         <dateColumn>b3s__Shift__c$b3s__Scheduled_Start_Time__c</dateColumn>
-        <interval>INTERVAL_CURRENT</interval>
+        <interval>INTERVAL_CUSTOM</interval>
     </timeFrameFilter>
 </Report>

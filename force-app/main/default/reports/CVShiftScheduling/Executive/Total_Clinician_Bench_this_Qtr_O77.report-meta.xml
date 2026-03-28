@@ -18,21 +18,12 @@
     <columns>
         <field>EMAIL</field>
     </columns>
-    <columns>
-        <field>OWNER_FULL_NAME</field>
-    </columns>
     <crossFilters>
         <criteriaItems>
             <column>b3s__Status__c</column>
             <isUnlocked>false</isUnlocked>
             <operator>equals</operator>
             <value>Confirmed</value>
-        </criteriaItems>
-        <criteriaItems>
-            <column>b3s__Scheduled_Start_Time__c</column>
-            <isUnlocked>false</isUnlocked>
-            <operator>equals</operator>
-            <value>THIS_QUARTER</value>
         </criteriaItems>
         <operation>without</operation>
         <primaryTableColumn>CONTACT_ID</primaryTableColumn>
@@ -49,8 +40,13 @@
         </criteriaItems>
         <language>en_US</language>
     </filter>
-    <format>Tabular</format>
-    <name>Total Clinician Bench this Qtr</name>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>CONTACT_RECORDTYPE</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Total Clinician Bench</name>
     <params>
         <name>co</name>
         <value>1</value>

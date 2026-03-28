@@ -21,20 +21,16 @@
     <columns>
         <field>b3s__Shift__c$CreatedBy</field>
     </columns>
-    <columns>
-        <aggregateTypes>Sum</aggregateTypes>
-        <field>CDF1</field>
-    </columns>
     <customDetailFormulas>
         <calculatedFormula>IF(
     NOT(ISBLANK(b3s__Shift__c.b3s__Contact__c.Name)),
-    1,
-    0
+    &apos;Yes&apos;,
+    &apos;No&apos;
 )</calculatedFormula>
-        <dataType>Double</dataType>
+        <dataType>Text</dataType>
         <developerName>CDF1</developerName>
         <label>Filled</label>
-        <scale>0</scale>
+        <scale>2</scale>
     </customDetailFormulas>
     <filter>
         <criteriaItems>
@@ -42,11 +38,16 @@
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>equals</operator>
-            <value>,Confirmed</value>
+            <value>,Confirmed,Cancelled,Pending</value>
         </criteriaItems>
         <language>en_US</language>
     </filter>
-    <format>Tabular</format>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>CDF1</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
     <name>Shift Filled Rate</name>
     <params>
         <name>co</name>
@@ -59,6 +60,6 @@
     <showSubTotals>true</showSubTotals>
     <timeFrameFilter>
         <dateColumn>b3s__Shift__c$CreatedDate</dateColumn>
-        <interval>INTERVAL_CURRENT</interval>
+        <interval>INTERVAL_CUSTOM</interval>
     </timeFrameFilter>
 </Report>
