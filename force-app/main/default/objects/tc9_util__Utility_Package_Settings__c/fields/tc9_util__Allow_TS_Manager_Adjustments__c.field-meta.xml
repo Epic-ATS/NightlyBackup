@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_util__Allow_TS_Manager_Adjustments__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, the &apos;2c9 Utilities – Timesheet Status Manager&apos; lets users trigger bulk timesheet adjustments. If unchecked, users can only revert unprocessed approved timesheets back to &apos;New&apos;.</description>
+    <inlineHelpText>If checked, the &apos;2c9 Utilities – Timesheet Status Manager&apos; lets users trigger bulk timesheet adjustments. If unchecked, users can only revert unprocessed approved timesheets back to &apos;New&apos;.</inlineHelpText>
+    <label>Allow TS Manager Adjustments</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

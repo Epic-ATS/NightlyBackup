@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_util__Header_Set_Full_Width__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <inlineHelpText>If TRUE then the header image is full width</inlineHelpText>
+    <label>Header Set Full Width</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

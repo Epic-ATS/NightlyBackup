@@ -6542,6 +6542,18 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>tc9_util__BulkTimesheetApprovalBaseSetup</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_util__BulkTimesheetApprovalBatch</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_util__BulkTimesheetApprovalTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>tc9_util__ConsolidatedExpenseData</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -24889,6 +24901,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>tc9_et__Timesheet__c.tc9_util__Auto_Approval__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>tc9_et__Timesheet__c.tc9_util__CSS__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -35913,7 +35930,15 @@
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
+        <flow>tc9_util__X2c9_Utilities_Retrieve_Superannuation_Fund</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
         <flow>tc9_util__X2c9_Utilities_Timesheet_Adjustments</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>tc9_util__X2c9_Utilities_Timesheet_Status_Manager</flow>
     </flowAccesses>
     <layoutAssignments>
         <layout>Account-tc9_eau__TC9EAU Account - Payment Entity</layout>

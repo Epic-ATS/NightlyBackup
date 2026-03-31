@@ -6542,6 +6542,18 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>tc9_util__BulkTimesheetApprovalBaseSetup</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_util__BulkTimesheetApprovalBatch</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tc9_util__BulkTimesheetApprovalTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>tc9_util__ConsolidatedExpenseData</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -7341,6 +7353,10 @@
     <customSettingAccesses>
         <enabled>true</enabled>
         <name>tc9_util__Timesheet_Adjustment_Setting__c</name>
+    </customSettingAccesses>
+    <customSettingAccesses>
+        <enabled>true</enabled>
+        <name>tc9_util__Utility_Batch_Size_Overrides__c</name>
     </customSettingAccesses>
     <customSettingAccesses>
         <enabled>true</enabled>
@@ -25137,6 +25153,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>tc9_et__Timesheet__c.tc9_util__Auto_Approval__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>tc9_et__Timesheet__c.tc9_util__CSS__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -36161,7 +36182,15 @@
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
+        <flow>tc9_util__X2c9_Utilities_Retrieve_Superannuation_Fund</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
         <flow>tc9_util__X2c9_Utilities_Timesheet_Adjustments</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>tc9_util__X2c9_Utilities_Timesheet_Status_Manager</flow>
     </flowAccesses>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
