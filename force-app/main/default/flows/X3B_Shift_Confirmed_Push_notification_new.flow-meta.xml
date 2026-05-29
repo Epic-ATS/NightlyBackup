@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Publish_Batched_Push_Event</name>
+        <label>Publish Batched Push Event</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <actionName>ShiftPushEventBatcher</actionName>
+        <actionType>apex</actionType>
+        <connector>
+            <targetReference>Use_Batch_Emails</targetReference>
+        </connector>
+        <flowTransactionModel>Automatic</flowTransactionModel>
+        <inputParameters>
+            <name>shiftId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>singleBody</name>
+            <value>
+                <elementReference>body</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>targetLink</name>
+            <value>
+                <stringValue>https://epic-3b--3bdev1.sandbox.my.salesforce-sites.com/onboarding/b3p__Portal#CandidateApp</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>title</name>
+            <value>
+                <elementReference>title</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>ShiftPushEventBatcher</nameSegment>
+        <offset>0</offset>
+    </actionCalls>
+    <actionCalls>
+        <name>Use_Batch_Emails</name>
+        <label>Use Batch Emails</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <actionName>ShiftNotificationBatcher</actionName>
+        <actionType>apex</actionType>
+        <flowTransactionModel>Automatic</flowTransactionModel>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>Sandbox: New Shift Assignments</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>introText</name>
+            <value>
+                <stringValue>This email is to inform that the following shifts have been assigned to you.</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>shiftId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>ShiftNotificationBatcher</nameSegment>
+        <offset>0</offset>
+    </actionCalls>
+    <apiVersion>64.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>Set_contactIds_variable</name>
+        <label>Set contactIds variable</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignmentItems>
+            <assignToReference>contactIds</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>$Record.b3s__Contact__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Publish_Batched_Push_Event</targetReference>
+        </connector>
+    </assignments>
+    <environments>Default</environments>
+    <interviewLabel>3B - Shift Confirmed - Push notification (new) {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>3B - Shift Confirmed - Push notification (new)</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>b3s__Status__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Confirmed</stringValue>
+            </value>
+        </filters>
+        <object>b3s__Shift__c</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <scheduledPaths>
+            <name>Run_1_minute_after</name>
+            <connector>
+                <targetReference>Set_contactIds_variable</targetReference>
+            </connector>
+            <label>Run 1 minute after</label>
+            <offsetNumber>1</offsetNumber>
+            <offsetUnit>Minutes</offsetUnit>
+            <timeSource>RecordTriggerEvent</timeSource>
+        </scheduledPaths>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Draft</status>
+    <textTemplates>
+        <name>body</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>START TIME: {!$Record.b3s__Scheduled_Start_Time__c}
+END TIME: {!$Record.b3s__Scheduled_End_Time__c}
+FACILITY: {!$Record.b3s__Site__r.Name} {!$Record.b3s__Site__r.b3o__Full_Address__c}
+JOB: {!$Record.b3s__Job__r.b3o__Job_Type__r.Name}
+NOTES: {!$Record.b3s__Comments__c}</text>
+    </textTemplates>
+    <textTemplates>
+        <name>emailBody</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;Hi {!$Record.b3s__Contact__r.FirstName} {!$Record.b3s__Contact__r.LastName},&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;This email is to inform that a shift has been assigned to you.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Please see the details below:&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;START TIME:&lt;/strong&gt; {!$Record.b3s__Scheduled_Start_Time__c}&lt;/p&gt;&lt;p&gt;&lt;strong&gt;END TIME:&lt;/strong&gt; {!$Record.b3s__Scheduled_End_Time__c}&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACILITY:&lt;/strong&gt; {!$Record.b3s__Site__r.Name} {!$Record.b3s__Site__r.b3o__Full_Address__c}&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;JOB: &lt;/strong&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;{!$Record.b3s__Job__r.b3o__Job_Type__r.Name}&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;NOTES:&lt;/strong&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt; {!$Record.b3_Facility_Notes__c}&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Click &lt;/span&gt;&lt;a href=&quot;https://epic-3b--3bdev1.sandbox.my.salesforce-sites.com/onboarding/b3p__Portal#CandidateApp&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;HERE&lt;/a&gt; &lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;to access your Portal.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Kind regards,&lt;/p&gt;&lt;p&gt;{!$User.FirstName} &lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;{!$User.LastName} &lt;/span&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>title</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Shift Confirmed</text>
+    </textTemplates>
+    <variables>
+        <name>contactIds</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

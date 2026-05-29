@@ -35,11 +35,11 @@
     </columns>
     <filter>
         <criteriaItems>
-            <column>b3s__Shift__c$b3_Client__c.b3_Service_Line__c</column>
+            <column>b3s__Shift__c$b3s__Job__c</column>
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
-            <operator>includes</operator>
-            <value>ECMO,Long-term Perfusion,PRN</value>
+            <operator>contains</operator>
+            <value>ECMO,Perfusionist</value>
         </criteriaItems>
         <language>en_US</language>
     </filter>

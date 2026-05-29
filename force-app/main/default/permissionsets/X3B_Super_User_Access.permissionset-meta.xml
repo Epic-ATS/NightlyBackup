@@ -1952,11 +1952,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Contact.Migration_Id__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Contact.b3_Business_Unit__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -2003,11 +1998,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Contact.tc9_pr__Primary_Payee_Record__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>b3_Account_Credential__c.Credentialing_Status__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4878,6 +4868,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>b3s__Invitation__c.b3s__Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>b3s__Shift__c.Confirm_Matching_Shifts__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
