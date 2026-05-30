@@ -11,6 +11,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Contact.Migration_Id__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>b3s__Shift__c.b3_Job_Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
