@@ -8,6 +8,7 @@
     <columns>b3o__Job_Boards__c</columns>
     <columns>b3o__Featured_Job__c</columns>
     <columns>b3o__Job_Post_Status__c</columns>
+    <columns>RECORDTYPE</columns>
     <filterScope>Everything</filterScope>
     <label>All</label>
 </ListView>
