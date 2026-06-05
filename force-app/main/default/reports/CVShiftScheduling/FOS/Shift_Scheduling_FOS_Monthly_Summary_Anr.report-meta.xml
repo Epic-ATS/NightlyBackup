@@ -19,6 +19,9 @@
         <field>b3s__Shift__c$b3s__Contact__c.ADP_File_Number__c</field>
     </columns>
     <columns>
+        <field>b3s__Shift__c$b3s__Travel_Status__c</field>
+    </columns>
+    <columns>
         <field>b3s__Shift__c$b3s__Scheduled_Start_Time__c</field>
     </columns>
     <columns>
@@ -42,6 +45,13 @@
             <isUnlocked>true</isUnlocked>
             <operator>contains</operator>
             <value>ECMO,Perfusionist</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>b3s__Shift__c$b3s__Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Confirmed</value>
         </criteriaItems>
         <language>en_US</language>
     </filter>
@@ -73,6 +83,8 @@
     <showSubTotals>true</showSubTotals>
     <timeFrameFilter>
         <dateColumn>b3s__Shift__c$b3s__Scheduled_Start_Time__c</dateColumn>
-        <interval>INTERVAL_THISMONTH</interval>
+        <endDate>2026-05-30</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2026-05-03</startDate>
     </timeFrameFilter>
 </Report>

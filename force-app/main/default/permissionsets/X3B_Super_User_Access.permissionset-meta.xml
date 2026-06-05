@@ -2002,6 +2002,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>b3_Account_Credential__c.Credentialing_Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>b3_Account_Credential__c.Facility_Cleared_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
