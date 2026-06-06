@@ -559,7 +559,6 @@ CASE(
             <dataType>String</dataType>
             <fieldText>Adjust Leave Balance</fieldText>
             <fieldType>RadioButtons</fieldType>
-            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>true</isRequired>
             <styleProperties>
                 <verticalAlignment>
@@ -575,7 +574,6 @@ CASE(
             <dataType>Number</dataType>
             <fieldText>Enter the leave hours to be granted</fieldText>
             <fieldType>InputField</fieldType>
-            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>false</isRequired>
             <scale>2</scale>
             <styleProperties>
