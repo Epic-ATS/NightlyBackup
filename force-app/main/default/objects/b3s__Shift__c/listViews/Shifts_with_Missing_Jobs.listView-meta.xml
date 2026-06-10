@@ -29,5 +29,10 @@
         <operation>lessOrEqual</operation>
         <value>5/30/2026 12:00 AM</value>
     </filters>
+    <filters>
+        <field>b3s__Status__c</field>
+        <operation>equals</operation>
+        <value>Confirmed</value>
+    </filters>
     <label>Shifts with Missing Jobs</label>
 </ListView>
