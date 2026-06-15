@@ -5628,6 +5628,7 @@ IF({!PLRtable.outputSelectedRow.tc9_pr__Minimum_Allowable_Balance__c} &lt; 0, AB
             <name>Reason_for_cancellation</name>
             <fieldText>Reason for cancellation?</fieldText>
             <fieldType>LargeTextArea</fieldType>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>true</isRequired>
             <styleProperties>
                 <verticalAlignment>
@@ -5664,6 +5665,7 @@ IF({!PLRtable.outputSelectedRow.tc9_pr__Minimum_Allowable_Balance__c} &lt; 0, AB
                     <dataType>String</dataType>
                     <fieldText>Start Time</fieldText>
                     <fieldType>DropdownBox</fieldType>
+                    <inputsOnNextNavToAssocScrn>ResetValues</inputsOnNextNavToAssocScrn>
                     <isRequired>false</isRequired>
                     <styleProperties>
                         <verticalAlignment>
@@ -5680,6 +5682,7 @@ IF({!PLRtable.outputSelectedRow.tc9_pr__Minimum_Allowable_Balance__c} &lt; 0, AB
                     <dataType>String</dataType>
                     <fieldText>End Time</fieldText>
                     <fieldType>DropdownBox</fieldType>
+                    <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
                     <isRequired>false</isRequired>
                     <styleProperties>
                         <verticalAlignment>
@@ -7063,6 +7066,7 @@ IF({!PLRtable.outputSelectedRow.tc9_pr__Minimum_Allowable_Balance__c} &lt; 0, AB
                     </defaultValue>
                     <fieldText>Leave Type</fieldText>
                     <fieldType>DropdownBox</fieldType>
+                    <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
                     <isRequired>false</isRequired>
                     <styleProperties>
                         <verticalAlignment>
@@ -7079,6 +7083,7 @@ IF({!PLRtable.outputSelectedRow.tc9_pr__Minimum_Allowable_Balance__c} &lt; 0, AB
                     <fieldText>Runs Concurrently with FMLA</fieldText>
                     <fieldType>InputField</fieldType>
                     <helpText>&lt;p&gt;&lt;span style=&quot;font-size: 12px; font-family: verdana; color: rgb(0, 0, 0);&quot;&gt;Check this only if you want to deduct from FMLA or State Disability leave when applying for Holiday or Maternity leave.&lt;/span&gt;&lt;/p&gt;</helpText>
+                    <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
                     <isRequired>true</isRequired>
                     <styleProperties>
                         <verticalAlignment>
@@ -7097,6 +7102,7 @@ IF({!PLRtable.outputSelectedRow.tc9_pr__Minimum_Allowable_Balance__c} &lt; 0, AB
                     </defaultValue>
                     <fieldText>First Day of Leave</fieldText>
                     <fieldType>InputField</fieldType>
+                    <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
                     <isRequired>false</isRequired>
                     <styleProperties>
                         <verticalAlignment>
@@ -7115,6 +7121,7 @@ IF({!PLRtable.outputSelectedRow.tc9_pr__Minimum_Allowable_Balance__c} &lt; 0, AB
                     </defaultValue>
                     <fieldText>Last Day of Leave</fieldText>
                     <fieldType>InputField</fieldType>
+                    <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
                     <isRequired>false</isRequired>
                     <styleProperties>
                         <verticalAlignment>
@@ -7226,6 +7233,7 @@ IF({!PLRtable.outputSelectedRow.tc9_pr__Minimum_Allowable_Balance__c} &lt; 0, AB
                     </defaultValue>
                     <fieldText>Approval Status</fieldText>
                     <fieldType>DropdownBox</fieldType>
+                    <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
                     <isRequired>false</isRequired>
                     <styleProperties>
                         <verticalAlignment>
@@ -7245,6 +7253,7 @@ IF({!PLRtable.outputSelectedRow.tc9_pr__Minimum_Allowable_Balance__c} &lt; 0, AB
                     </defaultValue>
                     <fieldText>Skip Manager Approval</fieldText>
                     <fieldType>DropdownBox</fieldType>
+                    <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
                     <isRequired>false</isRequired>
                     <styleProperties>
                         <verticalAlignment>
@@ -9730,6 +9739,7 @@ IF({!PLRtable.outputSelectedRow.tc9_pr__Minimum_Allowable_Balance__c} &lt; 0, AB
             </defaultValue>
             <fieldText>Credit Leave Type</fieldText>
             <fieldType>DropdownBox</fieldType>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>true</isRequired>
             <styleProperties>
                 <verticalAlignment>
@@ -9746,6 +9756,7 @@ IF({!PLRtable.outputSelectedRow.tc9_pr__Minimum_Allowable_Balance__c} &lt; 0, AB
             <dataType>String</dataType>
             <fieldText>Date of Holiday Worked</fieldText>
             <fieldType>DropdownBox</fieldType>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>false</isRequired>
             <styleProperties>
                 <verticalAlignment>
@@ -9761,6 +9772,7 @@ IF({!PLRtable.outputSelectedRow.tc9_pr__Minimum_Allowable_Balance__c} &lt; 0, AB
             <dataType>Date</dataType>
             <fieldText>Date of Holiday Worked</fieldText>
             <fieldType>InputField</fieldType>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>true</isRequired>
             <styleProperties>
                 <verticalAlignment>
@@ -9776,6 +9788,7 @@ IF({!PLRtable.outputSelectedRow.tc9_pr__Minimum_Allowable_Balance__c} &lt; 0, AB
             <dataType>Number</dataType>
             <fieldText>Hours to be credited</fieldText>
             <fieldType>InputField</fieldType>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>true</isRequired>
             <scale>2</scale>
             <styleProperties>
@@ -9808,6 +9821,7 @@ IF({!PLRtable.outputSelectedRow.tc9_pr__Minimum_Allowable_Balance__c} &lt; 0, AB
             <dataType>String</dataType>
             <fieldText>Select Assignment</fieldText>
             <fieldType>DropdownBox</fieldType>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>false</isRequired>
             <styleProperties>
                 <verticalAlignment>
