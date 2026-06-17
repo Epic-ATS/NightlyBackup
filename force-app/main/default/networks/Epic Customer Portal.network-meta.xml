@@ -4,6 +4,7 @@
     <allowMembersToFlag>false</allowMembersToFlag>
     <changePasswordTemplate>unfiled$public/CommunityChangePasswordEmailTemplate</changePasswordTemplate>
     <communityRoles/>
+    <disablePvtPagesForPwdResetInLWR>false</disablePvtPagesForPwdResetInLWR>
     <disableReputationRecordConversations>false</disableReputationRecordConversations>
     <emailFooterLogo>Experiences_Shared_Document_Folder/EPICLogo_jpeg.jpeg</emailFooterLogo>
     <emailFooterText>700 W Jefferson St Suite 202, Shorewood, IL 60404</emailFooterText>

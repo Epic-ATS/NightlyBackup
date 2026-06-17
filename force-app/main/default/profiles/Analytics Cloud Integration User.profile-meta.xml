@@ -37547,6 +37547,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-TenantConsumptionAlert</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-Today</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
