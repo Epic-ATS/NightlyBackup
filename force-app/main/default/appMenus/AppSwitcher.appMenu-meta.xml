@@ -273,10 +273,6 @@
         <type>ConnectedApp</type>
     </appMenuItems>
     <appMenuItems>
-        <name>TC9_Migration_Tool</name>
-        <type>ConnectedApp</type>
-    </appMenuItems>
-    <appMenuItems>
         <name>Salesforce_org_MetaDeploy</name>
         <type>ConnectedApp</type>
     </appMenuItems>
