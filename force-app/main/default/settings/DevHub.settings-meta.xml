@@ -3,6 +3,7 @@
     <enableALMDevopsCorePref>false</enableALMDevopsCorePref>
     <enableDevOpsCenter>false</enableDevOpsCenter>
     <enableDevOpsCenterGA>false</enableDevOpsCenterGA>
+    <enableDevopsCenterMigrationPref>false</enableDevopsCenterMigrationPref>
     <enableDevopsTestingPref>false</enableDevopsTestingPref>
     <enablePackaging2>true</enablePackaging2>
     <enableScratchOrgManagementPref>true</enableScratchOrgManagementPref>
