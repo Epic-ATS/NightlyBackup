@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Report xmlns="http://soap.sforce.com/2006/04/metadata">
     <columns>
+        <field>b3s__Shift__c$b3s__Site__c</field>
+    </columns>
+    <columns>
+        <field>b3s__Shift__c$b3s__Contact__c</field>
+    </columns>
+    <columns>
         <field>b3s__Shift__c$b3s__Comments__c</field>
     </columns>
     <columns>
@@ -36,19 +42,9 @@
     <format>Summary</format>
     <groupingsDown>
         <field>b3s__Shift__c$b3s__Scheduled_Start_Time__c</field>
-        <sortOrder>Asc</sortOrder>
+        <sortOrder>Desc</sortOrder>
     </groupingsDown>
-    <groupingsDown>
-        <dateGranularity>Day</dateGranularity>
-        <field>b3s__Shift__c$b3s__Site__c</field>
-        <sortOrder>Asc</sortOrder>
-    </groupingsDown>
-    <groupingsDown>
-        <dateGranularity>Day</dateGranularity>
-        <field>b3s__Shift__c$b3s__Contact__c</field>
-        <sortOrder>Asc</sortOrder>
-    </groupingsDown>
-    <name>ATS Weekly Schedule Export with On Call</name>
+    <name>Copy of ATS Weekly Schedule Export with</name>
     <params>
         <name>co</name>
         <value>1</value>
@@ -58,6 +54,8 @@
     <showDetails>true</showDetails>
     <showGrandTotal>false</showGrandTotal>
     <showSubTotals>false</showSubTotals>
+    <sortColumn>b3s__Shift__c$b3s__Site__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
     <timeFrameFilter>
         <dateColumn>b3s__Shift__c$b3s__Scheduled_Start_Time__c</dateColumn>
         <endDate>2026-06-19</endDate>
