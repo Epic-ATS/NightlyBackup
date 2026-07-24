@@ -37188,6 +37188,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-ProductLimits</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-ProductQualification</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
