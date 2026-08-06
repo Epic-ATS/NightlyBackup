@@ -9,6 +9,7 @@
     <columns>b3o__Featured_Job__c</columns>
     <columns>b3o__Job_Post_Status__c</columns>
     <columns>RECORDTYPE</columns>
+    <columns>CREATED_DATE</columns>
     <filterScope>Everything</filterScope>
     <label>All</label>
 </ListView>
