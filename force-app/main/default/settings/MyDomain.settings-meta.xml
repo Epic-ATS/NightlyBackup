@@ -21,7 +21,7 @@
     <isIcorInstApiTrafficBlocked>false</isIcorInstApiTrafficBlocked>
     <isInstancedApiTrafficBlocked>false</isInstancedApiTrafficBlocked>
     <logRedirections>false</logRedirections>
-    <myDomainName>epic-3b</myDomainName>
+    <myDomainName>stoneharborstaffing</myDomainName>
     <myDomainSuffix>MySalesforce</myDomainSuffix>
     <onboardCustomerSpecificSuffix>false</onboardCustomerSpecificSuffix>
     <redirectForceComSiteUrls>true</redirectForceComSiteUrls>

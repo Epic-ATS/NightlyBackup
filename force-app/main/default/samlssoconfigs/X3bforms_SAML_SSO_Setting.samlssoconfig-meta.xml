@@ -6,10 +6,10 @@
     <issuer>https://3bforms.my.salesforce.com</issuer>
     <loginUrl>https://3bforms.my.salesforce.com/idp/endpoint/HttpPost</loginUrl>
     <name>3bforms SAML SSO Setting</name>
-    <oauthTokenEndpoint>https://epic-3b.my.salesforce.com/services/oauth2/token</oauthTokenEndpoint>
+    <oauthTokenEndpoint>https://stoneharborstaffing.my.salesforce.com/services/oauth2/token</oauthTokenEndpoint>
     <redirectBinding>false</redirectBinding>
     <requestSigningCertId>0P1d30000005Fb7</requestSigningCertId>
-    <salesforceLoginUrl>https://epic-3b.my.salesforce.com</salesforceLoginUrl>
+    <salesforceLoginUrl>https://stoneharborstaffing.my.salesforce.com</salesforceLoginUrl>
     <samlEntityId>https://saml.salesforce.com/00Dd300000274tlEAA</samlEntityId>
     <samlVersion>SAML2_0</samlVersion>
     <useConfigRequestMethod>false</useConfigRequestMethod>
