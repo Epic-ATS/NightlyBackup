@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Automated_Pay_Batch_Earlier_Periods__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether Pay Batches created by scheduled automation will consider earlier Pay Calendar Periods or not.</description>
+    <inlineHelpText>Indicates whether Pay Batches created by scheduled automation will consider earlier Pay Calendar Periods or not.</inlineHelpText>
+    <label>Automated Pay Batch Earlier Periods?</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

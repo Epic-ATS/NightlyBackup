@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Invoice_Portal__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When set to true this site will be used as the Invoicing site for viewing invoices online. When this checkbox is true the &apos;Default&apos; checkbox must be set to false to avoid issues when handling multiple sites.</description>
+    <inlineHelpText>When set to true this site will be used as the Invoicing site for viewing invoices online. When this checkbox is true the &apos;Default&apos; checkbox must be set to false to avoid issues when handling multiple sites.</inlineHelpText>
+    <label>Invoice Portal</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

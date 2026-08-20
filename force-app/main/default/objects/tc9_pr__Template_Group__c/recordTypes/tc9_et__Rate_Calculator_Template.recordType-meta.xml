@@ -4,4 +4,23 @@
     <active>true</active>
     <description>To be used for creating Template Groups for Rate Calculator</description>
     <label>Rate Calculator Template</label>
+    <picklistValues>
+        <picklist>tc9_et__Rate_Template_Type__c</picklist>
+        <values>
+            <fullName>Assignment Rates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Award Rates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client Rates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Job Rates</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
 </RecordType>

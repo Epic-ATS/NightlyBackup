@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Rate_Template_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Specifies what the rates in this template group are used for, including whether they are award-based, carded (shared across multiple clients), or specific to a client, job, or assignment.</description>
+    <inlineHelpText>Specifies what the rates in this template group are used for, including whether they are award-based, carded (shared across multiple clients), or specific to a client, job, or assignment.</inlineHelpText>
+    <label>Rate Template Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Award Rates</fullName>
+                <default>false</default>
+                <label>Award Rates</label>
+            </value>
+            <value>
+                <fullName>Client Rates</fullName>
+                <default>false</default>
+                <label>Client Rates</label>
+            </value>
+            <value>
+                <fullName>Job Rates</fullName>
+                <default>false</default>
+                <label>Job Rates</label>
+            </value>
+            <value>
+                <fullName>Assignment Rates</fullName>
+                <default>false</default>
+                <label>Assignment Rates</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

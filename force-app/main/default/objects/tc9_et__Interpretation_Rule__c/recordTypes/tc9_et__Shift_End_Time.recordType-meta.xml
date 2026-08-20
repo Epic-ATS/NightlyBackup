@@ -635,6 +635,17 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>tc9_et__Exclude_Variation_from_Frequency__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>tc9_et__Friday_Interpretation_Type__c</picklist>
         <values>
             <fullName>Shift End Time</fullName>

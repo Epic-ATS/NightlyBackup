@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__FEE</fullName>
+    <active>true</active>
+    <description>To be used for Invoiceable Fees across all service types where a more specific Fee category is not applicable.</description>
+    <label>FEE</label>
+    <picklistValues>
+        <picklist>tc9_et__Fee_Type__c</picklist>
+        <values>
+            <fullName>Advertising Expense</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Applicant Screening</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Onboarding Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payroll Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Permanent Placement of Employee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reference Checks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retainer Fee Final Instalment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retainer Fee Instalment 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retainer Fee Instalment 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Skill and Behavioural Testing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Temp To Perm Conversion of Employee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Travel Expense</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_et__Invoice_Alone__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tc9_et__Invoice_Taxable__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

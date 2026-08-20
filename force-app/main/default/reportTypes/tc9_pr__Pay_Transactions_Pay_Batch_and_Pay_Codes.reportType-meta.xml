@@ -242,6 +242,11 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
+            <field>tc9_pr__Total_Employee_Superannuation__c</field>
+            <table>tc9_pr__Pay_Batch__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
             <field>tc9_pr__Total_Employer_Superannuation__c</field>
             <table>tc9_pr__Pay_Batch__c</table>
         </columns>
@@ -341,6 +346,11 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>tc9_pr__Contributes_to_OTE__c</field>
+            <table>tc9_pr__Pay_Batch__c.tc9_pr__Pay_Transactions__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>tc9_pr__Contributes_to_Qualifying_Earnings__c</field>
             <table>tc9_pr__Pay_Batch__c.tc9_pr__Pay_Transactions__r</table>
         </columns>
         <columns>
@@ -446,6 +456,12 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>tc9_pr__Exclude_From_Pay_Batch__c</field>
+            <table>tc9_pr__Pay_Batch__c.tc9_pr__Pay_Transactions__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Superannuation Fund: Fund Name</displayNameOverride>
+            <field>tc9_pr__Superannuation_Fund__c.tc9_pr__Fund_Name__c</field>
             <table>tc9_pr__Pay_Batch__c.tc9_pr__Pay_Transactions__r</table>
         </columns>
         <columns>
@@ -793,12 +809,22 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
+            <field>tc9_pr__Pay_Code__c.tc9_pr__Contributes_to_Qualifying_Earnings__c</field>
+            <table>tc9_pr__Pay_Batch__c.tc9_pr__Pay_Transactions__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
             <field>tc9_pr__Pay_Code__c.tc9_pr__Contributes_to_RESC__c</field>
             <table>tc9_pr__Pay_Batch__c.tc9_pr__Pay_Transactions__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>tc9_pr__Pay_Code__c.tc9_pr__Contributes_to_Total_Quantity__c</field>
+            <table>tc9_pr__Pay_Batch__c.tc9_pr__Pay_Transactions__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>tc9_pr__Pay_Code__c.tc9_pr__Deduction_Reduces_Qualifying_Earnings__c</field>
             <table>tc9_pr__Pay_Batch__c.tc9_pr__Pay_Transactions__r</table>
         </columns>
         <columns>

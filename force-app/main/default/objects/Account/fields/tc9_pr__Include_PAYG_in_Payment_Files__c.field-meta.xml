@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Include_PAYG_in_Payment_Files__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates that the PAYG total value from a Pay Batch will be included in a separate line in the Payment File, which has a record type of Australia Bank Transfer.</description>
+    <inlineHelpText>Indicates that the PAYG total value from a Pay Batch will be included in a separate line in the Payment File, which has a record type of Australia Bank Transfer.</inlineHelpText>
+    <label>Include PAYG in Payment Files?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>tc9_pr__Yes_No_Picklists</valueSetName>
+    </valueSet>
+</CustomField>

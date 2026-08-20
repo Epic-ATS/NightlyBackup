@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_et__Minimum_Pay_Rate_Group__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Allows users to select the Template Group of Minimum Pay Rates applicable to this Interpretation Rule.</description>
+    <inlineHelpText>Allows users to select the Template Group of Minimum Pay Rates applicable to this Interpretation Rule.</inlineHelpText>
+    <label>Minimum Pay Rate Group</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>tc9_pr__Template_Group__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Rate Calculator Template</value>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>tc9_pr__Template_Group__c</referenceTo>
+    <relationshipLabel>Interpretation Rules (Minimum Pay Rate Group)</relationshipLabel>
+    <relationshipName>Interpretation_Rules1</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

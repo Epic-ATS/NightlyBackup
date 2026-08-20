@@ -448,6 +448,17 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>tc9_pr__Include_PAYG_in_Payment_Files__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>tc9_pr__Maximum_Payment_Distributions__c</picklist>
         <values>
             <fullName>1</fullName>

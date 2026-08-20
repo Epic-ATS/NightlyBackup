@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Payments_Minus_PAYG__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The total amount of payments that are included on the Payment File, minus the PAYG amount.</description>
+    <externalId>false</externalId>
+    <formula>tc9_pr__Total_Amount_of_Payments__c  -  tc9_pr__Payee_PAYG_Amount__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Payments Minus PAYG</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

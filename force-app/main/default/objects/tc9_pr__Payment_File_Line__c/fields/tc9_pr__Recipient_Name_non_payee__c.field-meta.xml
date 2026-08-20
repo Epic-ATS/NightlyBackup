@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Recipient_Name_non_payee__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The recipient name to be displayed on the Payment File PDF report when the Payment File Line is not linked to a Payee record.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The recipient name to be displayed on the Payment File PDF report when the Payment File Line is not linked to a Payee record.</inlineHelpText>
+    <label>Recipient Name (non-payee)</label>
+    <length>80</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

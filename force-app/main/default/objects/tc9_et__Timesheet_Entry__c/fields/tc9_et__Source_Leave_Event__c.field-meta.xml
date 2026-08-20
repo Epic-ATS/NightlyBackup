@@ -3,7 +3,7 @@
     <fullName>tc9_et__Source_Leave_Event__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <description>Original Pre-Approved Payee Leave Event</description>
+    <description>Original Pre-Approved Payee Leave Event.</description>
     <inlineHelpText>Original Pre-Approved Payee Leave Event</inlineHelpText>
     <label>Source Leave Event</label>
     <referenceTo>tc9_pr__Payee_Leave_Event__c</referenceTo>

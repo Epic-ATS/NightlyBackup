@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tc9_pr__Contributes_to_Qualifying_Earnings__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates if the Pay Transaction Contributes to Qualifying Earnings as per the related Pay Code</description>
+    <formula>IF(
+AND(
+tc9_pr__Pay_Code__r.RecordType.DeveloperName != &apos;Deduction&apos;,
+tc9_pr__Pay_Code__r.tc9_pr__Contributes_to_Qualifying_Earnings__c = true
+),
+true,
+IF(
+AND(
+tc9_pr__Pay_Code__r.RecordType.DeveloperName = &apos;Deduction&apos;,
+tc9_pr__Pay_Code__r.tc9_pr__Deduction_Reduces_Qualifying_Earnings__c = true
+),
+true,
+false
+)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Indicates if the Pay Transaction Contributes to Qualifying Earnings as per the related Pay Code</inlineHelpText>
+    <label>Contributes to Qualifying Earnings</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
