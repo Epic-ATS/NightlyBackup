@@ -15485,6 +15485,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>b3s__Shift__c.b3_Billing_Review_Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>b3s__Shift__c.b3_Candidate_Comments__c</field>
         <readable>true</readable>
@@ -35739,6 +35744,10 @@
     <flowAccesses>
         <enabled>false</enabled>
         <flow>X3B_Magic_Link</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>X3B_Send_Candidate_Link_to_WFM_App</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
