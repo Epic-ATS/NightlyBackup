@@ -21,18 +21,14 @@
     <enableDashboardFlexiTable>true</enableDashboardFlexiTable>
     <enableDashboardSubOrgEmailPref>false</enableDashboardSubOrgEmailPref>
     <enableDataCloudReportingPref>true</enableDataCloudReportingPref>
-    <enableDimensionalHierarchyInDcrPref>false</enableDimensionalHierarchyInDcrPref>
     <enableEmailReportsToPortalUsers>false</enableEmailReportsToPortalUsers>
     <enableFloatingReportHeaders>true</enableFloatingReportHeaders>
-    <enableIncrementalUpsert>false</enableIncrementalUpsert>
     <enableInsights>false</enableInsights>
-    <enableJoinedReportInDcrPref>false</enableJoinedReportInDcrPref>
     <enableLightningReportBuilder>false</enableLightningReportBuilder>
     <enableLotusNotesImages>false</enableLotusNotesImages>
     <enableMassEnableReportBuilder>true</enableMassEnableReportBuilder>
     <enableNewChartsEngine>true</enableNewChartsEngine>
     <enableNullDimension>false</enableNullDimension>
-    <enableOrgCanSeeLivePreviews>false</enableOrgCanSeeLivePreviews>
     <enableOrgCanViewTableau>false</enableOrgCanViewTableau>
     <enableOrgCanViewThumbnailForOA>true</enableOrgCanViewThumbnailForOA>
     <enableOrgHasMobileOfflineEnabled>true</enableOrgHasMobileOfflineEnabled>

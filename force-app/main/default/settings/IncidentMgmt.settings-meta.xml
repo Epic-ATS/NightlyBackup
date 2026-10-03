@@ -24,7 +24,6 @@
     <enableIncPriorityOverride>false</enableIncPriorityOverride>
     <enableIncidentValidations>false</enableIncidentValidations>
     <enableMiawForRequestorAgent>false</enableMiawForRequestorAgent>
-    <enablePrivilegeAssignment>false</enablePrivilegeAssignment>
     <enableProbPriorityMatrix>false</enableProbPriorityMatrix>
     <enableProbPriorityOverride>false</enableProbPriorityOverride>
     <enableProblemValidations>false</enableProblemValidations>
