@@ -6,6 +6,7 @@
     <communityRoles/>
     <disablePvtPagesForPwdResetInLWR>false</disablePvtPagesForPwdResetInLWR>
     <disableReputationRecordConversations>false</disableReputationRecordConversations>
+    <emailDomainSubstitutionEnabled>false</emailDomainSubstitutionEnabled>
     <emailSenderAddress>delivery@solvingit.com</emailSenderAddress>
     <emailSenderName>EPIC Guest Approver Community</emailSenderName>
     <embeddedLoginEnabled>false</embeddedLoginEnabled>

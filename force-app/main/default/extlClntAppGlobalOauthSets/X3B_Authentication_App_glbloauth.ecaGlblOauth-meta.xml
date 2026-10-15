@@ -11,6 +11,7 @@
     <isDeviceFlowEnabled>false</isDeviceFlowEnabled>
     <isEnforceRefreshTokenTTL>false</isEnforceRefreshTokenTTL>
     <isIntrospectAllTokens>false</isIntrospectAllTokens>
+    <isMtlsEnabled>false</isMtlsEnabled>
     <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
     <isPkceRequired>false</isPkceRequired>
     <isRefreshTokenRotationEnabled>false</isRefreshTokenRotationEnabled>
